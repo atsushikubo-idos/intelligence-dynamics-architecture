@@ -1,0 +1,169 @@
+Documentation and Architecture License
+
+Copyright © 2026 Atsushi Kubo
+
+Unless otherwise stated, the documentation, architectural descriptions, diagrams, conceptual materials, and other non-software content in this repository are licensed under the:
+
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+License information:
+
+https://creativecommons.org/licenses/by/4.0/
+
+Legal code:
+
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Scope
+
+This license applies to the non-software materials in this repository, including but not limited to:
+
+README.md
+CANONICAL_v1.0.md
+COMMON_DYNAMICS_PROTOCOL.md
+DYNAMICS_MODEL.md
+GLOSSARY.md
+KNOWN_LIMITATIONS.md
+RELATED_WORK_AND_NOVELTY_BOUNDARY.md
+diagrams and figures created for Intelligence Dynamics Architecture
+architectural descriptions
+conceptual models
+explanatory materials
+future non-software documentation unless otherwise stated
+
+Software and source code, including src/idos_reference.py, are licensed separately under the Apache License 2.0 as described in the repository's LICENSE file.
+
+Permissions
+
+Under CC BY 4.0, you are free to:
+
+use the materials,
+copy and redistribute them,
+translate them,
+modify them,
+remix them,
+build upon them,
+incorporate them into research or other architectures,
+use them in education,
+use them in organizations,
+implement ideas derived from them,
+and use them commercially.
+
+Permission from the author is not required for these uses, provided that the requirements of CC BY 4.0 are followed.
+
+Attribution
+
+When redistributing, adapting, translating, or building upon these materials, please provide appropriate attribution.
+
+A suggested attribution is:
+
+Intelligence Dynamics Architecture (IDOS), Atsushi Kubo, Canonical v1.0 (2026)
+
+Where reasonably possible, please also provide a link to the original repository.
+
+Attribution should not imply that the original author endorses a derivative work, organization, product, interpretation, or implementation.
+
+Modified and Derivative Works
+
+Modification and derivative work are explicitly encouraged.
+
+If you modify the architecture, documentation, diagrams, terminology, or other licensed materials, please clearly indicate that changes have been made.
+
+Modified versions should not be presented in a way that implies that they are an official Canonical release issued by the original author.
+
+For example, a derivative project may state:
+
+Based on Intelligence Dynamics Architecture (IDOS) by Atsushi Kubo, with modifications.
+
+The purpose of this requirement is not to restrict transformation.
+
+It is to preserve provenance.
+
+Canonical Status
+
+The term Canonical in this repository identifies public reference versions released by the original project.
+
+The CC BY 4.0 license permits adaptation of Canonical materials.
+
+However, an adapted or modified version should clearly distinguish itself from the original Canonical release.
+
+This distinction is intended to preserve historical and research provenance while allowing unrestricted intellectual development.
+
+Commercial Use
+
+Commercial use is explicitly permitted under CC BY 4.0.
+
+Organizations, researchers, developers, consultants, educators, and other users may incorporate these materials into commercial products, services, research, systems, or implementations, subject to the attribution requirements of CC BY 4.0.
+
+No separate commercial license from the author is required.
+
+Research and Criticism
+
+Critical use is explicitly welcome.
+
+These materials may be:
+
+criticized,
+tested,
+challenged,
+compared with other theories,
+empirically evaluated,
+formally reconstructed,
+implemented differently,
+reduced,
+extended,
+or replaced.
+
+Agreement with the architecture is not a condition of reuse.
+
+Criticism does not require permission.
+
+No Scientific Endorsement
+
+Reuse of these materials does not imply that Intelligence Dynamics Architecture has been scientifically validated.
+
+Likewise, use of IDOS terminology or architecture does not imply endorsement, certification, or verification by Atsushi Kubo or the original project.
+
+Users remain responsible for their own implementations, interpretations, research claims, and applications.
+
+Third-Party Materials
+
+This license applies only to materials for which Atsushi Kubo or this project holds the relevant rights.
+
+Third-party quotations, references, trademarks, images, datasets, software, or other materials remain subject to their respective rights and licenses.
+
+Their inclusion in this repository does not place them under CC BY 4.0.
+
+Open Architecture Principle
+
+The intention of this licensing structure is to maximize the ability of others to use, criticize, modify, implement, and extend Intelligence Dynamics Architecture.
+
+The project does not require intellectual or technical uniformity.
+
+Its licensing principle can be summarized as:
+
+Use it.
+
+Study it.
+
+Criticize it.
+
+Modify it.
+
+Build on it.
+
+Implement it commercially.
+
+Preserve attribution and provenance.
+
+Or, in the language of the architecture:
+
+Open to transformation. Preserve provenance.
+
+License Summary
+
+Software and source code: Apache License 2.0
+
+Documentation, architecture, and original figures: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright © 2026 Atsushi Kubo
