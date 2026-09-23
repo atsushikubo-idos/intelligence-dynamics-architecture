@@ -4,6 +4,8 @@ An Open Architecture for Intelligence, Update, Interoperability, and Co-evolutio
 
 Canonical v1.0 — September 2026
 
+![Intelligence Dynamics Architecture (IDOS) — Canonical v1.0](figures/canonical_v1.0.png)
+
 Intelligence is a Trajectory.
 
 Intelligence Dynamics Architecture (IDOS) explores a simple but difficult question:
