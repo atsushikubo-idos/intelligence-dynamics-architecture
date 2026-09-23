@@ -16,7 +16,7 @@ Rather than treating intelligence primarily as a fixed capability of a predefine
 
 A minimal descriptive sequence is:
 
-Reality → observation → Difference → Residual → Holding → Update → Trajectory
+Reality → Observation → Difference → Residual → Holding → Update → Trajectory
 
 But the architecture goes one step further.
 
@@ -63,7 +63,7 @@ Core Architecture
 
 The current Canonical begins with:
 
-Reality → observation → Difference → Residual → Holding → Update → Trajectory
+Reality → Observation → Difference → Residual → Holding → Update → Trajectory
 
 Reality
 
@@ -462,7 +462,7 @@ and multi-agent systems.
 
 The candidate contribution of IDOS lies instead in their integration into a trajectory-centered architecture connecting:
 
-Reality Contact → Difference → Residual → Holding → Update → Trajectory
+Reality Contact → Observation → Difference → Residual → Holding → Update → Trajectory
 
 with the emergence and transformation of:
 
