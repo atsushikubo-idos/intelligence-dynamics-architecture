@@ -16,7 +16,7 @@ Rather than treating intelligence primarily as a fixed capability of a predefine
 
 A minimal descriptive sequence is:
 
-Reality → Difference → Residual → Holding → Update → Trajectory
+Reality → observation → Difference → Residual → Holding → Update → Trajectory
 
 But the architecture goes one step further.
 
