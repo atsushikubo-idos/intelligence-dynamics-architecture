@@ -657,6 +657,20 @@ But this does not imply arbitrary relativism.
 
 Everything remains answerable to renewed contact with Reality.
 
+License
+
+Intelligence Dynamics Architecture is intended to be used, criticized, modified, implemented, and extended as widely as possible.
+
+Software and source code in this repository are licensed under the Apache License 2.0.
+
+Documentation, architectural descriptions, and original figures are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0) unless otherwise stated.
+
+Commercial use, modification, redistribution, and derivative works are permitted under the applicable license.
+
+Derivative works should preserve appropriate attribution and clearly indicate modifications. Modified versions should not imply that they are official Canonical releases or endorsed by the original author.
+
+Open to transformation. Preserve provenance.
+
 Author
 
 Atsushi Kubo
