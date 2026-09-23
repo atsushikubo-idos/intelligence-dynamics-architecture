@@ -63,7 +63,7 @@ Core Architecture
 
 The current Canonical begins with:
 
-Reality → Difference → Residual → Holding → Update → Trajectory
+Reality → observation → Difference → Residual → Holding → Update → Trajectory
 
 Reality
 
