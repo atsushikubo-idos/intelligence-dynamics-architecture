@@ -1980,23 +1980,17 @@ $$
 D_i\neq D_j
 $$
 
-### Layer 3 — General Theory of Update
+### Layer 3 — General Update
+
+At the architectural level, the minimum current structure is:
 
 $$
 \boxed{
 \text{Difference}
 \rightarrow
-\text{Holding}
+\text{Selective Transformation}
 \rightarrow
-\text{Selection}
-\rightarrow
-\text{Transformation}
-\rightarrow
-\text{Stabilization}
-\rightarrow
-\text{Validation}
-\rightarrow
-\text{History}
+\text{Reality Recontact}
 }
 $$
 
@@ -2005,34 +1999,12 @@ Cross-cut by:
 $$
 \boxed{
 \text{Invariant / Continuity}
+\qquad
+\text{History / Provenance}
 }
 $$
 
-$$
-\boxed{
-\text{Difference}
-\rightarrow
-\text{Holding}
-\rightarrow
-\text{Selection}
-\rightarrow
-\text{Transformation}
-\rightarrow
-\text{Stabilization}
-\rightarrow
-\text{Validation}
-\rightarrow
-\text{History}
-}
-$$
-
-Cross-cut by:
-
-$$
-\boxed{
-\text{Invariant / Continuity}
-}
-$$
+The seven-stage General Theory of Update remains a provisional process formulation beneath this architectural level.
 
 ### Layer 4 — Heterogeneous Interoperability
 
@@ -2169,7 +2141,6 @@ $$
 $$
 
 The detailed seven-stage formulation remains provisional.
-### Process Models / Mechanisms
 
 12PDM | Representation | Residual | $\Gamma$ | Ignition | Update Depth | ...
 
