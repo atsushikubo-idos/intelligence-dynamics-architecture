@@ -233,11 +233,33 @@ History
 D'
 $$
 
-This seven-stage structure is **not frozen as a universal law**.
+This seven-stage structure is retained as a **provisional historical formulation of the General Theory of Update**, not as a frozen universal sequence.
 
-In Master Map v1.0, it is retained as the current provisional high-level model of update and remains subject to reduction, falsification, and revision.
+The Purpose Test conducted before the Master Map v1.0 freeze found that the architectural necessity of all seven stages has not yet been established.
 
----
+At the current level of abstraction, the minimum update structure may be represented more cautiously as:
+
+$$
+\boxed{
+\text{Difference}
+\rightarrow
+\text{Selective Transformation}
+\rightarrow
+\text{Reality Recontact}
+}
+$$
+
+This minimal structure does **not** imply that Holding, Selection, Stabilization, Validation, or History are unnecessary.
+
+Rather:
+
+- **Selection** remains necessary as a conceptual distinction between Difference and Update.
+- **Holding** remains important, but its status as an independent stage is open.
+- **Stabilization** remains provisional and may not require an independent stage.
+- **Validation** may overlap architecturally with Reality Recontact.
+- **History / Provenance** may function as a cross-cutting property rather than a terminal stage.
+
+Therefore, Master Map v1.0 freezes the **problem structure of update**, not a mandatory seven-stage process sequence.
 
 ## 6. Difference
 
@@ -422,6 +444,8 @@ Invariant is not treated as an eighth stage of the update cycle.
 
 It is a cross-cutting condition for identifying change as Update rather than replacement or dissolution.
 
+The Identity Problem described below is therefore treated primarily as a research problem within **Invariant / Continuity**, rather than as an independent architectural layer.
+
 ---
 
 ## 11. Stabilization
@@ -508,7 +532,7 @@ It may become part of the conditions under which future Difference, identity, an
 
 ---
 
-## 14. Identity Problem
+## 14. Identity Problem — Open Problem within Invariant / Continuity
 
 A major open problem is determining when a transformed entity remains identifiable as the same Updating Unit, Relation, Trajectory, or System.
 
@@ -1086,10 +1110,9 @@ Changes in trust, dependence, authority, verification capacity, information flow
 
 ---
 
-## 29. Relational Updating Unit
+## 29. Relational Updating Unit — Open Hypothesis
 
-A coupled Human-AI system may, under some conditions, become a candidate relational Updating Unit:
-
+A coupled Human-AI system may, under some conditions, become a candidate relational Updating Unit. This is an **open hypothesis**, not a required component of the core IDOS architecture.
 $$
 U_{HA}
 $$
@@ -1125,6 +1148,8 @@ $$
 $$
 
 The emergence of a functional Updating Unit does not by itself establish agency, subjecthood, legitimacy, or sovereignty.
+
+The core architecture requires only that **relations themselves may change and participate in system-level dynamics**. It does not require the stronger claim that every evolving relation constitutes a distinct Updating Unit.
 
 ---
 
@@ -1377,7 +1402,9 @@ Unobservable must remain an acceptable result.
 
 ---
 
-## 39. Case 006 — Negative Evidence
+## 39. Empirical Research Provenance — Case 006
+
+Case 006 is included here as **empirical research provenance**, not as a component of the IDOS architecture.
 
 Case 006 was a local measurement experiment, not a test of the entire IDOS architecture.
 
@@ -1433,7 +1460,7 @@ The failure therefore redirects attention toward the measurement of Selection ra
 
 ---
 
-## 40. Measurement of Selection
+## 40. Measurement Candidate — Selection
 
 A possible measurement candidate is:
 
@@ -2258,6 +2285,15 @@ $$
 ## 59. What Master Map v1.0 Freezes
 
 Master Map v1.0 does **not** freeze every mechanism, equation, or process node.
+
+A pre-freeze Purpose Test was applied to the architecture using four criteria:
+
+1. **Necessity** — whether removing a concept reduces the ability to describe heterogeneous Difference → Relational/System Update;
+2. **Distinguishability** — whether the concept can be meaningfully distinguished from adjacent concepts;
+3. **Measurement / Implementation Value** — whether the distinction contributes to observation, testing, or social implementation;
+4. **Complexity Cost** — whether the added explanatory or operational value exceeds the complexity introduced.
+
+The Purpose Test did not justify removing the core architectural hierarchy, but it did require clearer separation between the architecture and its provisional process models, mechanisms, hypotheses, and measurement candidates.
 
 It freezes the current architectural hierarchy:
 
