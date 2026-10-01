@@ -542,25 +542,19 @@ philosophy of mind,
 structural realism,
 and multi-agent systems.
 
-The candidate contribution of IDOS lies instead in their integration into a trajectory-centered architecture connecting:
+The candidate contribution of IDOS is therefore evaluated at the level of the broader architecture:
 
-Reality Contact → Observation → Difference → Residual → Holding → Update → Trajectory
+**heterogeneous intelligences → different Differences → general update dynamics → interoperability without unification → cross-unit update → relational/system update → reflexive measurement → Reality recontact**
 
-with the emergence and transformation of:
+Earlier trajectory-centered formulations remain part of the foundational research history, but they no longer define the complete top-level architecture.
 
-Updating Units → Boundaries → Reference Frames → Agency
-
-and with:
-
-CDP → Dynamic Interoperability → Co-evolution → Intelligence Ecology
+This candidate distinctiveness remains subject to prior-art comparison, external criticism, and empirical testing.
 
 without assuming that either Agents or Trajectories are permanently fixed.
 
 This candidate distinctiveness remains subject to prior-art comparison, external criticism, and empirical testing.
 
-See:
-
-RELATED_WORK_AND_NOVELTY_BOUNDARY.md
+For the detailed comparison, see **[RELATED_WORK_AND_NOVELTY_BOUNDARY.md](RELATED_WORK_AND_NOVELTY_BOUNDARY.md)**.
 
 ## Known Limitations
 
@@ -588,8 +582,6 @@ governance legitimacy,
 enforcement,
 and empirical validation.
 
-See:
-
 Additional open questions introduced or clarified by Master Map v1.0 include:
 
 - whether the provisional General Theory of Update requires exactly seven stages;
@@ -600,7 +592,7 @@ Additional open questions introduced or clarified by Master Map v1.0 include:
 - how the General Theory of Update maps onto 12PDM;
 - and whether these distinctions provide measurable value beyond simpler existing frameworks.
 
-KNOWN_LIMITATIONS.md
+For the full list of current limitations and open problems, see **[KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md)**.
 
 A limitation is not something to hide from the architecture.
 
@@ -790,5 +782,3 @@ The research remains provisional, open to criticism, empirical testing, reductio
 The architecture is not treated as complete or final.
 
 **Reality → Difference → Revision.**
-
-It is the first public point from which the architecture can encounter Reality outside itself.
