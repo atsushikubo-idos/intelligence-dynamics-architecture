@@ -4,6 +4,20 @@ An Open Architecture for Intelligence, Update, Interoperability, and Co-evolutio
 
 Canonical v1.0 — September 2026
 
+## IDOS Master Map v1.0
+
+The current top-level architecture of IDOS is defined in:
+
+**[IDOS Master Map v1.0](MASTER_MAP_v1.0.md)**
+
+It organizes the research around the following hierarchy:
+
+**Ultimate Question → Science of Reference Frames → General Theory of Update → Heterogeneous Interoperability → Relational/System Update → Measurement → Governance & Social Implementation → Reality Recontact**
+
+The Master Map defines the current architectural hierarchy of IDOS.
+
+Individual process models, mechanisms, and measurement candidates remain provisional and subject to empirical revision.
+
 ![Intelligence Dynamics Architecture (IDOS) — Canonical v1.0](figures/canonical_v1.0.png)
 
 Intelligence is a Trajectory.
