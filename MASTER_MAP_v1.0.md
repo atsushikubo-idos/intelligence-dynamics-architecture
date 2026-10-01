@@ -2008,6 +2008,32 @@ $$
 }
 $$
 
+$$
+\boxed{
+\text{Difference}
+\rightarrow
+\text{Holding}
+\rightarrow
+\text{Selection}
+\rightarrow
+\text{Transformation}
+\rightarrow
+\text{Stabilization}
+\rightarrow
+\text{Validation}
+\rightarrow
+\text{History}
+}
+$$
+
+Cross-cut by:
+
+$$
+\boxed{
+\text{Invariant / Continuity}
+}
+$$
+
 ### Layer 4 — Heterogeneous Interoperability
 
 $$
@@ -2120,21 +2146,15 @@ $$
 
 ### General Update Structure
 
+At the architectural level:
+
 $$
 \boxed{
 \text{Difference}
 \rightarrow
-\text{Holding}
+\text{Selective Transformation}
 \rightarrow
-\text{Selection}
-\rightarrow
-\text{Transformation}
-\rightarrow
-\text{Stabilization}
-\rightarrow
-\text{Validation}
-\rightarrow
-\text{History}
+\text{Reality Recontact}
 }
 $$
 
@@ -2143,11 +2163,12 @@ Cross-cut by:
 $$
 \boxed{
 \text{Invariant / Continuity}
+\qquad
+\text{History / Provenance}
 }
 $$
 
-↓
-
+The detailed seven-stage formulation remains provisional.
 ### Process Models / Mechanisms
 
 12PDM | Representation | Residual | $\Gamma$ | Ignition | Update Depth | ...
@@ -2317,7 +2338,10 @@ The following remain open to revision:
 - the necessity of all DO / CFV / MU constructs;
 - the existence and criteria of Relational Updating Units;
 - operational definitions of System Update;
-- measurement metrics.
+- measurement metrics;
+- whether History / Provenance is a terminal update stage or a cross-cutting property;
+- whether Validation and Reality Recontact require separate architectural functions;
+- whether a Relational Updating Unit exists as a distinct Updating Unit beyond relational change itself.
 
 The governing principle is therefore:
 
