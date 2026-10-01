@@ -1,24 +1,40 @@
-Intelligence Dynamics Architecture
+# Intelligence Dynamics Architecture (IDOS)
 
-An Open Architecture for Intelligence, Update, Interoperability, and Co-evolution
+**An Open Architecture for Intelligence, Update, Interoperability, and Co-evolution**
 
-Canonical v1.0 — September 2026
-
-## IDOS Master Map v1.0
+## Current Architecture — Master Map v1.0
 
 The current top-level architecture of IDOS is defined in:
 
 **[IDOS Master Map v1.0](MASTER_MAP_v1.0.md)**
 
-It organizes the research around the following hierarchy:
+The current research question is:
 
-**Ultimate Question → Science of Reference Frames → General Theory of Update → Heterogeneous Interoperability → Relational/System Update → Measurement → Governance & Social Implementation → Reality Recontact**
+> **Can heterogeneous intelligences remain different, remain connected without erasing their differences, and transform those differences into continuous updates of the larger intelligence system?**
 
-The Master Map defines the current architectural hierarchy of IDOS.
+The current architectural hierarchy is:
 
-Individual process models, mechanisms, and measurement candidates remain provisional and subject to empirical revision.
+**Ultimate Question → Science of Reference Frames → General Theory of Update → Heterogeneous Interoperability → Relational/System Update → Measurement → Evaluation/Governance/Social Implementation → Reality Recontact**
+
+Master Map v1.0 defines the current architectural hierarchy of IDOS.
+
+Individual process models, mechanisms, and measurement candidates remain provisional and subject to theoretical and empirical revision.
+
+## Foundational Canonical — September 2026
+
+The original **[Canonical v1.0](CANONICAL_v1.0.md)** is retained as a foundational document and as part of the public research provenance of IDOS.
+
+It introduced several concepts that remain important to the current architecture, including trajectory-centered intelligence, Difference, Residual, Holding, Updating Units, Dynamic Boundaries, Reference Frames, Possibility Spaces, interoperability, and Intelligence Ecology.
+
+However, Canonical v1.0 should not be read as overriding the current Master Map v1.0.
+
+The research trajectory from the original Canonical to the current architecture is intentionally preserved rather than retrospectively rewritten.
 
 ![Intelligence Dynamics Architecture (IDOS) — Canonical v1.0](figures/canonical_v1.0.png)
+
+### Foundational Perspective
+
+The following section reflects the foundational perspective developed in Canonical v1.0. It remains part of the IDOS research trajectory, while the current top-level organization is defined by Master Map v1.0.
 
 Intelligence is a Trajectory.
 
@@ -414,35 +430,87 @@ The purpose of the code is to make assumptions inspectable, executable, modifiab
 
 It is not evidence that the architecture is scientifically correct.
 
-Repository Guide
+## Repository Guide
 
 For a first reading, the suggested order is:
 
-README.md — Orientation and overview.
-CANONICAL_v1.0.md — The primary public reference for the architecture.
-KNOWN_LIMITATIONS.md — Current unresolved problems, weaknesses, and conditions for revision.
-RELATED_WORK_AND_NOVELTY_BOUNDARY.md — Initial comparison with neighboring research traditions and conservative novelty positioning.
-DYNAMICS_MODEL.md — Provisional dynamics including Residual accumulation, threshold dynamics, Ignition, and L1–L5 Update levels.
-COMMON_DYNAMICS_PROTOCOL.md — Candidate protocol for interoperability among heterogeneous Updating Units.
-GLOSSARY.md — Working definitions of core terms.
-src/idos_reference.py — Executable Reference Architecture.
-Architecture, Dynamics, and Implementation
+1. **[MASTER_MAP_v1.0.md](MASTER_MAP_v1.0.md)** — Current top-level architecture and research hierarchy.
+
+2. **[CANONICAL_v1.0.md](CANONICAL_v1.0.md)** — Foundational Canonical released in September 2026; retained as research provenance and conceptual foundation.
+
+3. **[KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md)** — Open problems, weaknesses, and conditions for revision.
+
+4. **[COMMON_DYNAMICS_PROTOCOL.md](COMMON_DYNAMICS_PROTOCOL.md)** — Provisional interoperability architecture for heterogeneous Updating Units.
+
+5. **[DYNAMICS_MODEL.md](DYNAMICS_MODEL.md)** — Provisional mechanism-level dynamics developed under the earlier Canonical.
+
+6. **[RELATED_WORK_AND_NOVELTY_BOUNDARY.md](RELATED_WORK_AND_NOVELTY_BOUNDARY.md)** — Initial comparison with neighboring research traditions; architecture-level comparison remains ongoing.
+
+7. **[GLOSSARY.md](GLOSSARY.md)** — Working vocabulary, currently based primarily on Canonical v1.0.
+
+8. **[research_updates/](research_updates/)** — Living research trajectory, including measurement extensions, architecture revisions, red-team analysis, and empirical development.
+
+9. **[research_updates/CASE_006_PREREGISTRATION_v1.0.md](research_updates/CASE_006_PREREGISTRATION_v1.0.md)** — Frozen preregistration for Case 006.
+
+10. **[research_updates/CASE_006_RESULTS_v1.0.md](research_updates/CASE_006_RESULTS_v1.0.md)** — Frozen negative confirmatory result from Case 006.
+
+11. **[src/idos_reference.py](src/idos_reference.py)** — Executable reference implementation of selected Canonical v1.0 concepts; not an implementation of the full Master Map v1.0.
+
+### Document Hierarchy
+
+**Current Architecture**  
+→ `MASTER_MAP_v1.0.md`
+
+**Foundational Canonical**  
+→ `CANONICAL_v1.0.md`
+
+**Provisional Models and Protocols**  
+→ `DYNAMICS_MODEL.md`  
+→ `COMMON_DYNAMICS_PROTOCOL.md`
+
+**Research Provenance**  
+→ `research_updates/`
+
+**Empirical Tests**  
+→ preregistrations, results, and diagnostics under `research_updates/`
+
+Historical research updates preserve the terminology, hypotheses, and architecture used at the time they were written. They should not be read as automatically overriding the current Master Map.
+
+## Architecture, Models, Protocols, and Implementation
 
 These should not be treated as identical.
 
-Architecture ≠ Dynamics Model ≠ Implementation
+**Architecture ≠ Process Model ≠ Mechanism ≠ Protocol ≠ Measurement ≠ Implementation**
 
-The Canonical describes the broader architecture.
+The current top-level architecture is defined by **[Master Map v1.0](MASTER_MAP_v1.0.md)**.
 
-The Dynamics Model proposes selected provisional mechanisms.
+The **[Canonical v1.0](CANONICAL_v1.0.md)** is retained as the foundational Canonical and as part of the research provenance of IDOS.
 
-The Reference Implementation makes selected parts executable.
+The **[Dynamics Model](DYNAMICS_MODEL.md)** contains selected provisional mechanism-level models developed during the evolution of IDOS.
 
-Failure of one implementation does not automatically falsify the entire architecture.
+The **[Common Dynamics Protocol](COMMON_DYNAMICS_PROTOCOL.md)** describes a provisional interoperability architecture for heterogeneous Updating Units.
 
-Likewise, successful execution does not validate the architecture.
+Measurement models and empirical operationalizations are developed separately and should not be treated as equivalent to the theoretical architecture.
 
-Related Work and Novelty Boundary
+The executable reference implementation in `src/` implements selected concepts from Canonical v1.0. It is not an implementation or validation of the full Master Map v1.0.
+
+This distinction is intentional:
+
+> **The architecture may remain stable while individual process models, mechanisms, measurements, and implementations are revised or rejected.**
+
+## Related Work and Novelty Boundary
+
+The current novelty question is evaluated primarily at the **architectural level**, rather than by claiming novelty for individual concepts.
+
+In particular, Master Map v1.0 raises the comparative question of whether the combination of:
+
+**heterogeneous update dynamics × interoperability without unification × relational/system update × reflexive measurement**
+
+provides explanatory, measurement, or implementation value beyond reasonable combinations of existing frameworks.
+
+This remains an open research question, not an established novelty claim.
+
+For the more detailed comparison with neighboring theories, see **[RELATED_WORK_AND_NOVELTY_BOUNDARY.md](RELATED_WORK_AND_NOVELTY_BOUNDARY.md)**.
 
 IDOS does not claim novelty for individual concepts such as:
 
@@ -494,9 +562,9 @@ See:
 
 RELATED_WORK_AND_NOVELTY_BOUNDARY.md
 
-Known Limitations
+## Known Limitations
 
-Canonical v1.0 contains substantial unresolved problems.
+The current IDOS research program contains substantial unresolved problems. Some were already identified in Canonical v1.0, while Master Map v1.0 introduces additional architecture-level questions.
 
 These include:
 
@@ -521,6 +589,16 @@ enforcement,
 and empirical validation.
 
 See:
+
+Additional open questions introduced or clarified by Master Map v1.0 include:
+
+- whether the provisional General Theory of Update requires exactly seven stages;
+- whether Holding, Selection, and Stabilization are independently necessary processes;
+- how Validation differs from Reality Recontact;
+- how Invariant / Continuity can be operationalized;
+- how System Update should be distinguished from aggregated individual updates;
+- how the General Theory of Update maps onto 12PDM;
+- and whether these distinctions provide measurable value beyond simpler existing frameworks.
 
 KNOWN_LIMITATIONS.md
 
@@ -693,18 +771,24 @@ Atsushi Kubo
 
 Independent practitioner and architect from Japan exploring an open cross-disciplinary architecture for intelligence, Human–AI co-evolution, and governance in the age of advanced AI.
 
-Canonical v1.0
+## Current Research Status
 
-September 2026
+**Master Map v1.0 — October 2026**
 
-Intelligence is a Trajectory.
+The current top-level research architecture is defined by **[Master Map v1.0](MASTER_MAP_v1.0.md)**.
 
-Trajectory-centered, but not trajectory-fixed.
+**Canonical v1.0 — September 2026** is retained as the foundational Canonical and as part of the public research provenance of IDOS.
 
-Difference without Isolation.
-Connection without Unification.
-Update without Erasure.
+The research remains provisional, open to criticism, empirical testing, reduction, and architectural revision.
 
-Canonical v1.0 is not the end of the architecture.
+**Difference without Isolation.**  
+**Connection without Unification.**  
+**Update without Erasure.**
+
+> **Remain different. Stay connected. Keep updating.**
+
+The architecture is not treated as complete or final.
+
+**Reality → Difference → Revision.**
 
 It is the first public point from which the architecture can encounter Reality outside itself.
