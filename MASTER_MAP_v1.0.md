@@ -1837,25 +1837,19 @@ GUT(\text{IDOS})
 }
 $$
 
-That is:
+At the architectural level, IDOS applies the same minimal update structure to itself:
 
 $$
+\boxed{
 \text{Difference}
 \rightarrow
-\text{Holding}
+\text{Selective Transformation}
 \rightarrow
-\text{Selection}
-\rightarrow
-\text{Transformation}
-\rightarrow
-\text{Stabilization}
-\rightarrow
-\text{Validation}
-\rightarrow
-\text{History}
+\text{Reality Recontact}
+}
 $$
 
-may also be applied to IDOS itself.
+The more detailed seven-stage General Theory of Update may also be used as a provisional self-analysis framework, but it is not required for architectural self-application.
 
 Case 006 is one example of this principle: a negative measurement result should modify the measurement architecture rather than be reinterpreted away.
 
@@ -2142,8 +2136,11 @@ $$
 
 The detailed seven-stage formulation remains provisional.
 
-12PDM | Representation | Residual | $\Gamma$ | Ignition | Update Depth | ...
+↓
 
+### Process Models / Mechanisms
+
+12PDM | Representation | Residual | $\Gamma$ | Ignition | Update Depth | ...
 ↓
 
 ### Heterogeneous Interoperability
