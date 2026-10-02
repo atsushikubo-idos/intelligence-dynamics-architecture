@@ -59,7 +59,31 @@ The purpose is to determine:
 
 The sampling process must therefore allow IDOS to fail.
 
-## 3. Observation Window
+## 3. Prospective Application Boundary
+
+This protocol applies prospectively only to cases selected after the freeze of CASE_SAMPLING_PROTOCOL_v0.1.
+
+Cases analyzed before this protocol was frozen must not be retrospectively classified as having been selected under this protocol.
+
+In particular:
+
+**Case G-001 — Recursive AI R&D Governance Red Team**
+
+was selected and analyzed before CASE_SAMPLING_PROTOCOL_v0.1 was established.
+
+Case G-001 is therefore classified as:
+
+**Exploratory Pre-Protocol Case**
+
+It may be retained as part of the IDOS research trajectory and used for methodological learning, but it must not be counted as evidence from prospective randomized or protocol-governed case selection.
+
+The first case selected after this protocol is frozen will constitute:
+
+**Prospective Case 001 under CASE_SAMPLING_PROTOCOL_v0.1**
+
+This distinction must be preserved in future cross-case analysis.
+
+## 4. Observation Window
 
 For the initial prospective case pool:
 
@@ -69,7 +93,7 @@ This window is frozen for the initial sampling round.
 
 Future sampling rounds may use different observation windows, but changes must be documented prospectively and must not retroactively alter the original candidate pool.
 
-## 4. Unit of Sampling
+## 5. Unit of Sampling
 
 The sampling unit is a documented real-world case or event sequence.
 
@@ -88,7 +112,7 @@ The sampling unit is NOT:
 - a general trend without identifiable events,
 - or a case constructed specifically to illustrate IDOS.
 
-## 5. Inclusion Criteria
+## 6. Inclusion Criteria
 
 A case is eligible when all of the following conditions are satisfied.
 
@@ -141,7 +165,7 @@ A case must NOT be included merely because it appears to contain:
 
 Eligibility must be determined before IDOS mapping.
 
-## 6. Exclusion Criteria
+## 7. Exclusion Criteria
 
 A candidate case is excluded when one or more of the following conditions apply.
 
@@ -173,7 +197,7 @@ All exclusions must be recorded with an explicit exclusion reason.
 
 Excluded cases must not silently disappear from the candidate pool.
 
-## 7. Source Strata
+## 8. Source Strata
 
 The candidate pool should be constructed from multiple source classes to reduce source-selection bias.
 
@@ -226,7 +250,7 @@ No source stratum is assumed to be inherently superior.
 
 Evidence quality must be evaluated separately from source category.
 
-## 8. Candidate Pool Construction
+## 9. Candidate Pool Construction
 
 The candidate pool must be created before IDOS analysis begins.
 
@@ -257,7 +281,7 @@ Do NOT record during candidate-pool construction:
 
 The candidate pool is a sampling instrument, not an IDOS interpretation document.
 
-## 9. Eligibility Assessment
+## 10. Eligibility Assessment
 
 Eligibility must be determined using only the Inclusion and Exclusion Criteria defined in this protocol.
 
@@ -273,7 +297,7 @@ Eligible cases proceed to sampling.
 
 Ineligible cases remain recorded with their exclusion reasons.
 
-## 10. Sampling Procedure
+## 11. Sampling Procedure
 
 After eligibility assessment:
 
@@ -291,7 +315,7 @@ Where appropriate, stratified random sampling may be used to reduce concentratio
 
 Any stratification scheme must be defined before seeing IDOS analysis results.
 
-## 11. No Replacement Rule
+## 12. No Replacement Rule
 
 Once a case has been validly selected, it must not be replaced because it is:
 
@@ -309,33 +333,33 @@ Any such removal must be documented.
 
 The replacement procedure, if required, must follow the same frozen sampling method.
 
-## 12. Analysis Freeze
+## 13. Analysis Freeze
 
 IDOS analysis begins only after the selected case has been recorded.
 
 At the beginning of each case analysis, record:
 
-Sampling Protocol:
+Sampling Protocol:  
 CASE_SAMPLING_PROTOCOL_v0.1
 
-Selection Method:
+Selection Method:  
 [record method]
 
-Random Seed:
+Random Seed:  
 [record seed if applicable]
 
-Case Pool ID:
+Case Pool ID:  
 [record ID]
 
-Master Map Baseline:
+Master Map Baseline:  
 MASTER_MAP_v1.0 — FROZEN
 
-Selection Date:
+Selection Date:  
 [record date]
 
 No IDOS interpretation should influence case selection.
 
-## 13. Evidence Order
+## 14. Evidence Order
 
 Where possible, case reconstruction should proceed in the following order:
 
@@ -351,7 +375,7 @@ The first reconstruction should be as theory-neutral as reasonably possible.
 
 This is intended to reduce retrospective fitting.
 
-## 14. Required Analysis Sequence
+## 15. Required Analysis Sequence
 
 Each selected case should proceed through the following sequence.
 
@@ -415,7 +439,7 @@ Any unresolved discrepancy must be preserved as a Residual.
 
 Do not reinterpret a negative result merely to protect IDOS.
 
-## 15. Valid Result Categories
+## 16. Valid Result Categories
 
 The following are all valid research outcomes.
 
@@ -451,7 +475,7 @@ Available evidence does not support a reliable conclusion.
 
 No result category is preferred in advance.
 
-## 16. Negative Result Rule
+## 17. Negative Result Rule
 
 Negative results must be retained.
 
@@ -471,7 +495,7 @@ A negative result must not be removed because it weakens the apparent explanator
 
 Negative results are part of the research trajectory.
 
-## 17. Architecture Revision Rule
+## 18. Architecture Revision Rule
 
 Master Map v1.0 remains frozen during prospective case testing.
 
@@ -496,7 +520,7 @@ The governing principle remains:
 
 > Freeze the architecture, not every mechanism.
 
-## 18. Cross-Case Review
+## 19. Cross-Case Review
 
 After a predefined number of independently sampled cases, conduct a cross-case review.
 
@@ -514,7 +538,7 @@ The purpose of cross-case review is not to count how many cases IDOS "wins."
 
 The purpose is to identify stable patterns of success and failure.
 
-## 19. Provenance Requirements
+## 20. Provenance Requirements
 
 The following must be preserved in the repository:
 
@@ -537,7 +561,7 @@ The following must be preserved in the repository:
 
 Research provenance is part of the evidence.
 
-## 20. Protocol Revision
+## 21. Protocol Revision
 
 This document is:
 
@@ -558,7 +582,7 @@ The new version must record:
 
 Cases already selected under v0.1 remain identified as v0.1 cases.
 
-## 21. Separation of Functions
+## 22. Separation of Functions
 
 The research architecture should maintain the following separation:
 
@@ -579,7 +603,7 @@ Measurement Protocols
 
 These functions should not be collapsed into a single document.
 
-## 22. Core Anti-Bias Rule
+## 23. Core Anti-Bias Rule
 
 The central anti-bias principle of this protocol is:
 
@@ -602,7 +626,7 @@ not:
 IDOS Expectation  
 → Case Selection
 
-## 23. Research Position
+## 24. Research Position
 
 This protocol does not guarantee unbiased research.
 
