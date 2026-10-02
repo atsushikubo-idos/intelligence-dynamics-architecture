@@ -55,7 +55,7 @@ This is recorded as a limitation of the current sampling protocol rather than hi
 
 ## 3. Evidence Boundary
 
-The primary CASE-P001 reconstruction is limited to the original 2025 Project Fetch experiment.
+The primary CASE-P001 reconstruction is limited to the original 2025 Anthropic Project Fetch experiment, in which two four-person teams attempted to program a quadruped robot to retrieve a beach ball, with one team having access to Claude and the other team not having access to Claude.
 
 The 2026 Project Fetch Phase Two study is treated as later evidence and is excluded from the primary reconstruction.
 
