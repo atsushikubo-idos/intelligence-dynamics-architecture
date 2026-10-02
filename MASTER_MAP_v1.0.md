@@ -2,7 +2,7 @@
 ## Intelligence Dynamics Architecture
 ### Purpose-Based Integrated Research Architecture
 
-**Status:** Freeze Candidate  
+**Status:** FROZEN — Master Map v1.0
 **Version:** 1.0  
 **Date:** 2026-10-02
 
@@ -2304,7 +2304,6 @@ The following remain open to revision:
 - the exact role of Residual;
 - the definition of $\Gamma$;
 - the necessity of all DO / CFV / MU constructs;
-- the existence and criteria of Relational Updating Units;
 - operational definitions of System Update;
 - measurement metrics;
 - whether History / Provenance is a terminal update stage or a cross-cutting property;
