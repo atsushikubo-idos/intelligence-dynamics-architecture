@@ -927,47 +927,752 @@ Each case must produce the following sections.
 
 # 23. Five-Case Pilot
 
-The first pilot consists of five deliberately heterogeneous cases.
+The first pilot consists of five deliberately differentiated regime cases.
 
-### Case 1 — Present Normal
+The five cases are not intended to represent five arbitrary examples.
 
-A conventional successful AI implementation.
+Instead, they are structured as a progression from relatively stable present-day Human–AI systems toward increasingly complex, dynamic, and future-oriented socio-technical regimes.
+
+The regime sequence is:
+
+\[
+Present\ Normal
+\rightarrow
+Present\ Edge
+\rightarrow
+Transition
+\rightarrow
+Agentic/Multi\text{-}Agent
+\rightarrow
+Future\ Regime\ Proxy
+\]
+
+The purpose of this sequence is to test not only:
+
+\[
+Does\ IDOS\ add\ value?
+\]
+
+but also:
+
+\[
+When\ does\ IDOS\ become\ valuable?
+\]
+
+The five cases are therefore designed to examine whether the incremental visibility provided by IDOS changes as system boundaries, Updating Units, measurement regimes, temporal relationships, and forms of agency become more dynamic.
+
+---
+
+## Case 1 — Present Normal
+
+A relatively conventional present-day AI implementation.
+
+Typical characteristics:
+
+- AI primarily functions as a support tool;
+- human decision authority remains recognizable;
+- system boundaries are comparatively stable;
+- organizational roles remain clear;
+- measurement is conventional;
+- autonomous AI-to-AI interaction is limited or absent.
 
 Purpose:
 
-Test whether IDOS adds little under stable conditions.
+Establish a low-complexity baseline and test whether IDOS adds little or no incremental visibility under stable conditions.
 
-### Case 2 — Present Edge
+---
 
-A system with deep AI dependency.
+## Case 2 — Present Edge
 
-Purpose:
+A contemporary system with materially deeper AI dependence.
 
-Test emerging dependency and updateability effects.
+Typical characteristics may include:
 
-### Case 3 — Transition
-
-A system in which Human–AI roles or authority boundaries are moving.
-
-Purpose:
-
-Test Dynamic Boundary and Updating Unit.
-
-### Case 4 — Agentic / Multi-Agent
-
-A system involving multiple AI or semi-autonomous agents.
+- substantial AI-mediated workflow;
+- partial delegation of judgment;
+- growing organizational dependence on machine-generated representations;
+- reduced direct human inspection;
+- emerging automation dependency;
+- increased difficulty separating human and AI contributions.
 
 Purpose:
 
-Test propagation, verification, MU, provenance, and temporal compatibility.
+Test whether IDOS begins to add visibility when AI moves from a support tool toward infrastructure.
 
-### Case 5 — Non-AI / Mixed System
+---
 
-A case where boundaries or Updating Units change without AI being the dominant driver.
+## Case 3 — Transition
+
+A system in which Human / AI / Organization roles, authority, responsibility, measurement, or operational boundaries are actively changing.
+
+Typical characteristics may include:
+
+- humans shifting from decision-makers to supervisors;
+- AI shifting from recommender to executor;
+- responsibility migrating across organizational boundaries;
+- changing escalation structures;
+- changing Updating Units;
+- changing system boundaries.
 
 Purpose:
 
-Test whether IDOS is merely an AI framework or a more general architecture of updating systems.
+Test Dynamic Boundary, Updating Unit, Trajectory, and Future Updateability under active structural transition.
+
+---
+
+## Case 4 — Agentic / Multi-Agent
+
+A system involving multiple autonomous or semi-autonomous agents interacting across a distributed decision or execution structure.
+
+The agents may include:
+
+- AI agents;
+- humans;
+- organizations;
+- automated services;
+- machine-mediated institutions.
+
+Typical characteristics may include:
+
+- chained delegation;
+- machine-to-machine interaction;
+- distributed execution;
+- limited end-to-end human visibility;
+- fragmented provenance;
+- asymmetric verification and update capacity;
+- temporal mismatch across agents.
+
+Purpose:
+
+Test CFV, MU, Provenance, Temporal Compatibility, distributed update propagation, and blockage across agents.
+
+---
+
+## Case 5 — Future Regime Proxy
+
+A present-day, simulated, experimental, or composite case that provides the strongest empirically defensible proxy for a future society in which AI, humans, organizations, and institutions are deeply interdependent and dynamically co-updating.
+
+This case must not rely on unconstrained speculation.
+
+It should instead combine structural properties that are already observable, reproducible, or traceable in present systems.
+
+Relevant properties may include:
+
+- autonomous agent interaction;
+- dynamic delegation;
+- rapidly changing operational boundaries;
+- machine-generated measurement systems;
+- high-speed AI decision cycles;
+- reduced direct human observability;
+- recursive workflow adaptation;
+- AI-mediated organizational restructuring;
+- provenance fragmentation;
+- distributed governance;
+- human oversight lag;
+- machine-to-machine coordination;
+- unstable Updating Units.
+
+Purpose:
+
+Test the strongest version of the current working hypothesis:
+
+\[
+IDOS\ becomes\ increasingly\ useful
+\ when\
+the\ unit,\ boundary,\ measurement,\ and\ conditions\ of\ update
+\ themselves\ become\ dynamic
+\]
+
+The central question is:
+
+\[
+Does\ IDOS\ provide\ substantial\ incremental\ visibility
+\ under\ conditions\ approximating
+\ a\ deeply\ AI\text{-}entangled\ society?
+\]
+
+# 23A. Sampling Strengthening for the Five-Case Pilot
+
+The five-case pilot is intentionally structured as a progression from present-day relatively stable Human–AI systems toward increasingly complex, dynamic, and future-oriented socio-technical regimes.
+
+The five cases are therefore not treated as an undifferentiated sample.
+
+Instead, each case belongs to a pre-defined regime stratum:
+
+\[
+Present\ Normal
+\rightarrow
+Present\ Edge
+\rightarrow
+Transition
+\rightarrow
+Agentic/Multi\text{-}Agent
+\rightarrow
+Future\ Regime\ Proxy
+\]
+
+The regime structure is theoretically defined in advance.
+
+However, the individual case within each regime should not be selected solely because it appears favorable, interesting, or particularly compatible with IDOS.
+
+To reduce case-selection bias, each regime should use the following sampling procedure:
+
+1. define explicit inclusion criteria for the regime;
+2. construct a candidate pool before selecting the final case;
+3. freeze the candidate pool;
+4. use a pre-specified mechanical selection procedure where practical;
+5. record the candidate pool and selection procedure;
+6. do not replace the selected case merely because it produces weak IDOS results.
+
+This creates the separation:
+
+\[
+Theory\ defines\ the\ regime
+\]
+
+\[
+Sampling\ selects\ the\ case
+\]
+
+The purpose is not statistical representativeness.
+
+The purpose is to reduce confirmation-driven case selection while preserving theoretically meaningful regime variation.
+
+---
+
+# 23A.1 Case V001 — Present Normal Sampling
+
+## Regime Purpose
+
+V001 represents a relatively stable contemporary Human–AI system.
+
+The expected characteristics are:
+
+- AI primarily acts as a support tool;
+- human operational authority remains recognizable;
+- organizational boundaries remain comparatively stable;
+- measurement systems are conventional and externally understandable;
+- Human / AI roles are not undergoing major structural transition;
+- autonomous AI-to-AI coordination is limited or absent.
+
+Conceptually:
+
+\[
+Boundary\ Dynamism \approx Low
+\]
+
+\[
+Updating\ Unit\ Instability \approx Low
+\]
+
+\[
+AI\ Autonomy \approx Low
+\]
+
+\[
+Measurement\ Change \approx Low
+\]
+
+## Inclusion Criteria
+
+A candidate case should:
+
+1. involve real-world AI deployment;
+2. contain publicly accessible evidence sufficient for reconstruction;
+3. have measurable operational outcomes;
+4. preserve clear human decision or execution authority;
+5. not depend primarily on autonomous multi-agent interaction;
+6. represent a relatively conventional organizational deployment.
+
+## Sampling Rule
+
+A frozen candidate pool should first be created from multiple eligible contemporary AI implementation cases.
+
+The final V001 case should then be selected using a pre-specified mechanical procedure where feasible.
+
+V001 should not be selected because it demonstrates a known IDOS strength.
+
+Indeed, a case in which conventional analysis performs well is desirable.
+
+## Sampling Objective
+
+V001 functions as a low-complexity baseline.
+
+The key question is:
+
+\[
+Does\ IDOS\ add\ meaningful\ visibility
+\ under\ relatively\ stable\ conditions?
+\]
+
+A weak or zero incremental result is fully acceptable.
+
+---
+
+# 23A.2 Case V002 — Present Edge Sampling
+
+## Regime Purpose
+
+V002 represents a contemporary system in which AI dependence has become materially deeper than in ordinary decision-support deployment.
+
+The system should still be recognizably present-day, but AI should already influence important operational, informational, or organizational processes.
+
+Expected characteristics include some combination of:
+
+- substantial AI dependence;
+- AI-mediated workflow coordination;
+- reduced human direct inspection;
+- partial delegation of judgment;
+- growing dependence on machine-generated representations;
+- emerging lock-in or dependency effects;
+- increasing difficulty separating human and AI contributions.
+
+Conceptually:
+
+\[
+Boundary\ Dynamism > V001
+\]
+
+\[
+AI\ Dependence > V001
+\]
+
+\[
+Human\ Direct\ Observability < V001
+\]
+
+## Inclusion Criteria
+
+A candidate case should:
+
+1. be based on an actually deployed system;
+2. involve significant organizational dependence on AI;
+3. show at least one emerging structural issue beyond simple productivity improvement;
+4. retain enough public evidence for chronological reconstruction;
+5. not yet require a fully hypothetical future scenario.
+
+Relevant structural signals may include:
+
+- automation dependency;
+- algorithmic management;
+- large-scale recommendation systems;
+- AI-mediated decision processes;
+- AI-generated operational prioritization;
+- degraded human fallback capability;
+- centralized model dependence.
+
+## Sampling Rule
+
+A candidate pool should be constructed from several qualifying high-dependence AI systems.
+
+The pool should be frozen before final selection.
+
+The final case should be selected mechanically where practical.
+
+Cases should not be chosen because they already contain explicit language similar to IDOS concepts.
+
+## Sampling Objective
+
+V002 tests whether IDOS begins to become more useful as AI moves from:
+
+\[
+Tool
+\]
+
+toward:
+
+\[
+Infrastructure
+\]
+
+The key question is:
+
+\[
+Does\ incremental\ visibility\ emerge
+\ when\ AI\ becomes\ structurally\ embedded?
+\]
+
+---
+
+# 23A.3 Case V003 — Transition Sampling
+
+## Regime Purpose
+
+V003 represents a system undergoing active structural transition.
+
+The defining feature is not simply high AI capability.
+
+Rather, the case should contain movement in one or more of the following:
+
+- decision authority;
+- organizational role allocation;
+- Human–AI responsibility boundaries;
+- escalation structures;
+- measurement systems;
+- accountability structures;
+- Updating Unit;
+- operational boundaries.
+
+Conceptually:
+
+\[
+B_t \neq B_{t+1}
+\]
+
+and potentially:
+
+\[
+U_t \neq U_{t+1}
+\]
+
+where \(B\) represents the relevant boundary and \(U\) the Updating Unit.
+
+## Inclusion Criteria
+
+A candidate case should show observable evidence that roles or system structure changed over time.
+
+Possible patterns include:
+
+- humans moving from decision-makers to supervisors;
+- AI moving from recommender to executor;
+- organizations reorganizing work around AI systems;
+- responsibility migrating across organizational boundaries;
+- machine outputs becoming the dominant basis for action;
+- previously external AI systems becoming internal operational dependencies.
+
+The case should contain enough temporal evidence to reconstruct the transition.
+
+## Sampling Rule
+
+The candidate pool should include multiple cases of documented structural transition.
+
+Cases should be selected based on pre-defined transition criteria rather than on whether the transition appears to validate IDOS.
+
+The final case should be selected after the candidate pool is frozen.
+
+## Sampling Objective
+
+V003 directly tests the concepts of:
+
+- Dynamic Boundary;
+- Updating Unit;
+- Trajectory;
+- Future Updateability.
+
+The key question is:
+
+\[
+Does\ IDOS\ reveal\ something
+\ specifically\ because\ the\ system\ itself
+\ is\ changing\ what\ counts\ as\ the\ system?
+\]
+
+---
+
+# 23A.4 Case V004 — Agentic / Multi-Agent Sampling
+
+## Regime Purpose
+
+V004 represents systems in which multiple autonomous or semi-autonomous agents interact.
+
+The agents may include:
+
+- AI agents;
+- humans;
+- organizations;
+- automated services;
+- algorithmic markets;
+- machine-mediated institutions.
+
+The defining characteristic is distributed interaction rather than a simple Human–AI pair.
+
+Expected structural characteristics include:
+
+- chained delegation;
+- machine-to-machine interaction;
+- distributed execution;
+- indirect human supervision;
+- fragmented provenance;
+- propagation of outputs across agents;
+- possible mismatch in update speed;
+- difficulty locating effective control.
+
+Conceptually:
+
+\[
+Agent_i
+\rightarrow
+Agent_j
+\rightarrow
+Agent_k
+\rightarrow
+Action
+\]
+
+with no single actor necessarily observing the entire chain.
+
+## Inclusion Criteria
+
+A candidate case should contain:
+
+1. multiple interacting decision or execution agents;
+2. meaningful autonomy or semi-autonomy;
+3. propagation of outputs between agents;
+4. limited direct human visibility over the full interaction chain;
+5. reconstructable evidence of system behavior.
+
+The case may be contemporary, experimental, or advanced deployment, but should remain empirically grounded.
+
+## Sampling Rule
+
+A candidate pool should include multiple eligible multi-agent or agentic systems.
+
+The candidate pool must be frozen before selection.
+
+The final case should not be selected merely because it demonstrates provenance failure, verification failure, or update blockage.
+
+Those outcomes must remain empirical questions.
+
+## Sampling Objective
+
+V004 particularly tests:
+
+- CFV;
+- MU;
+- Provenance;
+- Temporal Compatibility;
+- update propagation;
+- blockage of update across agents;
+- distributed responsibility.
+
+The key question is:
+
+\[
+Can\ conventional\ analysis
+\ adequately\ describe
+\ who\ can\ verify,\ influence,\ and\ update\ whom?
+\]
+
+and:
+
+\[
+Does\ IDOS\ add\ structure
+\ once\ interaction\ becomes\ distributed?
+\]
+
+---
+
+# 23A.5 Case V005 — Future Regime Proxy Sampling
+
+## Regime Purpose
+
+V005 represents the nearest empirically defensible proxy for a future society in which AI, humans, organizations, and institutions become deeply interdependent and dynamically co-updating.
+
+This is not a speculative science-fiction case.
+
+V005 must remain grounded in observable or reproducible present-day evidence.
+
+However, it should contain multiple structural properties expected to become more important under advanced AI conditions.
+
+These may include:
+
+- autonomous agent interaction;
+- dynamic delegation;
+- rapidly changing operational boundaries;
+- machine-generated measurement systems;
+- high-speed AI decision cycles;
+- reduced direct human observability;
+- recursive workflow adaptation;
+- AI-mediated organizational restructuring;
+- provenance fragmentation;
+- distributed governance;
+- human oversight lag;
+- machine-to-machine coordination;
+- unstable Updating Units.
+
+Conceptually:
+
+\[
+Present\ Evidence
+\rightarrow
+Future\ Structural\ Proxy
+\]
+
+not:
+
+\[
+Speculation
+\rightarrow
+Future\ Claim
+\]
+
+## Inclusion Criteria
+
+A candidate should satisfy several future-regime structural markers simultaneously.
+
+No single advanced feature is sufficient.
+
+A candidate should ideally demonstrate multiple dimensions such as:
+
+\[
+Boundary\ Dynamism
+\]
+
+\[
+Updating\ Unit\ Transition
+\]
+
+\[
+Temporal\ Incompatibility
+\]
+
+\[
+Measurement\ Change
+\]
+
+\[
+Distributed\ Agency
+\]
+
+\[
+Reduced\ Human\ Direct\ Control
+\]
+
+The case may be a real deployment, controlled experiment, simulation, or tightly grounded composite proxy, provided the evidentiary status of each component is explicitly stated.
+
+## Sampling Rule
+
+A candidate pool should be constructed from multiple systems that satisfy the pre-defined future-regime markers.
+
+The pool must be frozen before final selection.
+
+If no single present-day case satisfies the required structural complexity, a composite proxy may be constructed only under explicit rules.
+
+A composite proxy must:
+
+1. separate observed facts from extrapolated structure;
+2. identify the empirical source of each component;
+3. avoid assuming ASI capabilities not currently evidenced;
+4. preserve traceability from present evidence to future-regime property;
+5. state clearly which aspects are observed, simulated, or inferred.
+
+The final V005 case must not be chosen because it maximizes apparent IDOS relevance.
+
+## Sampling Objective
+
+V005 tests the strongest version of the current working hypothesis:
+
+\[
+IDOS\ becomes\ increasingly\ useful
+\ when\
+the\ unit,\ boundary,\ measurement,\ and\ conditions\ of\ update
+\ themselves\ become\ dynamic
+\]
+
+The central question is:
+
+\[
+Does\ IDOS\ provide\ substantial\ incremental\ visibility
+\ under\ conditions\ approximating
+\ a\ deeply\ AI\text{-}entangled\ society?
+\]
+
+---
+
+# 23A.6 Cross-Regime Sampling Constraint
+
+The five cases should not be interpreted as five independent examples only.
+
+Together they form a structured regime gradient:
+
+\[
+V001
+\rightarrow
+V002
+\rightarrow
+V003
+\rightarrow
+V004
+\rightarrow
+V005
+\]
+
+The cross-case analysis should therefore examine whether incremental visibility changes as structural complexity increases.
+
+However, the protocol must not assume monotonic improvement.
+
+The following are all valid possible outcomes:
+
+\[
+Y_1 \approx Y_2 \approx Y_3 \approx Y_4 \approx Y_5
+\]
+
+\[
+Y_1 < Y_2 < Y_3 < Y_4 < Y_5
+\]
+
+\[
+Y_1 \approx 0,\quad Y_3>0,\quad Y_5>0
+\]
+
+or any other observed pattern.
+
+The regime gradient is therefore a test structure, not a predicted result.
+
+---
+
+# 23A.7 Candidate Pool Freeze Rule
+
+Before analyzing a selected case with IDOS, the following information should be preserved:
+
+- regime definition;
+- inclusion criteria;
+- candidate pool;
+- exclusion reasons where applicable;
+- selection method;
+- selected case;
+- date of freeze.
+
+Once the final case is selected, it should normally not be replaced because:
+
+- the evidence is inconvenient;
+- IDOS performs poorly;
+- conventional analysis performs too well;
+- the case does not reveal the expected structure.
+
+Replacement is allowed only for procedural reasons, such as:
+
+- insufficient evidence;
+- inaccessible source material;
+- mistaken regime classification;
+- duplicate case structure;
+- material factual error discovered before substantive analysis.
+
+Any replacement should be documented.
+
+---
+
+# 23A.8 Sampling Interpretation
+
+This five-case pilot is not designed to estimate population frequencies or statistical effect sizes.
+
+It is a structured exploratory test of architectural visibility across increasing socio-technical complexity.
+
+The intended inference is therefore:
+
+\[
+Under\ what\ structural\ conditions
+\ does\ IDOS\ add\ visibility?
+\]
+
+rather than:
+
+\[
+How\ common\ is\ IDOS\ value
+\ across\ all\ systems?
+\]
+
+The sampling design should be understood accordingly.
 
 ---
 
