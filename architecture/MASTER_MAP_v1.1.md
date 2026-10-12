@@ -28,35 +28,35 @@ The purpose is to identify the smallest architecture that preserves the explanat
 
 The revision is therefore guided by:
 
-$$
+```math
 \boxed{
 Add\ Less
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Delete\ What\ Is\ Not\ Necessary
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Preserve\ What\ Transfers
 }
-$$
+```
 
 `MASTER_MAP_v1.0` remains the prior frozen historical baseline, while this document becomes the current frozen baseline.
 
 Formally:
 
-$$
+```math
 \boxed{
 MASTER\_MAP\ v1.1
 =
 Frozen\ Research\ Baseline
 }
-$$
+```
 
 ---
 
@@ -72,7 +72,7 @@ The Future-Regime validation adds a second-order question:
 
 Therefore the revised research center becomes:
 
-$$
+```math
 \boxed{
 How\ do\ heterogeneous\
 intelligence\ systems\
@@ -82,7 +82,7 @@ and\ remain\ capable\
 of\ changing\
 how\ they\ change?
 }
-$$
+```
 
 ---
 
@@ -90,23 +90,23 @@ $$
 
 The three design principles from MASTER_MAP_v1.0 are retained.
 
-$$
+```math
 \boxed{
 Difference\ without\ Isolation
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Connection\ without\ Unification
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Update\ without\ Erasure
 }
-$$
+```
 
 In compact form:
 
@@ -118,23 +118,23 @@ They are architectural constraints on the design and interpretation of IDOS.
 
 Therefore:
 
-$$
+```math
 \boxed{
 System\ Update
 \neq
 Homogenization
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Meaning\ Unification
 \neq
 Interoperability
 }
-$$
+```
 
 ---
 
@@ -176,13 +176,13 @@ This produces pressure toward a smaller architecture.
 
 The strongest repeated result across the Future-Regime sequence is:
 
-$$
+```math
 \boxed{
 Current\ Success
 \neq
 Future\ Updateability
 }
-$$
+```
 
 The form of Current Success differed across cases:
 
@@ -209,47 +209,47 @@ The revision moves IDOS from a process-centered reading toward an updateability-
 
 Formally:
 
-$$
+```math
 \boxed{
 Process\text{-}Centered
 \rightarrow
 Updateability\text{-}Centered
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 12PDM\ as\ Core
 \rightarrow
 12PDM\ as\ Observation/Description\ Protocol
 }
-$$
+```
 
 The revision also distinguishes:
 
-$$
+```math
 \boxed{
 Dynamics
 }
-$$
+```
 
 from:
 
-$$
+```math
 \boxed{
 Observability
 }
-$$
+```
 
 from:
 
-$$
+```math
 \boxed{
 Second\text{-}Order\ Updateability
 }
-$$
+```
 
 ---
 
@@ -267,7 +267,7 @@ The Dynamics Layer asks:
 
 It contains:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 +
@@ -275,21 +275,21 @@ Dynamic\ Boundary
 +
 Trajectory
 }
-$$
+```
 
 The Dynamics Layer also retains **Difference** as a transition driver rather than as a separate Core layer or entity.
 
-$$
+```math
 \boxed{
 Difference
 =
 Transition\ Driver
 }
-$$
+```
 
 A provisional representation is:
 
-$$
+```math
 D_t
 =
 Difference(
@@ -298,38 +298,38 @@ Environment_t,
 OtherUnits_t,
 Expectation_t
 )
-$$
+```
 
 IDOS therefore distinguishes:
 
-$$
+```math
 \boxed{
 Change
 \neq
 Update
 }
-$$
+```
 
 A provisional definition of Update is:
 
-$$
+```math
 \boxed{
 Update
 =
 Difference\text{-}responsive\
 state/structure\ transition
 }
-$$
+```
 
 That is, Update occurs when a relevant Difference contributes to a change in state, structure, relation, or update rule.
 
 A provisional first-order update form is:
 
-$$
+```math
 S_{t+1}
 =
 G_t(S_t,D_t)
-$$
+```
 
 Difference is therefore retained without restoring Residual as a universal Core primitive.
 
@@ -337,11 +337,11 @@ Difference is therefore retained without restoring Residual as a universal Core 
 
 ## 4.1.1 Updating Unit
 
-$$
+```math
 \boxed{
 U_t
 }
-$$
+```
 
 The Updating Unit is the unit whose change is being tracked.
 
@@ -358,23 +358,23 @@ Possible Updating Units include:
 
 The Updating Unit may change:
 
-$$
+```math
 \boxed{
 U_t
 \neq
 U_{t+1}
 }
-$$
+```
 
 The Future-Regime cases repeatedly showed:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 \neq
 Boundary
 }
-$$
+```
 
 Therefore Updating Unit remains independent.
 
@@ -382,11 +382,11 @@ Therefore Updating Unit remains independent.
 
 ## 4.1.2 Dynamic Boundary
 
-$$
+```math
 \boxed{
 B_t
 }
-$$
+```
 
 Boundary specifies what is included in the system under analysis.
 
@@ -394,22 +394,22 @@ The same Updating Unit may be evaluated under different boundaries.
 
 Therefore:
 
-$$
+```math
 \boxed{
 System\ Update
 is\ Boundary\text{-}dependent
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 B_t
 \neq
 B_{t+1}
 }
-$$
+```
 
 must be allowed.
 
@@ -417,43 +417,43 @@ must be allowed.
 
 ## 4.1.3 Trajectory
 
-$$
+```math
 \boxed{
 T_{0:t}
 }
-$$
+```
 
 IDOS retains the proposition:
 
-$$
+```math
 \boxed{
 Intelligence
 is\ not\ adequately\
 represented\ as\ a\ point
 }
-$$
+```
 
 Trajectory captures change through time rather than only current state.
 
 Therefore:
 
-$$
+```math
 \boxed{
 Current\ State
 \neq
 Trajectory
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Current\ Success
 \neq
 Healthy\ Trajectory
 }
-$$
+```
 
 ---
 
@@ -465,7 +465,7 @@ The Observability Layer asks:
 
 It contains:
 
-$$
+```math
 \boxed{
 Reference\ Frame
 +
@@ -473,7 +473,7 @@ Measurement
 +
 Provenance
 }
-$$
+```
 
 ---
 
@@ -481,35 +481,35 @@ $$
 
 For observer or intelligence \(i\):
 
-$$
+```math
 \boxed{
 F_i
 }
-$$
+```
 
 A provisional observation remains expressible as:
 
-$$
+```math
 Y_i
 =
 M_i(R;F_i,B_i,\ldots)
-$$
+```
 
 Different observers may generate different observations from the same Reality.
 
-$$
+```math
 F_i
 \neq
 F_j
-$$
+```
 
 may imply:
 
-$$
+```math
 D_i
 \neq
 D_j
-$$
+```
 
 Reference Frame is not treated as a standalone process node.
 
@@ -524,43 +524,43 @@ It is a cross-cutting epistemic condition on:
 
 ## 4.2.2 Measurement
 
-$$
+```math
 \boxed{
 M_t
 }
-$$
+```
 
 Measurement is dynamic.
 
 The measurement system itself may change:
 
-$$
+```math
 \boxed{
 M_t
 \neq
 M_{t+1}
 }
-$$
+```
 
 Measurement stability does not imply measurement adequacy.
 
-$$
+```math
 \boxed{
 Measurement\ Stability
 \neq
 Measurement\ Adequacy
 }
-$$
+```
 
 ---
 
 ## 4.2.3 Provenance
 
-$$
+```math
 \boxed{
 P_{0:t}
 }
-$$
+```
 
 Provenance tracks where a state, decision, result, or trajectory came from.
 
@@ -578,13 +578,13 @@ It may include:
 
 Trajectory and Provenance remain distinct.
 
-$$
+```math
 \boxed{
 Trajectory
 \neq
 Provenance
 }
-$$
+```
 
 Trajectory answers:
 
@@ -604,11 +604,11 @@ The third layer asks:
 
 Its central construct is:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 ---
 
@@ -616,7 +616,7 @@ $$
 
 The strongest provisional definition is:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 =
@@ -624,7 +624,7 @@ Capacity\ to\ revise\
 the\ conditions\
 of\ future\ revision
 }
-$$
+```
 
 This includes the capacity to revise:
 
@@ -640,59 +640,59 @@ This includes the capacity to revise:
 
 If ordinary first-order update is represented as:
 
-$$
+```math
 S_{t+1}
 =
 G_t(S_t,D_t)
-$$
+```
 
 then Future Updateability asks whether the update operator itself can be revised:
 
-$$
+```math
 \boxed{
 G_t
 \rightarrow
 G_{t+1}
 }
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 First\text{-}Order\ Update
 =
 Difference\text{-}responsive\ state/structure\ change
 }
-$$
+```
 
 while:
 
-$$
+```math
 \boxed{
 Second\text{-}Order\ Updateability
 =
 Capacity\ to\ revise\ the\ update\ operator
 }
-$$
+```
 
 Therefore Future Updateability may be interpreted as:
 
-$$
+```math
 \boxed{
 Second\text{-}Order\ Updateability
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Adaptation
 \neq
 Future\ Updateability
 }
-$$
+```
 
 ---
 
@@ -702,23 +702,23 @@ The Relational Layer applies when multiple Updating Units interact.
 
 It contains:
 
-$$
+```math
 \boxed{
 CFV
 +
 MU
 }
-$$
+```
 
 ---
 
 ## 5.1 Cross-Frame Verifiability — CFV
 
-$$
+```math
 \boxed{
 CFV_{ij}
 }
-$$
+```
 
 CFV asks:
 
@@ -726,29 +726,29 @@ CFV asks:
 
 The Future-Regime cases support:
 
-$$
+```math
 \boxed{
 CFV
 \neq
 Agreement
 }
-$$
+```
 
-$$
+```math
 \boxed{
 CFV
 \neq
 Understanding
 }
-$$
+```
 
-$$
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-$$
+```
 
 Therefore CFV is treated as a relational epistemic capacity.
 
@@ -756,11 +756,11 @@ Therefore CFV is treated as a relational epistemic capacity.
 
 ## 5.2 Mutual Updateability — MU
 
-$$
+```math
 \boxed{
 MU_{ij}
 }
-$$
+```
 
 MU asks:
 
@@ -768,41 +768,41 @@ MU asks:
 
 The Future-Regime cases repeatedly showed:
 
-$$
+```math
 \boxed{
 Interaction
 \neq
 Mutual\ Updateability
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Individual\ Updateability
 \neq
 Relational\ Updateability
 }
-$$
+```
 
 It is possible that:
 
-$$
+```math
 FU_i>0
-$$
+```
 
 and:
 
-$$
+```math
 FU_j>0
-$$
+```
 
 while:
 
-$$
+```math
 MU_{ij}=0
-$$
+```
 
 Therefore MU remains a distinct relational capacity.
 
@@ -814,13 +814,13 @@ The final Red Team distinguishes between cross-cutting conditions and external g
 
 Cross-cutting conditions modify the effective operation of the architecture:
 
-$$
+```math
 \boxed{
 Power
 +
 Temporal\ Compatibility
 }
-$$
+```
 
 Reality Contact is not treated as the same type of condition. It is retained separately as external grounding.
 
@@ -839,13 +839,13 @@ Power affects:
 
 Therefore:
 
-$$
+```math
 \boxed{
 Epistemic\ Authority
 \neq
 Operational\ Power
 }
-$$
+```
 
 Power is treated as a cross-cutting modifier.
 
@@ -857,23 +857,23 @@ Meaningful updateability may depend on relevant timing.
 
 For example:
 
-$$
+```math
 UpdateSpeed_{AI}
 \gg
 UpdateSpeed_H
-$$
+```
 
 may make nominal Human oversight operationally ineffective.
 
 Therefore:
 
-$$
+```math
 \boxed{
 Connected
 \neq
 Temporally\ Interoperable
 }
-$$
+```
 
 Temporal Compatibility applies across:
 
@@ -889,13 +889,13 @@ Temporal Compatibility applies across:
 
 Agreement is not sufficient.
 
-$$
+```math
 \boxed{
 Consensus
 \neq
 Reality\ Contact
 }
-$$
+```
 
 Human–AI systems, multi-AI systems, organizations, and institutions may converge internally while drifting from external Reality.
 
@@ -913,7 +913,7 @@ Several constructs remain important but are no longer proposed as primitive Core
 
 Re-measurability is derived from:
 
-$$
+```math
 \boxed{
 Measurement
 +
@@ -921,11 +921,11 @@ Provenance
 +
 Historical\ Accessibility
 }
-$$
+```
 
 A provisional expression is:
 
-$$
+```math
 \boxed{
 ReMeasurability
 =
@@ -936,17 +936,17 @@ StoredState,
 HistoricalContext
 )
 }
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Replication
 \neq
 Re\text{-}measurability
 }
-$$
+```
 
 Re-measurability concerns whether past states can be reassessed under a future measurement system.
 
@@ -956,7 +956,7 @@ Re-measurability concerns whether past states can be reassessed under a future m
 
 System Update is treated as an assessment over:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 +
@@ -964,11 +964,11 @@ Boundary
 +
 Trajectory
 }
-$$
+```
 
 A provisional form is:
 
-$$
+```math
 \boxed{
 SystemUpdate
 =
@@ -978,17 +978,17 @@ Boundary,
 Trajectory
 )
 }
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Component\ Update
 \neq
 System\ Update
 }
-$$
+```
 
 but System Update need not be a primitive architecture node.
 
@@ -998,7 +998,7 @@ but System Update need not be a primitive architecture node.
 
 Continuity is treated as a derived assessment.
 
-$$
+```math
 \boxed{
 Continuity
 =
@@ -1009,27 +1009,27 @@ CausalLineage,
 SelectedInvariants
 )
 }
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Membership\ Continuity
 \neq
 System\ Identity
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Provenance
 \neq
 Continuity
 }
-$$
+```
 
 ---
 
@@ -1049,23 +1049,23 @@ Residual remains useful for identifying:
 
 However, Residual is treated as a specific diagnostic or observed form of Difference rather than as the most general transition driver.
 
-$$
+```math
 \boxed{
 Difference
 >
 Residual
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Residual
 =
 Diagnostic\ Primitive
 }
-$$
+```
 
 rather than a universal Core node.
 
@@ -1081,13 +1081,13 @@ Holding remains useful in some domains, particularly:
 
 However:
 
-$$
+```math
 \boxed{
 Holding
 =
 Domain\text{-}Specific\ Update\ Mechanism
 }
-$$
+```
 
 rather than a universal Core node.
 
@@ -1105,23 +1105,23 @@ Possibility Space remains useful when analyzing:
 
 The Future-Regime cases repeatedly showed:
 
-$$
+```math
 \boxed{
 Choice\ Authority
 \neq
 Possibility\ Generation\ Authority
 }
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Possibility\ Space
 =
 Generative\ Extension
 }
-$$
+```
 
 rather than a primitive Core element.
 
@@ -1131,7 +1131,7 @@ rather than a primitive Core element.
 
 The prior 12-process sequence was:
 
-$$
+```math
 Reality
 \rightarrow
 Difference
@@ -1155,21 +1155,21 @@ Enactment
 Reality'
 \rightarrow
 Reopening
-$$
+```
 
 The Future-Regime sequence repeatedly supported:
 
-$$
+```math
 \boxed{
 12PDM\ Fit
 \neq
 12PDM\ Necessity
 }
-$$
+```
 
 Therefore the proposed revision is:
 
-$$
+```math
 \boxed{
 12PDM
 =
@@ -1177,7 +1177,7 @@ Dynamic\ Observation
 /
 Description\ Protocol
 }
-$$
+```
 
 The 12PDM remains available as:
 
@@ -1194,19 +1194,19 @@ It is not proposed as the minimal ontology or primitive Core of IDOS v1.1.
 
 Social Connection is explicitly separated from IDOS Core.
 
-$$
+```math
 \boxed{
 IDOS
 \neq
 Social\ Connection\ Architecture
 }
-$$
+```
 
 The Social Connection layer is treated as an application architecture built on the IDOS Core.
 
 Its strongest current candidate structure is:
 
-$$
+```math
 \boxed{
 Mutual\ Verification
 +
@@ -1216,11 +1216,11 @@ Mutual\ Updateability
 +
 Reconfiguration\ Capacity
 }
-$$
+```
 
 with application safeguards:
 
-$$
+```math
 \boxed{
 Exit
 +
@@ -1230,11 +1230,11 @@ Capacity\ Preservation
 +
 Reality\ Recontact
 }
-$$
+```
 
 and cross-cutting conditions:
 
-$$
+```math
 \boxed{
 Power
 +
@@ -1242,27 +1242,27 @@ Asymmetry
 +
 Temporal\ Compatibility
 }
-$$
+```
 
 Social Connection is therefore not equivalent to:
 
-$$
+```math
 Communication
-$$
+```
 
-$$
+```math
 Coordination
-$$
+```
 
-$$
+```math
 Integration
-$$
+```
 
 or:
 
-$$
+```math
 Verification
-$$
+```
 
 alone.
 
@@ -1295,19 +1295,19 @@ alone.
 
 Primary pressure:
 
-$$
+```math
 Measurement_t
 \neq
 Measurement_{t+1}
-$$
+```
 
 and:
 
-$$
+```math
 Current\ Performance
 \neq
 Future\ Updateability
-$$
+```
 
 Supports:
 
@@ -1326,19 +1326,19 @@ Weakens:
 
 Primary distinctions include:
 
-$$
+```math
 Formal\ Authority
 \neq
 Substantive\ Updateability
-$$
+```
 
 and:
 
-$$
+```math
 Choice\ Authority
 \neq
 Possibility\ Generation\ Authority
-$$
+```
 
 Supports:
 
@@ -1354,19 +1354,19 @@ Supports:
 
 Primary distinctions include:
 
-$$
+```math
 Measurement\ Stability
 \neq
 Measurement\ Adequacy
-$$
+```
 
 and:
 
-$$
+```math
 Current\ Governance\ Performance
 \neq
 Future\ Governance\ Updateability
-$$
+```
 
 Supports:
 
@@ -1381,21 +1381,21 @@ Supports:
 
 Primary distinctions include:
 
-$$
+```math
 Communication
 \not\Rightarrow
 MU
-$$
+```
 
 and:
 
-$$
+```math
 Plurality
 +
 Interoperability
 \not\Rightarrow
 Healthy\ Governance
-$$
+```
 
 without enabling conditions.
 
@@ -1415,7 +1415,7 @@ Strengthens the need for a distinct relational layer.
 
 Primary structure:
 
-$$
+```math
 Birth
 \rightarrow
 Operation
@@ -1425,27 +1425,27 @@ Transformation
 Dissolution
 \rightarrow
 PostEffects
-$$
+```
 
 Key distinctions include:
 
-$$
+```math
 Operational\ Unit
 \neq
 Legal\ Entity
-$$
+```
 
-$$
+```math
 B_t
 \neq
 B_{t+1}
-$$
+```
 
-$$
+```math
 System\ Dissolution
 \neq
 End\ of\ Effects
-$$
+```
 
 Supports strongly:
 
@@ -1477,13 +1477,13 @@ Supports:
 
 Also supports:
 
-$$
+```math
 \boxed{
 Temporal\ Compatibility
 =
 Cross\text{-}cutting\ Condition
 }
-$$
+```
 
 ---
 
@@ -1493,19 +1493,19 @@ Important because Social Connection is secondary.
 
 Primary results:
 
-$$
+```math
 Updating\ Unit
 \neq
 Boundary
-$$
+```
 
-$$
+```math
 Provenance
 \neq
 Continuity
-$$
+```
 
-$$
+```math
 Trajectory
 +
 Causal\ Lineage
@@ -1513,7 +1513,7 @@ Causal\ Lineage
 Provenance
 \rightarrow
 Continuity\ Assessment
-$$
+```
 
 Supports strongly:
 
@@ -1532,21 +1532,21 @@ This is a major reason the proposed Core is not treated merely as a Social Conne
 
 Primary result:
 
-$$
+```math
 \boxed{
 Adaptation
 \neq
 Updateability
 }
-$$
+```
 
 and:
 
-$$
+```math
 Performance\ Improvement
 \neq
 System\ Update
-$$
+```
 
 Supports strongly:
 
@@ -1559,13 +1559,13 @@ Supports strongly:
 
 Also motivates:
 
-$$
+```math
 Future\ Updateability
 =
 Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
-$$
+```
 
 ---
 
@@ -1573,15 +1573,15 @@ $$
 
 Primary results:
 
-$$
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Verification
 \neq
@@ -1589,17 +1589,17 @@ Influence
 \neq
 Update
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Knowing
 \neq
 Changing
 }
-$$
+```
 
 Supports:
 
@@ -1615,29 +1615,29 @@ Supports:
 
 Primary results:
 
-$$
+```math
 Correctness
 \neq
 Reconstructability
-$$
+```
 
-$$
+```math
 Verification
 \neq
 Understanding
-$$
+```
 
-$$
+```math
 Scientific\ Output
 \neq
 Scientific\ Capacity
-$$
+```
 
-$$
+```math
 Scientific\ Success
 \neq
 Future\ Scientific\ Updateability
-$$
+```
 
 Supports strongly:
 
@@ -1654,19 +1654,19 @@ Supports strongly:
 
 Across CASE-F001 through CASE-F010:
 
-$$
+```math
 \boxed{
 Current\ Success
 \neq
 Future\ Updateability
 }
-$$
+```
 
 remains the strongest repeated distinction.
 
 The following architecture cluster repeatedly survives:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 +
@@ -1674,9 +1674,9 @@ Dynamic\ Boundary
 +
 Trajectory
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Reference\ Frame
 +
@@ -1684,23 +1684,23 @@ Measurement
 +
 Provenance
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 with relational capacities:
 
-$$
+```math
 \boxed{
 CFV
 +
 MU
 }
-$$
+```
 
 ---
 
@@ -1723,87 +1723,87 @@ The resulting pressure was:
 
 ### Retained as primary architecture elements
 
-$$
+```math
 \boxed{
 Updating\ Unit
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Dynamic\ Boundary
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Trajectory
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Reference\ Frame
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Measurement
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Provenance
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 ### Retained as transition driver
 
-$$
+```math
 \boxed{
 Difference
 }
-$$
+```
 
 Difference is not counted as an additional architectural layer. It is the general driver of first-order Update.
 
 ### Moved to derived status
 
-$$
+```math
 \boxed{
 Re\text{-}measurability
 }
-$$
+```
 
-$$
+```math
 \boxed{
 System\ Update
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Continuity
 }
-$$
+```
 
 ### Retained separately as relational capacities
 
-$$
+```math
 \boxed{
 CFV
 +
 MU
 }
-$$
+```
 
 This produced the layered revision structure.
 
@@ -1832,11 +1832,11 @@ No major explanatory loss was detected.
 
 Formally:
 
-$$
+```math
 \boxed{
 No\ Major\ Explanatory\ Loss
 }
-$$
+```
 
 The main cautions from reverse application were:
 
@@ -1851,13 +1851,13 @@ The main cautions from reverse application were:
 
 The current frozen minimal architecture is:
 
-$$
+```math
 \boxed{
 \textbf{Layer 1 — Dynamics}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Updating\ Unit
 +
@@ -1865,36 +1865,36 @@ Dynamic\ Boundary
 +
 Trajectory
 }
-$$
+```
 
 with:
 
-$$
+```math
 \boxed{
 Difference
 =
 Transition\ Driver
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Update
 =
 Difference\text{-}responsive\
 state/structure\ transition
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \textbf{Layer 2 — Observability}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Reference\ Frame
 +
@@ -1902,23 +1902,23 @@ Measurement
 +
 Provenance
 }
-$$
+```
 
-$$
+```math
 \boxed{
-\textbf{Layer 3 — Second\text{-}Order\ Updateability}
+\text{Layer 3 — Second-Order Updateability}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 with:
 
-$$
+```math
 \boxed{
 \textbf{Relational Layer}
 =
@@ -1926,11 +1926,11 @@ CFV
 +
 MU
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 \textbf{Cross-Cutting Conditions}
 =
@@ -1938,17 +1938,17 @@ Power
 +
 Temporal\ Compatibility
 }
-$$
+```
 
 with:
 
-$$
+```math
 \boxed{
 \textbf{External Grounding}
 =
 Reality\ Contact
 }
-$$
+```
 
 ---
 
@@ -1958,11 +1958,11 @@ The revised architecture can be summarized through three questions.
 
 ## Dynamics
 
-$$
+```math
 \boxed{
 What\ is\ changing?
 }
-$$
+```
 
 More precisely:
 
@@ -1972,11 +1972,11 @@ More precisely:
 
 ## Observability
 
-$$
+```math
 \boxed{
 How\ can\ that\ change\ be\ known?
 }
-$$
+```
 
 More precisely:
 
@@ -1986,16 +1986,16 @@ More precisely:
 
 ## Second-Order Updateability
 
-$$
+```math
 \boxed{
 Can\ the\ system\
 change\ how\ it\ changes?
 }
-$$
+```
 
 This produces the compact conceptual form:
 
-$$
+```math
 \boxed{
 Being
 +
@@ -2003,7 +2003,7 @@ Knowing
 +
 Changing\ how\ one\ changes
 }
-$$
+```
 
 This formulation is interpretive and does not replace the formal architecture.
 
@@ -2017,27 +2017,27 @@ The revised architecture remains compatible with the broader IDOS question:
 
 The three layers map naturally onto:
 
-$$
+```math
 \boxed{
 Dynamics
 }
-$$
+```
 
 — what changes;
 
-$$
+```math
 \boxed{
 Observability
 }
-$$
+```
 
 — how change becomes knowable;
 
-$$
+```math
 \boxed{
 Second\text{-}Order\ Updateability
 }
-$$
+```
 
 — whether the system can revise the way it changes.
 
@@ -2049,13 +2049,13 @@ The Relational Layer then asks whether heterogeneous intelligences can remain di
 
 The Future-Regime sequence does not establish:
 
-$$
+```math
 \boxed{
 IDOS
 >
 Best\ Rival\ Combination
 }
-$$
+```
 
 for local domain explanation.
 
@@ -2074,11 +2074,11 @@ The retained IDOS value remains primarily integrative and cross-domain.
 
 Therefore the architecture-level judgment remains:
 
-$$
+```math
 \boxed{
 B_A
 }
-$$
+```
 
 Meaning:
 
@@ -2101,13 +2101,13 @@ This Future-Regime sequence improves resistance to confirmation bias through:
 
 However:
 
-$$
+```math
 \boxed{
 Architecture\ Stress\ Test
 \neq
 Empirical\ Validation
 }
-$$
+```
 
 The results remain provisional.
 
@@ -2136,13 +2136,13 @@ Following:
 
 the architecture is frozen as:
 
-$$
+```math
 \boxed{
 MASTER\_MAP\ v1.1
 =
 FROZEN
 }
-$$
+```
 
 This Freeze does not mean that IDOS is complete or empirically validated.
 
@@ -2152,13 +2152,13 @@ It means:
 
 The prior baseline remains historically preserved as:
 
-$$
+```math
 \boxed{
 MASTER\_MAP\ v1.0
 =
 PRIOR\ FROZEN\ BASELINE
 }
-$$
+```
 
 Future changes should therefore be recorded prospectively as revisions from v1.1 rather than silently modifying this file.
 
@@ -2168,7 +2168,7 @@ Future changes should therefore be recorded prospectively as revisions from v1.1
 
 The frozen minimum architecture is:
 
-$$
+```math
 \boxed{
 IDOS
 =
@@ -2180,11 +2180,11 @@ Second\text{-}Order\ Updateability
 +
 Relational\ Capacities
 }
-$$
+```
 
 where:
 
-$$
+```math
 \boxed{
 Dynamics
 =
@@ -2194,9 +2194,9 @@ Dynamic\ Boundary
 +
 Trajectory
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Observability
 =
@@ -2206,17 +2206,17 @@ Measurement
 +
 Provenance
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Second\text{-}Order\ Updateability
 =
 Future\ Updateability
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Relational\ Capacities
 =
@@ -2224,80 +2224,80 @@ CFV
 +
 MU
 }
-$$
+```
 
 with cross-cutting conditions:
 
-$$
+```math
 \boxed{
 Power
 +
 Temporal\ Compatibility
 }
-$$
+```
 
 and external grounding:
 
-$$
+```math
 \boxed{
 Reality\ Contact
 }
-$$
+```
 
 with Difference retained as the transition driver of first-order Update:
 
-$$
+```math
 \boxed{
 Difference
 \rightarrow
 Update
 }
-$$
+```
 
 where:
 
-$$
+```math
 \boxed{
 Update
 =
 Difference\text{-}responsive\
 state/structure\ transition
 }
-$$
+```
 
 and derived constructs including:
 
-$$
+```math
 \boxed{
 Re\text{-}measurability
 }
-$$
+```
 
-$$
+```math
 \boxed{
 System\ Update
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Continuity
 }
-$$
+```
 
 The strongest cross-case principle remains:
 
-$$
+```math
 \boxed{
 Current\ Success
 \neq
 Future\ Updateability
 }
-$$
+```
 
 and the strongest provisional definition remains:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 =
@@ -2305,7 +2305,7 @@ Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
 }
-$$
+```
 
 ---
 
@@ -2401,29 +2401,29 @@ RC2 introduces three targeted changes after the final Red Team:
 
 The corresponding first-order / second-order distinction is:
 
-$$
+```math
 \boxed{
 S_{t+1}
 =
 G_t(S_t,D_t)
 }
-$$
+```
 
 for first-order Update, and:
 
-$$
+```math
 \boxed{
 G_t
 \rightarrow
 G_{t+1}
 }
-$$
+```
 
 for second-order updateability.
 
 Therefore:
 
-$$
+```math
 \boxed{
 Difference
 \rightarrow
@@ -2431,7 +2431,7 @@ Update
 \rightarrow
 Second\text{-}Order\ Updateability
 }
-$$
+```
 
 is restored without reinstating the full 12PDM as the minimal Core architecture.
 
@@ -2447,38 +2447,38 @@ Instead, the architecture became smaller.
 
 The resulting candidate centers on:
 
-$$
+```math
 \boxed{
 What\ changes
 }
-$$
+```
 
-$$
+```math
 \boxed{
 How\ change\ becomes\ knowable
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Whether\ the\ system\
 can\ change\
 how\ it\ changes
 }
-$$
+```
 
 while preserving relational verification and mutual updateability across heterogeneous intelligences.
 
 Formally:
 
-$$
+```math
 \boxed{
 MASTER\_MAP\ v1.1
 =
 Current\ Frozen\ Baseline
 }
-$$
+```
 
 Future revisions must be recorded prospectively from this frozen baseline.

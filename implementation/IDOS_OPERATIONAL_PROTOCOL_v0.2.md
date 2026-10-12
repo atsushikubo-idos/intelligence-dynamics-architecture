@@ -15,7 +15,7 @@ Its purpose is not to implement the full MASTER_MAP.
 
 Its purpose is to operationalize the canonical Q2:
 
-\[
+```math
 \boxed{
 \textbf{
 IDOS is an architecture for maintaining and reconfiguring
@@ -24,11 +24,11 @@ without losing contact with Reality,
 even as their reference frames, boundaries, and measurement systems change.
 }
 }
-\]
+```
 
 Japanese:
 
-\[
+```math
 \boxed{
 \textbf{
 IDOSは、参照系・境界・測定系も変化し続ける異種知性系において、
@@ -36,18 +36,18 @@ Realityとの接触を失わず、
 「次も変われる状態」を維持・再構成するためのArchitectureである。
 }
 }
-\]
+```
 
 The protocol therefore asks:
 
-\[
+```math
 \boxed{
 \textbf{
 今回の変化によって、
 Realityとの接触と「次も変われる状態」はどう変わったのか？
 }
 }
-\]
+```
 
 ---
 
@@ -55,11 +55,11 @@ Realityとの接触と「次も変われる状態」はどう変わったのか�
 
 IDOS should be used when:
 
-\[
+```math
 Update_t
 \rightarrow
 \Delta Capacity(Update_{t+1})
-\]
+```
 
 is potentially material.
 
@@ -84,7 +84,7 @@ If the intervention is simple, reversible, transparent, and does not materially 
 
 The minimum operational loop is:
 
-\[
+```math
 \boxed{
 Detect
 \rightarrow
@@ -98,7 +98,7 @@ Recontact
 \rightarrow
 Reopen
 }
-\]
+```
 
 This is a compressed operational form of MASTER_MAP v1.1.
 
@@ -110,27 +110,27 @@ It does not replace MASTER_MAP.
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 何を想定し、実際には何が起き、何が違ったか？
 }
 }
-\]
+```
 
 Record:
 
-\[
+```math
 Expected_t
-\]
+```
 
-\[
+```math
 Observed_t
-\]
+```
 
-\[
+```math
 Difference_t
-\]
+```
 
 Difference includes not only failure but also unexpected success.
 
@@ -152,27 +152,27 @@ A meaningful Reality–Expectation difference can be identified and recorded.
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 まだ説明できないことは何か？
 }
 }
-\]
+```
 
 Classify observed difference as:
 
-\[
+```math
 Explained
-\]
+```
 
-\[
+```math
 Partially\ Explained
-\]
+```
 
-\[
+```math
 Unresolved
-\]
+```
 
 Unresolved difference must not automatically be:
 
@@ -183,13 +183,13 @@ Unresolved difference must not automatically be:
 
 Residual / Holding are operationalized here as:
 
-\[
+```math
 \boxed{
 \textbf{
 未解決のDifferenceを、未解決のまま残せること
 }
 }
-\]
+```
 
 ### Minimum record
 
@@ -207,21 +207,21 @@ At least one mechanism exists for retaining unresolved observations for later re
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 何を変えたのか？
 }
 }
-\]
+```
 
 IDOS distinguishes output change from updating-structure change.
 
 Possible update targets include:
 
-\[
+```math
 \{Frame,\ Rule/Role,\ Coupling,\ Boundary,\ Measurement\}
-\]
+```
 
 Examples:
 
@@ -248,14 +248,14 @@ The intervention can be described in terms of what part of the updating structur
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 その変更によって、
 誰の「変われる能力」がどう変わったか？
 }
 }
-\]
+```
 
 Track at least the relevant updating units.
 
@@ -298,33 +298,33 @@ The intervention's effect on the distribution of updating capability can be trac
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 変えたあと、Realityでは何が起きたか？
 }
 }
-\]
+```
 
 IDOS must return to actual operation.
 
 The protocol therefore requires:
 
-\[
+```math
 Update
 \rightarrow
 Enactment
 \rightarrow
 Reality'
-\]
+```
 
 and then:
 
-\[
+```math
 Reality'
 \rightarrow
 Difference'
-\]
+```
 
 ### Minimum record
 
@@ -342,22 +342,22 @@ The updated system is evaluated against external or operational reality rather t
 
 ### Question
 
-\[
+```math
 \boxed{
 \textbf{
 今回の変化によって、
 次の未知の変化に対応する能力はどう変わったか？
 }
 }
-\]
+```
 
 Minimum evaluation:
 
-\[
+```math
 Future\ Updateability:
 \quad
 \uparrow,\ \rightarrow,\ \downarrow,\ ?
-\]
+```
 
 Assess at least:
 
@@ -404,9 +404,9 @@ A single operational cycle can be documented with the following six fields.
 
 ### 6. Next Updateability
 
-\[
+```math
 \uparrow,\ \rightarrow,\ \downarrow,\ ?
-\]
+```
 
 with a short reason.
 
@@ -416,13 +416,13 @@ with a short reason.
 
 The minimum practical-value test is:
 
-\[
+```math
 \boxed{
 \textbf{
 Did IDOS alter the action in order to preserve future updateability?
 }
 }
-\]
+```
 
 Possible outcomes:
 
@@ -432,13 +432,13 @@ IDOS changes or adds an action because the intervention affects future updateabi
 
 Example:
 
-\[
+```math
 Current\ Improvement
-\]
+```
 
 becomes:
 
-\[
+```math
 Current\ Improvement
 +
 Exception\ Review
@@ -448,17 +448,17 @@ Override
 Fallback
 +
 Reality\ Recontact
-\]
+```
 
 ### DV0
 
 IDOS produces no materially different action because future updateability is already preserved or unaffected.
 
-\[
+```math
 Action_{existing}
 =
 Action_{IDOS}
-\]
+```
 
 DV0 is a valid result.
 
@@ -468,11 +468,11 @@ DV0 is a valid result.
 
 A recurring pattern to inspect is:
 
-\[
+```math
 Optimization
 \rightarrow
 Path\ Closure
-\]
+```
 
 Examples include:
 
@@ -487,13 +487,13 @@ The protocol does not assume that optimization is bad.
 
 It asks:
 
-\[
+```math
 \boxed{
 \textbf{
 Did the improvement close a path needed for the next update?
 }
 }
-\]
+```
 
 ---
 
@@ -519,41 +519,41 @@ Those belong to later stages only if required.
 
 A case qualifies as having completed one Minimum IDOS cycle only if all of the following are recorded:
 
-\[
+```math
 \boxed{
 Difference
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Unresolved\ Residual
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Updating\ Structure\ Change
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Distribution\ Change
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Reality\ Recontact
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Next\ Updateability
 }
-\]
+```
 
 If the case stops at current performance or current success, the cycle is incomplete.
 
@@ -570,17 +570,17 @@ Until evidence requires revision:
 5. DV0 and negative cases must be preserved.
 6. The core question remains:
 
-\[
+```math
 \boxed{
 \textbf{
 変わった結果、次も変われるのか？
 }
 }
-\]
+```
 
 7. The operational purpose remains:
 
-\[
+```math
 \boxed{
 \textbf{
 今回の変化によって、Realityとの接触と
@@ -588,4 +588,4 @@ Until evidence requires revision:
 必要ならActionを変える。
 }
 }
-\]
+```

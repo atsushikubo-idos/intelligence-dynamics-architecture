@@ -19,23 +19,23 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 # 2. Regime Classification
 
-$$
+```math
 \boxed{V004 = Agentic / Multi\text{-}Agent}
-$$
+```
 
 V004 represents a system in which a Lead Agent delegates tasks to multiple Subagents, each agent operates with its own context and trajectory, and the final output emerges from distributed exploration, synthesis, and verification.
 
 The main structural shift is:
 
-$$
+```math
 Human
 \rightarrow
 AI
-$$
+```
 
 from V003 becoming:
 
-$$
+```math
 Human
 \rightarrow
 Lead\ Agent
@@ -45,7 +45,7 @@ Subagents
 Lead
 \rightarrow
 Citation\ Agent
-$$
+```
 
 Thus delegation becomes recursive, system state becomes distributed, and update relations become networked.
 
@@ -75,17 +75,17 @@ Anthropic’s Research system uses a Lead Agent that decomposes a research task 
 
 Conceptually:
 
-$$
+```math
 User\ Query
 \rightarrow
 Lead\ Agent
 \rightarrow
 Subagent_1,\ Subagent_2,\ldots,Subagent_n
-$$
+```
 
 followed by:
 
-$$
+```math
 Parallel\ Search
 \rightarrow
 Lead\ Synthesis
@@ -93,15 +93,15 @@ Lead\ Synthesis
 Citation\ Agent
 \rightarrow
 Final\ Output
-$$
+```
 
 The Lead Agent is not only a response generator. It functions as:
 
-$$
+```math
 \boxed{
 Planner + Delegator + Integrator
 }
-$$
+```
 
 ---
 
@@ -111,13 +111,13 @@ Subagents perform separate research tasks with independent contexts and search t
 
 Thus:
 
-$$
+```math
 Trajectory_{A_1}
 \neq
 Trajectory_{A_2}
 \neq
 Trajectory_{A_3}
-$$
+```
 
 This allows the system to explore multiple paths in parallel rather than relying on one sequential search process.
 
@@ -127,17 +127,17 @@ This allows the system to explore multiple paths in parallel rather than relying
 
 The system shifts from:
 
-$$
+```math
 Sequential\ Search
-$$
+```
 
 to:
 
-$$
+```math
 \boxed{
 Parallel\ Exploration
 }
-$$
+```
 
 Multiple agents can pursue distinct lines of inquiry simultaneously.
 
@@ -151,9 +151,9 @@ Anthropic reported that a multi-agent configuration outperformed a single-agent 
 
 However, Anthropic also noted that much of the improvement may come from:
 
-$$
+```math
 More\ Tokens + More\ Tool\ Calls
-$$
+```
 
 Therefore the result is not treated as evidence of emergent collective intelligence by itself.
 
@@ -172,15 +172,15 @@ Anthropic reports practical failure modes including:
 
 Thus multi-agent structure introduces:
 
-$$
+```math
 Coordination\ Benefit
-$$
+```
 
 and:
 
-$$
+```math
 Coordination\ Cost
-$$
+```
 
 at the same time.
 
@@ -192,7 +192,7 @@ A local agent error may propagate into later system decisions.
 
 Conceptually:
 
-$$
+```math
 Error_{A_i}
 \rightarrow
 Lead\ Interpretation
@@ -200,7 +200,7 @@ Lead\ Interpretation
 Later\ Delegation
 \rightarrow
 Final\ Output
-$$
+```
 
 The system is therefore path-dependent.
 
@@ -212,13 +212,13 @@ Each Subagent may operate with its own context and evidence history.
 
 Thus:
 
-$$
+```math
 State_{A_1}
 \neq
 State_{A_2}
 \neq
 State_{Lead}
-$$
+```
 
 This enables independent search trajectories, but also means that no single local context necessarily contains the full system state.
 
@@ -238,11 +238,11 @@ A separate Citation Agent is used to verify and attach citations to the synthesi
 
 This means that:
 
-$$
+```math
 Research
 \neq
 Citation\ Verification
-$$
+```
 
 and these functions are distributed across agents.
 
@@ -264,19 +264,19 @@ are performed within the agent system.
 
 Thus:
 
-$$
+```math
 Human
 \rightarrow
 Goal
-$$
+```
 
 followed by:
 
-$$
+```math
 Agent\ System
 \rightarrow
 Decomposition + Exploration + Coordination + Synthesis
-$$
+```
 
 ---
 
@@ -284,29 +284,29 @@ $$
 
 V003 mainly involved:
 
-$$
+```math
 Human
 \rightarrow
 Robot
-$$
+```
 
 V004 involves:
 
-$$
+```math
 Human
 \rightarrow
 Lead
 \rightarrow
 Subagents
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Delegation\ becomes\ recursive
 }
-$$
+```
 
 ---
 
@@ -377,11 +377,11 @@ V004 is strongly explainable through:
 
 Thus:
 
-$$
+```math
 \boxed{
 Conventional\ analysis\ is\ still\ very\ strong
 }
-$$
+```
 
 ---
 
@@ -393,13 +393,13 @@ Subagents perform delegated tasks.
 
 This is a conventional hierarchy:
 
-$$
+```math
 Central\ Planner
 \rightarrow
 Distributed\ Workers
 \rightarrow
 Aggregation
-$$
+```
 
 ---
 
@@ -432,15 +432,15 @@ However, increased compute and tool usage provide a strong alternative explanati
 
 Therefore:
 
-$$
+```math
 Multi\text{-}Agent\ Performance\uparrow
-$$
+```
 
 does not imply:
 
-$$
+```math
 Emergent\ Collective\ Intelligence
-$$
+```
 
 ---
 
@@ -454,9 +454,9 @@ Lead-to-Subagent delegation can be explained by conventional task allocation and
 
 As the number of agents grows:
 
-$$
+```math
 Coordination\ Cost\uparrow
-$$
+```
 
 This includes duplication, synthesis difficulty, resource usage, and task-allocation errors.
 
@@ -488,13 +488,13 @@ Despite the strong conventional baseline, several questions become harder:
 
 ### A. Where is the system state?
 
-$$
+```math
 State_{Lead}
 \neq
 State_{A_1}
 \neq
 State_{A_2}
-$$
+```
 
 No single context necessarily contains the whole process state.
 
@@ -509,7 +509,7 @@ Possible units include:
 
 ### C. Verification becomes recursive
 
-$$
+```math
 Subagent
 \rightarrow
 Lead
@@ -517,21 +517,21 @@ Lead
 Citation\ Agent
 \rightarrow
 Human
-$$
+```
 
 ### D. No single actor necessarily observes the whole process
 
-$$
+```math
 \boxed{
 No\ single\ actor\ necessarily\ observes\ the\ whole\ process
 }
-$$
+```
 
 ### E. Delegation becomes recursive
 
-$$
+```math
 Delegation\ depth > 1
-$$
+```
 
 ### F. Error origin and observed error may be far apart
 
@@ -543,13 +543,13 @@ Update relations are no longer purely dyadic.
 
 ### H. Temporal mismatch occurs between agents
 
-$$
+```math
 \tau_{A_1}
 \neq
 \tau_{A_2}
 \neq
 \tau_{Lead}
-$$
+```
 
 ---
 
@@ -559,21 +559,21 @@ $$
 
 The strongest candidate is:
 
-$$
+```math
 \boxed{
 U \approx Multi\text{-}Agent\ Research\ Process
 }
-$$
+```
 
 The system’s output emerges from a distributed process rather than one actor.
 
 Thus:
 
-$$
+```math
 \boxed{
 Updating\ Unit\ becomes\ distributed
 }
-$$
+```
 
 ---
 
@@ -583,11 +583,11 @@ Agent spawning can change system membership during execution.
 
 Thus:
 
-$$
+```math
 \boxed{
 B_t \neq B_{t+1}
 }
-$$
+```
 
 V003 involved a moving role boundary.
 
@@ -601,23 +601,23 @@ The system contains multiple local trajectories and one emergent system trajecto
 
 Thus:
 
-$$
+```math
 Trajectory_{A_1}
 \neq
 Trajectory_{A_2}
 \neq
 Trajectory_{Lead}
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Trajectory_{System}
 \neq
 \sum_i Trajectory_{A_i}
 }
-$$
+```
 
 The whole-system trajectory is not a simple sum of local trajectories.
 
@@ -634,9 +634,9 @@ Differences between agent findings can function as:
 
 Therefore:
 
-$$
+```math
 Difference
-$$
+```
 
 may become a coordination resource rather than only an error signal.
 
@@ -648,13 +648,13 @@ Each agent may have a distinct context and evidence history.
 
 Thus:
 
-$$
+```math
 F_{A_1}
 \neq
 F_{A_2}
 \neq
 F_{Lead}
-$$
+```
 
 The system therefore operates through distributed reference frames.
 
@@ -666,13 +666,13 @@ Agent-level success does not imply system-level success.
 
 Thus:
 
-$$
+```math
 \boxed{
 Agent\ Performance
 \neq
 System\ Performance
 }
-$$
+```
 
 Measurement must distinguish local and system-level outcomes.
 
@@ -684,7 +684,7 @@ Simple source citation is insufficient.
 
 The relevant chain is:
 
-$$
+```math
 Source
 \rightarrow
 Subagent
@@ -696,15 +696,15 @@ Lead
 Synthesis
 \rightarrow
 Citation
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Distributed\ Process\ Provenance
 }
-$$
+```
 
 becomes important.
 
@@ -716,11 +716,11 @@ The question shifts from changing one agent to redesigning the orchestration str
 
 Thus:
 
-$$
+```math
 \boxed{
 Can\ the\ system\ redesign\ its\ own\ delegation\ architecture?
 }
-$$
+```
 
 becomes a central second-order question.
 
@@ -732,27 +732,27 @@ Verification is relation-specific.
 
 Examples include:
 
-$$
+```math
 CFV_{Lead,Subagent}
-$$
+```
 
-$$
+```math
 CFV_{Citation,Lead}
-$$
+```
 
-$$
+```math
 CFV_{Human,System}
-$$
+```
 
 A key distinction is:
 
-$$
+```math
 \boxed{
 CFV_{local}
 \neq
 CFV_{global}
 }
-$$
+```
 
 ---
 
@@ -760,25 +760,25 @@ $$
 
 Update relations form a network:
 
-$$
+```math
 MU_{Lead\rightarrow A_i}
-$$
+```
 
-$$
+```math
 MU_{A_i\rightarrow Lead}
-$$
+```
 
-$$
+```math
 MU_{Lead\rightarrow A_j}
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 MU\ becomes\ networked
 }
-$$
+```
 
 ---
 
@@ -786,7 +786,7 @@ $$
 
 The distinctions become:
 
-$$
+```math
 Verification
 \neq
 Influence
@@ -794,7 +794,7 @@ Influence
 Operational\ Update
 \neq
 Structural\ Update
-$$
+```
 
 ---
 
@@ -812,13 +812,13 @@ The Lead may control:
 
 Thus:
 
-$$
+```math
 \boxed{
 Distributed\ Execution
 \neq
 Distributed\ Authority
 }
-$$
+```
 
 ---
 
@@ -826,13 +826,13 @@ $$
 
 Each agent may operate on a different timescale:
 
-$$
+```math
 \tau_{A_1}
 \neq
 \tau_{A_2}
 \neq
 \tau_{Lead}
-$$
+```
 
 Thus agent-to-agent temporal compatibility becomes relevant.
 
@@ -844,11 +844,11 @@ The system’s contact with reality is mediated through documents, web content, 
 
 Thus:
 
-$$
+```math
 \boxed{
 Reality\ Contact\ is\ mediated
 }
-$$
+```
 
 ---
 
@@ -856,27 +856,27 @@ $$
 
 Agent-to-agent disagreement can be represented as:
 
-$$
+```math
 Result_{A_1}
 -
 Result_{A_2}
-$$
+```
 
 or:
 
-$$
+```math
 Lead\ Expectation
 -
 Subagent\ Finding
-$$
+```
 
 This can be treated as:
 
-$$
+```math
 \boxed{
 Cross\text{-}Agent\ Residual
 }
-$$
+```
 
 ---
 
@@ -886,11 +886,11 @@ When agents disagree, the system may benefit from preserving disagreement rather
 
 Thus:
 
-$$
+```math
 \boxed{
 Hold\ the\ disagreement
 }
-$$
+```
 
 is analytically relevant.
 
@@ -904,11 +904,11 @@ Parallel agents expand available search paths.
 
 Thus:
 
-$$
+```math
 Possibility\ Space_{multi-agent}
 >
 Possibility\ Space_{single-agent}
-$$
+```
 
 ---
 
@@ -950,17 +950,17 @@ These are not counted as IDOS-specific findings.
 
 The update unit may be the whole research process rather than any single agent.
 
-$$
+```math
 \boxed{
 U \approx Multi\text{-}Agent\ Research\ Process
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -968,21 +968,21 @@ $$
 
 The system state is not located in one place.
 
-$$
+```math
 State_{Lead}
 \neq
 State_{A_1}
 \neq
 State_{A_2}
-$$
+```
 
 This becomes visible as a relation among partial states.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -990,21 +990,21 @@ $$
 
 Delegation becomes:
 
-$$
+```math
 Human
 \rightarrow
 Lead
 \rightarrow
 Subagent
-$$
+```
 
 and may expand dynamically during execution.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1012,17 +1012,17 @@ $$
 
 Update is no longer purely dyadic.
 
-$$
+```math
 \boxed{
 Update\ is\ no\ longer\ dyadic
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1032,19 +1032,19 @@ A local result may be verifiable while the adequacy of the overall search proces
 
 Thus:
 
-$$
+```math
 \boxed{
 Local\ CFV
 \neq
 Global\ CFV
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1052,21 +1052,21 @@ $$
 
 V004 makes visible the distinction:
 
-$$
+```math
 \boxed{
 Source\ Provenance
 \neq
 Process\ Provenance
 }
-$$
+```
 
 Source citation alone does not reconstruct the transformation path through the agent system.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1076,11 +1076,11 @@ This is the strongest candidate in V004.
 
 The system can generate:
 
-$$
+```math
 \boxed{
 One\ Global\ Output
 }
-$$
+```
 
 without any one actor necessarily observing:
 
@@ -1091,13 +1091,13 @@ without any one actor necessarily observing:
 
 Thus:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 This means:
 
@@ -1105,11 +1105,11 @@ This means:
 
 Classification:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate
 }
-$$
+```
 
 This is not yet confirmed as IV-3 because distributed cognition, organizational epistemology, and distributed systems may provide alternative explanations.
 
@@ -1121,19 +1121,19 @@ Multi-agent execution may be distributed while authority remains concentrated in
 
 Thus:
 
-$$
+```math
 \boxed{
 Distributed\ Execution
 \neq
 Distributed\ Authority
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1180,13 +1180,13 @@ These are already visible through established frameworks.
 
 The main candidate is:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 After concept removal tests, this structure still depends strongly on the combined use of:
 
@@ -1204,19 +1204,19 @@ However, established distributed-systems and distributed-cognition theories may 
 
 Therefore:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate\ retained
 }
-$$
+```
 
 but:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ not\ yet\ confirmed
 }
-$$
+```
 
 ---
 
@@ -1253,13 +1253,13 @@ V004 remains substantially explainable through established theory.
 
 However, the following structure survives the Necessity Test:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 In Japanese:
 
@@ -1277,21 +1277,21 @@ To describe this structure adequately, the following need to be considered toget
 
 Thus:
 
-$$
+```math
 \boxed{
 Incremental\ Visibility_{V004}
 =
 High
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate\ retained
 }
-$$
+```
 
 However, IV-3 confirmation is deferred until V005 and the five-case cross-case synthesis.
 

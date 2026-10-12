@@ -16,23 +16,23 @@ The purpose of this freeze is to reduce confirmation-driven case selection.
 
 The five-case pilot is structured across the following regime gradient:
 
-$$
+```math
 Present\ Normal
 \rightarrow Present\ Edge
 \rightarrow Transition
 \rightarrow Agentic/Multi\text{-}Agent
 \rightarrow Future\ Regime\ Proxy
-$$
+```
 
 The regime structure is theory-defined, but the specific case within each regime is selected mechanically from a frozen candidate pool.
 
-$$
+```math
 Theory\ defines\ the\ regime
-$$
+```
 
-$$
+```math
 Sampling\ selects\ the\ case
-$$
+```
 
 ---
 
@@ -50,15 +50,15 @@ The SHA-256 digest is interpreted as a hexadecimal integer.
 
 The raw zero-based index is:
 
-$$
+```math
 i = SHA256(seed)\bmod 5
-$$
+```
 
 The selected one-based candidate number is:
 
-$$
+```math
 Candidate = i + 1
-$$
+```
 
 No selected case may be replaced merely because IDOS performs weakly, conventional analysis performs strongly, or the case produces an inconvenient result.
 
@@ -189,13 +189,13 @@ Frozen selection: **Project Sid — Many-Agent AI Society**
 
 The resulting regime sequence is therefore:
 
-$$
+```math
 AI\ Support
 \rightarrow AI\text{-}Embedded\ Infrastructure
 \rightarrow Human/Robot\ Delegation\ Transition
 \rightarrow Multi\text{-}Agent\ Coordination
 \rightarrow Many\text{-}Agent\ Society\ Proxy
-$$
+```
 
 ---
 
@@ -221,9 +221,9 @@ This pilot is not a statistically representative sample of all Human–AI system
 
 It is a structured exploratory regime test designed to examine:
 
-$$
+```math
 Under\ what\ structural\ conditions\ does\ IDOS\ add\ visibility?
-$$
+```
 
 The analysis must therefore avoid claims about population prevalence or universal effect size.
 
@@ -233,13 +233,13 @@ The analysis must therefore avoid claims about population prevalence or universa
 
 After this freeze, the five selected cases should be analyzed without changing the pool:
 
-$$
+```math
 Raw\ Reconstruction
 \rightarrow Conventional\ Analysis
 \rightarrow IDOS\ Analysis
 \rightarrow Incremental\ Visibility
 \rightarrow Necessity\ Test
-$$
+```
 
 The first analysis case is:
 

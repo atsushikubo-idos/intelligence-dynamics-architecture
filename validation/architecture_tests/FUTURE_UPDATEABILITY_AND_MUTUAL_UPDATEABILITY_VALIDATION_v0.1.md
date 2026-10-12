@@ -42,7 +42,7 @@ The initial question was:
 
 Basic structure:
 
-\[
+```math
 S_0
 \rightarrow Shock_1
 \rightarrow Response_1
@@ -50,31 +50,31 @@ S_0
 \rightarrow S_1
 \rightarrow Shock_2
 \rightarrow Response_2
-\]
+```
 
 The target of observation is not simply:
 
-\[
+```math
 Performance_1 \rightarrow Performance_2
-\]
+```
 
 but:
 
-\[
+```math
 Update_1
 \rightarrow
 \Delta Capacity(Update \mid Shock_2)
-\]
+```
 
 This was provisionally called **Future Updateability (FU)**.
 
 A critical distinction was fixed:
 
-\[
+```math
 Performance \uparrow
 \not\Rightarrow
 Future\ Updateability \uparrow
-\]
+```
 
 Future Updateability concerns the capacity to update under future change, not current performance.
 
@@ -146,11 +146,11 @@ GitLab.com database outage, 31 January 2017.
 
 The incident exposed a central residual:
 
-\[
+```math
 Backup\ Exists
 \neq
 Recovery\ Capability\ Exists
-\]
+```
 
 Backups nominally existed, but restoration capability had not been sufficiently verified.
 
@@ -166,21 +166,21 @@ Relevant failures included:
 
 The important IDOS-style observation was a divergence between:
 
-\[
+```math
 Representation(\text{recoverability})
-\]
+```
 
 and
 
-\[
+```math
 Reality(\text{actual recovery capacity})
-\]
+```
 
 producing:
 
-\[
+```math
 Residual_1
-\]
+```
 
 ---
 
@@ -200,19 +200,19 @@ Post-incident changes included:
 
 The update was therefore not merely:
 
-\[
+```math
 More\ Backup
-\]
+```
 
 but increasingly:
 
-\[
+```math
 Backup
 \rightarrow
 Verification
 \rightarrow
 Recovery\ Capability
-\]
+```
 
 ---
 
@@ -238,9 +238,9 @@ Coordination problems nevertheless remained.
 
 Narrow result:
 
-\[
+```math
 \Delta FU_{\text{DB recovery/reconfiguration}} > 0
-\]
+```
 
 Classification:
 
@@ -256,13 +256,13 @@ Coordination remained closer to:
 
 The case supported the distinction:
 
-\[
+```math
 \boxed{
 Performance
 \neq
 Future\ Updateability
 }
-\]
+```
 
 A system may perform better without necessarily becoming better at updating under a future unknown disturbance.
 
@@ -276,12 +276,12 @@ A second distinction emerged.
 
 Observe:
 
-\[
+```math
 Shock_1
 \rightarrow Update_1
 \rightarrow Shock_2
 \rightarrow Response_2
-\]
+```
 
 and infer whether Update₁ changed later updating capacity.
 
@@ -289,27 +289,27 @@ and infer whether Update₁ changed later updating capacity.
 
 At time \(t\), before Shock₂:
 
-\[
+```math
 S_t
 \rightarrow FU_t
 \rightarrow Unknown\ Future
-\]
+```
 
 The objective is not to predict the future event.
 
 It is to assess:
 
-\[
+```math
 Expected\ Capacity(Update \mid Unknown\ Future)
-\]
+```
 
 Thus:
 
-\[
+```math
 Future\ Performance
 \neq
 Future\ Updateability
-\]
+```
 
 The predictive dimensions provisionally used were:
 
@@ -355,15 +355,15 @@ Provisional assessment:
 
 A critical prediction was added:
 
-\[
+```math
 Successful\ Response_1
 \not\Rightarrow
 High\ FU
-\]
+```
 
 A successful previous response could potentially create:
 
-\[
+```math
 Successful\ Update_1
 \rightarrow
 Confidence\ in\ Model_1
@@ -371,7 +371,7 @@ Confidence\ in\ Model_1
 Model\ Fixation
 \rightarrow
 FU \downarrow
-\]
+```
 
 This was called the **Success Trap candidate**.
 
@@ -396,19 +396,19 @@ The university:
 
 The case supported a second distinction:
 
-\[
+```math
 \boxed{
 Learning
 \neq
 Future\ Updateability
 }
-\]
+```
 
 A system can learn from Shock₁ without necessarily preserving the ability to reopen and revise that learning when Reality₂ no longer fits it.
 
 This connects directly to the IDOS sequence:
 
-\[
+```math
 Reality'
 \rightarrow
 Difference'
@@ -418,7 +418,7 @@ Residual'
 Reopening
 \rightarrow
 Update'
-\]
+```
 
 However, this observation does **not** establish novelty.
 
@@ -436,9 +436,9 @@ Adaptive capacity already concerns a system's capacity to adjust under disturban
 
 Therefore:
 
-\[
+```math
 FU \neq \text{novel merely because it concerns future adaptation}
-\]
+```
 
 ---
 
@@ -450,9 +450,9 @@ Sensing, seizing, transforming, and reconfiguring capabilities already address o
 
 Therefore:
 
-\[
+```math
 FU \neq \text{novel merely because it concerns reconfiguration}
-\]
+```
 
 ---
 
@@ -464,9 +464,9 @@ Organizations can modify behavior and routines based on experience.
 
 Therefore:
 
-\[
+```math
 Learning\ Transfer
-\]
+```
 
 cannot by itself establish an IDOS differential.
 
@@ -480,11 +480,11 @@ Existing learning theory already distinguishes changing actions from revising th
 
 Therefore:
 
-\[
+```math
 Learning_1
 \rightarrow
 Revision(Learning_1)
-\]
+```
 
 is not sufficient to establish novelty.
 
@@ -494,31 +494,31 @@ is not sufficient to establish novelty.
 
 The hypothesis:
 
-\[
+```math
 \boxed{
 Future\ Updateability\ is\ a\ novel\ capability
 }
-\]
+```
 
 was weakened/rejected as a novelty claim.
 
 The remaining candidate shifted from a new capability concept toward:
 
-\[
+```math
 \boxed{
 Trajectory\ of\ Updateability
 }
-\]
+```
 
 That is:
 
-\[
+```math
 Capacity(Update)_t
 \rightarrow
 Capacity(Update)_{t+1}
 \rightarrow
 Capacity(Update)_{t+2}
-\]
+```
 
 within a common longitudinal architecture.
 
@@ -530,43 +530,43 @@ IDOS concerns heterogeneous intelligences rather than a single isolated system.
 
 Let:
 
-\[
+```math
 S_A(t)
-\]
+```
 
 and
 
-\[
+```math
 S_B(t)
-\]
+```
 
 be two heterogeneous systems.
 
 Interaction may produce:
 
-\[
+```math
 Res_{A \leftarrow B}
-\]
+```
 
 and:
 
-\[
+```math
 Res_{B \leftarrow A}
-\]
+```
 
 followed by:
 
-\[
+```math
 S_A(t+1)
 =
 G_A(S_A(t),Res_{A \leftarrow B})
-\]
+```
 
-\[
+```math
 S_B(t+1)
 =
 G_B(S_B(t),Res_{B \leftarrow A})
-\]
+```
 
 The stronger question became:
 
@@ -574,15 +574,15 @@ The stronger question became:
 
 Formally:
 
-\[
+```math
 G_A(t+1) \neq G_A(t)
-\]
+```
 
 and/or
 
-\[
+```math
 G_B(t+1) \neq G_B(t)
-\]
+```
 
 This was provisionally called **Mutual Updateability**.
 
@@ -600,41 +600,41 @@ Existing literature already contains:
 
 Therefore:
 
-\[
+```math
 A_t + B_t
 \rightarrow
 Interaction
 \rightarrow
 A_{t+1}+B_{t+1}
-\]
+```
 
 is not novel.
 
 Likewise:
 
-\[
+```math
 A \leftrightarrow B
-\]
+```
 
 mutual adaptation cannot establish an IDOS differential.
 
 ### Reduction
 
-\[
+```math
 \boxed{
 Mutual\ Adaptation
 \neq
 IDOS\ Differential\ Value
 }
-\]
+```
 
 The stronger remaining candidate became:
 
-\[
+```math
 \boxed{
 Reciprocal\ change\ in\ future\ update\ mechanisms
 }
-\]
+```
 
 ---
 
@@ -658,11 +658,11 @@ However, a key distinction remained.
 
 For the robot:
 
-\[
+```math
 Q_t
 \rightarrow
 Q_{t+1}
-\]
+```
 
 was observed.
 
@@ -670,19 +670,19 @@ But the underlying learning architecture—state representation, available actio
 
 Therefore the evidence did not establish:
 
-\[
+```math
 G_R(t)
 \rightarrow
 G_R(t+1)
-\]
+```
 
 For the human:
 
-\[
+```math
 Behavior_H(t)
 \rightarrow
 Behavior_H(t+1)
-\]
+```
 
 was observable, but a change in the human's update mechanism itself could not be directly identified.
 
@@ -701,13 +701,13 @@ was observable, but a change in the human's update mechanism itself could not be
 
 This produced a useful measurement distinction:
 
-\[
+```math
 \boxed{
 Mutual\ Adaptation
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 This is a distinction of **measurement target**, not yet a novelty claim.
 
@@ -719,45 +719,45 @@ A further human–adaptive-machine experiment examined simultaneous adaptation b
 
 The experiment demonstrated:
 
-\[
+```math
 Behavior_H(t)
 \rightarrow
 Behavior_H(t+1)
-\]
+```
 
 and:
 
-\[
+```math
 Policy_M(t)
 \rightarrow
 Policy_M(t+1)
-\]
+```
 
 However, the machine's adaptation rule itself was experimentally specified.
 
 Therefore:
 
-\[
+```math
 Policy_M(t)
 \rightarrow
 Policy_M(t+1)
-\]
+```
 
 did not establish:
 
-\[
+```math
 G_M(t)
 \rightarrow
 G_M(t+1)
-\]
+```
 
 Again:
 
-\[
+```math
 Policy\ Update
 \neq
 Update\text{-}Mechanism\ Update
-\]
+```
 
 ---
 
@@ -771,29 +771,29 @@ After repeated errors associated with a context, the robot could use that contex
 
 This is closer to:
 
-\[
+```math
 Experience
 \rightarrow
 Change\ in\ how\ future\ learning\ is\ initiated
-\]
+```
 
 rather than merely:
 
-\[
+```math
 Value_t
 \rightarrow
 Value_{t+1}
-\]
+```
 
 Thus it is a candidate example of:
 
-\[
+```math
 \boxed{
 G_R(t)
 \rightarrow
 G_R(t+1)
 }
-\]
+```
 
 or at minimum a change in the effective future learning procedure.
 
@@ -803,11 +803,11 @@ Modern meta-learning and meta-reinforcement-learning research explicitly address
 
 Therefore:
 
-\[
+```math
 \boxed{
 Update\text{-}Mechanism\ Change
 }
-\]
+```
 
 itself cannot be claimed as uniquely IDOS.
 
@@ -821,9 +821,9 @@ The validation sequence progressively removed increasingly strong novelty candid
 
 Rejected as differential value.
 
-\[
+```math
 Performance \uparrow
-\]
+```
 
 is conventional.
 
@@ -833,10 +833,10 @@ is conventional.
 
 Rejected as differential value.
 
-\[
+```math
 Experience
 \rightarrow Learning
-\]
+```
 
 is conventional.
 
@@ -898,53 +898,53 @@ After reduction, the strongest unresolved candidate is not any single component 
 
 It is the **integrated longitudinal relational architecture**:
 
-\[
+```math
 G_A(t)
 \leftrightarrow
 G_B(t)
-\]
+```
 
-\[
+```math
 \downarrow Interaction_t
-\]
+```
 
-\[
+```math
 Residual_A(t),\ Residual_B(t)
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Update_A(t),\ Update_B(t)
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 G_A(t+1)
 \leftrightarrow
 G_B(t+1)
-\]
+```
 
 followed by:
 
-\[
+```math
 Interaction_{t+1}
-\]
+```
 
 and another cycle.
 
 The candidate differential is therefore:
 
-\[
+```math
 \boxed{
 \text{Relational Trajectory of Update Mechanisms across Heterogeneous Intelligences}
 }
-\]
+```
 
 More precisely:
 
@@ -952,7 +952,7 @@ More precisely:
 
 This can be represented provisionally as:
 
-\[
+```math
 Interaction_t
 \rightarrow
 Residual_t
@@ -964,7 +964,7 @@ Mutual\ Update_t
 \Delta Future\ Updateability_t
 \rightarrow
 Interaction_{t+1}
-\]
+```
 
 ---
 
@@ -974,7 +974,7 @@ No new major architectural component is required.
 
 The result maps back onto existing IDOS elements:
 
-\[
+```math
 Reality
 \rightarrow
 Difference
@@ -998,33 +998,33 @@ Enactment
 Reality'
 \rightarrow
 Reopening
-\]
+```
 
 The important implication is that **Trajectory** may include not only state and performance change, but change in the system's future updating capacity and mechanisms.
 
 For heterogeneous systems:
 
-\[
+```math
 S_i(t)=\{X,F,B,M,V,C,P\}
-\]
+```
 
 interaction may generate:
 
-\[
+```math
 Res_{i \leftarrow j}
-\]
+```
 
 followed by changes in:
 
-\[
+```math
 S_i(t+1)
-\]
+```
 
 and potentially:
 
-\[
+```math
 G_i(t+1)
-\]
+```
 
 The research target is therefore not merely whether heterogeneous systems converge, cooperate, or adapt.
 
@@ -1061,11 +1061,11 @@ It is whether their interaction changes:
 
 Current overall judgment:
 
-\[
+```math
 \boxed{
 Differential\ Value = Partial / Unresolved
 }
-\]
+```
 
 A **V+** conclusion is not justified.
 
@@ -1093,55 +1093,55 @@ The current validation also exposes a measurement problem.
 
 Observing:
 
-\[
+```math
 Behavior_t \neq Behavior_{t+1}
-\]
+```
 
 does not establish:
 
-\[
+```math
 G_t \neq G_{t+1}
-\]
+```
 
 Likewise:
 
-\[
+```math
 Policy_t \neq Policy_{t+1}
-\]
+```
 
 does not necessarily establish a change in the update mechanism.
 
 Future empirical work must distinguish at least:
 
-\[
+```math
 \boxed{
 State\ Change
 }
-\]
+```
 
 from:
 
-\[
+```math
 \boxed{
 Behavior/Policy\ Change
 }
-\]
+```
 
 from:
 
-\[
+```math
 \boxed{
 Update\text{-}Mechanism\ Change
 }
-\]
+```
 
 and from:
 
-\[
+```math
 \boxed{
 Change\ in\ Future\ Updateability
 }
-\]
+```
 
 This distinction should be preserved in future IDOS measurement protocols.
 
@@ -1155,11 +1155,11 @@ Instead, the sequence has progressively reduced the candidate differential value
 
 The remaining unresolved core is:
 
-\[
+```math
 \boxed{
 \textbf{Relational Trajectory of Update Mechanisms across Heterogeneous Intelligences}
 }
-\]
+```
 
 or, in plain language:
 
@@ -1180,11 +1180,11 @@ It should test whether this relational trajectory can be:
 
 Until that test succeeds:
 
-\[
+```math
 \boxed{
 Status = Freeze\ Candidate,\ not\ Novelty\ Claim
 }
-\]
+```
 
 ---
 

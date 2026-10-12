@@ -26,11 +26,11 @@ The frozen candidate ordering for D6 was:
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{CASE-P005 = Deepwater Horizon Process-Safety Failure}
 }
-$$
+```
 
 ---
 
@@ -44,13 +44,13 @@ At this stage, the case is not described using IDOS terms such as Residual, Hold
 
 The minimum theory-neutral structure is:
 
-$$
+```math
 \boxed{
 \text{Operational well system}
 \rightarrow
 \text{Temporary-abandonment operations}
 }
-$$
+```
 
 ## A2. Pre-incident system
 
@@ -70,7 +70,7 @@ The relevant system included at least:
 
 The case is therefore treated as a **complex engineering system**, not as a single-component mechanical failure.
 
-$$
+```math
 \boxed{
 \text{Physical equipment}
 +
@@ -80,7 +80,7 @@ $$
 +
 \text{Management system}
 }
-$$
+```
 
 ## A3. Immediate operational context
 
@@ -90,21 +90,21 @@ Official investigation found that the test lacked clear written procedures, succ
 
 Theory-neutrally:
 
-$$
+```math
 \text{Operational Plan}
 \rightarrow
 \text{Repeated Changes}
-$$
+```
 
 and:
 
-$$
+```math
 \text{Pressure Test}
 \rightarrow
 \text{Interpretation}
 \rightarrow
 \text{Operational Decision}
-$$
+```
 
 ## A4. Critical test interpretation
 
@@ -114,21 +114,21 @@ The test was treated as indicating adequate well integrity, but the hydrocarbon 
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Measured Signals}
 \rightarrow
 \text{Operational Interpretation}
 }
-$$
+```
 
 did not match:
 
-$$
+```math
 \boxed{
 \text{Actual Well Condition}
 }
-$$
+```
 
 At this stage, the mismatch is not yet called an IDOS `Difference` or `Residual`.
 
@@ -138,11 +138,11 @@ Following the interpretation that the well was secure, abandonment operations co
 
 The physical sequence became:
 
-$$
+```math
 \text{Hydrocarbon influx}
 \rightarrow
 \text{Loss of well control}
-$$
+```
 
 The accident was investigated as involving multiple direct and contributing causes and multiple barrier failures.
 
@@ -150,7 +150,7 @@ The accident was investigated as involving multiple direct and contributing caus
 
 The physical escalation can be represented as:
 
-$$
+```math
 \boxed{
 \text{Well Control Loss}
 \rightarrow
@@ -160,7 +160,7 @@ $$
 \rightarrow
 \text{Explosion / Fire}
 }
-$$
+```
 
 The BOP failed to seal the well. Post-incident engineering analysis identified drillpipe buckling and off-center positioning as important elements of the failure mechanism.
 
@@ -177,13 +177,13 @@ Observed consequences included:
 
 Thus:
 
-$$
+```math
 \boxed{
 \text{Pre-incident operational state}
 \neq
 \text{Post-incident physical state}
 }
-$$
+```
 
 ## A8. Not a single-failure case
 
@@ -200,23 +200,23 @@ The official investigations addressed interacting technical, operational, proced
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Accident}
 \neq
 \text{Single Component Failure}
 }
-$$
+```
 
 and more cautiously:
 
-$$
+```math
 \boxed{
 \text{Multiple interacting technical, operational, and organizational conditions}
 \rightarrow
 \text{Catastrophic outcome}
 }
-$$
+```
 
 ## A9. Earlier signals and prior incidents
 
@@ -226,19 +226,19 @@ A prior Transocean incident had produced an Operations Advisory, and Deepwater H
 
 Thus:
 
-$$
+```math
 \text{Earlier Incident}
 \rightarrow
 \text{Recorded Information}
-$$
+```
 
 existed, but:
 
-$$
+```math
 \text{Recorded Information}
 \rightarrow
 \text{Effective Operational Change}
-$$
+```
 
 was not clearly established.
 
@@ -248,19 +248,19 @@ Official investigation also criticized the emphasis on personal-safety indicator
 
 Thus:
 
-$$
+```math
 \boxed{
 \text{What was measured}
 }
-$$
+```
 
 was not identical to:
 
-$$
+```math
 \boxed{
 \text{What catastrophic risk was developing}
 }
-$$
+```
 
 The theory-neutral statement is:
 
@@ -268,91 +268,91 @@ The theory-neutral statement is:
 
 ## A11. Minimal temporal reconstruction
 
-$$
+```math
 \boxed{
 \text{Exploratory well completed}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Temporary abandonment preparation}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Pressure testing}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Test interpretation}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Continuation of abandonment operations}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Hydrocarbon influx}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Loss of well control}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Emergency barrier failure}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Explosion, fire, sinking, spill}
 }
-$$
+```
 
 ## A12. Observable vs inferred
 
@@ -379,13 +379,13 @@ Reconstructed or inferred elements include:
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Physical Evidence}
 \neq
 \text{Complete Reconstruction of Human / Organizational State}
 }
-$$
+```
 
 ---
 
@@ -417,13 +417,13 @@ Examples:
 
 Key distinction:
 
-$$
+```math
 \boxed{
 \text{Available}
 \neq
 \text{Recognized}
 }
-$$
+```
 
 ### E2 — Pre-existing organizational knowledge
 
@@ -431,13 +431,13 @@ Prior well-control incidents and recorded lessons existed before Macondo.
 
 Key distinction:
 
-$$
+```math
 \boxed{
 \text{Knowledge existed}
 \neq
 \text{Knowledge reached the relevant operation}
 }
-$$
+```
 
 ### E3 — Procedural / design evidence
 
@@ -460,53 +460,53 @@ Examples:
 
 Key distinction:
 
-$$
+```math
 \boxed{
 \text{Known after accident}
 \not\Rightarrow
 \text{Knowable by operators before accident}
 }
-$$
+```
 
 ## Barrier reconstruction
 
 A useful theory-neutral barrier structure is:
 
-$$
+```math
 \boxed{
 \text{Formation Isolation}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Integrity Verification}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Operational Detection / Response}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Emergency Containment}
 }
-$$
+```
 
 The accident is better represented as interacting and sequential barrier degradation than as a single-failure event.
 
@@ -516,7 +516,7 @@ Three levels are distinguished.
 
 ### C1 — Immediate physical causation
 
-$$
+```math
 \text{Hydrocarbon influx}
 \rightarrow
 \text{Loss of well control}
@@ -526,11 +526,11 @@ $$
 \text{Ignition}
 \rightarrow
 \text{Explosion / Fire}
-$$
+```
 
 ### C2 — Operational causation
 
-$$
+```math
 \text{Test}
 \rightarrow
 \text{Interpretation}
@@ -540,7 +540,7 @@ $$
 \text{Mud displacement}
 \rightarrow
 \text{Loss of hydrostatic control}
-$$
+```
 
 ### C3 — Organizational / system conditions
 
@@ -555,35 +555,35 @@ Includes:
 
 But:
 
-$$
+```math
 \boxed{
 \text{Organizational condition}
 \neq
 \text{Direct physical cause}
 }
-$$
+```
 
 ## Hindsight boundary
 
-$$
+```math
 \boxed{
 \text{Evidence}_{investigator}
 \neq
 \text{Evidence}_{operator,t}
 }
-$$
+```
 
 The information set available after the accident must not be projected backward onto the real-time operator.
 
 ## Counterfactual boundary
 
-$$
+```math
 \boxed{
 \text{Observed history}
 \neq
 \text{Counterfactual history}
 }
-$$
+```
 
 Claims such as “the accident would have been prevented if…” remain counterfactual.
 
@@ -639,7 +639,7 @@ A key result is that the full provisional 12PDM does **not** map cleanly or unif
 
 The stronger structure is:
 
-$$
+```math
 \boxed{
 \text{Reality}
 \rightarrow
@@ -655,7 +655,7 @@ $$
 \rightarrow
 \text{New Difference}
 }
-$$
+```
 
 with History / Provenance and cross-unit propagation as lateral structures.
 
@@ -690,17 +690,17 @@ Barrier failure, control failure, process-model mismatch, weak-signal handling, 
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{P005 Accident Causation}
 \not\Rightarrow
 \text{Need for IDOS}
 }
-$$
+```
 
 The strongest remaining candidate for IDOS is at a different level:
 
-$$
+```math
 \boxed{
 \text{Difference}_i
 \rightarrow
@@ -712,7 +712,7 @@ $$
 \rightarrow
 \text{Relational/System Update}
 }
-$$
+```
 
 That is, IDOS may function as a **general update architecture**, not as a replacement accident theory.
 
@@ -732,11 +732,11 @@ That is, IDOS may function as a **general update architecture**, not as a replac
 
 The removal test asks:
 
-$$
+```math
 \boxed{
 \text{Remove IDOS: what becomes impossible to describe?}
 }
-$$
+```
 
 ## Main results
 
@@ -764,11 +764,11 @@ Most individual IDOS process concepts are not necessary for explaining P005.
 
 The most important remaining question is:
 
-$$
+```math
 \boxed{
 \text{How does locally generated knowledge become System Update?}
 }
-$$
+```
 
 ---
 
@@ -817,7 +817,7 @@ would destroy empirical content.
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Observed}
 \neq
@@ -825,7 +825,7 @@ $$
 \neq
 \text{Unobservable}
 }
-$$
+```
 
 must remain enforced.
 
@@ -841,13 +841,13 @@ must remain enforced.
 
 The comparison target is:
 
-$$
+```math
 \boxed{
 \text{Existing Framework + IDOS}
 >
 \text{Existing Framework Alone}?
 }
-$$
+```
 
 ## Result
 
@@ -873,11 +873,11 @@ The candidate gain is primarily **cross-unit / system-level descriptive integrat
 
 A useful decomposition of incremental value is:
 
-$$
+```math
 \boxed{
 IEV=\{D,P,I,C\}
 }
-$$
+```
 
 where:
 
@@ -912,13 +912,13 @@ P005 was compared against prior prospective cases:
 
 Across healthcare intervention, Human-AI professional work, and engineering failure:
 
-$$
+```math
 \boxed{
 \text{Evidence at level }L_k
 \not\Rightarrow
 \text{Evidence at level }L_{k+1}
 }
-$$
+```
 
 Examples:
 
@@ -928,23 +928,23 @@ Examples:
 
 A recurring architecture-level distinction is therefore:
 
-$$
+```math
 \boxed{
 \text{Difference}
 \not\Rightarrow
 \text{Update}
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 \text{Internal Change}
 \not\Rightarrow
 \text{Validated System Update}
 }
-$$
+```
 
 Reality Recontact also remained useful across the three cases.
 
@@ -962,11 +962,11 @@ Across P003–P005:
 
 A provisional research hypothesis emerged:
 
-$$
+```math
 \boxed{
 \text{Future Updateability}
 }
-$$
+```
 
 meaning:
 
@@ -992,53 +992,53 @@ The Stage G pattern was deliberately challenged.
 
 If the relevant system consists of a single Updating Unit and the observed outcome change is the system change itself, then:
 
-$$
+```math
 \text{Local Update}
 =
 \text{System Update}
-$$
+```
 
 may be valid.
 
 Therefore the stronger claim:
 
-$$
+```math
 \text{Outcome Improvement}
 \neq
 \text{System Update}
-$$
+```
 
 is replaced by:
 
-$$
+```math
 \boxed{
 \text{Outcome Improvement}
 \not\Rightarrow
 \text{System Update}
 }
-$$
+```
 
 ### CE2 — Cross-unit propagation may be unnecessary
 
 Single-unit systems or centrally controlled star-topology systems may not require:
 
-$$
+```math
 Update_i
 \rightarrow
 Difference_j
 \rightarrow
 Update_j
-$$
+```
 
 ### CE3 — Relation may be reducible
 
 If:
 
-$$
+```math
 Relation_{ij}
 =
 f(State_i,State_j)
-$$
+```
 
 with no loss of relevant information, an independent Relational Update construct may be unnecessary.
 
@@ -1050,11 +1050,11 @@ One-shot tasks, terminating systems, or very stable environments may not require
 
 Exploration, random mutation, or internally generated transformation may challenge a universal:
 
-$$
+```math
 Difference
 \rightarrow
 Update
-$$
+```
 
 claim unless Difference has independent identification criteria.
 
@@ -1074,11 +1074,11 @@ If Reality is defined too broadly as “anything constraining the system,” Rea
 
 The revised form is:
 
-$$
+```math
 \boxed{
 \text{If structural condition }C\text{ holds, concept }X\text{ becomes useful / necessary.}
 }
-$$
+```
 
 ## Conditional architecture matrix
 
@@ -1141,7 +1141,7 @@ $$
 
 IDOS has low added value in systems approximating:
 
-$$
+```math
 \boxed{
 \text{Single Unit}
 +
@@ -1153,11 +1153,11 @@ $$
 +
 \text{One-shot task}
 }
-$$
+```
 
 Its potential value increases as the system contains:
 
-$$
+```math
 \boxed{
 \text{Heterogeneity}
 +
@@ -1169,7 +1169,7 @@ $$
 +
 \text{Continued adaptation}
 }
-$$
+```
 
 ---
 
@@ -1230,73 +1230,73 @@ Classification categories:
 
 The most compact result is:
 
-$$
+```math
 \boxed{
 \text{P005 does not validate IDOS;}
 \quad
 \text{it reduces and conditions it.}
 }
-$$
+```
 
 The strongest surviving distinctions are:
 
-$$
+```math
 \boxed{
 \text{Reality}
 \neq
 \text{Observation}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Difference}
 \not\Rightarrow
 \text{Update}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Transformation}
 \rightarrow
 \text{Reality Recontact}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Evidence}_{L_k}
 \not\Rightarrow
 \text{Evidence}_{L_{k+1}}
 }
-$$
+```
 
 and, conditionally:
 
-$$
+```math
 \boxed{
 \text{Local Update}
 \not\Rightarrow
 \text{System Update}
 }
-$$
+```
 
 In systems with multiple semi-autonomous Units, additional attention should be given to:
 
-$$
+```math
 \boxed{
 \text{Cross-Unit Propagation}
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 \text{Relational / System Update}
 }
-$$
+```
 
 ---
 
@@ -1304,11 +1304,11 @@ $$
 
 ## Immediate revision
 
-$$
+```math
 \boxed{
 \text{NO CHANGE}
 }
-$$
+```
 
 P005 does not require an immediate revision of `MASTER_MAP_v1.0`.
 
@@ -1325,11 +1325,11 @@ The current Master Map already distinguishes:
 
 Therefore P005 should be recorded as:
 
-$$
+```math
 \boxed{
 \text{Accumulating Empirical Pressure}
 }
-$$
+```
 
 on provisional mechanisms, not as a trigger for immediate canonical change.
 
@@ -1369,7 +1369,7 @@ The stronger research result is that the validation procedure was able to:
 
 Therefore P005 functions primarily as:
 
-$$
+```math
 \boxed{
 \text{Architecture Reduction}
 +
@@ -1377,7 +1377,7 @@ $$
 +
 \text{Cross-Domain Stress Test}
 }
-$$
+```
 
 rather than as a validation case.
 

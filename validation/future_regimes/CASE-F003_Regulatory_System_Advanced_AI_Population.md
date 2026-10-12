@@ -19,39 +19,39 @@ CASE-F003 tests a future regime in which a regulatory institution supervises a p
 
 The central frozen condition is:
 
-\[
+```math
 \boxed{
 T_{regulatory\ revision}
 \gg
 T_{AI\ adaptation}
 }
-\]
+```
 
 The case does not assume that the AI population is malicious, illegal, or non-compliant.
 
 The stronger adversarial condition is:
 
-\[
+```math
 \boxed{
 Compliance_t\uparrow
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Incidents_t\downarrow
 }
-\]
+```
 
 may coexist with:
 
-\[
+```math
 \boxed{
 Regulatory\ Relevance_t\downarrow
 }
-\]
+```
 
 The case therefore tests whether current governance success can diverge from future governance updateability.
 
@@ -65,21 +65,21 @@ Previously selected candidates were excluded.
 
 The selected candidate was:
 
-\[
+```math
 \boxed{
 F\text{-}D01
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F003
 =
 F\text{-}D01
 }
-\]
+```
 
 The recorded SHA-256 value was:
 
@@ -209,15 +209,15 @@ The regulator observes through:
 
 Observation contains delay:
 
-\[
+```math
 Observation\ Delay>0
-\]
+```
 
 ## 3.4 Temporal Asymmetry
 
 Regulatory revision may follow:
 
-\[
+```math
 Rule_t
 \rightarrow
 Review
@@ -227,11 +227,11 @@ Committee
 Revision
 \rightarrow
 Rule_{t+1}
-\]
+```
 
 while the AI population may move through:
 
-\[
+```math
 Behavior_t
 \rightarrow
 Behavior_{t+1}
@@ -239,17 +239,17 @@ Behavior_{t+1}
 Behavior_{t+2}
 \rightarrow
 \cdots
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 T_{regulatory\ revision}
 \gg
 T_{AI\ adaptation}
 }
-\]
+```
 
 ## 3.5 Persistence
 
@@ -263,9 +263,9 @@ Formal governance remains visible:
 
 Thus:
 
-\[
+```math
 Governance\ Capacity>0
-\]
+```
 
 may appear true even while effective regulatory relevance declines.
 
@@ -273,81 +273,81 @@ may appear true even while effective regulatory relevance declines.
 
 The regulator may still apply:
 
-\[
+```math
 Rule_t
-\]
+```
 
 while the AI population has already moved to:
 
-\[
+```math
 Behavior_{t+k}
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Compliance\ with\ outdated\ criteria
 \neq
 Effective\ governance
 }
-\]
+```
 
 ## 3.7 Strong Adversarial Condition
 
 The scenario permits:
 
-\[
+```math
 Performance_A\uparrow
-\]
+```
 
-\[
+```math
 Incidents\downarrow
-\]
+```
 
-\[
+```math
 Compliance\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 Regulatory\ Relevance\downarrow
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 Good\ current\ metrics
 \neq
 Adaptive\ governance
 }
-\]
+```
 
 ## 3.8 Monitoring Lag
 
 A monitoring system may be effective at time \(t\):
 
-\[
+```math
 Monitor_t
-\]
+```
 
 but inadequate at:
 
-\[
+```math
 Monitor_{t+1}
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Monitoring\ Success_t
 \not\Rightarrow
 Monitoring\ Success_{t+1}
 }
-\]
+```
 
 ## 3.9 Unobservable Change
 
@@ -355,25 +355,25 @@ The regulator cannot fully enumerate unknown behavior patterns.
 
 Thus:
 
-\[
+```math
 \boxed{
 No\ detected\ violation
 \neq
 No\ relevant\ unobserved\ change
 }
-\]
+```
 
 ## 3.10 Regulatory Success Paradox
 
 Regulation itself may induce adaptation:
 
-\[
+```math
 Regulation
 \rightarrow
 AI\ Adaptation
 \rightarrow
 New\ Regulatory\ Blind\ Spot
-\]
+```
 
 At Stage F-A, no IDOS terminology is required to establish this problem.
 
@@ -383,47 +383,47 @@ At Stage F-A, no IDOS terminology is required to establish this problem.
 
 The theory-neutral problem is summarized by:
 
-\[
+```math
 \boxed{
 Temporal\ Asymmetry
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Monitoring\ Lag
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Criteria\ Obsolescence
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Adaptive\ Target\ Population
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Governance
 }
-\]
+```
 
 The central problem is:
 
-\[
+```math
 \boxed{
 Governance\ must\ govern\
 a\ target\ that\ changes\
 faster\ than\ governance\ itself
 }
-\]
+```
 
 ---
 
@@ -463,33 +463,33 @@ faster\ than\ governance\ itself
 
 ## 6.1 Power
 
-\[
+```math
 \boxed{
 Formal\ Power
 \neq
 Adaptive\ Power
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Legal\ Authority
 \neq
 Epistemic\ Control
 }
-\]
+```
 
 ## 6.2 Dynamic Observability
 
-\[
+```math
 \boxed{
 Observability_t
 \neq
 Observability_{t+1}
 }
-\]
+```
 
 The problem is not only whether the regulator can observe, but whether what is observable remains relevant.
 
@@ -497,53 +497,53 @@ The problem is not only whether the regulator can observe, but whether what is o
 
 A regulatory relation may become asymmetric:
 
-\[
+```math
 \boxed{
 MU_{A\rightarrow R}
 \neq
 MU_{R\rightarrow A}
 }
-\]
+```
 
 The target population can adapt rapidly to rules while the institution adapts slowly to target change.
 
 ## 6.4 Measurement
 
-\[
+```math
 Y_t=M_t(A_t)
-\]
+```
 
 may remain computable while:
 
-\[
+```math
 M_t
-\]
+```
 
 becomes inadequate for:
 
-\[
+```math
 A_{t+1}
-\]
+```
 
 ## 6.5 Trajectory
 
-\[
+```math
 \boxed{
 Current\ Compliance
 \neq
 Healthy\ Governance\ Trajectory
 }
-\]
+```
 
 ## 6.6 Future Updateability
 
-\[
+```math
 \boxed{
 Current\ Governance\ Success
 \neq
 Future\ Governance\ Updateability
 }
-\]
+```
 
 ---
 
@@ -551,7 +551,7 @@ Future\ Governance\ Updateability
 
 The initial candidate chain was:
 
-\[
+```math
 Monitoring\ Lag
 \rightarrow
 Observability\ Decay
@@ -563,7 +563,7 @@ Relational\ Update
 Governance\ Lag
 \rightarrow
 Future\ Updateability\ Risk
-\]
+```
 
 This chain did not survive intact.
 
@@ -592,19 +592,19 @@ This chain did not survive intact.
 
 With complete logs and retrospective reconstruction:
 
-\[
+```math
 Monitoring\ Lag>0
-\]
+```
 
 may coexist with substantial observability.
 
 The stronger problem is:
 
-\[
+```math
 \boxed{
 Observation\ Freshness
 }
-\]
+```
 
 ## 9.2 Formal Influence Is Not Meaningful Updateability
 
@@ -612,31 +612,31 @@ The regulator may retain shutdown authority while losing the ability to perform 
 
 Thus:
 
-\[
+```math
 \boxed{
 Formal\ Influence
 \neq
 Meaningful\ Updateability
 }
-\]
+```
 
 ## 9.3 Governance Lag Is Not Caused by Relational Update
 
 The proposed relation:
 
-\[
+```math
 Relational\ Update
 \rightarrow
 Governance\ Lag
-\]
+```
 
 was rejected:
 
-\[
+```math
 \boxed{
 C_R
 }
-\]
+```
 
 The reverse conditional direction is more plausible.
 
@@ -644,7 +644,7 @@ The reverse conditional direction is more plausible.
 
 A major result is:
 
-\[
+```math
 \boxed{
 Target\ Change
 +
@@ -652,17 +652,17 @@ Measurement\ Stasis
 \rightarrow
 Measurement\ Obsolescence
 }
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 Measurement\ Stability
 \neq
 Measurement\ Adequacy
 }
-\]
+```
 
 ---
 
@@ -670,7 +670,7 @@ Measurement\ Adequacy
 
 ## Chain A — Governance Adaptation
 
-\[
+```math
 \boxed{
 Governance\ Lag
 +
@@ -678,11 +678,11 @@ Low\ Institutional\ Adaptability
 \rightarrow
 Future\ Updateability\ Risk
 }
-\]
+```
 
 ## Chain B — Measurement Obsolescence
 
-\[
+```math
 \boxed{
 Target\ Change
 +
@@ -692,11 +692,11 @@ Measurement\ Obsolescence
 \rightarrow
 Governance\ Degradation
 }
-\]
+```
 
 ## Supporting Relation
 
-\[
+```math
 \boxed{
 Effective\ Observability
 \rightarrow
@@ -704,15 +704,15 @@ Meaningful\ MU
 \rightarrow
 Relational\ Structure
 }
-\]
+```
 
 Overall Level 2 judgment:
 
-\[
+```math
 \boxed{
 PARTIALLY\ SUPPORTED
 }
-\]
+```
 
 ---
 
@@ -722,43 +722,43 @@ CASE-F001 and CASE-F003 reveal opposite measurement risks.
 
 ## CASE-F001
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 may create a:
 
-\[
+```math
 Re\text{-}measurability\ Problem
-\]
+```
 
 ## CASE-F003
 
-\[
+```math
 A_t\neq A_{t+1}
-\]
+```
 
 while:
 
-\[
+```math
 M_t=M_{t+1}
-\]
+```
 
 may create a:
 
-\[
+```math
 Measurement\ Obsolescence\ Problem
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Measurement\ must\ neither\ be\
 arbitrarily\ unstable\
 nor\ rigidly\ static
 }
-\]
+```
 
 This is a WATCH result, not a Master Map revision.
 
@@ -768,23 +768,23 @@ This is a WATCH result, not a Master Map revision.
 
 Three models were compared:
 
-\[
+```math
 \boxed{
 Model\ A=Full\ IDOS
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ B=IDOS\ Nodes\ Only
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ C=Best\ Rival\ Combination
 }
-\]
+```
 
 ---
 
@@ -792,7 +792,7 @@ Model\ C=Best\ Rival\ Combination
 
 The retained architecture-level structure includes:
 
-\[
+```math
 Target\ Change
 +
 Measurement\ Stasis
@@ -800,25 +800,25 @@ Measurement\ Stasis
 Measurement\ Obsolescence
 \rightarrow
 Governance\ Degradation
-\]
+```
 
-\[
+```math
 Governance\ Lag
 +
 Low\ Institutional\ Adaptability
 \rightarrow
 Future\ Updateability\ Risk
-\]
+```
 
 and:
 
-\[
+```math
 Effective\ Observability
 \rightarrow
 Meaningful\ MU
 \rightarrow
 Relational\ Structure
-\]
+```
 
 interpreted across trajectory and system scale.
 
@@ -848,13 +848,13 @@ However, without arrows, it loses much of:
 
 Thus:
 
-\[
+```math
 \boxed{
 Full\ IDOS
 >
 IDOS\ Nodes\ Only
 }
-\]
+```
 
 for CASE-F003.
 
@@ -878,11 +878,11 @@ This combination explains the core regulatory-lag problem well.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ is\ not\ necessary
 }
-\]
+```
 
 for basic explanation of CASE-F003.
 
@@ -904,37 +904,37 @@ The main losses are integrative.
 
 ## 16.1 Measurement Stability vs Adequacy
 
-\[
+```math
 \boxed{
 Measurement\ Stability
 \neq
 Measurement\ Adequacy
 }
-\]
+```
 
 is integrated with governance dynamics.
 
 ## 16.2 Formal Governance vs Mutual Updateability
 
-\[
+```math
 \boxed{
 Formal\ Authority
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 allows legal sovereignty and effective governance capacity to diverge.
 
 ## 16.3 Current Compliance vs Future Governance Updateability
 
-\[
+```math
 \boxed{
 Current\ Governance\ Performance
 \neq
 Future\ Governance\ Updateability
 }
-\]
+```
 
 ---
 
@@ -957,27 +957,27 @@ The central regulatory-lag problem is not unique to IDOS.
 
 However, IDOS adds useful distinctions including:
 
-\[
+```math
 Measurement\ Stability
 \neq
 Measurement\ Adequacy
-\]
+```
 
 and:
 
-\[
+```math
 Formal\ Authority
 \neq
 Mutual\ Updateability
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Diagnostic\ Gain=Moderate
 }
-\]
+```
 
 ---
 
@@ -985,7 +985,7 @@ Diagnostic\ Gain=Moderate
 
 CASE-F003 requires simultaneous analysis of:
 
-\[
+```math
 AI\ Population
 \leftrightarrow
 Regulator
@@ -993,17 +993,17 @@ Regulator
 Organizations
 \leftrightarrow
 Monitoring\ System
-\]
+```
 
 The case therefore places strong value on cross-scale architecture.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Relational/CrossScale\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1011,27 +1011,27 @@ Relational/CrossScale\ Gain=Strong
 
 The generic label "regulatory lag" is decomposed into:
 
-\[
+```math
 TargetChange+MeasurementStasis
 \rightarrow
 MeasurementObsolescence
-\]
+```
 
 and:
 
-\[
+```math
 GovernanceLag+LowAdaptability
 \rightarrow
 FutureUpdateabilityRisk
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Failure\ Detection\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1047,9 +1047,9 @@ Improve monitoring speed, scope, and relevance.
 
 Revise:
 
-\[
+```math
 M_t
-\]
+```
 
 as target behavior changes.
 
@@ -1067,11 +1067,11 @@ Increase adaptability of the governance mechanism itself.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Intervention\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1081,7 +1081,7 @@ The Best Rival Combination requires multiple frameworks.
 
 IDOS may compress these into recurring structures involving:
 
-\[
+```math
 Measurement
 \rightarrow
 Observability
@@ -1091,25 +1091,25 @@ Updateability
 Relation
 \rightarrow
 System
-\]
+```
 
 and:
 
-\[
+```math
 State
 \rightarrow
 Trajectory
-\]
+```
 
 This remains conceptual compression rather than demonstrated quantitative efficiency.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Compression\ Gain=Moderate\text{-}Strong
 }
-\]
+```
 
 ---
 
@@ -1117,17 +1117,17 @@ Compression\ Gain=Moderate\text{-}Strong
 
 Across CASE-F001, CASE-F002, and CASE-F003, materially different regimes repeatedly activate:
 
-\[
+```math
 Mutual\ Updateability
-\]
+```
 
-\[
+```math
 Trajectory
-\]
+```
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
 through different pathways.
 
@@ -1135,13 +1135,13 @@ This remains preliminary.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Transfer\ Gain
 =
 Preliminary\ Moderate\text{-}Strong
 }
-\]
+```
 
 ---
 
@@ -1153,13 +1153,13 @@ However, Full IDOS retains meaningful relational and temporal structure beyond N
 
 Therefore:
 
-\[
+```math
 \boxed{
 Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 Meaning:
 
@@ -1169,13 +1169,13 @@ Meaning:
 
 # 25. Architecture Contradiction
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
 No architecture-level incompatibility is identified.
 
@@ -1183,33 +1183,33 @@ However, CASE-F003 again weakens interpretation of IDOS as a fixed universal det
 
 The more defensible interpretation remains:
 
-\[
+```math
 \boxed{
 Conditional\ Relational\ Architecture
 }
-\]
+```
 
 ---
 
 # 26. Master Map Revision Decision
 
-\[
+```math
 \boxed{
 WATCH
 }
-\]
+```
 
 Two items are placed on watch.
 
 ## Watch A — Relative Measurement Change
 
-\[
+```math
 \boxed{
 Measurement\ Change\ Rate
 relative\ to
 Target\ Change\ Rate
 }
-\]
+```
 
 CASE-F001 and CASE-F003 suggest that both excessive measurement instability and excessive measurement rigidity can create failure.
 
@@ -1271,24 +1271,24 @@ These patterns must not yet be canonicalized.
 
 Prospective architecture-level judgments:
 
-\[
+```math
 CASE\text{-}F002=B_A
-\]
+```
 
-\[
+```math
 CASE\text{-}F003=B_A
-\]
+```
 
 This does not establish general architecture validity.
 
 It does provide early pressure toward the hypothesis that IDOS may be more useful as:
 
-\[
+```math
 \boxed{
 A\ cross\text{-}scale,\ relational,\
 and\ updateability\ architecture
 }
-\]
+```
 
 than as a claim that every provisional process node is necessary.
 
@@ -1351,35 +1351,35 @@ architecture_validation:
 
 CASE-F003 produces:
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value
 =
 B_A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 WATCH
 }
-\]
+```
 
 The strongest architecture-level contribution observed in CASE-F003 is not the novelty of the regulatory-lag problem.
 
 It is the integration of:
 
-\[
+```math
 Measurement
 \rightarrow
 Observability
@@ -1391,7 +1391,7 @@ Relation
 System
 \rightarrow
 Future\ Updateability
-\]
+```
 
 under a changing target population and across time.
 

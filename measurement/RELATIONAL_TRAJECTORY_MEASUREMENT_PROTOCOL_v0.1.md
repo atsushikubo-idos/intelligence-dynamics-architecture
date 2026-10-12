@@ -10,28 +10,28 @@
 
 This protocol tests whether the following candidate IDOS measurement target can be empirically observed:
 
-\[
+```math
 \boxed{\text{Relational Trajectory of Update Mechanisms}}
-\]
+```
 
 The target is not merely whether two systems change, learn, improve, adapt, or mutually adapt. It is whether interaction changes the mechanisms by which each unit will update in subsequent situations.
 
 Minimal structure:
 
-\[
+```math
 A_0 \leftrightarrow B_0
 \rightarrow Interaction_1
 \rightarrow A_1 \leftrightarrow B_1
 \rightarrow Different\ Task_2
-\]
+```
 
 The protocol must distinguish ordinary state or behavioral change from \(\Delta G_A\) and \(\Delta G_B\), where \(G_i\) denotes the effective mechanism by which unit \(i\) detects, interprets, selects, verifies, and revises responses.
 
 The protocol permits:
 
-\[
+```math
 G_A \neq G_B
-\]
+```
 
 ## 1. Frozen Social Value Hypothesis
 
@@ -47,11 +47,11 @@ Frozen hypothesis:
 
 Long-term orientation:
 
-\[
+```math
 Predict\ the\ Future
 \rightarrow
 Remain\ Updateable\ under\ an\ Unpredictable\ Future
-\]
+```
 
 This is a hypothesis, not an established social value.
 
@@ -59,9 +59,9 @@ This is a hypothesis, not an established social value.
 
 Minimum unit:
 
-\[
+```math
 A \leftrightarrow B
-\]
+```
 
 Possible pairs include Human↔AI, Human↔Human, Human↔Organization, AI↔Organization, Organization↔Organization, and AI↔AI.
 
@@ -71,9 +71,9 @@ Heterogeneity is preserved rather than normalized away.
 
 ### L1 — State Change
 
-\[
+```math
 S_i(t) \neq S_i(t+1)
-\]
+```
 
 Examples: information, belief estimate, internal parameter, resources, organizational state.
 
@@ -81,9 +81,9 @@ State change alone is not evidence of update-mechanism change.
 
 ### L2 — Behavior / Policy Change
 
-\[
+```math
 \pi_i(t) \neq \pi_i(t+1)
-\]
+```
 
 Examples: different action, workflow, answer, strategy, allocation, or coordination behavior.
 
@@ -91,9 +91,9 @@ Behavior/policy change alone is not evidence of update-mechanism change.
 
 ### L3 — Update-Mechanism Change
 
-\[
+```math
 \boxed{G_i(t) \neq G_i(t+1)}
-\]
+```
 
 Potential subfunctions:
 
@@ -110,34 +110,34 @@ L3 requires evidence beyond different input → different output. Evidence must 
 
 ### L4 — Future Updateability Change
 
-\[
+```math
 \boxed{FU_i(t+1) \neq FU_i(t)}
-\]
+```
 
 L4 cannot be inferred solely from improved performance after Interaction₁. It requires a later materially different task/shock, prospective prediction followed by observation, or another justified transfer test.
 
-\[
+```math
 Performance \uparrow \not\Rightarrow FU \uparrow
-\]
+```
 
 ## 4. Relational Measurement
 
 The target requires asking whether \(Interaction_{A,B}\) is plausibly related to \(\Delta G_A\) and/or \(\Delta G_B\), and how those changes affect subsequent interaction.
 
-\[
+```math
 G_A(t)\leftrightarrow G_B(t)
 \rightarrow Interaction_t
 \rightarrow Res_A(t),Res_B(t)
 \rightarrow Update_A(t),Update_B(t)
 \rightarrow G_A(t+1)\leftrightarrow G_B(t+1)
 \rightarrow Interaction_{t+1}
-\]
+```
 
 The strongest form would show:
 
-\[
+```math
 \Delta G_A \rightarrow \Delta Interaction \rightarrow \Delta G_B
-\]
+```
 
 and/or the reverse across more than one interaction cycle.
 
@@ -157,9 +157,9 @@ Task₂ should differ from Task₁ in at least one important dimension: goal, en
 
 Purpose:
 
-\[
+```math
 Stored\ Solution \neq Changed\ Capacity\ to\ Update
-\]
+```
 
 ## 7. Evidence Standard
 
@@ -231,13 +231,13 @@ Missing evidence remains **Indeterminate**.
 - **RT-3 — Reciprocal Update-Mechanism Change:** both units show credible \(\Delta G_A,\Delta G_B\) with relational attribution.
 - **RT-4 — Longitudinal Relational Trajectory:** changed mechanisms alter subsequent interaction, producing further mechanism change:
 
-\[
+```math
 G_A(t)\leftrightarrow G_B(t)
 \rightarrow
 G_A(t+1)\leftrightarrow G_B(t+1)
 \rightarrow
 G_A(t+2)\leftrightarrow G_B(t+2)
-\]
+```
 
 RT-4 is the strongest target but is not required for the first case.
 
@@ -247,9 +247,9 @@ Measurement alone is insufficient.
 
 Key test:
 
-\[
+```math
 \boxed{Does\ RT\ Measurement \rightarrow Information\ not\ visible\ in\ Current\ Performance?}
-\]
+```
 
 Potential patterns:
 
@@ -306,23 +306,23 @@ Before opening the outcome of the first selected case:
 
 The first case asks only:
 
-\[
+```math
 \boxed{
 Can\ we\ distinguish\ and\ observe\
 State,\ Behavior,\ Update\ Mechanism,\ and\ Future\ Updateability\
 across\ a\ relation\ over\ time?
 }
-\]
+```
 
 And, if yes:
 
-\[
+```math
 \boxed{
 Does\ that\ relational\ trajectory\
 reveal\ something\ socially\ relevant\
 that\ current\ performance\ does\ not?
 }
-\]
+```
 
 ## 17. Freeze Statement
 
@@ -336,7 +336,7 @@ Those are empirical questions.
 
 The validation chain is:
 
-\[
+```math
 \boxed{
 Measurement
 \rightarrow
@@ -344,14 +344,14 @@ Differential\ Value
 \rightarrow
 Social\ Value
 }
-\]
+```
 
 not:
 
-\[
+```math
 Concept
 \rightarrow
 Novelty\ Claim
-\]
+```
 
 **Status: PRE-CASE FREEZE CANDIDATE**

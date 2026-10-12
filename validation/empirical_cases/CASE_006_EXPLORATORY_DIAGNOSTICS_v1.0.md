@@ -10,9 +10,9 @@
 
 The preregistered primary result remains:
 
-\[
+```math
 \boxed{\text{PRIMARY H1 NOT SUPPORTED}}
-\]
+```
 
 Preregistration freeze commit:
 
@@ -28,25 +28,25 @@ Confirmatory results commit:
 
 Case 006 tested whether an observable Difference-conditioned response measure,
 
-\[
+```math
 G_i=P(U_{60s}=1\mid D_{failure}),
-\]
+```
 
 provided additional out-of-sample predictive information about later adaptation beyond a simpler general behavioral-success baseline.
 
 The preregistered comparison produced:
 
-\[
+```math
 RMSE_{BL}=1116.96
-\]
+```
 
-\[
+```math
 RMSE_{PM}=1218.79
-\]
+```
 
-\[
+```math
 \Delta RMSE=-101.82
-\]
+```
 
 Therefore the preregistered hypothesis was not supported.
 
@@ -70,31 +70,31 @@ Among teams satisfying the preregistered denominator criterion, \(G\) showed sub
 
 Approximately:
 
-\[
+```math
 \min(G)\approx0
-\]
+```
 
-\[
+```math
 median(G)\approx0.76
-\]
+```
 
-\[
+```math
 \max(G)\approx0.98
-\]
+```
 
 Thus the negative primary result cannot be explained simply by all teams having approximately identical values of \(G\).
 
 However, \(G\) was substantially associated with the general route-success baseline \(B\):
 
-\[
+```math
 Corr(G,B)\approx0.62
-\]
+```
 
 and was also associated with local behavioral dynamics.
 
 This suggests that \(G\) may combine multiple components:
 
-\[
+```math
 G
 \approx
 GeneralBehavioralSuccess
@@ -102,23 +102,23 @@ GeneralBehavioralSuccess
 LocalDynamics
 +
 DifferenceConditionedComponent.
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 G\neq B
 }
-\]
+```
 
 but also:
 
-\[
+```math
 \boxed{
 G\text{ does not cleanly isolate Difference-specific Update.}
 }
-\]
+```
 
 **Diagnostic status:** plausible measurement limitation.
 
@@ -128,9 +128,9 @@ G\text{ does not cleanly isolate Difference-specific Update.}
 
 The preregistered outcome was:
 
-\[
+```math
 A_i=P_i^{late}-P_i^{early}.
-\]
+```
 
 There was substantial between-team variation in \(A\), and the late-window formulation did not simply discard earlier best solutions.
 
@@ -138,9 +138,9 @@ However, further inspection showed an important limitation.
 
 Because:
 
-\[
+```math
 A=L-E,
-\]
+```
 
 the outcome is mechanically related to the starting level \(E\).
 
@@ -148,13 +148,13 @@ Exploratory analysis indicated a substantial negative association between early 
 
 Therefore:
 
-\[
+```math
 \boxed{
 PerformanceImprovement
 \neq
 Adaptation
 }
-\]
+```
 
 in the strong theoretical sense.
 
@@ -192,13 +192,13 @@ Therefore the Case 006 failure cannot currently be reduced to:
 
 A stronger competing explanation remains:
 
-\[
+```math
 \boxed{
 PRE\ trait
 \not\Rightarrow
 POST\ adaptation
 }
-\]
+```
 
 or, more cautiously:
 
@@ -221,12 +221,12 @@ Some variation appeared in:
 
 This motivated the post-hoc hypothesis:
 
-\[
+```math
 \boxed{
 Adaptation\ may\ emerge\ in\ the\ transition\ process
 rather\ than\ exist\ as\ a\ stable\ pre-existing\ trait.
 }
-\]
+```
 
 However, this hypothesis was generated after inspecting the outcome.
 
@@ -240,13 +240,13 @@ It therefore receives no confirmatory evidential status from Case 006.
 
 A candidate sequence was examined:
 
-\[
+```math
 Evaluation
 \rightarrow
 Reconfiguration
 \rightarrow
 PerformanceChange.
-\]
+```
 
 Evaluation was frequently followed by reconfiguration.
 
@@ -254,24 +254,24 @@ However, reconfiguration was also extremely frequent after non-evaluation events
 
 Exploratory estimates were approximately:
 
-\[
+```math
 P(R_{60}\mid Evaluation)\approx0.981
-\]
+```
 
-\[
+```math
 P(R_{60}\mid NonEvaluation)\approx0.986
-\]
+```
 
 giving:
 
-\[
+```math
 \Delta P
 =
 P(R_{60}\mid Evaluation)
 -
 P(R_{60}\mid NonEvaluation)
 \approx-0.005.
-\]
+```
 
 Therefore the high absolute conditional probability did not identify an Evaluation-specific transition.
 
@@ -285,13 +285,13 @@ The simple three-stage trajectory explanation was not strongly supported.
 
 The most important methodological result of the exploratory diagnostics is:
 
-\[
+```math
 \boxed{
 P(U\mid D)
 \neq
 DifferenceSpecificUpdate
 }
-\]
+```
 
 in general.
 
@@ -299,23 +299,23 @@ A high conditional response probability is insufficient when the same response i
 
 For example:
 
-\[
+```math
 P(U\mid D)=0.95
-\]
+```
 
 provides little evidence of Difference-specific responsiveness if:
 
-\[
+```math
 P(U\mid D_0)=0.94.
-\]
+```
 
 Case 006 therefore reveals a discrimination problem in the original measurement logic.
 
 The original measure:
 
-\[
+```math
 G=P(U\mid D)
-\]
+```
 
 captures absolute conditional response frequency.
 
@@ -327,35 +327,35 @@ It does not necessarily isolate the component of Update attributable specificall
 
 Future IDOS measurement should distinguish:
 
-\[
+```math
 \text{Absolute Conditional Response}
-\]
+```
 
 from:
 
-\[
+```math
 \text{Difference-Specific Response}.
-\]
+```
 
 A candidate differential measure is:
 
-\[
+```math
 \Gamma_i^{\Delta}
 =
 P(U\mid D,K,P,i)
 -
 P(U\mid D_0,K,P,i),
-\]
+```
 
 where \(D_0\) is an appropriate matched or control condition.
 
 Another candidate formulation is conditional information:
 
-\[
+```math
 \Gamma_i^{IG}
 =
 I(D;U\mid K,P,i).
-\]
+```
 
 These formulations are NOT validated IDOS measures.
 
@@ -369,35 +369,35 @@ Their purpose is to prevent a generally high update rate from being misclassifie
 
 Case 006 motivates the following provisional measurement principle:
 
-\[
+```math
 \boxed{
 Conditional\ Frequency
 \neq
 Selective\ Update
 }
-\]
+```
 
 A stronger measurement design requires comparison against an appropriate alternative or matched condition:
 
-\[
+```math
 \boxed{
 P(U\mid D)
 \quad vs.\quad
 P(U\mid D_0)
 }
-\]
+```
 
 rather than interpreting \(P(U\mid D)\) alone.
 
 More generally:
 
-\[
+```math
 \boxed{
 Observed\ co-occurrence
 \neq
 Difference-specific\ information.
 }
-\]
+```
 
 This is a measurement revision, not evidence that the broader IDOS architecture is correct.
 
@@ -450,7 +450,7 @@ Within the scope of this experiment:
 
 The measurement trajectory after Case 006 is therefore:
 
-\[
+```math
 \boxed{
 P(U\mid D)
 \rightarrow
@@ -460,17 +460,17 @@ TransitionSpecificity
 \rightarrow
 IndependentValidation
 }
-\]
+```
 
 rather than:
 
-\[
+```math
 \boxed{
 NegativeResult
 \rightarrow
 MoreComplexIDOSExplanation.
 }
-\]
+```
 
 This distinction is essential.
 
@@ -497,11 +497,11 @@ A future independent test should preregister, before outcome inspection:
 
 A minimal candidate comparison is:
 
-\[
+```math
 \Gamma^\Delta
 =
 P(U\mid D)-P(U\mid D_0).
-\]
+```
 
 The next experiment should test whether this differential quantity has incremental measurement or predictive value.
 
@@ -517,22 +517,22 @@ Its principal value is methodological.
 
 The experiment exposed a weakness in the first operationalization of Difference-conditioned Update:
 
-\[
+```math
 \boxed{
 P(U\mid D)
 \text{ alone cannot distinguish selective responsiveness from generally frequent updating.}
 }
-\]
+```
 
 The resulting measurement revision is:
 
-\[
+```math
 \boxed{
 Absolute\ Conditional\ Response
 \rightarrow
 Differential / Matched\ Response.
 }
-\]
+```
 
 This revision is a hypothesis generated by failure.
 

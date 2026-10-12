@@ -98,15 +98,15 @@ RT-C003
 
 Lexicographically smallest:
 
-\[
+```math
 \boxed{RT-C002}
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{RT-001 = van\ Zoelen\ et\ al.\ (2021)}
-\]
+```
 
 ## 9. Selection Interpretation
 

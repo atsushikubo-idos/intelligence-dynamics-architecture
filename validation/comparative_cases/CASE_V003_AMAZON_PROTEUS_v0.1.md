@@ -19,27 +19,27 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 # 2. Regime Classification
 
-$$
+```math
 \boxed{V003 = Transition}
-$$
+```
 
 V003 represents a system in which Human / AI / Robot roles, operational authority, interpretation, and execution boundaries are actively shifting.
 
 The core transition is:
 
-$$
+```math
 Human\ specifies\ operation
 \rightarrow
 Human\ specifies\ intent
-$$
+```
 
 and:
 
-$$
+```math
 Robot\ executes
 \rightarrow
 Robot\ interprets + plans + executes
-$$
+```
 
 This case is therefore used to test whether IDOS becomes more useful when the boundary between human intention and machine execution is itself changing.
 
@@ -87,7 +87,7 @@ The next-generation design expands this structure toward:
 
 Conceptually:
 
-$$
+```math
 Human\ Intent
 \rightarrow
 Natural\ Language\ Instruction
@@ -97,7 +97,7 @@ Robot\ Interpretation
 Priority + Route + Timing
 \rightarrow
 Physical\ Action
-$$
+```
 
 ---
 
@@ -107,23 +107,23 @@ A major change is the interaction model.
 
 Rather than requiring:
 
-$$
+```math
 Technical\ Command
-$$
+```
 
 or:
 
-$$
+```math
 Programming\ Interface
-$$
+```
 
 the system is designed to accept:
 
-$$
+```math
 \boxed{
 Natural\ Language
 }
-$$
+```
 
 from employees.
 
@@ -137,15 +137,15 @@ Proteus then determines important aspects of how the task should be executed.
 
 Earlier structure:
 
-$$
+```math
 Assigned\ Task
 \rightarrow
 Autonomous\ Navigation
-$$
+```
 
 Next-generation structure:
 
-$$
+```math
 Human\ Intent
 \rightarrow
 Robot\ Interpretation
@@ -153,19 +153,19 @@ Robot\ Interpretation
 Task\ Planning
 \rightarrow
 Physical\ Execution
-$$
+```
 
 Thus machine autonomy expands from:
 
-$$
+```math
 How\ to\ move
-$$
+```
 
 toward:
 
-$$
+```math
 How\ to\ interpret\ and\ execute\ the\ task
-$$
+```
 
 ---
 
@@ -175,27 +175,27 @@ Humans remain responsible for setting the high-level objective.
 
 The structural shift is from:
 
-$$
+```math
 Human
 \rightarrow
 Specific\ Operational\ Instruction
-$$
+```
 
 toward:
 
-$$
+```math
 Human
 \rightarrow
 Goal / Intent
-$$
+```
 
 while:
 
-$$
+```math
 Robot
 \rightarrow
 Operational\ Decomposition
-$$
+```
 
 This does not establish that humans are reduced to supervisors in every operational context.
 
@@ -215,15 +215,15 @@ Proteus expands beyond autonomous navigation into:
 
 Thus:
 
-$$
+```math
 Execution\ Autonomy\uparrow
-$$
+```
 
 and potentially:
 
-$$
+```math
 Interpretive\ Autonomy\uparrow
-$$
+```
 
 ---
 
@@ -239,9 +239,9 @@ Proteus is an embodied autonomous system operating in a physical environment wit
 
 AI interpretation therefore produces:
 
-$$
+```math
 Physical\ Action
-$$
+```
 
 rather than only digital output.
 
@@ -269,13 +269,13 @@ Proteus is consistent with Amazon’s broader direction toward robotics systems 
 
 This suggests a structural progression:
 
-$$
+```math
 Instruction
 \rightarrow
 Interpretation
 \rightarrow
 Autonomous\ Action
-$$
+```
 
 ---
 
@@ -296,11 +296,11 @@ Relevant components include:
 
 A key addition relative to V002 is:
 
-$$
+```math
 \boxed{
 Intent\ Translation
 }
-$$
+```
 
 between human instruction and robot action.
 
@@ -310,17 +310,17 @@ between human instruction and robot action.
 
 V002:
 
-$$
+```math
 System\ State
 \rightarrow
 Fleet\ Coordination
 \rightarrow
 Robot\ Movement
-$$
+```
 
 V003:
 
-$$
+```math
 Human\ Goal
 \rightarrow
 Natural\ Language
@@ -330,7 +330,7 @@ AI\ Interpretation
 Task\ Planning
 \rightarrow
 Robot\ Execution
-$$
+```
 
 The machine therefore contributes not only to execution, but also to operational interpretation.
 
@@ -340,15 +340,15 @@ The machine therefore contributes not only to execution, but also to operational
 
 A useful raw distinction is:
 
-$$
+```math
 Goal\ Authority_H
-$$
+```
 
 versus:
 
-$$
+```math
 Operational\ Authority_R
-$$
+```
 
 Humans retain high-level goal authority.
 
@@ -364,17 +364,17 @@ The robot interprets, plans, and acts without human approval of every micro-step
 
 Thus the human role shifts away from:
 
-$$
+```math
 Step\text{-}by\text{-}step\ control
-$$
+```
 
 toward:
 
-$$
+```math
 Goal\ specification
 +
 exception\ oversight
-$$
+```
 
 ---
 
@@ -429,11 +429,11 @@ The most direct are:
 
 Thus:
 
-$$
+```math
 \boxed{
 Conventional\ analysis\ remains\ very\ strong
 }
-$$
+```
 
 ---
 
@@ -441,13 +441,13 @@ $$
 
 The system can be represented as:
 
-$$
+```math
 Human\ Goal
 \rightarrow
 Robot\ Planning
 \rightarrow
 Robot\ Execution
-$$
+```
 
 This is a standard shared-autonomy structure.
 
@@ -476,7 +476,7 @@ The human handles:
 
 The case can also be described as a shift along an autonomy continuum:
 
-$$
+```math
 Manual
 \rightarrow
 Assisted
@@ -484,7 +484,7 @@ Assisted
 Supervised
 \rightarrow
 Autonomous
-$$
+```
 
 This already captures much of the observed transition.
 
@@ -494,21 +494,21 @@ This already captures much of the observed transition.
 
 The structure can be described as:
 
-$$
+```math
 Human:\ What\ to\ achieve
-$$
+```
 
-$$
+```math
 Robot:\ How\ to\ achieve
-$$
+```
 
 Thus:
 
-$$
+```math
 Goal\ Authority
 \neq
 Execution\ Authority
-$$
+```
 
 This is not uniquely IDOS-specific.
 
@@ -533,7 +533,7 @@ Proteus operates in the physical world.
 
 Thus:
 
-$$
+```math
 Language
 \rightarrow
 Semantic\ Interpretation
@@ -541,7 +541,7 @@ Semantic\ Interpretation
 Operational\ Plan
 \rightarrow
 Physical\ Action
-$$
+```
 
 is already a conventional embodied-AI problem.
 
@@ -575,11 +575,11 @@ These are established human-factors concerns.
 
 When:
 
-$$
+```math
 Human\ Intent
 \neq
 Robot\ Interpretation
-$$
+```
 
 responsibility becomes distributed across:
 
@@ -592,9 +592,9 @@ responsibility becomes distributed across:
 
 The question becomes:
 
-$$
+```math
 Who\ controls\ what?
-$$
+```
 
 across multiple layers.
 
@@ -602,11 +602,11 @@ across multiple layers.
 
 V003 requires not only operational oversight but potentially:
 
-$$
+```math
 \boxed{
 Semantic\ Oversight
 }
-$$
+```
 
 ### D. Boundary movement
 
@@ -614,19 +614,19 @@ Some task decomposition previously performed by humans moves to the robot.
 
 ### E. Correction vs learning
 
-$$
+```math
 Correction
 \neq
 Learning
-$$
+```
 
 ### F. Formal vs effective authority
 
-$$
+```math
 Formal\ Authority
 \neq
 Effective\ Authority
-$$
+```
 
 ### G. Meaning becomes operational infrastructure
 
@@ -636,15 +636,15 @@ Interpretation itself becomes part of the system that converts human intent into
 
 ## 5.11 Stage 2 conclusion
 
-$$
+```math
 \boxed{
 No\ decisive\ IDOS\ necessity\ yet
 }
-$$
+```
 
 However, compared with V002, V003 introduces:
 
-$$
+```math
 \boxed{
 Interpretation
 +
@@ -654,7 +654,7 @@ Authority\ Shift
 +
 Semantic\ Oversight
 }
-$$
+```
 
 ---
 
@@ -673,11 +673,11 @@ Candidates include:
 
 The strongest candidate is:
 
-$$
+```math
 \boxed{
 U \approx Human\text{-}Robot\ Delegation\ Relation
 }
-$$
+```
 
 The relation itself becomes a plausible unit of update.
 
@@ -698,11 +698,11 @@ Some of these move toward the robot side.
 
 Thus:
 
-$$
+```math
 \boxed{
 B_t \neq B_{t+1}
 }
-$$
+```
 
 Unlike V002, this is not only a question of where the analyst draws the boundary.
 
@@ -714,7 +714,7 @@ The operational boundary itself is shifting.
 
 The transition can be represented as:
 
-$$
+```math
 Human\ specifies\ action
 \rightarrow
 Human\ specifies\ task
@@ -722,19 +722,19 @@ Human\ specifies\ task
 Human\ specifies\ intent
 \rightarrow
 Machine\ interprets + plans + executes
-$$
+```
 
 The key trajectory is not simply:
 
-$$
+```math
 Autonomy\uparrow
-$$
+```
 
 but:
 
-$$
+```math
 Interpretive\ Authority_R\uparrow
-$$
+```
 
 ---
 
@@ -744,13 +744,13 @@ V003 makes Difference more consequential.
 
 The central difference is:
 
-$$
+```math
 \boxed{
 Human\ Intent
 \neq
 Robot\ Interpretation
 }
-$$
+```
 
 This is better understood as a translation difference than as a simple execution error.
 
@@ -777,17 +777,17 @@ Robot frame may include:
 
 Thus:
 
-$$
+```math
 F_H \neq F_R
-$$
+```
 
 The system therefore contains:
 
-$$
+```math
 \boxed{
 Reference\ Frame\ Translation
 }
-$$
+```
 
 ---
 
@@ -797,19 +797,19 @@ Task completion is not sufficient.
 
 V003 introduces the distinction:
 
-$$
+```math
 Execution\ Success
 \neq
 Interpretation\ Success
-$$
+```
 
 and therefore:
 
-$$
+```math
 Task\ Completion
 \neq
 Intent\ Fidelity
-$$
+```
 
 This makes measurement design more central.
 
@@ -821,7 +821,7 @@ V003 requires more than action logs.
 
 The relevant chain is:
 
-$$
+```math
 Human\ Instruction
 \rightarrow
 Interpretation
@@ -829,15 +829,15 @@ Interpretation
 Planning
 \rightarrow
 Execution
-$$
+```
 
 This suggests the importance of:
 
-$$
+```math
 \boxed{
 Semantic\ Provenance
 }
-$$
+```
 
 ---
 
@@ -845,11 +845,11 @@ $$
 
 The second-order question becomes:
 
-$$
+```math
 \boxed{
 Can\ the\ organization\ later\ reallocate\ interpretive\ authority?
 }
-$$
+```
 
 Natural-language delegation may increase human convenience while reducing direct operational practice.
 
@@ -861,25 +861,25 @@ The issue is therefore not only skill retention but future ability to redesign w
 
 V003 separates:
 
-$$
+```math
 Action\ Verification
-$$
+```
 
 from:
 
-$$
+```math
 Interpretation\ Verification
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Action\ Verification
 \neq
 Interpretation\ Verification
 }
-$$
+```
 
 ---
 
@@ -887,25 +887,25 @@ $$
 
 V003 also separates immediate correction from durable update.
 
-$$
+```math
 MU_{H\rightarrow R}^{action}
-$$
+```
 
 is distinct from:
 
-$$
+```math
 MU_{H\rightarrow R}^{model}
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Correction
 \neq
 Learning
 }
-$$
+```
 
 ---
 
@@ -913,7 +913,7 @@ $$
 
 A more detailed distinction is required:
 
-$$
+```math
 Verification
 \neq
 Influence
@@ -921,7 +921,7 @@ Influence
 Operational\ Update
 \neq
 Model\ Update
-$$
+```
 
 ---
 
@@ -931,23 +931,23 @@ V003 strengthens the Power dimension.
 
 The key question becomes:
 
-$$
+```math
 \boxed{
 Who\ gets\ to\ operationalize\ meaning?
 }
-$$
+```
 
 Humans may retain formal goal authority while robots gain operational interpretive authority.
 
 Thus:
 
-$$
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Interpretive\ Authority
 }
-$$
+```
 
 ---
 
@@ -973,19 +973,19 @@ However, this is not the main source of incremental visibility in V003.
 
 V003 gives Residual a more natural role:
 
-$$
+```math
 Human\ Intended\ Meaning
 -
 Robot\ Interpreted\ Meaning
-$$
+```
 
 This can be treated as:
 
-$$
+```math
 \boxed{
 Translation\ Residual
 }
-$$
+```
 
 ---
 
@@ -997,9 +997,9 @@ Public evidence does not establish such a mechanism.
 
 Therefore:
 
-$$
+```math
 Holding = plausible,\ not\ evidenced
-$$
+```
 
 ---
 
@@ -1042,25 +1042,25 @@ These are not counted as IDOS-specific findings.
 
 Rather than only:
 
-$$
+```math
 Autonomy_R\uparrow
-$$
+```
 
 IDOS makes visible:
 
-$$
+```math
 \boxed{
 B_t \neq B_{t+1}
 }
-$$
+```
 
 The human/machine operational boundary itself moves.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1068,19 +1068,19 @@ $$
 
 The important update unit may be:
 
-$$
+```math
 \boxed{
 Human\text{-}Robot\ Delegation\ Relation
 }
-$$
+```
 
 rather than either actor alone.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1088,57 +1088,57 @@ $$
 
 The relevant chain is:
 
-$$
+```math
 Human\ Intent
 \rightarrow
 Robot\ Interpretation
-$$
+```
 
 The difference between the two becomes part of the system architecture.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
 ### Y4 — Action Verification vs Interpretation Verification
 
-$$
+```math
 \boxed{
 Action\ Verification
 \neq
 Interpretation\ Verification
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
 ### Y5 — Correction vs Learning
 
-$$
+```math
 \boxed{
 Correction
 \neq
 Learning
 }
-$$
+```
 
 Immediate action correction does not imply model-level update.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1146,21 +1146,21 @@ $$
 
 The strongest candidate is:
 
-$$
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Interpretive\ Authority
 }
-$$
+```
 
 A human may retain goal-setting authority while the machine increasingly determines how that goal becomes operational meaning.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1183,13 +1183,13 @@ These are already covered by established frameworks.
 
 The central surviving candidate is:
 
-$$
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Interpretive\ Authority
 }
-$$
+```
 
 This means:
 
@@ -1201,11 +1201,11 @@ This means:
 
 現時点では:
 
-$$
+```math
 \boxed{
 No\ decisive\ IV\text{-}3\ yet
 }
-$$
+```
 
 既存のHRI、delegation theory、semantic grounding、distributed cognition、governanceを十分に組み合わせれば近い分析は可能です。
 
@@ -1267,65 +1267,65 @@ $$
 
 V003でN2として残ったのは:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Dynamic\ Boundary
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Trajectory
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Reference\ Frame
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Measurement
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Provenance
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
-$$
+```math
 \boxed{
 CFV
 }
-$$
+```
 
-$$
+```math
 \boxed{
 MU
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Power
 }
-$$
+```
 
 The meaning is not that V003 receives a higher IDOS score.
 
@@ -1355,31 +1355,31 @@ The important observation is:
 
 A notable pattern is:
 
-$$
+```math
 Dynamic\ Boundary,\ Reference\ Frame,\ Provenance,\ CFV,\ Power
-$$
+```
 
 showing:
 
-$$
+```math
 N0
 \rightarrow
 N1
 \rightarrow
 N2
-$$
+```
 
 across V001 → V002 → V003.
 
 However, Temporal Compatibility shows:
 
-$$
+```math
 N0
 \rightarrow
 N2
 \rightarrow
 N1
-$$
+```
 
 This is important because it shows that increasing regime complexity does not mechanically increase the importance of every IDOS concept.
 
@@ -1391,23 +1391,23 @@ V003 remains substantially explainable through established theory.
 
 Therefore:
 
-$$
+```math
 \boxed{
 No\ decisive\ IV\text{-}3\ yet
 }
-$$
+```
 
 is maintained.
 
 However, IDOS makes the following structure more explicit:
 
-$$
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Interpretive\ Authority
 }
-$$
+```
 
 In other words:
 
@@ -1427,13 +1427,13 @@ are analyzed together as one dynamic structure.
 
 Thus:
 
-$$
+```math
 \boxed{
 Incremental\ Visibility_{V003}
 =
 Moderate\text{-}High
 }
-$$
+```
 
 This is a case-specific provisional result, not an overall score for IDOS.
 

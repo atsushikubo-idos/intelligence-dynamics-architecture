@@ -19,9 +19,9 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 # 2. Regime Classification
 
-$$
+```math
 \boxed{V002 = Present\ Edge}
-$$
+```
 
 V002 represents a contemporary system in which AI has moved beyond a support tool and is materially embedded in operational infrastructure.
 
@@ -68,7 +68,7 @@ Amazon states that DeepFleet improves robot travel efficiency by approximately 1
 
 The system can be represented conceptually as:
 
-$$
+```math
 Order\ Demand
 \rightarrow
 Fulfillment\ System
@@ -78,7 +78,7 @@ DeepFleet
 Robot_1,\ Robot_2,\ ...,\ Robot_n
 \rightarrow
 Physical\ Inventory\ Movement
-$$
+```
 
 Unlike V001, AI outputs here are connected to physical execution through large-scale robotic coordination.
 
@@ -98,11 +98,11 @@ The operational problems include:
 
 The optimization target is not a single robot but a fleet-level system:
 
-$$
+```math
 \boxed{
 Robot\ Fleet
 }
-$$
+```
 
 ---
 
@@ -118,11 +118,11 @@ The broader robotic environment includes systems such as:
 
 The system therefore involves:
 
-$$
+```math
 \boxed{
 AI\ mediated\ physical\ coordination
 }
-$$
+```
 
 rather than only digital recommendation.
 
@@ -142,13 +142,13 @@ Amazon describes human roles including:
 
 Conceptually:
 
-$$
+```math
 Human
 \leftrightarrow
 Robot
 \leftrightarrow
 AI\ Coordination
-$$
+```
 
 Humans do not issue step-by-step instructions to each robot.
 
@@ -160,33 +160,33 @@ The system operates at a scale far beyond a single Human–AI pair.
 
 V001:
 
-$$
+```math
 Human_1 \leftrightarrow AI
-$$
+```
 
 V002:
 
-$$
+```math
 AI
 \rightarrow
 Robot_1
-$$
+```
 
-$$
+```math
 AI
 \rightarrow
 Robot_2
-$$
+```
 
-$$
+```math
 \vdots
-$$
+```
 
-$$
+```math
 AI
 \rightarrow
 Robot_n
-$$
+```
 
 Amazon reports more than one million robots across its network.
 
@@ -198,9 +198,9 @@ Direct human observation of individual system decisions is therefore no longer t
 
 Amazon reports:
 
-$$
+```math
 Robot\ Travel\ Efficiency \uparrow
-$$
+```
 
 with approximately 10% improvement associated with DeepFleet.
 
@@ -251,7 +251,7 @@ Relevant components include:
 
 Conceptually:
 
-$$
+```math
 Demand / Operational\ State
 \rightarrow
 AI\ Fleet\ Coordination
@@ -261,15 +261,15 @@ Robot\ Routing / Movement
 Physical\ Inventory\ Movement
 \rightarrow
 Human + Robotic\ Downstream\ Work
-$$
+```
 
 AI output is therefore connected to:
 
-$$
+```math
 \boxed{
 Physical\ Execution
 }
-$$
+```
 
 ---
 
@@ -297,11 +297,11 @@ V002 can be strongly analyzed through established frameworks.
 
 The central explanation is:
 
-$$
+```math
 \boxed{
 Large\text{-}scale\ fleet\ optimization
 }
-$$
+```
 
 ---
 
@@ -326,11 +326,11 @@ The system is naturally treated as a multi-robot coordination problem.
 
 Key distinction:
 
-$$
+```math
 Local\ Optimality
 \neq
 Global\ Optimality
-$$
+```
 
 Fleet-level coordination may therefore outperform independently optimized robot behavior.
 
@@ -340,11 +340,11 @@ Fleet-level coordination may therefore outperform independently optimized robot 
 
 The system can be represented as hierarchical or distributed control:
 
-$$
+```math
 Global\ Coordination
 +
 Local\ Control
-$$
+```
 
 Again, this does not require IDOS.
 
@@ -354,7 +354,7 @@ Again, this does not require IDOS.
 
 The real operating system includes:
 
-$$
+```math
 Human
 +
 Robot
@@ -364,7 +364,7 @@ Software
 Warehouse
 +
 Management
-$$
+```
 
 This is a standard sociotechnical configuration.
 
@@ -413,11 +413,11 @@ Safety engineering already addresses:
 
 Robotics changes human work through:
 
-$$
+```math
 Automation
 \rightarrow
 Task\ Reallocation
-$$
+```
 
 This can be analyzed conventionally through organizational design and labor economics.
 
@@ -436,11 +436,11 @@ As AI-mediated coordination becomes embedded, dependence can be discussed throug
 
 ## 5.11 Conventional View Summary
 
-$$
+```math
 \boxed{
 Conventional\ analysis\ is\ still\ very\ strong
 }
-$$
+```
 
 V002 can be analyzed deeply through:
 
@@ -462,37 +462,37 @@ The remaining issues are not impossible for conventional theory to address, but 
 
 Is the relevant unit:
 
-$$
+```math
 Robot_i
-$$
+```
 
 or:
 
-$$
+```math
 Robot\ Fleet
-$$
+```
 
 or:
 
-$$
+```math
 Warehouse
-$$
+```
 
 or:
 
-$$
+```math
 Human\text{-}Robot\ System
-$$
+```
 
 ?
 
 ### B. Local control vs system-level behavior
 
-$$
+```math
 Behavior_{System}
 \neq
 \sum Behavior_{Robot_i}
-$$
+```
 
 ### C. Human oversight granularity
 
@@ -531,15 +531,15 @@ The system boundary changes depending on whether one includes:
 
 ## 5.13 Stage 2 conclusion
 
-$$
+```math
 \boxed{
 No\ decisive\ IDOS\ necessity\ yet
 }
-$$
+```
 
 However, compared with V001, V002 introduces:
 
-$$
+```math
 \boxed{
 Scale
 +
@@ -549,7 +549,7 @@ Physical\ Execution
 +
 System\text{-}level\ Coordination
 }
-$$
+```
 
 ---
 
@@ -559,33 +559,33 @@ $$
 
 Candidate Updating Units include:
 
-$$
+```math
 Robot_i
-$$
+```
 
-$$
+```math
 Robot\ Fleet
-$$
+```
 
-$$
+```math
 Warehouse
-$$
+```
 
-$$
+```math
 Human\text{-}Robot\ System
-$$
+```
 
-$$
+```math
 Fulfillment\ Network
-$$
+```
 
 For operational optimization:
 
-$$
+```math
 \boxed{
 U \approx Fleet\text{-}level\ operational\ unit
 }
-$$
+```
 
 The Updating Unit is therefore more clearly multi-level than in V001.
 
@@ -595,13 +595,13 @@ The Updating Unit is therefore more clearly multi-level than in V001.
 
 Possible boundaries include:
 
-$$
+```math
 DeepFleet + Robots
-$$
+```
 
 or:
 
-$$
+```math
 DeepFleet
 +
 Robots
@@ -609,17 +609,17 @@ Robots
 Human\ Workers
 +
 Warehouse
-$$
+```
 
 or even a broader fulfillment network.
 
 Thus:
 
-$$
+```math
 \boxed{
 Boundary\ is\ still\ identifiable,\ but\ more\ dynamic
 }
-$$
+```
 
 ---
 
@@ -627,23 +627,23 @@ $$
 
 A plausible operational trajectory is:
 
-$$
+```math
 Manual\ Coordination
 \rightarrow
 Algorithmic\ Coordination
 \rightarrow
 AI\text{-}dependent\ Operational\ Infrastructure
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Current\ Efficiency
 \neq
 Future\ Operational\ Structure
 }
-$$
+```
 
 ---
 
@@ -651,19 +651,19 @@ $$
 
 Relevant differences include:
 
-$$
+```math
 Local\ Robot\ Optimality
 \neq
 Fleet\ Optimality
-$$
+```
 
 and:
 
-$$
+```math
 Human\ Operational\ View
 \neq
 AI\ Fleet\ View
-$$
+```
 
 Difference is relevant but not uniquely IDOS-specific.
 
@@ -673,11 +673,11 @@ Difference is relevant but not uniquely IDOS-specific.
 
 Humans and DeepFleet may operate at different scales:
 
-$$
+```math
 F_{Human}
 \neq
 F_{Fleet\ AI}
-$$
+```
 
 Human operators may focus on:
 
@@ -699,11 +699,11 @@ V002 makes Measurement more operationally consequential.
 
 The relevant relation is:
 
-$$
+```math
 Optimization\ Objective
 \rightarrow
 Fleet\ Behavior
-$$
+```
 
 Measurement therefore becomes partly a system-shaping mechanism rather than only an evaluation mechanism.
 
@@ -713,23 +713,23 @@ Measurement therefore becomes partly a system-shaping mechanism rather than only
 
 The relevant question expands from:
 
-$$
+```math
 Why\ did\ Robot_i\ move\ this\ way?
-$$
+```
 
 to:
 
-$$
+```math
 Why\ did\ the\ fleet\ produce\ this\ pattern?
-$$
+```
 
 This suggests:
 
-$$
+```math
 \boxed{
 Provenance\ becomes\ distributed
 }
-$$
+```
 
 although no provenance failure is directly established.
 
@@ -739,29 +739,29 @@ although no provenance failure is directly established.
 
 A possible long-run structure is:
 
-$$
+```math
 Efficiency\uparrow
-$$
+```
 
 while:
 
-$$
+```math
 Switching\ Cost\uparrow
-$$
+```
 
-$$
+```math
 Fallback\ Capacity\downarrow
-$$
+```
 
-$$
+```math
 Architecture\ Dependence\uparrow
-$$
+```
 
 which may lead to:
 
-$$
+```math
 Future\ Updateability\downarrow
-$$
+```
 
 This remains a structural possibility, not an observed outcome.
 
@@ -771,13 +771,13 @@ This remains a structural possibility, not an observed outcome.
 
 V002 makes verification scale-sensitive.
 
-$$
+```math
 \boxed{
 Local\ Verifiability
 \neq
 System\text{-}level\ Verifiability
 }
-$$
+```
 
 A system may be locally inspectable while fleet-level behavior remains difficult to verify directly.
 
@@ -787,39 +787,39 @@ A system may be locally inspectable while fleet-level behavior remains difficult
 
 Relevant update relations include:
 
-$$
+```math
 DeepFleet
 \rightarrow
 Robot\ Fleet
-$$
+```
 
-$$
+```math
 Robot\ State
 \rightarrow
 DeepFleet
-$$
+```
 
-$$
+```math
 Human
 \rightarrow
 Operational\ Intervention
-$$
+```
 
 while:
 
-$$
+```math
 Human
 \not\Rightarrow
 Direct\ Model\ Update
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Who\ can\ update\ whom?
 }
-$$
+```
 
 becomes a stronger analytical question.
 
@@ -835,7 +835,7 @@ A human may:
 
 Therefore:
 
-$$
+```math
 \boxed{
 Verification
 \neq
@@ -843,7 +843,7 @@ Influence
 \neq
 Update
 }
-$$
+```
 
 ---
 
@@ -851,13 +851,13 @@ $$
 
 Operational visibility and revision authority may be separated.
 
-$$
+```math
 \boxed{
 Operational\ visibility
 \neq
 Revision\ authority
 }
-$$
+```
 
 Relevant authority includes control over:
 
@@ -874,19 +874,19 @@ AI and robots operate faster than human supervisory review.
 
 Conceptually:
 
-$$
+```math
 \tau_{AI/Robot}
 <
 \tau_{Human}
-$$
+```
 
 Therefore human oversight may shift from continuous micro-level supervision toward:
 
-$$
+```math
 \boxed{
 event\text{-}level\ or\ exception\text{-}level\ oversight
 }
-$$
+```
 
 ---
 
@@ -894,11 +894,11 @@ $$
 
 Reality Contact is strong because AI-mediated decisions produce physical movement and operational consequences.
 
-$$
+```math
 \boxed{
 Reality\ Contact = strong
 }
-$$
+```
 
 ---
 
@@ -912,11 +912,11 @@ Likely preserved, though redesign cost may rise with infrastructure dependence.
 
 V002 clearly involves system-level update:
 
-$$
+```math
 \boxed{
 System\ Update
 }
-$$
+```
 
 because fleet behavior changes as a coordinated whole.
 
@@ -950,9 +950,9 @@ Not required for core V002 analysis.
 
 ## 7.1 Conventional View
 
-$$
+```math
 Conventional\ View = strong
-$$
+```
 
 Established fields already explain:
 
@@ -971,7 +971,7 @@ Established fields already explain:
 
 The relevant update unit shifts across:
 
-$$
+```math
 Robot_i
 \rightarrow
 Fleet
@@ -979,29 +979,29 @@ Fleet
 Warehouse
 \rightarrow
 Human\text{-}Robot\ System
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y2 — Local verification ≠ system-level verification
 
-$$
+```math
 \boxed{
 Local\ verification
 \neq
 Fleet\text{-}level\ verification
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y3 — Human oversight level distinction
 
@@ -1014,25 +1014,25 @@ Meaningful oversight depends on where humans can:
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y4 — Temporal Compatibility
 
 Formal oversight may become temporally non-actionable.
 
-$$
+```math
 \boxed{
 Oversight\ may\ be\ temporally\ non\ actionable
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y5 — Future Updateability
 
@@ -1040,9 +1040,9 @@ Current optimization may constrain future redesign.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1065,7 +1065,7 @@ These are already well covered by established theory.
 
 The strongest surviving structure is:
 
-$$
+```math
 \boxed{
 Meaningful\ oversight
 =
@@ -1077,7 +1077,7 @@ Update\ Authority,
 Temporal\ Compatibility
 )
 }
-$$
+```
 
 Thus:
 
@@ -1089,19 +1089,19 @@ Thus:
 
 No clear IV-3 finding is established.
 
-$$
+```math
 \boxed{
 No\ clear\ IV\text{-}3\ Differential\ Discovery
 }
-$$
+```
 
 However:
 
-$$
+```math
 \boxed{
 IDOS\ still\ integrates,\ but\ the\ integration\ becomes\ more\ consequential
 }
-$$
+```
 
 ---
 
@@ -1122,14 +1122,14 @@ $$
 
 ## 7.7 Provisional Y for V002
 
-$$
+```math
 \boxed{
 Y_{V002}
 =
 integration\ of\
 scale,\ verification,\ update\ authority,\ temporal\ compatibility,\ and\ future\ redesignability
 }
-$$
+```
 
 Compared with V001, the candidate incremental visibility is stronger.
 
@@ -1163,61 +1163,61 @@ Compared with V001, the candidate incremental visibility is stronger.
 
 The N2 concepts for V002 are:
 
-$$
+```math
 \boxed{
 Updating\ Unit
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Trajectory
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Measurement
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
-$$
+```math
 \boxed{
 MU
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Temporal\ Compatibility
 }
-$$
+```
 
 V001 retained only:
 
-$$
+```math
 Trajectory
 +
 Future\ Updateability
-$$
+```
 
 Thus:
 
-$$
+```math
 N2_{V001}=2
-$$
+```
 
 and:
 
-$$
+```math
 N2_{V002}=6
-$$
+```
 
 This count must not be treated as a global IDOS value score.
 
@@ -1231,21 +1231,21 @@ V002 remains largely explainable through established theory.
 
 Therefore:
 
-$$
+```math
 \boxed{
 No\ IV\text{-}3\ Differential\ Discovery
 }
-$$
+```
 
 is maintained.
 
 However:
 
-$$
+```math
 \boxed{
 IDOS\ structural\ integration\ becomes\ materially\ stronger
 }
-$$
+```
 
 The strongest added visibility is the distinction between:
 
@@ -1257,7 +1257,7 @@ The strongest added visibility is the distinction between:
 
 The practical effectiveness of these capacities depends on:
 
-$$
+```math
 Scale
 +
 Verification
@@ -1265,15 +1265,15 @@ Verification
 Update\ Authority
 +
 Temporal\ Compatibility
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Incremental\ Visibility_{V002}=Moderate
 }
-$$
+```
 
 ---
 
@@ -1281,27 +1281,27 @@ $$
 
 V001:
 
-$$
+```math
 AI\ as\ Assistant
-$$
+```
 
 Main surviving structure:
 
-$$
+```math
 Trajectory
 +
 Future\ Updateability
-$$
+```
 
 V002:
 
-$$
+```math
 AI\ as\ Operational\ Infrastructure
-$$
+```
 
 Main surviving structure:
 
-$$
+```math
 Updating\ Unit
 +
 Trajectory
@@ -1313,17 +1313,17 @@ Future\ Updateability
 MU
 +
 Temporal\ Compatibility
-$$
+```
 
 The current two-case pattern is consistent with, but does not yet establish:
 
-$$
+```math
 \boxed{
 Regime\ complexity\uparrow
 \Rightarrow
 IDOS\ concept\ activation\uparrow
 }
-$$
+```
 
 ---
 

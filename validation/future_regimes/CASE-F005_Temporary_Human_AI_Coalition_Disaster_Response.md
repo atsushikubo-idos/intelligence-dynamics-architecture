@@ -19,7 +19,7 @@ CASE-F005 tests a future regime in which a temporary Human–AI coalition forms 
 
 The core frozen condition is:
 
-\[
+```math
 \boxed{
 C_{t_0}=\varnothing
 \rightarrow
@@ -27,7 +27,7 @@ C_{t_1}\neq\varnothing
 \rightarrow
 C_{t_2}=\varnothing
 }
-\]
+```
 
 The case therefore tests whether the current IDOS architecture can represent:
 
@@ -48,19 +48,19 @@ CASE-F005 was selected prospectively from the frozen Future-Regime candidate poo
 
 The selected candidate was:
 
-\[
+```math
 \boxed{
 F\text{-}F03
 }
-\]
+```
 
 SHA-256:
 
-\[
+```math
 \boxed{
 396e70dd7a5bef557984265c62cf832ac60f823fb15ab53501e4d46fcecf55d4
 }
-\]
+```
 
 Frozen neutral description:
 
@@ -68,13 +68,13 @@ Frozen neutral description:
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F005
 =
 F\text{-}F03
 }
-\]
+```
 
 ---
 
@@ -184,17 +184,17 @@ Before the emergency, the relevant actors exist separately:
 
 There is no single organization corresponding to the later coalition.
 
-\[
+```math
 C_{t_0}=\varnothing
-\]
+```
 
 After disaster onset, joint operation begins:
 
-\[
+```math
 H + A + O
 \rightarrow
 C_{t_1}
-\]
+```
 
 The coalition is therefore created through operational connection rather than legal merger.
 
@@ -204,13 +204,13 @@ The coalition is therefore created through operational connection rather than le
 
 Different actors represent the disaster differently.
 
-\[
+```math
 Representation_H
 \neq
 Representation_A
 \neq
 Representation_O
-\]
+```
 
 Examples:
 
@@ -221,13 +221,13 @@ Examples:
 
 Nevertheless:
 
-\[
+```math
 \boxed{
 Joint\ Action
 \neq
 Shared\ Internal\ Representation
 }
-\]
+```
 
 Joint action can occur without representational unification.
 
@@ -247,13 +247,13 @@ Even when a human commander formally approves a decision, the decision basis may
 
 Thus:
 
-\[
+```math
 \boxed{
 Decision\ Attribution
 \neq
 Single\ Actor\ Attribution
 }
-\]
+```
 
 ---
 
@@ -263,7 +263,7 @@ The coalition may evolve as the emergency changes.
 
 Example:
 
-\[
+```math
 C_1
 =
 Fire
@@ -271,9 +271,9 @@ Fire
 Police
 +
 AI_1
-\]
+```
 
-\[
+```math
 C_2
 =
 Hospital
@@ -283,9 +283,9 @@ Logistics
 AI_1
 +
 AI_2
-\]
+```
 
-\[
+```math
 C_3
 =
 Municipality
@@ -293,17 +293,17 @@ Municipality
 NGO
 +
 AI_3
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Members(C_t)
 \neq
 Members(C_{t+1})
 }
-\]
+```
 
 ---
 
@@ -313,25 +313,25 @@ Despite changing membership, the emergency response may still be treated as one 
 
 Thus:
 
-\[
+```math
 MembershipContinuity=0
-\]
+```
 
 may coexist with:
 
-\[
+```math
 OperationalContinuity>0
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Identity
 \neq
 Membership\ Identity
 }
-\]
+```
 
 ---
 
@@ -353,13 +353,13 @@ This creates a distinction between:
 
 Different actors possess different information.
 
-\[
+```math
 Info_{AI}
 \neq
 Info_{Hospital}
 \neq
 Info_{Municipality}
-\]
+```
 
 Reasons include:
 
@@ -377,39 +377,39 @@ The coalition must act despite incomplete mutual visibility.
 
 The coalition may perform very well:
 
-\[
+```math
 LivesSaved\uparrow
-\]
+```
 
-\[
+```math
 ResponseTime\downarrow
-\]
+```
 
-\[
+```math
 ResourceEfficiency\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 HumanIndependentCapacity\downarrow
-\]
+```
 
 or:
 
-\[
+```math
 OrganizationalIndependentCapacity\downarrow
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Temporary\ System\ Success
 \neq
 Post\text{-}Coalition\ Capacity
 }
-\]
+```
 
 ---
 
@@ -417,11 +417,11 @@ Post\text{-}Coalition\ Capacity
 
 After the emergency:
 
-\[
+```math
 C_{t_2}
 \rightarrow
 \varnothing
-\]
+```
 
 However, the coalition may leave behind:
 
@@ -435,13 +435,13 @@ However, the coalition may leave behind:
 
 Thus:
 
-\[
+```math
 \boxed{
 System\ Dissolution
 \neq
 End\ of\ Consequences
 }
-\]
+```
 
 ---
 
@@ -459,13 +459,13 @@ Yet legal responsibility may remain distributed across:
 
 Therefore:
 
-\[
+```math
 \boxed{
 Operational\ Unit
 \neq
 Legal\ Responsibility\ Unit
 }
-\]
+```
 
 ---
 
@@ -475,15 +475,15 @@ Speed may be prioritized over complete documentation.
 
 Later:
 
-\[
+```math
 Outcome_t
-\]
+```
 
 may be observable while:
 
-\[
+```math
 DecisionProcess_t
-\]
+```
 
 is only partially reconstructable.
 
@@ -495,57 +495,57 @@ This creates post-event learning and accountability problems.
 
 Without IDOS terminology, the following problems remain:
 
-\[
+```math
 \boxed{
 Temporary\ Collective\ Agency
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Changing\ Membership
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Operational\ Continuity
 without
 Membership\ Continuity
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Joint\ Action
 without
 Shared\ Representation
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Operational\ Unit
 \neq
 Legal\ Responsibility\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 System\ Dissolution
 \neq
 End\ of\ Consequences
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Temporary\ Performance
 \neq
 Post\text{-}Coalition\ Capacity
 }
-\]
+```
 
 ---
 
@@ -591,13 +591,13 @@ Post\text{-}Coalition\ Capacity
 
 CASE-F005 strongly separates operational and legal units.
 
-\[
+```math
 \boxed{
 Operational\ Unit
 \neq
 Legal\ Entity
 }
-\]
+```
 
 The coalition may temporarily become the most useful explanatory unit.
 
@@ -607,11 +607,11 @@ The coalition may temporarily become the most useful explanatory unit.
 
 Membership changes are intrinsic to the coalition.
 
-\[
+```math
 \boxed{
 B_t\neq B_{t+1}
 }
-\]
+```
 
 Boundary instability is therefore structural rather than exceptional.
 
@@ -621,13 +621,13 @@ Boundary instability is therefore structural rather than exceptional.
 
 Membership continuity is not sufficient or necessary for system identity.
 
-\[
+```math
 \boxed{
 Membership\ Identity
 \neq
 System\ Identity
 }
-\]
+```
 
 Candidate continuity signals include:
 
@@ -645,7 +645,7 @@ Snapshot analysis is insufficient.
 
 A minimum temporal structure is:
 
-\[
+```math
 \boxed{
 Birth
 \rightarrow
@@ -657,7 +657,7 @@ Dissolution
 \rightarrow
 Post\text{-}Effects
 }
-\]
+```
 
 ---
 
@@ -677,13 +677,13 @@ These changes may persist after coalition dissolution.
 
 ## 6.6 Future Updateability
 
-\[
+```math
 \boxed{
 Temporary\ Performance
 \neq
 Post\text{-}Event\ Updateability
 }
-\]
+```
 
 High emergency performance may coexist with reduced independent human or organizational capacity.
 
@@ -693,23 +693,23 @@ High emergency performance may coexist with reduced independent human or organiz
 
 Ideal temporary collaboration may include:
 
-\[
+```math
 MU_{H\rightarrow A}>0
-\]
+```
 
 and:
 
-\[
+```math
 MU_{A\rightarrow H}>0
-\]
+```
 
 However:
 
-\[
+```math
 MU_{A\rightarrow H}
 \gg
 MU_{H\rightarrow A}
-\]
+```
 
 may contribute to dependency.
 
@@ -724,11 +724,11 @@ Because the coalition later disappears, provenance becomes essential for:
 - accountability;
 - reconstruction.
 
-\[
+```math
 \boxed{
 History/Provenance=A+
 }
-\]
+```
 
 ---
 
@@ -736,7 +736,7 @@ History/Provenance=A+
 
 The initial candidate chain was:
 
-\[
+```math
 Temporary\ Coalition\ Formation
 \rightarrow
 Dynamic\ Boundary
@@ -750,7 +750,7 @@ Trajectory
 Post\text{-}Dissolution\ Effects
 \rightarrow
 Future\ Updateability
-\]
+```
 
 The Arrow Deletion Test rejected this as a universal deterministic chain.
 
@@ -787,13 +787,13 @@ The Arrow Deletion Test rejected this as a universal deterministic chain.
 
 ## 9.1 Boundary Change Does Not Necessarily Mean Updating Unit Change
 
-\[
+```math
 \boxed{
 B_t\neq B_{t+1}
 \not\Rightarrow
 U_t\neq U_{t+1}
 }
-\]
+```
 
 Boundary and Updating Unit must remain distinct.
 
@@ -801,13 +801,13 @@ Boundary and Updating Unit must remain distinct.
 
 ## 9.2 Membership Continuity Is Not System Identity
 
-\[
+```math
 \boxed{
 Membership\ Continuity
 \neq
 Identity\ Continuity
 }
-\]
+```
 
 Operational and causal continuity may matter more.
 
@@ -815,13 +815,13 @@ Operational and causal continuity may matter more.
 
 ## 9.3 Provenance Supports Re-identifiability
 
-\[
+```math
 \boxed{
 Provenance
 \rightarrow
 Reidentifiability
 }
-\]
+```
 
 This is one of the strongest relations in CASE-F005.
 
@@ -829,13 +829,13 @@ This is one of the strongest relations in CASE-F005.
 
 ## 9.4 Traceability Is Not Responsibility
 
-\[
+```math
 \boxed{
 Traceability
 \neq
 Legal\ Accountability
 }
-\]
+```
 
 Reconstructing a decision does not by itself determine responsibility.
 
@@ -843,13 +843,13 @@ Reconstructing a decision does not by itself determine responsibility.
 
 ## 9.5 Temporary Performance Is Not Post-Coalition Capacity
 
-\[
+```math
 \boxed{
 Coalition\ Performance
 \not\Rightarrow
 Post\text{-}Coalition\ Capacity
 }
-\]
+```
 
 This is a strong non-equivalence result.
 
@@ -857,13 +857,13 @@ This is a strong non-equivalence result.
 
 ## 9.6 Current MU Is Not Future Updateability
 
-\[
+```math
 \boxed{
 Current\ MU
 \neq
 Future\ Updateability
 }
-\]
+```
 
 High mutual adaptation during an emergency may still create post-event dependency.
 
@@ -873,7 +873,7 @@ High mutual adaptation during an emergency may still create post-event dependenc
 
 The stronger relation is:
 
-\[
+```math
 \boxed{
 Dependency
 +
@@ -883,19 +883,19 @@ Low\ Independent\ Capacity
 \rightarrow
 Future\ Updateability\ Risk
 }
-\]
+```
 
 ---
 
 ## 9.8 Dissolution Does Not End Effects
 
-\[
+```math
 \boxed{
 System\ Dissolution
 \neq
 End\ of\ System\ Effects
 }
-\]
+```
 
 The coalition may disappear while its relational and institutional consequences persist.
 
@@ -903,13 +903,13 @@ The coalition may disappear while its relational and institutional consequences 
 
 ## 9.9 Shared Representation Is Not Necessary for Joint Action
 
-\[
+```math
 \boxed{
 Joint\ Action
 without
 Shared\ Representation
 }
-\]
+```
 
 is possible.
 
@@ -921,7 +921,7 @@ This supports interoperability without representational unification.
 
 ## Structure A — Identity / Provenance
 
-\[
+```math
 \boxed{
 Boundary\ Change
 +
@@ -931,45 +931,45 @@ Provenance
 \rightarrow
 Reidentifiability
 }
-\]
+```
 
 ---
 
 ## Structure B — Dissolution / Persistence
 
-\[
+```math
 \boxed{
 System\ Dissolution
 \neq
 End\ of\ Effects
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Dissolution
 \rightarrow
 Provenance\ Importance
 }
-\]
+```
 
 ---
 
 ## Structure C — Dependency / Future Updateability
 
-\[
+```math
 \boxed{
 MU\ Asymmetry
 \rightarrow
 Dependency
 }
-\]
+```
 
 combined with:
 
-\[
+```math
 \boxed{
 Dependency
 +
@@ -979,13 +979,13 @@ Low\ Independent\ Capacity
 \rightarrow
 Future\ Updateability\ Risk
 }
-\]
+```
 
 ---
 
 ## Structure D — Trajectory
 
-\[
+```math
 \boxed{
 Birth
 \rightarrow
@@ -995,17 +995,17 @@ Dissolution
 \rightarrow
 Post\text{-}Effects
 }
-\]
+```
 
 must be represented to detect identity, responsibility, dependency, and institutional learning.
 
 Overall Level 2 result:
 
-\[
+```math
 \boxed{
 PARTIALLY\ SUPPORTED
 }
-\]
+```
 
 ---
 
@@ -1013,23 +1013,23 @@ PARTIALLY\ SUPPORTED
 
 Three models were compared:
 
-\[
+```math
 \boxed{
 Model\ A=Full\ IDOS
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ B=IDOS\ Nodes\ Only
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ C=Best\ Rival\ Combination
 }
-\]
+```
 
 ---
 
@@ -1052,11 +1052,11 @@ These frameworks can explain most local phenomena in CASE-F005.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ is\ not\ necessary
 }
-\]
+```
 
 for basic explanation of the case.
 
@@ -1083,17 +1083,17 @@ The main losses are integrative.
 
 IDOS frames a common question:
 
-\[
+```math
 \boxed{
 What\ is\ the\ Updating\ Unit?
 }
-\]
+```
 
 and allows:
 
-\[
+```math
 U_t\neq U_{t+1}
-\]
+```
 
 This permits analysis across:
 
@@ -1111,7 +1111,7 @@ without requiring one fixed analytical unit.
 
 IDOS connects:
 
-\[
+```math
 \boxed{
 Boundary
 \rightarrow
@@ -1121,7 +1121,7 @@ Trajectory
 \rightarrow
 Provenance
 }
-\]
+```
 
 as a common problem of re-identifying an evolving Updating Unit, relation, or system.
 
@@ -1131,13 +1131,13 @@ as a common problem of re-identifying an evolving Updating Unit, relation, or sy
 
 IDOS separates:
 
-\[
+```math
 \boxed{
 Temporary\ System\ Performance
 \neq
 Post\text{-}Coalition\ Updateability
 }
-\]
+```
 
 This allows evaluation of whether emergency success creates later:
 
@@ -1150,13 +1150,13 @@ This allows evaluation of whether emergency success creates later:
 
 # 17. Lost Structure 4 — Current MU vs Future Updateability
 
-\[
+```math
 \boxed{
 Current\ Mutual\ Updateability
 \neq
 Future\ Updateability
 }
-\]
+```
 
 Temporary bidirectional adaptation may still reduce future independent capacity.
 
@@ -1166,21 +1166,21 @@ Temporary bidirectional adaptation may still reduce future independent capacity.
 
 IDOS extends analysis beyond termination:
 
-\[
+```math
 Dissolution
 \rightarrow
 Post\text{-}Effects
-\]
+```
 
 with:
 
-\[
+```math
 Trajectory
 +
 Provenance
 +
 FutureUpdateability
-\]
+```
 
 This is particularly important for temporary Human–AI systems.
 
@@ -1192,7 +1192,7 @@ This is particularly important for temporary Human–AI systems.
 
 Retains:
 
-\[
+```math
 Boundary
 +
 UpdatingUnit
@@ -1210,7 +1210,7 @@ Dissolution
 Provenance
 +
 FutureUpdateability
-\]
+```
 
 as an integrated structure.
 
@@ -1218,53 +1218,53 @@ as an integrated structure.
 
 Retains the concepts but weakens dependencies such as:
 
-\[
+```math
 MU\ Asymmetry
 \rightarrow
 Dependency
-\]
+```
 
-\[
+```math
 Dissolution
 \rightarrow
 Provenance\ Importance
-\]
+```
 
-\[
+```math
 Trajectory
 \rightarrow
 PostEffects\ Detection
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 Model\ A>Model\ B
 }
-\]
+```
 
 ## Model C — Best Rival Combination
 
 For local explanation:
 
-\[
+```math
 \boxed{
 Model\ C\geq Model\ A
 }
-\]
+```
 
 in several mature domains.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS
 \not>
 Best\ Rival\ Combination
 }
-\]
+```
 
 in general explanatory superiority.
 
@@ -1287,31 +1287,31 @@ in general explanatory superiority.
 
 Key useful distinctions include:
 
-\[
+```math
 TemporaryPerformance
 \neq
 PostCoalitionCapacity
-\]
+```
 
-\[
+```math
 MembershipIdentity
 \neq
 SystemIdentity
-\]
+```
 
-\[
+```math
 Dissolution
 \neq
 EndOfEffects
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Diagnostic\ Gain=Moderate\text{-}Strong
 }
-\]
+```
 
 ---
 
@@ -1319,43 +1319,43 @@ Diagnostic\ Gain=Moderate\text{-}Strong
 
 CASE-F005 spans:
 
-\[
+```math
 Human
-\]
+```
 
-\[
+```math
 AI
-\]
+```
 
-\[
+```math
 Organization
-\]
+```
 
-\[
+```math
 Coalition
-\]
+```
 
-\[
+```math
 Post\text{-}Coalition\ Organization
-\]
+```
 
 and follows them through:
 
-\[
+```math
 Birth
 \rightarrow
 Dissolution
 \rightarrow
 PostEffects
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Relational/CrossScale\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1372,11 +1372,11 @@ Even when disaster response is successful, the architecture can distinguish:
 
 Judgment:
 
-\[
+```math
 \boxed{
 FailureDetectionGain=Strong
 }
-\]
+```
 
 ---
 
@@ -1414,11 +1414,11 @@ Evaluate post-event Human and organizational capacity.
 
 Judgment:
 
-\[
+```math
 \boxed{
 InterventionGain=Strong
 }
-\]
+```
 
 ---
 
@@ -1428,45 +1428,45 @@ The Best Rival Combination requires multiple mature frameworks.
 
 IDOS provides a common vocabulary across:
 
-\[
+```math
 Formation
-\]
+```
 
-\[
+```math
 Boundary
-\]
+```
 
-\[
+```math
 Continuity
-\]
+```
 
-\[
+```math
 MU
-\]
+```
 
-\[
+```math
 Trajectory
-\]
+```
 
-\[
+```math
 Dissolution
-\]
+```
 
-\[
+```math
 Provenance
-\]
+```
 
-\[
+```math
 FutureUpdateability
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 CompressionGain=Moderate\text{-}Strong
 }
-\]
+```
 
 Lossless compression remains unproven.
 
@@ -1478,75 +1478,75 @@ Across Future cases:
 
 ### F002
 
-\[
+```math
 Human\leftrightarrow AI
-\]
+```
 
 ### F003
 
-\[
+```math
 Institution\leftrightarrow AI
-\]
+```
 
 ### F004
 
-\[
+```math
 State\leftrightarrow State\leftrightarrow AI
-\]
+```
 
 ### F005
 
-\[
+```math
 Human+AI+Organization
 \rightarrow
 TemporaryCoalition
 \rightarrow
 Dissolution
-\]
+```
 
 Despite different structures, the following repeatedly remain strong:
 
-\[
+```math
 Mutual\ Updateability
-\]
+```
 
-\[
+```math
 Relational/System\ Dynamics
-\]
+```
 
-\[
+```math
 Trajectory
-\]
+```
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
 CASE-F005 additionally strengthens:
 
-\[
+```math
 Updating\ Unit
-\]
+```
 
-\[
+```math
 Dynamic\ Boundary
-\]
+```
 
-\[
+```math
 Invariant/Continuity
-\]
+```
 
-\[
+```math
 History/Provenance
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 TransferGain=PreliminaryStrong
 }
-\]
+```
 
 ---
 
@@ -1554,23 +1554,23 @@ TransferGain=PreliminaryStrong
 
 CASE-F005 does not establish:
 
-\[
+```math
 IDOS
 >
 Best\ Rival\ Combination
-\]
+```
 
 However, it provides meaningful integrative architecture-level value across changing analytical units, temporary relations, and post-dissolution effects.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 with relatively strong support.
 
@@ -1582,13 +1582,13 @@ Meaning:
 
 # 28. Architecture Contradiction
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
 No architecture-level incompatibility is identified.
 
@@ -1598,17 +1598,17 @@ No architecture-level incompatibility is identified.
 
 Even under strong future complexity:
 
-\[
+```math
 Holding=B
-\]
+```
 
-\[
+```math
 Residual=B
-\]
+```
 
-\[
+```math
 12PDM=C/B
-\]
+```
 
 Therefore future complexity does not automatically restore these constructs as necessary core elements.
 
@@ -1618,29 +1618,29 @@ Therefore future complexity does not automatically restore these constructs as n
 
 CASE-F005 strongly increases pressure to retain:
 
-\[
+```math
 \boxed{
 Updating\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Dynamic\ Boundary
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Invariant/Continuity
 }
-\]
+```
 
-\[
+```math
 \boxed{
 History/Provenance
 }
-\]
+```
 
 These become important when:
 
@@ -1655,7 +1655,7 @@ These become important when:
 
 CASE-F004 emphasized:
 
-\[
+```math
 Plurality
 +
 Interoperability
@@ -1665,11 +1665,11 @@ Verification
 MU
 +
 Power/Sovereignty
-\]
+```
 
 CASE-F005 adds:
 
-\[
+```math
 Formation
 +
 Boundary
@@ -1679,32 +1679,32 @@ Continuity
 Dissolution
 +
 Provenance
-\]
+```
 
 Together, this creates pressure toward:
 
-\[
+```math
 \boxed{
 Dynamic\ Social\ Connection\ Architecture
 }
-\]
+```
 
 rather than a static connection model.
 
 A candidate interpretation is:
 
-\[
+```math
 \boxed{
 Social\ Connection
 =
 A\ temporally\ evolving\
 relational\ structure
 }
-\]
+```
 
 This means social connection includes:
 
-\[
+```math
 \boxed{
 Formation
 \rightarrow
@@ -1714,7 +1714,7 @@ Dissolution
 \rightarrow
 Post\text{-}Effects
 }
-\]
+```
 
 rather than merely persistent links between stable actors.
 
@@ -1724,31 +1724,31 @@ rather than merely persistent links between stable actors.
 
 CASE-F004 produced:
 
-\[
+```math
 REVISION\ CANDIDATE
-\]
+```
 
 CASE-F005 maintains:
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 with additional pressure to interpret Social Connection dynamically.
 
 Formally:
 
-\[
+```math
 \boxed{
 Revision\ Candidate
 \neq
 Revision\ Adopted
 }
-\]
+```
 
 MASTER_MAP_v1.0 remains the frozen baseline until a later revision is formally adopted.
 
@@ -1813,43 +1813,43 @@ architecture_validation:
 
 CASE-F005 produces:
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value
 =
 B_A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 The strongest new pressure from CASE-F005 is:
 
-\[
+```math
 \boxed{
 Social\ Connection
 \neq
 Static\ Network
 }
-\]
+```
 
 A more adequate future-oriented representation is:
 
-\[
+```math
 \boxed{
 Formation
 \rightarrow
@@ -1859,11 +1859,11 @@ Dissolution
 \rightarrow
 Post\text{-}Effects
 }
-\]
+```
 
 combined with:
 
-\[
+```math
 \boxed{
 Boundary
 +
@@ -1877,6 +1877,6 @@ Provenance
 +
 Future\ Updateability
 }
-\]
+```
 
 CASE-F005 therefore strengthens the emerging interpretation of IDOS as a **Dynamic Social / Relational Updateability Architecture**, while preserving MASTER_MAP_v1.0 as the frozen baseline until a later revision is formally adopted.

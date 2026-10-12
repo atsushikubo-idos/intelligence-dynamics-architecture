@@ -11,11 +11,11 @@
 
 本検証の出発点は、次の問いである。
 
-\[
+```math
 \boxed{
 \textbf{IDOSのCoreは、将来のより複雑な知性系・社会系でも耐えられるか？}
 }
-\]
+```
 
 AGI / ASI 社会そのものを現在直接実験することはできない。
 
@@ -44,7 +44,7 @@ AGI / ASI 社会そのものを現在直接実験することはできない。
 
 その結果、当初の候補として次の動態が残った。
 
-\[
+```math
 Difference
 \rightarrow
 Transformation
@@ -54,7 +54,7 @@ Trace/Residual
 Recontact
 \rightarrow
 Reconfiguration
-\]
+```
 
 ただし後続の経験検証により、最後の `Reconfiguration` は必須ではないことが判明した。
 
@@ -89,9 +89,9 @@ Reconfiguration
 
 Core由来のOperational Conditionsとして、当初は以下を設定した。
 
-\[
+```math
 OC=\{R,RR,P,VCC\}
-\]
+```
 
 - **R — Recontactability**
 - **RR — Residual Retention**
@@ -100,9 +100,9 @@ OC=\{R,RR,P,VCC\}
 
 さらに、実際に構造変更可能な余地を表すため、
 
-\[
+```math
 AT=Available\ Transformability
-\]
+```
 
 を導入した。
 
@@ -115,9 +115,9 @@ ATの観測候補：
 
 Outcomeとして、
 
-\[
+```math
 RD=Reconfiguration\ Depth
-\]
+```
 
 を分離した。
 
@@ -138,17 +138,17 @@ RD=Reconfiguration\ Depth
 
 重要なSampling Rule：
 
-\[
+```math
 \boxed{
 Case \neq Study
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Case = One\ System \times One\ Bounded\ Transformation\ Trajectory
 }
-\]
+```
 
 Evidence不足は低スコアとして扱わず、欠損またはeligibility failureとした。
 
@@ -199,29 +199,29 @@ Evidence不足は低スコアとして扱わず、欠損またはeligibility fai
 
 23ケースを通して、以下は領域横断で機能語彙として維持された。
 
-\[
+```math
 R,\ RR,\ P,\ VCC,\ AT
-\]
+```
 
 特に以下の区別が繰り返し現れた。
 
-\[
+```math
 \boxed{
 P \neq VCC
 }
-\]
+```
 
-\[
+```math
 \boxed{
 OC \neq AT
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Large\ Reform \neq Validated\ Reconfiguration
 }
-\]
+```
 
 また、R / P は多くの重大事故・危機ケースで高くなり、ceiling effect が生じた。
 
@@ -233,9 +233,9 @@ Large\ Reform \neq Validated\ Reconfiguration
 
 当初、
 
-\[
+```math
 \rho(VCC,RD)\approx0.76
-\]
+```
 
 という強い関係が観測された。
 
@@ -250,11 +250,11 @@ Large\ Reform \neq Validated\ Reconfiguration
 
 そこでVCCを薄く再定義した。
 
-\[
+```math
 \boxed{
 VCC^* = Validation\text{-}to\text{-}Decision\ Continuity
 }
-\]
+```
 
 VCC*は以下のみを測る。
 
@@ -271,9 +271,9 @@ VCC*は以下のみを測る。
 
 VCC*とRDを分離するため、
 
-\[
+```math
 VCC^*=High,\quad RD=Low
-\]
+```
 
 となるMaintain / No-Reconfiguration casesを探索した。
 
@@ -287,11 +287,11 @@ VCC^*=High,\quad RD=Low
 
 これにより、
 
-\[
+```math
 \boxed{
 FU \neq RD
 }
-\]
+```
 
 が重要な結論として残った。
 
@@ -301,34 +301,34 @@ FU \neq RD
 
 MASTER_MAP v1.1には既に、
 
-\[
+```math
 Reality'
 \rightarrow
 Reopening
-\]
+```
 
 が存在する。
 
 またQ2では、
 
-\[
+```math
 \boxed{
 \text{「次も変われる状態」を維持・再構成する}
 }
-\]
+```
 
 ことがFuture Updateabilityの中心に置かれていた。
 
 今回のPilotによって、Reopeningの経験的意味が具体化された。
 
-\[
+```math
 \boxed{
 Reopening=
 \text{Realityとの再接触により、
 既存Decision / Transformation Ruleを
 再び選択対象に戻すこと}
 }
-\]
+```
 
 経験的観測条件：
 
@@ -341,9 +341,9 @@ Maintain以外の選択肢も実際に可能だったか。
 ### RO3 — Decision after Reopening
 再評価後に、
 
-\[
+```math
 Maintain,\ Adjust,\ Reconfigure,\ Abandon
-\]
+```
 
 のいずれかを改めて選択したか。
 
@@ -353,11 +353,11 @@ Maintain,\ Adjust,\ Reconfigure,\ Abandon
 
 重要なのは、
 
-\[
+```math
 \boxed{
 Reopening \neq Reconfiguration
 }
-\]
+```
 
 である。
 
@@ -370,21 +370,21 @@ Reopening \neq Reconfiguration
 
 したがって、
 
-\[
+```math
 \boxed{
 Large\ Change \neq High\ Future\ Updateability
 }
-\]
+```
 
 である。
 
 逆に、
 
-\[
+```math
 \boxed{
 No\ Change \neq Low\ Future\ Updateability
 }
-\]
+```
 
 でもある。
 
@@ -394,7 +394,7 @@ No\ Change \neq Low\ Future\ Updateability
 
 本Pilot時点での暫定定義：
 
-\[
+```math
 \boxed{
 \textbf{
 Future Updateabilityとは、
@@ -403,11 +403,11 @@ Future Updateabilityとは、
 次の行為を決め直せる能力である。
 }
 }
-\]
+```
 
 より操作的には、
 
-\[
+```math
 Difference
 \rightarrow
 Trace/Residual
@@ -419,11 +419,11 @@ Validation
 Reopening
 \rightarrow
 Decision
-\]
+```
 
 そのDecisionは、
 
-\[
+```math
 \boxed{
 Maintain
 /
@@ -433,7 +433,7 @@ Reconfigure
 /
 Abandon
 }
-\]
+```
 
 のいずれでもよい。
 
@@ -443,7 +443,7 @@ Abandon
 
 Stress Test途中では、
 
-\[
+```math
 Difference
 \rightarrow
 Transformation
@@ -453,13 +453,13 @@ Trace/Residual
 Recontact
 \rightarrow
 Reconfiguration
-\]
+```
 
 をDeep Core候補としていた。
 
 しかし経験検証後は、
 
-\[
+```math
 \boxed{
 Difference
 \rightarrow
@@ -471,7 +471,7 @@ Recontact
 \rightarrow
 Reopening
 }
-\]
+```
 
 の方がより一般的である可能性が高い。
 
@@ -483,11 +483,11 @@ ReconfigurationはReopening後の一つの結果として扱う。
 
 今回の検証は、
 
-\[
+```math
 \boxed{
 \text{ASI時代にもIDOSが必ず成立する}
 }
-\]
+```
 
 ことを証明するものではない。
 
@@ -502,13 +502,13 @@ ReconfigurationはReopening後の一つの結果として扱う。
 
 現時点で最も強く残ったのは、
 
-\[
+```math
 \boxed{
 Recontact
 \rightarrow
 Reopening
 }
-\]
+```
 
 である。
 
@@ -516,7 +516,7 @@ Reopening
 
 ## 15. Main Finding
 
-\[
+```math
 \boxed{
 \textbf{
 「次も変われる」とは、
@@ -525,7 +525,7 @@ Realityとの再接触によって、
 自分の判断をもう一度開き直せることである。
 }
 }
-\]
+```
 
 ---
 

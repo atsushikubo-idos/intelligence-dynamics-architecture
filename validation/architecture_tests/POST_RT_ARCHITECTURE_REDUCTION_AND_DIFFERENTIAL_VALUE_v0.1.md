@@ -16,7 +16,7 @@ The sequence should not be read as a series of newly established IDOS concepts.
 
 It should be read as:
 
-\[
+```math
 \boxed{
 Candidate
 \rightarrow
@@ -28,7 +28,7 @@ Reduction
 \rightarrow
 Surviving\ Question
 }
-\]
+```
 
 The objective was to determine whether IDOS provides:
 
@@ -51,17 +51,17 @@ The central hypothesis was that heterogeneous intelligences may not merely adapt
 
 Conceptually:
 
-\[
+```math
 G_A(t)\leftrightarrow G_B(t)
 \rightarrow Interaction_t
 \rightarrow Update_A,Update_B
 \rightarrow
 G_A(t+1)\leftrightarrow G_B(t+1)
-\]
+```
 
 The key measurement distinction was:
 
-\[
+```math
 State\ Change
 \neq
 Behavior/Policy\ Change
@@ -69,7 +69,7 @@ Behavior/Policy\ Change
 Update\text{-}Mechanism\ Change
 \neq
 Future\ Updateability
-\]
+```
 
 A change in behavior or policy does not by itself establish a change in the mechanism by which future revision occurs.
 
@@ -85,11 +85,11 @@ Human–robot co-learning and mutual adaptation were observable.
 
 However:
 
-\[
+```math
 Mutual\ Adaptation
 \not\Rightarrow
 \Delta G
-\]
+```
 
 The study provided rich evidence of interaction patterns and behavioral adaptation, but did not directly establish that the human or robot update mechanism itself changed.
 
@@ -111,11 +111,11 @@ The case provided evidence of coupled human–machine adaptation and convergence
 
 However:
 
-\[
+```math
 Coupled\ Policy\ Dynamics
 \not\Rightarrow
 Update\text{-}Mechanism\ Change
-\]
+```
 
 Changes in adaptive behavior and equilibrium do not establish that the rule governing subsequent updating has itself changed.
 
@@ -137,31 +137,31 @@ Cross-task human adaptability and robot adaptation were observable.
 
 The case sharpened three distinctions:
 
-\[
+```math
 Adaptability\ Parameter
 \neq
 Update\text{-}Mechanism\ Change
-\]
+```
 
-\[
+```math
 Cross\text{-}Task\ Adaptability
 \neq
 Future\ Updateability\ Change
-\]
+```
 
-\[
+```math
 Robot\ Belief/Policy\ Adaptation
 \neq
 Robot\ Update\text{-}Mechanism\ Change
-\]
+```
 
 Most importantly:
 
-\[
+```math
 Adaptability
 \neq
 Change\ in\ Adaptability
-\]
+```
 
 **Result**
 
@@ -179,21 +179,21 @@ Change\ in\ Adaptability
 
 Across the mechanically selected cases:
 
-\[
+```math
 L1/L2 = Strong
-\]
+```
 
 while:
 
-\[
+```math
 L3 = Absent\ or\ Indeterminate
-\]
+```
 
 and:
 
-\[
+```math
 L4
-\]
+```
 
 could not be inferred from performance, adaptation, equilibrium, or transfer alone.
 
@@ -217,11 +217,11 @@ This led to a sharper question:
 
 The next candidate separated current performance from the system's future ability to update.
 
-\[
+```math
 \Delta P
 \quad vs.\quad
 \Delta G
-\]
+```
 
 A conceptual 2×2 was introduced:
 
@@ -232,15 +232,15 @@ A conceptual 2×2 was introduced:
 
 For Human–AI systems, an especially important candidate was:
 
-\[
+```math
 P_{Human+AI}\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 G_H\downarrow
-\]
+```
 
 This would indicate increasing system performance alongside declining human updateability.
 
@@ -265,11 +265,11 @@ Observed target:
 
 Critical distinction:
 
-\[
+```math
 Manual\ Performance\downarrow
 \not\Rightarrow
 G_H\downarrow
-\]
+```
 
 Skill degradation can arise without demonstrating a change in the architecture of detection, representation, exploration, revision, verification, or meta-update.
 
@@ -293,25 +293,25 @@ The study structure allowed comparison between assisted performance and later in
 
 Conceptually:
 
-\[
+```math
 P_{Human+AI}\uparrow
-\]
+```
 
 followed by:
 
-\[
+```math
 P_{Human-alone,after}\downarrow
-\]
+```
 
 with reduced persistence.
 
 Persistence was closer to an exploration/reconfiguration dimension, but:
 
-\[
+```math
 Persistence\downarrow
 \not\Rightarrow
 G_X\downarrow
-\]
+```
 
 Alternative explanations included motivation, effort allocation, learned dependence, cognitive offloading, strategy change, and expectation of AI availability.
 
@@ -335,23 +335,23 @@ The case examined AI-assisted learning followed by independent retention.
 
 Even if:
 
-\[
+```math
 P_{AI-assisted}\uparrow
-\]
+```
 
 and:
 
-\[
+```math
 Retention_{later}\downarrow
-\]
+```
 
 the following does not hold automatically:
 
-\[
+```math
 Retention\downarrow
 \Rightarrow
 G_H\downarrow
-\]
+```
 
 Alternative explanations include shallow encoding, reduced retrieval practice, cognitive effort reduction, externalization, and study-method differences.
 
@@ -369,25 +369,25 @@ This case moved closer to updateability-related constructs.
 
 Potential mappings included:
 
-\[
+```math
 Self\text{-}Directed\ Learning
 \approx
 G_M/G_X
-\]
+```
 
-\[
+```math
 Critical\ Thinking
 \approx
 G_R/G_U/G_V
-\]
+```
 
 However:
 
-\[
+```math
 Critical\ Thinking\ Score
 \neq
 G_H
-\]
+```
 
 Existing educational and psychological measures already capture parts of what IDOS was attempting to describe.
 
@@ -410,15 +410,15 @@ The case separated Human+AI performance from later human-only performance.
 
 Again:
 
-\[
+```math
 P_{Human+AI}\uparrow
-\]
+```
 
 and later independent-performance differences do not establish:
 
-\[
+```math
 \Delta G_H
-\]
+```
 
 because learning transfer, practice, knowledge acquisition, or memory can explain the result.
 
@@ -435,7 +435,7 @@ because learning transfer, practice, knowledge acquisition, or memory can explai
 
 Across HU-001 to HU-005:
 
-\[
+```math
 Skill
 \neq
 Persistence
@@ -447,7 +447,7 @@ Critical\ Thinking
 Independent\ Performance
 \neq
 Update\ Mechanism
-\]
+```
 
 Several propositions were reduced.
 
@@ -462,11 +462,11 @@ Several propositions were reduced.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Performance\ alone\ is\ insufficient
 }
-\]
+```
 
 is **not** itself a differential IDOS contribution.
 
@@ -486,11 +486,11 @@ These candidates are recorded here as **reduction steps**, not canonical additio
 
 Candidate:
 
-\[
+```math
 FU_t
 =
 Capacity(Update\mid Unknown\ Future\ Change)
-\]
+```
 
 Functional overlap was found with:
 
@@ -530,10 +530,10 @@ Mutual updateability and update-mechanism change are not sufficient novelty clai
 
 The focus shifted from individual degradation to where update functions reside:
 
-\[
+```math
 A_t: U\rightarrow
 \{Human,AI,Organization,Shared\}
-\]
+```
 
 where \(U\) includes functions such as detection, reframing, exploration, revision, verification, and meta-update.
 
@@ -557,11 +557,11 @@ Distribution of cognitive/update functions is strongly existing.
 
 Candidate:
 
-\[
+```math
 \Gamma_t
 =
 Capacity\ to\ reconfigure\ allocation\ of\ update\ functions
-\]
+```
 
 ### Functional overlap
 
@@ -582,11 +582,11 @@ Reconfigurability itself is also weak as a standalone novelty candidate.
 
 The next candidate asked whether the identity of the updating system itself changes:
 
-\[
+```math
 (E_t,A_t,G_t)
 \rightarrow
 (E_{t+1},A_{t+1},G_{t+1})
-\]
+```
 
 where \(E_t\) denotes the effective updating relational ensemble.
 
@@ -610,7 +610,7 @@ Dynamic system boundaries and emergent agency are already deeply represented in 
 
 After repeated reductions, attention returned to the canonical IDOS chain:
 
-\[
+```math
 Reality
 \rightarrow
 Difference
@@ -626,7 +626,7 @@ Update
 Trajectory
 \rightarrow
 Recontact
-\]
+```
 
 Residual itself also has substantial analogues:
 
@@ -639,9 +639,9 @@ Residual itself also has substantial analogues:
 
 Therefore:
 
-\[
+```math
 Residual
-\]
+```
 
 alone is not a novelty claim.
 
@@ -657,7 +657,7 @@ Candidate formulation:
 
 Conceptually:
 
-\[
+```math
 D_0
 \rightarrow
 Res_A
@@ -673,23 +673,23 @@ Update
 Reality'
 \rightarrow
 Recontact
-\]
+```
 
 Important distinction:
 
-\[
+```math
 Information\ Provenance
 \neq
 Traceability\ of\ Unresolved\ Difference
-\]
+```
 
 and:
 
-\[
+```math
 Res^{Reality\rightarrow A}
 \neq
 Res^{A\rightarrow B}
-\]
+```
 
 A translation residual is not identical to the original Reality–representation residual.
 
@@ -697,7 +697,7 @@ A translation residual is not identical to the original Reality–representation
 
 **Productive Resolution**
 
-\[
+```math
 Res_A>0
 \rightarrow
 Res_B>0
@@ -707,29 +707,29 @@ Update
 Recontact
 \rightarrow
 Res\downarrow
-\]
+```
 
 **Premature Closure**
 
-\[
+```math
 Res_A>0
 \rightarrow
 Translation
 \rightarrow
 Res_B\approx0
-\]
+```
 
 followed later by:
 
-\[
+```math
 Recontact
 \rightarrow
 Res>0
-\]
+```
 
 **Productive Holding**
 
-\[
+```math
 Res_A>0
 \rightarrow
 Holding
@@ -739,7 +739,7 @@ Res_B>0
 Reframe
 \rightarrow
 Update
-\]
+```
 
 Holding does not imply that the unresolved concern is correct.
 
@@ -753,7 +753,7 @@ The Space Shuttle Challenger case was used as an **exploratory observability cas
 
 The reconstruction suggested:
 
-\[
+```math
 Reality
 \rightarrow
 O\text{-}ring\ anomaly
@@ -767,7 +767,7 @@ Residual\ Attenuation
 Operational\ Closure
 \rightarrow
 Reality\ Recontact
-\]
+```
 
 UDL observability was strong.
 
@@ -799,26 +799,26 @@ This was an important negative result.
 
 The Challenger analysis suggested a potentially useful pattern:
 
-\[
+```math
 Reality\ Evidence\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 Organizational\ Concern\downarrow
-\]
+```
 
 A provisional concept was:
 
-\[
+```math
 ED_t
 =
 Distance(
 Evidence_{Reality,t},
 Representation_{System,t}
 )
-\]
+```
 
 However, functional-equivalence comparison showed strong overlap with:
 
@@ -833,9 +833,9 @@ However, functional-equivalence comparison showed strong overlap with:
 
 ### Reduction
 
-\[
+```math
 Epistemic\ Divergence
-\]
+```
 
 is weak as a standalone novelty candidate.
 
@@ -849,30 +849,30 @@ A deeper question emerged:
 
 Provisional definition:
 
-\[
+```math
 RG_t
 =
 Capacity\ to\ generate\ meaningful\ residuals
 \ when\ Reality\ departs\ from\ current\ representations
-\]
+```
 
 This connected to:
 
-\[
+```math
 Residual_t
 \rightarrow
 Update_t
 \rightarrow
 Capacity\ to\ Generate\ Residual_{t+1}
-\]
+```
 
 and suggested:
 
-\[
+```math
 Updateability
 \ requires
 \ Detectability
-\]
+```
 
 However, functional-equivalence comparison again found substantial overlap with:
 
@@ -896,9 +896,9 @@ Residual Generativity is not sufficiently distinct as a standalone novelty claim
 
 The reduction sequence then returned to the existing IDOS measurement formulation:
 
-\[
+```math
 Y_t=M(R_t;F_t,O_t,I_t)
-\]
+```
 
 where observation depends on:
 
@@ -909,43 +909,43 @@ where observation depends on:
 
 Because updating can change the frame, observer, and instrument:
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 Therefore:
 
-\[
+```math
 Residual_t
-\]
+```
 
 and:
 
-\[
+```math
 Residual_{t+1}
-\]
+```
 
 cannot always be compared as if the measurement system were fixed.
 
 A decrease in residual does not necessarily imply improved fit with Reality:
 
-\[
+```math
 Residual\downarrow
 \not\Rightarrow
 Reality\ Fit\uparrow
-\]
+```
 
 because the system may instead have changed how difference is detected or classified.
 
 This suggested a three-trajectory formulation:
 
-\[
+```math
 R_t,\quad S_t,\quad M_t
-\]
+```
 
 with:
 
-\[
+```math
 R_t
 \overset{M_t}{\longrightarrow}
 Residual_t
@@ -955,15 +955,15 @@ Update_t
 S_{t+1},M_{t+1}
 \rightarrow
 R_{t+1}
-\]
+```
 
 followed by:
 
-\[
+```math
 R_{t+1}
 \overset{M_{t+1}}{\longrightarrow}
 Residual_{t+1}
-\]
+```
 
 ---
 
@@ -988,9 +988,9 @@ The comparison strongly reduced any claim that IDOS uniquely introduces:
 
 ### Result
 
-\[
+```math
 R\text{-}S\text{-}M\ Coevolution
-\]
+```
 
 has strong existing theoretical precedents.
 
@@ -1002,73 +1002,73 @@ It should not be treated as a standalone IDOS novelty claim.
 
 The post-RT sequence can therefore be summarized as:
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Relational\ Trajectory\ of\ Update\ Mechanisms
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Relational\ Distribution\ of\ Updateability
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Reconfigurability
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Dynamic\ Updating\ Boundary
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Unresolved\ Difference\ Lineage
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Epistemic\ Divergence
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Residual\ Generativity
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Reality\text{-}System\text{-}Measurement\ Coevolution
-\]
+```
 
 Each stage sharpened the architecture, but none currently justifies a strong standalone conceptual-novelty claim.
 
@@ -1090,7 +1090,7 @@ Instead, it is:
 
 The surviving canonical chain remains:
 
-\[
+```math
 \boxed{
 Difference
 \rightarrow
@@ -1106,7 +1106,7 @@ Trajectory
 \rightarrow
 Recontact
 }
-\]
+```
 
 within the broader MASTER_MAP v1.1 process.
 
@@ -1118,7 +1118,7 @@ Its candidate value lies at the **architecture level**, not in claiming that eve
 
 This result reconnects with the previously defined CDP functions:
 
-\[
+```math
 Describe
 \rightarrow
 Translate
@@ -1130,19 +1130,19 @@ Coordinate
 Trace
 \rightarrow
 Recontact
-\]
+```
 
 and with the separation of:
 
-\[
+```math
 CFV_{ij}
-\]
+```
 
 from:
 
-\[
+```math
 MU_{ij}
-\]
+```
 
 The architecture-level question is therefore not merely:
 
@@ -1160,12 +1160,12 @@ The unresolved question is stronger:
 
 ## 18.1 Conceptual Novelty
 
-\[
+```math
 \boxed{
 Conceptual\ Novelty:
 Substantially\ Reduced
 }
-\]
+```
 
 Multiple candidate constructs were found to overlap strongly with established literatures.
 
@@ -1175,16 +1175,16 @@ No strong claim should currently be made that Future Updateability, Mutual Updat
 
 ## 18.2 Measurement Boundary
 
-\[
+```math
 \boxed{
 Measurement\ Boundary:
 Supported
 }
-\]
+```
 
 The validation repeatedly showed that:
 
-\[
+```math
 Performance
 \neq
 Adaptation
@@ -1198,7 +1198,7 @@ Persistence
 Update\text{-}Mechanism\ Change
 \neq
 Future\ Updateability
-\]
+```
 
 This distinction remains useful and empirically consequential.
 
@@ -1206,12 +1206,12 @@ This distinction remains useful and empirically consequential.
 
 ## 18.3 Architecture Integration
 
-\[
+```math
 \boxed{
 Architecture\ Integration:
 Survives\ as\ Candidate
 }
-\]
+```
 
 IDOS continues to provide a coherent architecture connecting:
 
@@ -1231,12 +1231,12 @@ However, architecture coherence alone is not differential value.
 
 ## 18.4 Practical Differential Value
 
-\[
+```math
 \boxed{
 Practical\ Differential\ Value:
 Unverified
 }
-\]
+```
 
 The central unresolved question is whether IDOS changes what an analyst, organization, Human–AI system, or institution should actually do.
 
@@ -1244,12 +1244,12 @@ The central unresolved question is whether IDOS changes what an analyst, organiz
 
 ## 18.5 Social Value
 
-\[
+```math
 \boxed{
 Social\ Value:
 Unverified
 }
-\]
+```
 
 Social value requires more than conceptual integration.
 
@@ -1275,33 +1275,33 @@ Nor should it repeat generic framework-mapping work already performed.
 
 The decisive question is:
 
-\[
+```math
 \boxed{
 Does\ IDOS\ change\ a\ real\ decision\ or\ intervention?
 }
-\]
+```
 
 A strict differential-value test should compare:
 
-\[
+```math
 Decision_{Existing}
-\]
+```
 
 against:
 
-\[
+```math
 Decision_{IDOS}
-\]
+```
 
 and then evaluate:
 
-\[
+```math
 \Delta Decision
 =
 Decision_{IDOS}
 -
 Decision_{Existing}
-\]
+```
 
 Conceptually:
 
@@ -1336,17 +1336,17 @@ The architecture-level differential-value hypothesis should be weakened or rejec
 
 Conversely, a strong positive case would require:
 
-\[
+```math
 \boxed{
 Same\ Evidence
 \rightarrow
 Different\ and\ Better\ Decision
 }
-\]
+```
 
 or:
 
-\[
+```math
 \boxed{
 IDOS\ Architecture
 \rightarrow
@@ -1354,7 +1354,7 @@ Earlier/New\ Relevant\ Information
 \rightarrow
 Materially\ Better\ Decision
 }
-\]
+```
 
 ---
 
@@ -1378,31 +1378,31 @@ The post-RT validation produced a sequence of candidate concepts and systematica
 
 The main result is negative but informative:
 
-\[
+```math
 \boxed{
 Novel\ Component
 \neq
 Current\ Strongest\ IDOS\ Claim
 }
-\]
+```
 
 The surviving hypothesis is:
 
-\[
+```math
 \boxed{
 Architecture\text{-}Level\ Differential\ Value
 }
-\]
+```
 
 and that hypothesis remains unverified.
 
 The next decisive empirical question is therefore:
 
-\[
+```math
 \boxed{
 \textbf{Does using IDOS cause a materially different and better decision, intervention, or monitoring design?}
 }
-\]
+```
 
 Until that question is tested, the appropriate status is:
 

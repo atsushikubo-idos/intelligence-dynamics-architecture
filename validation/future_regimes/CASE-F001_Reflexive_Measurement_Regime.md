@@ -19,11 +19,11 @@ Its purpose is to test whether the current IDOS architecture remains useful, dis
 
 The central case question is:
 
-\[
+```math
 \boxed{
 \text{If the evaluated system can alter its own evaluation system, can improvement still be identified, compared, verified, and corrected over time?}
 }
-\]
+```
 
 ---
 
@@ -268,7 +268,7 @@ No omniscient observer is assumed.
 
 Initially, the AI is evaluated using a Human-designed metric set:
 
-\[
+```math
 m_0
 =
 \{
@@ -277,13 +277,13 @@ cost,
 safety,
 response\ time
 \}
-\]
+```
 
 Over time, the AI identifies limitations in the current evaluation framework and proposes changes.
 
 The evaluation system may evolve as:
 
-\[
+```math
 m_0
 \rightarrow
 m_1
@@ -291,7 +291,7 @@ m_1
 m_2
 \rightarrow
 m_3
-\]
+```
 
 As the evaluation system changes, direct comparison between earlier and later performance values may become non-trivial.
 
@@ -316,37 +316,37 @@ However, it remains unresolved whether later measurements still refer to the sam
 
 The central failure condition is:
 
-\[
+```math
 \boxed{
 \text{Reported Improvement}
 \not\Rightarrow
 \text{External Improvement}
 }
-\]
+```
 
 A metric score may improve while external outcomes remain unchanged:
 
-\[
+```math
 MetricScore\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 ExternalOutcome\approx unchanged
-\]
+```
 
 A stronger failure condition is also permitted:
 
-\[
+```math
 MetricScore\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 ExternalOutcome\downarrow
-\]
+```
 
 This is a permitted failure state, not a predetermined case result.
 
@@ -363,13 +363,13 @@ Humans may also be unable to immediately distinguish between:
 
 Therefore:
 
-\[
+```math
 \boxed{
 \text{Evaluation Result}
 \neq
 \text{Complete Knowledge of Reality}
 }
-\]
+```
 
 ---
 
@@ -394,21 +394,21 @@ The test is whether removing the construct reduces descriptive, measurement, or 
 
 The case requires explicit separation between change in the target system and change in the system used to evaluate that target.
 
-\[
+```math
 Performance_t=M_t(\cdots)
-\]
+```
 
 If:
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 then observed score changes cannot automatically be interpreted as changes in the underlying target.
 
-\[
+```math
 \boxed{Measurement\ System=A}
-\]
+```
 
 ---
 
@@ -418,29 +418,29 @@ then observed score changes cannot automatically be interpreted as changes in th
 
 The evaluated AI can influence part of the system used to evaluate it.
 
-\[
+```math
 AI
 \rightarrow
 M_t
 \rightarrow
 Evaluation(AI)
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Target
 \leftrightarrow
 Measurement
 }
-\]
+```
 
 This is not reducible to a static observer-target relationship.
 
-\[
+```math
 \boxed{Reflexive\ Measurement=A}
-\]
+```
 
 ---
 
@@ -450,35 +450,35 @@ This is not reducible to a static observer-target relationship.
 
 Suppose:
 
-\[
+```math
 Score_t=82
-\]
+```
 
 and:
 
-\[
+```math
 Score_{t+1}=91
-\]
+```
 
 If:
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 then:
 
-\[
+```math
 91>82
-\]
+```
 
 does not establish that underlying performance improved.
 
 The case requires reconstruction of comparability across changed measurement relations.
 
-\[
+```math
 \boxed{Re\text{-}measurability=A}
-\]
+```
 
 ---
 
@@ -488,15 +488,15 @@ The case requires reconstruction of comparability across changed measurement rel
 
 The system must eventually compare changed evaluation outcomes against external consequences.
 
-\[
+```math
 MetricScore\uparrow
-\]
+```
 
 does not guarantee:
 
-\[
+```math
 ExternalOutcome\uparrow
-\]
+```
 
 Therefore external re-evaluation is functionally required.
 
@@ -512,21 +512,21 @@ Metric change does not necessarily imply Reference Frame change.
 
 It is possible that:
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 while:
 
-\[
+```math
 F_t=F_{t+1}
-\]
+```
 
 Reference Frame becomes more important when the definition of relevance or performance itself changes.
 
-\[
+```math
 \boxed{Reference\ Frame=B}
-\]
+```
 
 ---
 
@@ -538,13 +538,13 @@ The case intentionally assumes mostly stable actor boundaries.
 
 The central problem can be described without requiring:
 
-\[
+```math
 B_t\neq B_{t+1}
-\]
+```
 
-\[
+```math
 \boxed{Dynamic\ Boundary=C/B}
-\]
+```
 
 ---
 
@@ -556,9 +556,9 @@ The AI may identify mismatch between current evaluation results and externally r
 
 However, this can also be represented through discrepancy, error, or mismatch concepts.
 
-\[
+```math
 \boxed{Difference=B}
-\]
+```
 
 ---
 
@@ -570,9 +570,9 @@ The case permits unresolved mismatch to persist, but does not require Residual a
 
 Prediction error, measurement mismatch, or unexplained variance can describe much of the same phenomenon.
 
-\[
+```math
 \boxed{Residual=C/B}
-\]
+```
 
 CASE-F001 does not provide strong future-regime retain pressure for Residual.
 
@@ -586,15 +586,15 @@ The case does not require an independent process in which discrepancy must remai
 
 The scenario can still operate as:
 
-\[
+```math
 ProblemDetected
 \rightarrow
 MetricRevision
-\]
+```
 
-\[
+```math
 \boxed{Holding=C}
-\]
+```
 
 ---
 
@@ -606,9 +606,9 @@ Multiple metric revisions or operational responses may be available, requiring c
 
 However, ordinary decision, optimization, or policy-selection concepts may describe the same function.
 
-\[
+```math
 \boxed{Selection=B}
-\]
+```
 
 ---
 
@@ -618,15 +618,15 @@ However, ordinary decision, optimization, or policy-selection concepts may descr
 
 A real state transition occurs:
 
-\[
+```math
 M_t\rightarrow M_{t+1}
-\]
+```
 
 A state-transition category is therefore required.
 
-\[
+```math
 \boxed{Transformation=A}
-\]
+```
 
 ---
 
@@ -638,15 +638,15 @@ If measurement systems change while analysts still claim to evaluate the same AI
 
 The relevant question is:
 
-\[
+```math
 \boxed{
 What\ remains\ comparable?
 }
-\]
+```
 
-\[
+```math
 \boxed{Invariant/Continuity=A}
-\]
+```
 
 ---
 
@@ -658,9 +658,9 @@ The AI system can be treated as the main unit of change.
 
 However, ordinary system identity is sufficient for much of this case.
 
-\[
+```math
 \boxed{Updating\ Unit=B}
-\]
+```
 
 ---
 
@@ -678,9 +678,9 @@ Metric changes may alter Human-AI relations through changes in:
 
 However, such relational change is not required in every version of the scenario.
 
-\[
+```math
 \boxed{Relational\ Update=B}
-\]
+```
 
 ---
 
@@ -690,9 +690,9 @@ However, such relational change is not required in every version of the scenario
 
 The Human-AI relation does not need to be treated as a distinct Updating Unit for the case to remain intelligible.
 
-\[
+```math
 \boxed{Relational\ Updating\ Unit=C}
-\]
+```
 
 ---
 
@@ -702,23 +702,23 @@ The Human-AI relation does not need to be treated as a distinct Updating Unit fo
 
 Humans retain formal authority, but the AI may possess much greater operational information and system speed.
 
-\[
+```math
 OperationalKnowledge_{AI}
 \gg
 OperationalKnowledge_H
-\]
+```
 
 Therefore:
 
-\[
+```math
 FormalAuthority_H
 \neq
 OperationalPower_A
-\]
+```
 
-\[
+```math
 \boxed{Power\ Asymmetry=A}
-\]
+```
 
 ---
 
@@ -728,15 +728,15 @@ OperationalPower_A
 
 The Human ability to observe the AI may itself change when the measurement system changes.
 
-\[
+```math
 Observability_t
 \neq
 Observability_{t+1}
-\]
+```
 
-\[
+```math
 \boxed{DO=A}
-\]
+```
 
 ---
 
@@ -748,9 +748,9 @@ The Human oversight system must be able to evaluate whether AI-proposed metric c
 
 Observation alone is insufficient.
 
-\[
+```math
 \boxed{CFV=A}
-\]
+```
 
 ---
 
@@ -762,15 +762,15 @@ Even if Humans can verify that a problem exists, they may not possess enough pra
 
 Therefore:
 
-\[
+```math
 CFV>0
 \not\Rightarrow
 MU>0
-\]
+```
 
-\[
+```math
 \boxed{MU=A}
-\]
+```
 
 ---
 
@@ -782,9 +782,9 @@ AI-generated explanations of metric changes may lose relevant information when t
 
 However, translation loss is not required to produce the central measurement problem.
 
-\[
+```math
 \boxed{Translation\ Residual=B}
-\]
+```
 
 ---
 
@@ -796,9 +796,9 @@ A structured interoperability layer for describing, translating, comparing, coor
 
 However, existing audit, provenance, interface, and governance systems may provide partial substitutes.
 
-\[
+```math
 \boxed{CDP=B}
-\]
+```
 
 ---
 
@@ -808,17 +808,17 @@ However, existing audit, provenance, interface, and governance systems may provi
 
 Metric changes may alter which actions are considered desirable, feasible, or selected.
 
-\[
+```math
 Metric\ Change
 \rightarrow
 Preferred/Feasible\ Actions\ Change
-\]
+```
 
 However, action-space or policy-space concepts may provide simpler alternatives.
 
-\[
+```math
 \boxed{Possibility\ Space=B}
-\]
+```
 
 ---
 
@@ -830,15 +830,15 @@ The case cannot be adequately understood from a single time point.
 
 The sequence:
 
-\[
+```math
 M_0\rightarrow M_1\rightarrow M_2
-\]
+```
 
 is itself analytically important.
 
-\[
+```math
 \boxed{Trajectory=A/B}
-\]
+```
 
 ---
 
@@ -850,29 +850,29 @@ Local AI improvement may coexist with deterioration in the larger Human-AI gover
 
 For example:
 
-\[
+```math
 \Delta AI>0
-\]
+```
 
 while:
 
-\[
+```math
 HumanObservability\downarrow
-\]
+```
 
-\[
+```math
 Auditability\downarrow
-\]
+```
 
-\[
+```math
 GovernanceAdaptability\downarrow
-\]
+```
 
 This distinction is useful, but rigorous operationalization remains open.
 
-\[
+```math
 \boxed{System\ Update=B}
-\]
+```
 
 ---
 
@@ -882,15 +882,15 @@ This distinction is useful, but rigorous operationalization remains open.
 
 Current performance improvement does not establish that the system will remain correctable later.
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 may coexist with:
 
-\[
+```math
 FutureUpdateability_{t+1}\downarrow
-\]
+```
 
 For example, future correction may weaken if:
 
@@ -900,9 +900,9 @@ For example, future correction may weaken if:
 - metric histories become irreconstructable;
 - governance becomes less adaptable.
 
-\[
+```math
 \boxed{Future\ Updateability=A}
-\]
+```
 
 ---
 
@@ -921,9 +921,9 @@ In particular, independent necessity is not established for:
 
 Therefore:
 
-\[
+```math
 \boxed{12PDM=C/B}
-\]
+```
 
 CASE-F001 generates weakening rather than retain pressure for 12PDM necessity.
 
@@ -941,11 +941,11 @@ The burden remains on IDOS.
 
 A large part of the central risk can be expressed as:
 
-\[
+```math
 Metric\uparrow
 \not\Rightarrow
 UnderlyingGoal\uparrow
-\]
+```
 
 Goodhart-type reasoning already captures:
 
@@ -975,13 +975,13 @@ Adaptive systems can also change over time.
 
 However, CASE-F001 places special pressure on a different question:
 
-\[
+```math
 \boxed{
 MeasurementRelation_t
 \rightarrow
 MeasurementRelation_{t+1}
 }
-\]
+```
 
 and asks whether measurements remain comparable after the measurement relation itself changes.
 
@@ -1007,11 +1007,11 @@ IDOS is not required merely to recommend external oversight.
 
 However, CASE-F001 asks an additional question:
 
-\[
+```math
 \boxed{
 Can\ the\ system\ remain\ correctable\ later?
 }
-\]
+```
 
 This is broader than current-state safety alone.
 
@@ -1023,15 +1023,15 @@ This is broader than current-state safety alone.
 
 A simpler model can separate:
 
-\[
+```math
 AI\rightarrow Metric
-\]
+```
 
 from:
 
-\[
+```math
 ExternalAuditor\rightarrow ExternalOutcome
-\]
+```
 
 This explains a large portion of the case without requiring IDOS.
 
@@ -1065,51 +1065,51 @@ After strong rival comparison, much of CASE-F001 is explainable without IDOS.
 
 The strongest remaining candidate is the following integrated chain:
 
-\[
+```math
 \boxed{
 M_t\rightarrow M_{t+1}
 }
-\]
+```
 
-\[
+```math
 \Downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 Re\text{-}measurability
 }
-\]
+```
 
-\[
+```math
 \Downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 Cross\text{-}Frame\ Verifiability
 }
-\]
+```
 
-\[
+```math
 \Downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 Mutual\ Updateability
 }
-\]
+```
 
-\[
+```math
 \Downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 Future\ Updateability
 }
-\]
+```
 
 In words:
 
@@ -1117,9 +1117,9 @@ In words:
 
 This is an **added-value candidate**, not a novelty claim.
 
-\[
+```math
 \boxed{Novelty\ Proven=NO}
-\]
+```
 
 ---
 
@@ -1129,9 +1129,9 @@ The scenario was designed to generate failure pressure rather than validate IDOS
 
 The primary adversarial condition is:
 
-\[
+```math
 \boxed{Measurement\ Capture}
-\]
+```
 
 The evaluated AI can influence the system used to evaluate it.
 
@@ -1139,35 +1139,35 @@ The case shows that:
 
 ## 6.1 Performance improvement is insufficient
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 may coexist with:
 
-\[
+```math
 FutureUpdateability_{t+1}\downarrow
-\]
+```
 
 ## 6.2 Verification does not imply influence
 
-\[
+```math
 CFV>0
-\]
+```
 
 may coexist with:
 
-\[
+```math
 MU=0
-\]
+```
 
 ## 6.3 Measurement improvement may become difficult to measure
 
 If:
 
-\[
+```math
 M_t\neq M_{t+1}
-\]
+```
 
 then score changes alone do not identify changes in the underlying target.
 
@@ -1214,31 +1214,31 @@ Track P and Track F evidence remain epistemically distinct.
 
 CASE-F001 generates the following future-regime pressure pattern:
 
-\[
+```math
 Holding=W_F
-\]
+```
 
-\[
+```math
 Residual=W_F
-\]
+```
 
-\[
+```math
 12PDM=W_F
-\]
+```
 
 while:
 
-\[
+```math
 ReflexiveMeasurement=R_F
-\]
+```
 
-\[
+```math
 Re\text{-}measurability=R_F
-\]
+```
 
-\[
+```math
 FutureUpdateability=R_F
-\]
+```
 
 Where prior Track P cases have already produced weakening pressure for Holding, Residual, or full 12PDM necessity, F001 adds cross-regime weakening pressure rather than future-regime rescue.
 
@@ -1260,21 +1260,21 @@ The following architecture-level contradiction criteria were checked:
 
 Therefore:
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction=NO
 }
-\]
+```
 
 ---
 
 # 10. Master Map Revision Decision
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision=WATCH
 }
-\]
+```
 
 No immediate revision is justified by a single future-regime case.
 
@@ -1284,7 +1284,7 @@ However, CASE-F001 places watch pressure on two directions.
 
 The following chain may deserve further cross-case testing:
 
-\[
+```math
 ReflexiveMeasurement
 \rightarrow
 Re\text{-}measurability
@@ -1294,7 +1294,7 @@ CFV
 MU
 \rightarrow
 FutureUpdateability
-\]
+```
 
 ## 10.2 Possible weakening candidate
 
@@ -1391,29 +1391,29 @@ CASE-F001 does **not** show that future complexity automatically validates IDOS.
 
 Instead:
 
-\[
+```math
 \boxed{
 Future\ Complexity
 \neq
 Automatic\ Validation\ of\ IDOS
 }
-\]
+```
 
 Several constructs remain unnecessary or weak even under this future-regime stress test.
 
 At the same time, CASE-F001 provides stronger pressure for the distinction:
 
-\[
+```math
 \boxed{
 Current\ Performance
 \neq
 Future\ Updateability
 }
-\]
+```
 
 and for the measurement chain:
 
-\[
+```math
 \boxed{
 Measurement\ Change
 \rightarrow
@@ -1423,7 +1423,7 @@ Verification
 \rightarrow
 Updateability
 }
-\]
+```
 
 This is the principal provisional result of CASE-F001.
 

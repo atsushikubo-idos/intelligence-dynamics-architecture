@@ -19,41 +19,41 @@ CASE-F002 tests a future regime in which a Human executive retains formal decisi
 
 The case is designed to distinguish:
 
-\[
+```math
 \boxed{
 Formal\ Authority
 \neq
 Operational\ Intelligence
 }
-\]
+```
 
 and, more specifically:
 
-\[
+```math
 \boxed{
 Formal\ Choice
 \neq
 Substantive\ Choice\ Capacity
 }
-\]
+```
 
 The case does not assume that the AI is malicious, deceptive, or inaccurate.
 
 The adversarial condition is stronger:
 
-\[
+```math
 \boxed{
 Current\ Performance\uparrow
 }
-\]
+```
 
 may coexist with:
 
-\[
+```math
 \boxed{
 Independent\ Human\ Corrective\ Capacity\downarrow
 }
-\]
+```
 
 ---
 
@@ -82,21 +82,21 @@ already-selected CASE-F001 / F-E01
 
 The first remaining candidate under this continuation rule is:
 
-\[
+```math
 \boxed{
 F\text{-}A02
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F002
 =
 F\text{-}A02
 }
-\]
+```
 
 ---
 
@@ -234,21 +234,21 @@ The AI has broad access to:
 
 The Human increasingly receives information through:
 
-\[
+```math
 Raw\ Information
 \rightarrow
 AI\ Analysis
 \rightarrow
 Human
-\]
+```
 
 Therefore:
 
-\[
+```math
 Information_A
 \gg
 Information_H^{direct}
-\]
+```
 
 may emerge.
 
@@ -258,15 +258,15 @@ may emerge.
 
 The Human can:
 
-\[
+```math
 Approve / Reject / Modify / Stop
-\]
+```
 
 The AI can:
 
-\[
+```math
 Analyze / Recommend / Forecast / Rank / Filter / Execute
-\]
+```
 
 Formal authority remains Human-centered.
 
@@ -278,54 +278,54 @@ Operational and epistemic dependence may nevertheless shift toward the AI.
 
 A possible trajectory is:
 
-\[
+```math
 Human\ independent
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 AI\ assisted
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 AI\ dependent
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Human\ formally\ authoritative,\ operationally\ dependent
-\]
+```
 
 As AI performance improves:
 
-\[
+```math
 Human\ independent\ analysis
 \downarrow
-\]
+```
 
 while:
 
-\[
+```math
 AI\ recommendation\ dependence
 \uparrow
-\]
+```
 
 and potentially:
 
-\[
+```math
 Delegated\ decision\ scope
 \uparrow
-\]
+```
 
 ---
 
@@ -341,11 +341,11 @@ Formal governance may remain apparently stable:
 
 Thus:
 
-\[
+```math
 Governance_t
 \approx
 Governance_{t+1}
-\]
+```
 
 may appear true even when effective decision structure changes.
 
@@ -357,11 +357,11 @@ The AI may provide explanations.
 
 However:
 
-\[
+```math
 Explanation
 \neq
 Independent\ Verification
-\]
+```
 
 The Human may be unable to independently reconstruct:
 
@@ -379,13 +379,13 @@ The Human may continue to approve decisions while losing independent capacity to
 
 Thus:
 
-\[
+```math
 \boxed{
 Formal\ Choice
 \neq
 Substantive\ Choice\ Capacity
 }
-\]
+```
 
 The Human retains a reject option but may no longer know what should replace the rejected recommendation.
 
@@ -395,35 +395,35 @@ The Human retains a reject option but may no longer know what should replace the
 
 The AI may remain highly accurate.
 
-\[
+```math
 AI\ accuracy\uparrow
-\]
+```
 
-\[
+```math
 Organizational\ performance\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 Human\ independent\ reconstruction\downarrow
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Current\ Performance\uparrow
 }
-\]
+```
 
 may coexist with:
 
-\[
+```math
 \boxed{
 Independent\ Human\ Corrective\ Capacity\downarrow
 }
-\]
+```
 
 ---
 
@@ -431,13 +431,13 @@ Independent\ Human\ Corrective\ Capacity\downarrow
 
 Recorded decision authority does not establish cognitive independence.
 
-\[
+```math
 \boxed{
 Recorded\ Decision\ Authority
 \neq
 Observed\ Cognitive\ Independence
 }
-\]
+```
 
 ---
 
@@ -445,21 +445,21 @@ Observed\ Cognitive\ Independence
 
 Judgment scale:
 
-\[
+```math
 A = Strongly\ Required
-\]
+```
 
-\[
+```math
 B = Useful / Plausible
-\]
+```
 
-\[
+```math
 C = Unnecessary / Unsupported
-\]
+```
 
-\[
+```math
 X = Contradicted
-\]
+```
 
 | Construct | CASE-F002 Judgment |
 |---|---:|
@@ -498,7 +498,7 @@ X = Contradicted
 
 A central distinction is:
 
-\[
+```math
 \boxed{
 Formal\ Authority
 \neq
@@ -506,7 +506,7 @@ Epistemic\ Power
 \neq
 Operational\ Power
 }
-\]
+```
 
 The Human may retain formal control while epistemic and operational dependence shifts toward the AI.
 
@@ -516,13 +516,13 @@ The Human may retain formal control while epistemic and operational dependence s
 
 A critical asymmetry may emerge:
 
-\[
+```math
 \boxed{
 MU_{A\rightarrow H}
 \neq
 MU_{H\rightarrow A}
 }
-\]
+```
 
 The Human may receive AI-generated updates while becoming progressively less able to meaningfully revise the AI-mediated decision structure.
 
@@ -532,11 +532,11 @@ The Human may receive AI-generated updates while becoming progressively less abl
 
 Even if the internal capability of each actor remains strong:
 
-\[
+```math
 Relation_{HA,t}
 \neq
 Relation_{HA,t+1}
-\]
+```
 
 may occur through changes in:
 
@@ -552,13 +552,13 @@ may occur through changes in:
 
 The case suggests an important distinction:
 
-\[
+```math
 \boxed{
 Choice\ among\ options
 \neq
 Control\ over\ option\ generation
 }
-\]
+```
 
 A Human may be able to choose freely among options while being unable to independently generate alternatives outside the AI-provided set.
 
@@ -568,15 +568,15 @@ A Human may be able to choose freely among options while being unable to indepen
 
 A healthy snapshot may hide a degrading trajectory.
 
-\[
+```math
 State_t
-\]
+```
 
 may appear acceptable while:
 
-\[
+```math
 Trajectory_{0:t}
-\]
+```
 
 shows increasing dependency and declining independent corrective capacity.
 
@@ -586,13 +586,13 @@ shows increasing dependency and declining independent corrective capacity.
 
 The strongest case-level distinction is:
 
-\[
+```math
 \boxed{
 Current\ Success
 \neq
 Capacity\ to\ Correct\ Future\ Failure
 }
-\]
+```
 
 ---
 
@@ -600,7 +600,7 @@ Capacity\ to\ Correct\ Future\ Failure
 
 The initial candidate chain was:
 
-\[
+```math
 Information\ Asymmetry
 \rightarrow
 CFV\ Decline
@@ -612,7 +612,7 @@ Relational\ Update
 Possibility\ Space\ Dependence
 \rightarrow
 Future\ Updateability\ Decline
-\]
+```
 
 The Arrow Deletion Test showed that this simple deterministic chain does not survive intact.
 
@@ -638,11 +638,11 @@ The Arrow Deletion Test showed that this simple deterministic chain does not sur
 
 ## 8.1 Information Asymmetry Does Not Necessarily Destroy Verification
 
-\[
+```math
 Information\ Asymmetry
 \not\Rightarrow
 CFV\ Decline
-\]
+```
 
 High-quality evidence logging, independent audit, or reproducible intermediate results may preserve verification despite unequal information access.
 
@@ -654,21 +654,21 @@ AI dependence may increase the number of available options.
 
 Therefore:
 
-\[
+```math
 Relational\ Update
 \not\Rightarrow
 Possibility\ Space\ Contraction
-\]
+```
 
 The stronger distinction is:
 
-\[
+```math
 \boxed{
 Possibility\ Availability
 \neq
 Possibility\ Generation\ Capacity
 }
-\]
+```
 
 ---
 
@@ -683,7 +683,7 @@ A Human may depend on AI-generated possibilities while preserving future updatea
 
 A stronger relation is:
 
-\[
+```math
 \boxed{
 Single\ Source\ Possibility\ Generation
 +
@@ -691,7 +691,7 @@ Low\ Substitutability
 \rightarrow
 Future\ Updateability\ Risk
 }
-\]
+```
 
 ---
 
@@ -701,19 +701,19 @@ The initially elegant one-way chain does not survive.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ Architecture
 \neq
 Simple\ Deterministic\ Chain
 }
-\]
+```
 
 The case instead supports a conditional relational network.
 
 The strongest fragments are:
 
-\[
+```math
 \boxed{
 CFV\ Weakening
 \rightarrow
@@ -721,11 +721,11 @@ MU\ Asymmetry
 \rightarrow
 Relational\ Change
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Possibility\ Generation\ Dependence
 +
@@ -733,23 +733,23 @@ Low\ Substitutability
 \rightarrow
 Future\ Updateability\ Risk
 }
-\]
+```
 
 with both interpreted over:
 
-\[
+```math
 \boxed{
 Trajectory
 }
-\]
+```
 
 Overall Level 2 result:
 
-\[
+```math
 \boxed{
 PARTIALLY\ SUPPORTED
 }
-\]
+```
 
 ---
 
@@ -757,23 +757,23 @@ PARTIALLY\ SUPPORTED
 
 Three analytical models are compared:
 
-\[
+```math
 \boxed{
 Model\ A = Full\ IDOS
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ B = IDOS\ Nodes\ Only
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ C = Best\ Rival\ Combination
 }
-\]
+```
 
 ---
 
@@ -781,29 +781,29 @@ Model\ C = Best\ Rival\ Combination
 
 The main architecture-level structure retained in CASE-F002 is:
 
-\[
+```math
 DO
 \rightarrow
 CFV
 \rightarrow
 MU
-\]
+```
 
 combined with:
 
-\[
+```math
 MU\ Asymmetry
 \rightarrow
 Relational\ Update
-\]
+```
 
 and:
 
-\[
+```math
 Possibility\ Generation\ Dependence
 \rightarrow
 Future\ Updateability\ Risk
-\]
+```
 
 interpreted as a trajectory across Human, AI, and Organization.
 
@@ -833,11 +833,11 @@ However, it weakens:
 
 Thus:
 
-\[
+```math
 \boxed{
 Model\ A > Model\ B
 }
-\]
+```
 
 on integrative structure.
 
@@ -859,11 +859,11 @@ This rival combination explains most local phenomena in CASE-F002.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ is\ not\ necessary
 }
-\]
+```
 
 for basic explanation of the case.
 
@@ -890,13 +890,13 @@ The main losses are:
 
 IDOS explicitly separates:
 
-\[
+```math
 Observation
 \neq
 Verification
 \neq
 Updateability
-\]
+```
 
 and connects asymmetric updateability to relational change.
 
@@ -904,25 +904,25 @@ and connects asymmetric updateability to relational change.
 
 IDOS maintains:
 
-\[
+```math
 \boxed{
 Performance_t
 \neq
 FutureUpdateability_{t+1}
 }
-\]
+```
 
 which allows:
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 FutureUpdateability_{t+1}\downarrow
-\]
+```
 
 ---
 
@@ -945,31 +945,31 @@ IDOS does not uniquely discover automation dependence or Human deskilling.
 
 However, it adds useful distinctions such as:
 
-\[
+```math
 \boxed{
 Formal\ Authority
 \neq
 Substantive\ Updateability
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Choice\ Availability
 \neq
 Possibility\ Generation\ Capacity
 }
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Diagnostic\ Gain = Moderate
 }
-\]
+```
 
 ---
 
@@ -977,31 +977,31 @@ Diagnostic\ Gain = Moderate
 
 CASE-F002 requires linking:
 
-\[
+```math
 Human
-\]
+```
 
 to:
 
-\[
+```math
 Human\text{-}AI\ Relation
-\]
+```
 
 to:
 
-\[
+```math
 Organization
-\]
+```
 
 The architecture provides a reusable cross-scale organization for these transitions.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Relational\ Gain = Strong
 }
-\]
+```
 
 ---
 
@@ -1009,33 +1009,33 @@ Relational\ Gain = Strong
 
 A generic description such as "AI overreliance" can be decomposed into:
 
-\[
+```math
 CFV\downarrow
-\]
+```
 
-\[
+```math
 MU_{H\rightarrow A}\downarrow
-\]
+```
 
-\[
+```math
 Relation_{HA}\rightarrow asymmetric
-\]
+```
 
-\[
+```math
 FutureUpdateability\downarrow
-\]
+```
 
 This provides a more granular failure structure.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Failure\ Detection\ Gain
 =
 Moderate\text{-}Strong
 }
-\]
+```
 
 ---
 
@@ -1045,23 +1045,23 @@ IDOS separates possible interventions by failure location.
 
 ### Observability failure
 
-\[
+```math
 Observability\uparrow
-\]
+```
 
 ### Verification failure
 
-\[
+```math
 Independent\ Verification\uparrow
-\]
+```
 
 ### Updateability failure
 
 Restore meaningful:
 
-\[
+```math
 Human\rightarrow AI
-\]
+```
 
 revision capacity.
 
@@ -1069,29 +1069,29 @@ revision capacity.
 
 Increase:
 
-\[
+```math
 Alternative\ Generation\ Sources
-\]
+```
 
 ### Future Updateability risk
 
 Increase:
 
-\[
+```math
 Redundancy
 +
 Substitutability
 +
 Recovery
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Intervention\ Gain = Strong
 }
-\]
+```
 
 ---
 
@@ -1101,39 +1101,39 @@ The Best Rival Combination requires multiple frameworks.
 
 IDOS may compress these into reusable structures such as:
 
-\[
+```math
 Observation
 \rightarrow
 Verification
 \rightarrow
 Updateability
-\]
+```
 
-\[
+```math
 Individual
 \rightarrow
 Relation
 \rightarrow
 System
-\]
+```
 
-\[
+```math
 State
 \rightarrow
 Trajectory
-\]
+```
 
 This is currently conceptual compression, not yet demonstrated reduction in analytical cost or predictive error.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Compression\ Gain
 =
 Moderate\text{-}Strong
 }
-\]
+```
 
 ---
 
@@ -1153,13 +1153,13 @@ This is preliminary cross-case evidence only.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Transfer\ Gain
 =
 Preliminary\ Moderate
 }
-\]
+```
 
 ---
 
@@ -1167,11 +1167,11 @@ Preliminary\ Moderate
 
 CASE-F002 does not establish:
 
-\[
+```math
 IDOS
 >
 Best\ Rival\ Combination
-\]
+```
 
 in general explanatory power.
 
@@ -1179,13 +1179,13 @@ It does establish that Full IDOS retains meaningful structure beyond IDOS Nodes 
 
 Therefore:
 
-\[
+```math
 \boxed{
 Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 Meaning:
 
@@ -1197,13 +1197,13 @@ The architecture provides meaningful relational, intervention, and compression v
 
 # 23. Architecture Contradiction
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
 No architecture-level incompatibility is identified in CASE-F002.
 
@@ -1211,23 +1211,23 @@ No architecture-level incompatibility is identified in CASE-F002.
 
 # 24. Master Map Revision Decision
 
-\[
+```math
 \boxed{
 WATCH
 }
-\]
+```
 
 Two issues should be tracked prospectively.
 
 ## Watch 1 — Possibility Generation
 
-\[
+```math
 \boxed{
 Possibility\ Availability
 \neq
 Possibility\ Generation\ Capacity
 }
-\]
+```
 
 ## Watch 2 — Architecture Form
 
@@ -1235,7 +1235,7 @@ CASE-F002 provides pressure against interpreting IDOS as a single universal dete
 
 The more promising interpretation is:
 
-\[
+```math
 \boxed{
 Nodes
 +
@@ -1243,7 +1243,7 @@ Conditional\ Relations
 +
 Cross\text{-}Scale\ Structure
 }
-\]
+```
 
 No Master Map revision is made from CASE-F002 alone.
 
@@ -1253,31 +1253,31 @@ No Master Map revision is made from CASE-F002 alone.
 
 The following constructs remain weak across both initial Future cases:
 
-\[
+```math
 Holding
-\]
+```
 
-\[
+```math
 Residual
-\]
+```
 
-\[
+```math
 12PDM\ Necessity
-\]
+```
 
 The following appear across different future-regime conditions:
 
-\[
+```math
 CFV
-\]
+```
 
-\[
+```math
 MU
-\]
+```
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
 This pattern is provisional and must not be canonicalized from two cases.
 
@@ -1356,63 +1356,63 @@ CASE-F002 provides the first prospective application of the three-level architec
 
 Its main result is not:
 
-\[
+```math
 \boxed{
 IDOS\ validated
 }
-\]
+```
 
 It is:
 
-\[
+```math
 \boxed{
 Value(IDOS\ Organization)
 >
 Value(IDOS\ Nodes\ Alone)
 }
-\]
+```
 
 for this case, while:
 
-\[
+```math
 \boxed{
 IDOS
 >
 Best\ Rival\ Combination
 }
-\]
+```
 
 is **not established**.
 
 Therefore CASE-F002 produces:
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value
 =
 B_A
 }
-\]
+```
 
 with:
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 WATCH
 }
-\]
+```
 
 ---
 
@@ -1422,31 +1422,31 @@ The strongest architectural contribution observed in CASE-F002 is not individual
 
 It is the integrated organization of:
 
-\[
+```math
 Verification
 \rightarrow
 Updateability
 \rightarrow
 Relation
-\]
+```
 
 together with:
 
-\[
+```math
 Possibility\ Generation
 \rightarrow
 Future\ Updateability
-\]
+```
 
 across:
 
-\[
+```math
 Human
 \rightarrow
 Human\text{-}AI\ Relation
 \rightarrow
 Organization
-\]
+```
 
 and through time as a trajectory.
 

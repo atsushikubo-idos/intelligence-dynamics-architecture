@@ -32,9 +32,9 @@ The preregistered question was:
 
 The tested measurement hypothesis can be summarized as:
 
-\[
+```math
 P(U \mid D)
-\]
+```
 
 versus a simpler baseline related to general behavioral tendency.
 
@@ -83,9 +83,9 @@ The preregistered observable Difference was a failed route-addition attempt:
 
 This was denoted:
 
-\[
+```math
 D_{failure}
-\]
+```
 
 No subjective belief, intention, Residual, Frame, or internal cognitive state was inferred.
 
@@ -95,21 +95,21 @@ No subjective belief, intention, Residual, Frame, or internal cognitive state wa
 
 An observable correction was defined as a successful `ManualPathAdded` event occurring within 60 seconds after the failed attempt.
 
-\[
+```math
 U_{60s}=1
-\]
+```
 
 if such an event occurred during:
 
-\[
+```math
 (t,t+60s]
-\]
+```
 
 Otherwise:
 
-\[
+```math
 U_{60s}=0
-\]
+```
 
 ---
 
@@ -117,27 +117,27 @@ U_{60s}=0
 
 For team \(i\):
 
-\[
+```math
 G_i=
 P(U_{60s}=1 \mid D_{failure})
-\]
+```
 
 operationalized as:
 
-\[
+```math
 G_i=
 \frac{
 N(\text{failed attempts followed by successful correction within 60s})
 }{
 N(\text{failed route attempts})
 }
-\]
+```
 
 The preregistered minimum-denominator rule was:
 
-\[
+```math
 N(D_{failure})\ge10
-\]
+```
 
 ---
 
@@ -145,14 +145,14 @@ N(D_{failure})\ge10
 
 The primary baseline measured general route-success tendency:
 
-\[
+```math
 B_i=
 \frac{
 N(\text{successful route additions})
 }{
 N(\text{all route-addition attempts})
 }
-\]
+```
 
 The confirmatory question was therefore not whether \(G_i\) correlated with later performance in isolation.
 
@@ -164,29 +164,29 @@ It was whether \(G_i\) added predictive information beyond \(B_i\).
 
 The preregistered POST outcome was:
 
-\[
+```math
 A_i=P_i^{late}-P_i^{early}
-\]
+```
 
 where:
 
-\[
+```math
 P_i^{early}
 =
 \max Profit_{i,t},
 \quad
 t\in[0,5min)
-\]
+```
 
 and:
 
-\[
+```math
 P_i^{late}
 =
 \max Profit_{i,t},
 \quad
 t\in[15,20min]
-\]
+```
 
 Thus, the outcome measured improvement within the changed POST environment rather than absolute final performance alone.
 
@@ -198,9 +198,9 @@ The preregistered data-quality and eligibility rules were applied before primary
 
 The expected maximum primary cohort after PRE-side eligibility filtering was approximately:
 
-\[
+```math
 N=21
-\]
+```
 
 One additional team, `Team_AI_11`, had no valid Profit observation in the preregistered Late POST window.
 
@@ -208,9 +208,9 @@ Under the preregistered missing-outcome rule, that team was excluded from the pr
 
 The final confirmatory sample was therefore:
 
-\[
+```math
 \boxed{N=20}
-\]
+```
 
 No outcome window was extended and no missing value was imputed.
 
@@ -220,19 +220,19 @@ No outcome window was extended and no missing value was imputed.
 
 The preregistered baseline model was:
 
-\[
+```math
 BL:
 A_i=
 \beta_0+\beta_1B_i+\epsilon_i
-\]
+```
 
 The preregistered candidate model was:
 
-\[
+```math
 PM:
 A_i=
 \beta_0+\beta_1B_i+\beta_2G_i+\epsilon_i
-\]
+```
 
 Both models were evaluated using:
 
@@ -240,22 +240,22 @@ Both models were evaluated using:
 
 The primary metric was:
 
-\[
+```math
 RMSE=
 \sqrt{
 \frac{1}{N}
 \sum_i
 (A_i-\widehat A_i)^2
 }
-\]
+```
 
 The preregistered primary contrast was:
 
-\[
+```math
 \Delta RMSE
 =
 RMSE_{BL}-RMSE_{PM}
-\]
+```
 
 A positive value would indicate improved out-of-sample prediction after adding \(G_i\).
 
@@ -265,47 +265,47 @@ A positive value would indicate improved out-of-sample prediction after adding \
 
 The baseline model produced:
 
-\[
+```math
 \boxed{
 RMSE_{BL}=1116.96
 }
-\]
+```
 
 The candidate model including the difference-conditioned measure produced:
 
-\[
+```math
 \boxed{
 RMSE_{PM}=1218.79
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \Delta RMSE
 =
 1116.96-1218.79
-\]
+```
 
-\[
+```math
 \boxed{
 \Delta RMSE=-101.82
 }
-\]
+```
 
 Adding \(G_i\) increased rather than reduced out-of-sample prediction error.
 
 Under the preregistered interpretation rule:
 
-\[
+```math
 \Delta RMSE\le0
-\]
+```
 
 is classified as:
 
-\[
+```math
 \boxed{\text{No predictive support}}
-\]
+```
 
 Accordingly:
 
@@ -317,9 +317,9 @@ Accordingly:
 
 Within this dataset, operationalization, outcome definition, and prediction setting, the difference-conditioned update measure:
 
-\[
+```math
 P(U_{60s}\mid D_{failure})
-\]
+```
 
 did not provide incremental out-of-sample predictive value beyond general route-success tendency.
 
@@ -333,54 +333,54 @@ The result is not reinterpreted as confirmatory success using alternative window
 
 The preregistration also specified a stronger temporal sensitivity baseline:
 
-\[
+```math
 M_i=
 P(
 SuccessfulRouteAddition_{(t,t+60s]}
 \mid
 SuccessfulRouteAddition_t
 )
-\]
+```
 
 This controls, in part, for local 60-second temporal clustering of route activity.
 
 One additional team lacked the events required to define \(M_i\), resulting in:
 
-\[
+```math
 N=19
-\]
+```
 
 for this sensitivity analysis.
 
 The matched baseline model:
 
-\[
+```math
 BL_M:
 A_i\sim B_i+M_i
-\]
+```
 
 produced:
 
-\[
+```math
 RMSE_{BL_M}=1343.61
-\]
+```
 
 The matched candidate model:
 
-\[
+```math
 PM_M:
 A_i\sim B_i+M_i+G_i
-\]
+```
 
 produced:
 
-\[
+```math
 RMSE_{PM_M}=1306.34
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 \Delta RMSE_{matched}
 =
@@ -388,7 +388,7 @@ Therefore:
 =
 +37.27
 }
-\]
+```
 
 This is a positive sensitivity signal.
 
@@ -396,17 +396,17 @@ However, it does **not** alter the preregistered confirmatory conclusion.
 
 The primary result remains:
 
-\[
+```math
 \boxed{
 \Delta RMSE=-101.82
 }
-\]
+```
 
 and therefore:
 
-\[
+```math
 \boxed{\text{Primary H1 not supported}}
-\]
+```
 
 The matched result is retained as a secondary robustness / sensitivity observation requiring independent follow-up.
 
@@ -418,9 +418,9 @@ The result does not imply that adaptation is unrelated to prior behavior.
 
 More specifically, it shows that the tested operationalization:
 
-\[
+```math
 G_i=P(U_{60s}\mid D_{failure})
-\]
+```
 
 did not improve primary out-of-sample prediction beyond the preregistered baseline.
 
@@ -459,23 +459,23 @@ They therefore cannot be claimed as supported or refuted by this result.
 
 Case 006 deliberately avoided assuming:
 
-\[
+```math
 G=\Gamma
-\]
+```
 
 The negative result reinforces the importance of maintaining that distinction.
 
 The tested quantity was a one-dimensional conditional behavioral rate:
 
-\[
+```math
 P(U\mid D)
-\]
+```
 
 whereas the broader candidate selective-update formulation in IDOS may depend on additional state and context:
 
-\[
+```math
 \Gamma_i(D_t,K_t,P_t)
-\]
+```
 
 Case 006 does not establish that a richer Γ formulation would perform better.
 
@@ -491,13 +491,13 @@ Case 006 provides an important methodological constraint for the IDOS measuremen
 
 A conceptually plausible mapping:
 
-\[
+```math
 Difference
 \rightarrow
 Update
 \rightarrow
 Adaptation
-\]
+```
 
 is not sufficient.
 
@@ -507,7 +507,7 @@ In this case, it did not.
 
 This supports a stricter development rule:
 
-\[
+```math
 \boxed{
 Conceptual\ coherence
 \neq
@@ -515,7 +515,7 @@ Measurement\ value
 \neq
 Predictive\ value
 }
-\]
+```
 
 These levels must remain separate.
 
@@ -525,9 +525,9 @@ These levels must remain separate.
 
 The confirmatory status of Case 006 is:
 
-\[
+```math
 \boxed{\text{NEGATIVE}}
-\]
+```
 
 More precisely:
 
@@ -550,9 +550,9 @@ Any subsequent analysis of:
 
 will be explicitly labeled:
 
-\[
+```math
 \boxed{\text{POST-HOC / EXPLORATORY}}
-\]
+```
 
 and will not alter the Case 006 confirmatory result.
 
@@ -570,15 +570,15 @@ Instead, the result creates a new research question:
 
 One possible future formulation is:
 
-\[
+```math
 \Gamma_i(D_t,K_t,P_t)
-\]
+```
 
 rather than:
 
-\[
+```math
 P(U\mid D)
-\]
+```
 
 However, this remains a hypothesis generated after Case 006.
 
@@ -590,7 +590,7 @@ It must therefore be evaluated in a separate preregistered test.
 
 Case 006 represents the following transition:
 
-\[
+```math
 Conceptual\ Architecture
 \rightarrow
 Operationalization
@@ -604,7 +604,7 @@ Reality
 Negative\ Result
 \rightarrow
 Model\ Revision
-\]
+```
 
 The negative result is therefore not removed from the research trajectory.
 
