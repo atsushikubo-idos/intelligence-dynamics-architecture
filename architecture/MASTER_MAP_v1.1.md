@@ -1906,7 +1906,7 @@ Provenance
 
 ```math
 \boxed{
-\textbf{Layer 3 — Second\text{-}Order\ Updateability}
+\text{Layer 3 — Second-Order Updateability}
 }
 ```
 
