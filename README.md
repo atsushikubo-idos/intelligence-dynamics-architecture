@@ -6,6 +6,12 @@
 
 **Status (12 October 2026):** architectural research baseline frozen at **[MASTER_MAP v1.1](architecture/MASTER_MAP_v1.1.md)**. The measurement specification is **provisional (v0.3)**. Independent replication, construct validity and superiority over established methods **have not been demonstrated**. This repository is a research and design archive, **not a production-ready or scientifically validated measurement system**.
 
+## Archived Reference (Zenodo)
+
+Master Map v1.1 was frozen on October 2, 2026, and is permanently archived on Zenodo.
+
+**DOI:** https://doi.org/10.5281/zenodo.23311009
+
 ## What is IDOS?
 
 Rather than treating intelligence only as a static score or capability, IDOS explores **how intelligent systems change over time**. Its architecture distinguishes:
