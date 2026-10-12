@@ -1,3 +1,8 @@
+> **Historical Archive (2026-10-12)**
+> This README is preserved as a historical snapshot.
+> Some links may refer to the previous repository structure.
+> For current documentation, see the [latest README](../README.md).
+
 # Intelligence Dynamics Architecture (IDOS)
 
 **An Open Architecture for Intelligence, Update, Interoperability, and Co-evolution**
