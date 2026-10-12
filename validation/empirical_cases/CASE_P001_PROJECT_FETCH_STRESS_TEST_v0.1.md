@@ -41,13 +41,13 @@ The eligible candidate pool was itself constructed through AI-assisted web searc
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Random Selection}
 \neq
 \text{Unbiased Sampling}
 }
-$$
+```
 
 CASE-P001 should be treated as prospectively selected from the frozen candidate pool, while retaining the possibility of selection bias in candidate-pool construction.
 
@@ -61,23 +61,23 @@ The 2026 Project Fetch Phase Two study is treated as later evidence and is exclu
 
 Thus:
 
-$$
+```math
 \boxed{
 \text{Primary Reconstruction}
 =
 \text{Original 2025 Project Fetch}
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 \text{2026 Follow-up}
 =
 \text{Held Out from Primary Analysis}
 }
-$$
+```
 
 This rule is intended to reduce retrospective reinterpretation of the original case using later results.
 
@@ -138,23 +138,23 @@ For example:
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Project Fetch performance}
 \not\Rightarrow
 \text{IDOS validation}
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 \text{Supported}
 \neq
 \text{Novel}
 }
-$$
+```
 
 This existing-theory baseline was retained throughout the subsequent analysis.
 
@@ -184,9 +184,9 @@ The next test deliberately removed individual IDOS concepts.
 
 For each concept C:
 
-$$
+```math
 IDOS-C
-$$
+```
 
 was tested against CASE-P001.
 
@@ -222,13 +222,13 @@ The Claude team explored more alternatives and generated more code.
 
 However:
 
-$$
+```math
 \boxed{
 \text{Exploration}
 \neq
 \text{Possibility Space}
 }
-$$
+```
 
 The observed phenomenon can currently be described through exploration-exploitation theory without invoking a distinct Possibility Space.
 
@@ -238,7 +238,7 @@ The observed phenomenon can currently be described through exploration-exploitat
 
 Translation across:
 
-$$
+```math
 AI
 \rightarrow
 Human
@@ -248,7 +248,7 @@ Code
 Robot
 \rightarrow
 Reality
-$$
+```
 
 clearly occurs.
 
@@ -279,13 +279,13 @@ Examples included:
 
 Thus:
 
-$$
+```math
 \boxed{
 \text{Internal Success}
 \neq
 \text{Reality Validity}
 }
-$$
+```
 
 Removing Reality Recontact erased an important distinction.
 
@@ -299,11 +299,11 @@ Human-human questioning and Human-AI work patterns differed between experimental
 
 Thus:
 
-$$
+```math
 Relation_{ij,t}
 \rightarrow
 Relation_{ij,t+1}
-$$
+```
 
 contains empirically relevant information not captured by individual task-performance measures alone.
 
@@ -329,13 +329,13 @@ Different choices produce different conclusions.
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Team Performance}\uparrow
 \not\Rightarrow
 \text{Human Update}\uparrow
 }
-$$
+```
 
 **Result: REMOVE TEST — FAIL**
 
@@ -378,13 +378,13 @@ But simultaneously:
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Performance}\uparrow
 \not\Rightarrow
 \text{System Update}\uparrow
 }
-$$
+```
 
 Removing System Update reduces the case to a productivity comparison and loses the question:
 
@@ -402,7 +402,7 @@ Task speed alone cannot determine whether all relevant properties improved.
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{Update}
 \neq
@@ -412,7 +412,7 @@ $$
 \neq
 \text{Good}
 }
-$$
+```
 
 remained necessary to prevent performance improvement from being mistaken for overall value improvement.
 
@@ -472,13 +472,13 @@ This was one of the weakest upper-level results in P001.
 
 A simpler:
 
-$$
+```math
 Event
 \rightarrow
 Feedback
 \rightarrow
 Change
-$$
+```
 
 description captures much of the local behavior.
 
@@ -492,7 +492,7 @@ Some change/update distinction remains useful, but CASE-P001 does not demonstrat
 
 Project Fetch contains:
 
-$$
+```math
 Human
 \leftrightarrow
 AI
@@ -502,7 +502,7 @@ Software
 Robot
 \leftrightarrow
 Physical\ Reality
-$$
+```
 
 These systems do not require identical internal representations in order to interact.
 
@@ -516,11 +516,11 @@ Removing interoperability loses the common problem of tracing information and ac
 
 Removing this layer reduces Project Fetch largely to:
 
-$$
+```math
 AI\ Access
 \rightarrow
 Task\ Performance
-$$
+```
 
 and loses changes in team configuration and uncertainty over what system actually improved.
 
@@ -541,7 +541,7 @@ risk becoming conceptual interpretation rather than empirically disciplined clai
 
 The case strongly reinforces the necessity of distinguishing:
 
-$$
+```math
 \boxed{
 \text{Observed}
 \neq
@@ -549,7 +549,7 @@ $$
 \neq
 \text{Unobservable}
 }
-$$
+```
 
 **Result: STRONG FAIL**
 
@@ -559,11 +559,11 @@ $$
 
 Without evaluation distinctions:
 
-$$
+```math
 Faster
 \Rightarrow
 Better
-$$
+```
 
 becomes an implicit assumption.
 
@@ -614,21 +614,21 @@ Removing it collapses the distinction between computational success and real-wor
 
 ### P001-R01 — System Update Observability Gap
 
-$$
+```math
 \text{Individual Performance}
 \neq
 \text{System Update}
-$$
+```
 
 but no operational rule currently determines System Update.
 
 ### P001-R02 — Exploration / Possibility-Space Identification Gap
 
-$$
+```math
 \text{Exploration}
 \neq
 \text{Possibility Space}
-$$
+```
 
 but no independent measurement currently distinguishes them.
 
@@ -640,11 +640,11 @@ Different choices of Updating Unit may produce different Update judgments.
 
 If:
 
-$$
+```math
 \text{Error / Failure / Difference}
 \neq
 \text{Residual}
-$$
+```
 
 then Residual requires an independent identification rule.
 
@@ -652,11 +652,11 @@ then Residual requires an independent identification rule.
 
 If:
 
-$$
+```math
 \text{Delay / Search / Uncertainty}
 \neq
 \text{Holding}
-$$
+```
 
 then Holding requires independent observable evidence.
 
@@ -676,13 +676,13 @@ It does not establish the necessity of a distinct IDOS General Theory of Update.
 
 The architecture asks questions at a higher resolution than current measurement permits.
 
-$$
+```math
 \boxed{
 \text{Architecture Resolution}
 >
 \text{Measurement Resolution}
 }
-$$
+```
 
 ### P001-AR04 — System Update Definition Gap
 
@@ -690,15 +690,15 @@ Relational/System distinctions appear analytically useful.
 
 However:
 
-$$
+```math
 \text{System Change}
-$$
+```
 
 cannot yet be operationally distinguished from:
 
-$$
+```math
 \text{System Update}
-$$
+```
 
 with sufficient precision.
 
@@ -716,13 +716,13 @@ This does not yet demonstrate that integration produces incremental:
 
 Thus:
 
-$$
+```math
 \boxed{
 \text{Integration}
 \neq
 \text{Incremental Scientific Value}
 }
-$$
+```
 
 ## 14. Central Result
 
@@ -732,75 +732,75 @@ CASE-P001 did not falsify Master Map v1.0.
 
 More importantly, CASE-P001 began to separate:
 
-$$
+```math
 \text{concepts that can be fitted to the case}
-$$
+```
 
 from:
 
-$$
+```math
 \text{distinctions whose removal materially degrades the analysis}
-$$
+```
 
 The most important provisional result is:
 
-$$
+```math
 \boxed{
 \text{The strongest surviving part of IDOS may be its architecture,}
 }
-$$
+```
 
-$$
+```math
 \boxed{
 \text{not its detailed process ontology.}
 }
-$$
+```
 
 In particular, the strongest retain pressure occurred around:
 
-$$
+```math
 \boxed{
 \text{Heterogeneous Interoperability}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Relational / System Update}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Measurement}
 }
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 \boxed{
 \text{Evaluation}
 }
-$$
+```
 
 with:
 
-$$
+```math
 \boxed{
 \text{Reality Recontact}
 }
-$$
+```
 
 closing the loop.
 
@@ -808,13 +808,13 @@ By contrast, several lower-level concepts were removable without major loss.
 
 Thus the first prospective stress test produced the provisional pattern:
 
-$$
+```math
 \boxed{
 \text{Architecture}
 >
 \text{Detailed Mechanism}
 }
-$$
+```
 
 This should not yet be generalized beyond CASE-P001.
 
@@ -824,31 +824,31 @@ No architectural contradiction was detected that justifies revision after one pr
 
 Therefore:
 
-$$
+```math
 \boxed{
 \text{MASTER MAP v1.0}
 =
 \text{NO REVISION}
 }
-$$
+```
 
 However:
 
-$$
+```math
 \boxed{
 \text{NO REVISION}
 \neq
 \text{FULL SUPPORT}
 }
-$$
+```
 
 The correct status is:
 
-$$
+```math
 \boxed{
 \text{Architecture retained under active empirical challenge}
 }
-$$
+```
 
 ## 16. Research Implication
 
@@ -887,7 +887,7 @@ No Master Map concept should be revised solely to improve fit with CASE-P001.
 
 Specifically:
 
-$$
+```math
 \boxed{
 \text{P001 Residual}
 \rightarrow
@@ -895,7 +895,7 @@ $$
 \neq
 \text{Immediate Repair}
 }
-$$
+```
 
 The current weaknesses should be carried forward unchanged into the next prospective case.
 

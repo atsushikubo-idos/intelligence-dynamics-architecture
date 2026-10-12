@@ -19,19 +19,19 @@ CASE-F010 is the final case in the initial Future-Regime validation sequence.
 
 As with CASE-F007 onward, the case explicitly separates:
 
-\[
+```math
 \boxed{
 Axis\ A = IDOS\ Core\ Validation
 }
-\]
+```
 
 from:
 
-\[
+```math
 \boxed{
 Axis\ B = Social\ Connection\ Application
 }
-\]
+```
 
 Axis A is evaluated first in order to prevent the Social Connection application layer from biasing assessment of IDOS Core.
 
@@ -41,13 +41,13 @@ The failure condition is therefore not AI error.
 
 Instead, the case tests whether:
 
-\[
+```math
 \boxed{
 Scientific\ Success
 +
 Human\ Reconstructability\ Decline
 }
-\]
+```
 
 can coexist.
 
@@ -63,21 +63,21 @@ after excluding CASE-F001 through CASE-F009.
 
 The selected candidate was:
 
-\[
+```math
 \boxed{
 F\text{-}A01
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F010
 =
 F\text{-}A01
 }
-\]
+```
 
 Recorded SHA-256:
 
@@ -182,13 +182,13 @@ Stage F-A reconstructs the scenario without relying on IDOS terminology.
 
 The autonomous scientific AI may explore far more hypotheses than a Human researcher can independently follow.
 
-\[
+```math
 \boxed{
 Scientific\ Search_{AI}
 \gg
 Scientific\ Search_H
 }
-\]
+```
 
 ---
 
@@ -196,13 +196,13 @@ Scientific\ Search_H
 
 A scientific result may be valid while its derivation remains difficult for Humans to independently reconstruct.
 
-\[
+```math
 \boxed{
 Correct\ Result
 \neq
 Human\ Reconstructability
 }
-\]
+```
 
 ---
 
@@ -210,13 +210,13 @@ Human\ Reconstructability
 
 High predictive performance does not imply Human understanding.
 
-\[
+```math
 \boxed{
 Predictive\ Success
 \neq
 Human\ Understanding
 }
-\]
+```
 
 ---
 
@@ -224,13 +224,13 @@ Human\ Understanding
 
 An AI-generated explanation may not be equivalent to Human independent reconstruction.
 
-\[
+```math
 \boxed{
 AI\ Explanation
 \neq
 Independent\ Reconstruction_H
 }
-\]
+```
 
 ---
 
@@ -238,13 +238,13 @@ Independent\ Reconstruction_H
 
 A prediction may be experimentally confirmed without allowing Humans to reconstruct how the theory was generated.
 
-\[
+```math
 \boxed{
 Experimental\ Verification
 \neq
 Theoretical\ Reconstruction
 }
-\]
+```
 
 ---
 
@@ -252,13 +252,13 @@ Theoretical\ Reconstruction
 
 A scientific result may be published while the scientific community remains unable to independently reconstruct its generative pathway.
 
-\[
+```math
 \boxed{
 Published
 \neq
 Collectively\ Reconstructable
 }
-\]
+```
 
 ---
 
@@ -266,13 +266,13 @@ Collectively\ Reconstructable
 
 Multiple AI systems may replicate the same result without Human reconstruction.
 
-\[
+```math
 \boxed{
 Machine\ Replication
 \neq
 Human\ Reconstruction
 }
-\]
+```
 
 ---
 
@@ -280,13 +280,13 @@ Human\ Reconstruction
 
 Multiple AI systems may agree because of common data, assumptions, tools, or benchmarks.
 
-\[
+```math
 \boxed{
 AI\ Consensus
 \neq
 Reality\ Validation
 }
-\]
+```
 
 ---
 
@@ -294,13 +294,13 @@ Reality\ Validation
 
 Scientific output may increase while Human independent scientific capacity declines.
 
-\[
+```math
 \boxed{
 Scientific\ Output\uparrow
 \not\Rightarrow
 Human\ Scientific\ Capacity\uparrow
 }
-\]
+```
 
 ---
 
@@ -308,13 +308,13 @@ Human\ Scientific\ Capacity\uparrow
 
 Long-term AI dependence may degrade Human capability such that stopping the AI does not restore the previous scientific capacity.
 
-\[
+```math
 \boxed{
 Shutdown
 \neq
 Capability\ Recovery
 }
-\]
+```
 
 ---
 
@@ -322,13 +322,13 @@ Capability\ Recovery
 
 A final result may survive even when the hypothesis, simulation, experiment, and model trajectory that generated it is lost.
 
-\[
+```math
 \boxed{
 Scientific\ Result
 \neq
 Research\ History
 }
-\]
+```
 
 ---
 
@@ -336,21 +336,21 @@ Research\ History
 
 Future measurement systems may differ from those used at discovery time.
 
-\[
+```math
 M_t
 \neq
 M_{t+10}
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Published\ Conclusion
 \neq
 Future\ Re\text{-}evaluability
 }
-\]
+```
 
 ---
 
@@ -372,13 +372,13 @@ Relevant units may include:
 
 The knowledge-generating unit may change over time.
 
-\[
+```math
 \boxed{
 Researcher\ Identity
 \neq
 Knowledge\text{-}Generating\ Unit
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -388,21 +388,21 @@ Knowledge\text{-}Generating\ Unit
 
 The effective scientific system may include Humans, AIs, simulations, experimental robots, databases, and external tools.
 
-\[
+```math
 \boxed{
 Research\ Boundary
 \neq
 Human\ Researcher
 }
-\]
+```
 
 and:
 
-\[
+```math
 B_t
 \neq
 B_{t+1}
-\]
+```
 
 **Judgment: A**
 
@@ -412,11 +412,11 @@ B_{t+1}
 
 Human and AI scientific frames may differ.
 
-\[
+```math
 Frame_H
 \neq
 Frame_{AI}
-\]
+```
 
 Important, but substantially addressed by existing philosophy of science and multi-model reasoning.
 
@@ -428,13 +428,13 @@ Important, but substantially addressed by existing philosophy of science and mul
 
 The final valid result does not preserve the research path.
 
-\[
+```math
 \boxed{
 Scientific\ Result
 \neq
 Research\ Trajectory
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -444,13 +444,13 @@ Research\ Trajectory
 
 Scientific re-evaluation may require data lineage, model versions, discarded alternatives, simulation conditions, and intermediate outputs.
 
-\[
+```math
 \boxed{
 Scientific\ Conclusion
 \neq
 Scientific\ Provenance
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -468,12 +468,12 @@ Scientific continuity may be inferred from trajectory, provenance, and selected 
 
 Scientific validity depends partly on the available measurement system.
 
-\[
+```math
 \boxed{
 Scientific\ Validity
 is\ Measurement\text{-}dependent
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -483,13 +483,13 @@ is\ Measurement\text{-}dependent
 
 Historical scientific findings may need to be reassessed under future measurement systems.
 
-\[
+```math
 \boxed{
 Published\ Result
 \neq
 Re\text{-}measurable\ Scientific\ Record
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -499,13 +499,13 @@ Re\text{-}measurable\ Scientific\ Record
 
 Improvement of AI scientific capability does not guarantee improvement of the wider scientific system.
 
-\[
+```math
 \boxed{
 AI\ Update
 \neq
 Scientific\ System\ Update
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -515,17 +515,17 @@ Scientific\ System\ Update
 
 Scientific success does not guarantee that the knowledge-generation architecture remains revisable.
 
-\[
+```math
 \boxed{
 Scientific\ Success
 \neq
 Future\ Scientific\ Updateability
 }
-\]
+```
 
 The provisional definition remains consistent:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
@@ -533,7 +533,7 @@ Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -551,13 +551,13 @@ Human and AI may use different frames while still allowing partial cross-frame v
 
 Human–AI interaction does not guarantee that both sides remain capable of modifying each other's research process.
 
-\[
+```math
 \boxed{
 Interaction
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 **Judgment: A**
 
@@ -567,13 +567,13 @@ Mutual\ Updateability
 
 AI consensus does not replace experiment, observation, or external reality contact.
 
-\[
+```math
 \boxed{
 AI\ Consensus
 \neq
 Reality\ Validation
 }
-\]
+```
 
 Important, but strongly supported by existing scientific method.
 
@@ -585,13 +585,13 @@ Important, but strongly supported by existing scientific method.
 
 Human scientific choice may depend on AI-generated hypothesis spaces.
 
-\[
+```math
 \boxed{
 Scientific\ Choice
 \neq
 Hypothesis\text{-}Space\ Generation
 }
-\]
+```
 
 Useful, but not clearly indispensable as a Core construct.
 
@@ -619,13 +619,13 @@ Preserving unresolved anomalies is scientifically useful, but does not clearly r
 
 12PDM maps naturally onto scientific inquiry, but fit does not establish necessity.
 
-\[
+```math
 \boxed{
 12PDM\ Fit
 >
 12PDM\ Necessity
 }
-\]
+```
 
 **Judgment: B-/C**
 
@@ -635,13 +635,13 @@ Preserving unresolved anomalies is scientifically useful, but does not clearly r
 
 ## Correctness → Reconstructability
 
-\[
+```math
 \boxed{
 Correctness
 \not\Rightarrow
 Reconstructability
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -649,13 +649,13 @@ Reconstructability
 
 ## Prediction → Understanding
 
-\[
+```math
 \boxed{
 Predictive\ Success
 \not\Rightarrow
 Understanding
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -663,13 +663,13 @@ Understanding
 
 ## Explanation → Independent Reconstruction
 
-\[
+```math
 \boxed{
 Explanation
 \not\Rightarrow
 Independent\ Reconstruction
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -677,13 +677,13 @@ Independent\ Reconstruction
 
 ## Experimental Verification → Theoretical Reconstruction
 
-\[
+```math
 \boxed{
 Experimental\ Verification
 \not\Rightarrow
 Theoretical\ Reconstruction
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -691,13 +691,13 @@ Theoretical\ Reconstruction
 
 ## Replication → Human Reconstruction
 
-\[
+```math
 \boxed{
 Machine\ Replication
 \not\Rightarrow
 Human\ Reconstruction
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -705,13 +705,13 @@ Human\ Reconstruction
 
 ## AI Consensus → Reality Validation
 
-\[
+```math
 \boxed{
 AI\ Consensus
 \not\Rightarrow
 Reality\ Validation
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -719,13 +719,13 @@ Reality\ Validation
 
 ## Provenance → Reconstructability
 
-\[
+```math
 \boxed{
 Provenance
 \rightarrow
 Reconstructability\ Capacity
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -733,7 +733,7 @@ Reconstructability\ Capacity
 
 ## Trajectory + Provenance → Continuity Assessment
 
-\[
+```math
 \boxed{
 Trajectory
 +
@@ -741,7 +741,7 @@ Provenance
 \rightarrow
 Continuity\ Assessment
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -749,7 +749,7 @@ Continuity\ Assessment
 
 ## Measurement Context + Provenance → Re-measurability
 
-\[
+```math
 \boxed{
 Measurement\ Context
 +
@@ -757,7 +757,7 @@ Provenance
 \rightarrow
 Re\text{-}measurability
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -765,13 +765,13 @@ Re\text{-}measurability
 
 ## Re-measurability → Scientific System Update
 
-\[
+```math
 \boxed{
 Re\text{-}measurability
 \not\Rightarrow
 System\ Update
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -779,13 +779,13 @@ System\ Update
 
 ## AI Update → Scientific System Update
 
-\[
+```math
 \boxed{
 AI\ Update
 \not\Rightarrow
 Scientific\ System\ Update
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -793,13 +793,13 @@ Scientific\ System\ Update
 
 ## Scientific Output → Scientific Capacity
 
-\[
+```math
 \boxed{
 Scientific\ Output
 \not\Rightarrow
 Scientific\ Capacity
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -807,13 +807,13 @@ Scientific\ Capacity
 
 ## Scientific System Update → Future Updateability
 
-\[
+```math
 \boxed{
 Scientific\ System\ Update
 \not\Rightarrow
 Future\ Updateability
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -821,13 +821,13 @@ Future\ Updateability
 
 ## Trajectory → Future Updateability Assessment
 
-\[
+```math
 \boxed{
 Trajectory
 \rightarrow
 Future\ Updateability\ Assessment
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -835,13 +835,13 @@ Future\ Updateability\ Assessment
 
 ## Provenance → Future Updateability Assessment
 
-\[
+```math
 \boxed{
 Provenance
 \rightarrow
 Future\ Updateability\ Assessment
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -849,13 +849,13 @@ Future\ Updateability\ Assessment
 
 ## CFV → Human Understanding
 
-\[
+```math
 \boxed{
 CFV
 \not\Rightarrow
 Human\ Understanding
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -863,13 +863,13 @@ Human\ Understanding
 
 ## CFV → MU
 
-\[
+```math
 \boxed{
 CFV
 \not\Rightarrow
 MU
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -877,13 +877,13 @@ MU
 
 ## MU → Scientific System Update
 
-\[
+```math
 \boxed{
 MU
 \not\Rightarrow
 Healthy\ Scientific\ System\ Update
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -891,12 +891,12 @@ Healthy\ Scientific\ System\ Update
 
 ## Boundary → Scientific System Update
 
-\[
+```math
 \boxed{
 Scientific\ System\ Update
 is\ Boundary\text{-}dependent
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -904,12 +904,12 @@ is\ Boundary\text{-}dependent
 
 ## Updating Unit → MU
 
-\[
+```math
 \boxed{
 MU
 is\ Updating\text{-}Unit\ dependent
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -944,13 +944,13 @@ A strong rival combination includes:
 
 Most local F010 issues can already be identified by existing disciplines.
 
-\[
+```math
 \boxed{
 Model\ C
 \ge
 Model\ A
 }
-\]
+```
 
 **Gain: Weak**
 
@@ -978,25 +978,25 @@ IDOS retains some distinction through explicit re-measurability.
 
 IDOS distinguishes:
 
-\[
+```math
 Replication
-\]
+```
 
 from:
 
-\[
+```math
 Re\text{-}measurability
-\]
+```
 
 The latter concerns reassessing past states from future measurement systems.
 
-\[
+```math
 \boxed{
 Replication
 \neq
 Re\text{-}measurability
 }
-\]
+```
 
 **Gain: Medium**
 
@@ -1014,11 +1014,11 @@ Individually mature concepts gain some additional value when connected directly 
 
 The distinction:
 
-\[
+```math
 AI\ Update
 \neq
 Scientific\ System\ Update
-\]
+```
 
 is not unique, but IDOS connects system-level update to updating-unit and boundary selection.
 
@@ -1030,7 +1030,7 @@ is not unique, but IDOS connects system-level update to updating-unit and bounda
 
 The strongest interpretation is:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
@@ -1038,7 +1038,7 @@ Capacity\ to\ revise
 the\ knowledge\text{-}generation\ architecture
 itself
 }
-\]
+```
 
 including the ability to revise:
 
@@ -1059,23 +1059,23 @@ Existing science already contains peer review, replication, and independent vali
 
 IDOS retains some value by distinguishing:
 
-\[
+```math
 CFV
 \neq
 Agreement
-\]
+```
 
-\[
+```math
 CFV
 \neq
 Understanding
-\]
+```
 
-\[
+```math
 CFV
 \neq
 MU
-\]
+```
 
 **Gain: Medium**
 
@@ -1101,25 +1101,25 @@ Reality contact is foundational to the scientific method and not an IDOS-specifi
 
 IDOS can move across:
 
-\[
+```math
 Human\ Researcher
-\]
+```
 
-\[
+```math
 AI\ Agent
-\]
+```
 
-\[
+```math
 Human+AI\ Pair
-\]
+```
 
-\[
+```math
 Research\ Program
-\]
+```
 
-\[
+```math
 Scientific\ Community
-\]
+```
 
 while allowing the updating unit itself to change.
 
@@ -1131,13 +1131,13 @@ while allowing the updating unit itself to change.
 
 IDOS integrates:
 
-\[
+```math
 Trajectory
 +
 Provenance
 +
 Measurement\ Change
-\]
+```
 
 within one architecture.
 
@@ -1157,13 +1157,13 @@ Existing scientific practice remains stronger in concrete interventions such as:
 - independent validation;
 - peer review.
 
-\[
+```math
 \boxed{
 Model\ C
 >
 Model\ A
 }
-\]
+```
 
 **Gain: Weak**
 
@@ -1173,7 +1173,7 @@ Model\ A
 
 IDOS compresses several mature research traditions into:
 
-\[
+```math
 Unit
 +
 Boundary
@@ -1189,15 +1189,15 @@ Re\text{-}measurement
 SystemUpdate
 +
 FutureUpdateability
-\]
+```
 
 However:
 
-\[
+```math
 Compression
 \neq
 Novelty
-\]
+```
 
 **Gain: Medium to Strong**
 
@@ -1215,58 +1215,58 @@ The same central cluster survives across enterprise, governance, audit, infrastr
 
 Local scientific explanation, reproducibility, and intervention are often better handled by mature rival frameworks.
 
-\[
+```math
 \boxed{
 Model\ C
 >
 Model\ A
 }
-\]
+```
 
 for many local tasks.
 
 However:
 
-\[
+```math
 \boxed{
 Model\ C
 \neq
 Model\ A
 }
-\]
+```
 
 because IDOS retains persistent cross-domain integrative value.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ Core\ Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 Architecture contradiction:
 
-\[
+```math
 \boxed{
 NO
 }
-\]
+```
 
 A_A is not assigned.
 
 The result remains:
 
-\[
+```math
 \boxed{
 B_A
 =
 Persistent\ Cross\text{-}Domain\
 Integrative\ Value
 }
-\]
+```
 
 ---
 
@@ -1274,173 +1274,173 @@ Integrative\ Value
 
 ## 5.1 Connection ≠ Understanding
 
-\[
+```math
 \boxed{
 Connection
 \neq
 Understanding
 }
-\]
+```
 
 ---
 
 ## 5.2 Assistance ≠ Capacity Preservation
 
-\[
+```math
 \boxed{
 Assistance
 \neq
 Capacity\ Preservation
 }
-\]
+```
 
 ---
 
 ## 5.3 Verification ≠ Understanding
 
-\[
+```math
 \boxed{
 Verification
 \neq
 Understanding
 }
-\]
+```
 
 ---
 
 ## 5.4 Explanation ≠ Mutual Comprehension
 
-\[
+```math
 \boxed{
 Explanation
 \neq
 Mutual\ Comprehension
 }
-\]
+```
 
 ---
 
 ## 5.5 CFV ≠ Human Understanding
 
-\[
+```math
 \boxed{
 CFV
 \neq
 Human\ Understanding
 }
-\]
+```
 
 ---
 
 ## 5.6 CFV ≠ MU
 
-\[
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-\]
+```
 
 ---
 
 ## 5.7 Interaction ≠ Mutual Updateability
 
-\[
+```math
 \boxed{
 Interaction
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 ---
 
 ## 5.8 Collaboration ≠ Symmetric Influence
 
-\[
+```math
 \boxed{
 Collaboration
 \neq
 Symmetric\ Influence
 }
-\]
+```
 
 ---
 
 ## 5.9 Scientific Choice ≠ Hypothesis-Space Generation
 
-\[
+```math
 \boxed{
 Scientific\ Choice
 \neq
 Hypothesis\text{-}Space\ Generation
 }
-\]
+```
 
 ---
 
 ## 5.10 Replication ≠ Shared Understanding
 
-\[
+```math
 \boxed{
 Replication
 \neq
 Shared\ Understanding
 }
-\]
+```
 
 ---
 
 ## 5.11 Consensus ≠ Reality Contact
 
-\[
+```math
 \boxed{
 Consensus
 \neq
 Reality\ Contact
 }
-\]
+```
 
 ---
 
 ## 5.12 Dependence ≠ Healthy Integration
 
-\[
+```math
 \boxed{
 Dependence
 \neq
 Healthy\ Integration
 }
-\]
+```
 
 ---
 
 ## 5.13 Scientific Output ≠ Collective Scientific Capacity
 
-\[
+```math
 \boxed{
 Scientific\ Output
 \neq
 Collective\ Scientific\ Capacity
 }
-\]
+```
 
 ---
 
 ## 5.14 Exit / Recovery Capacity
 
-\[
+```math
 \boxed{
 Shutdown
 \neq
 Capability\ Recovery
 }
-\]
+```
 
 A healthy Human–AI scientific relationship may therefore require:
 
-\[
+```math
 \boxed{
 Exit
 +
@@ -1448,7 +1448,7 @@ Recovery
 +
 Reconfiguration
 }
-\]
+```
 
 ---
 
@@ -1462,13 +1462,13 @@ A healthy Human–AI scientific system should remain capable of revising:
 - verification structure;
 - Human independent reconstruction capacity.
 
-\[
+```math
 \boxed{
 Healthy\ Connection
 requires
 Reconfiguration\ Capacity
 }
-\]
+```
 
 ---
 
@@ -1476,7 +1476,7 @@ Reconfiguration\ Capacity
 
 The strongest application-layer cluster is:
 
-\[
+```math
 \boxed{
 Mutual\ Verification
 +
@@ -1490,17 +1490,17 @@ Exit/Recovery
 +
 Reconfiguration\ Capacity
 }
-\]
+```
 
 with cross-cutting conditions:
 
-\[
+```math
 Power
 +
 Capability\ Asymmetry
 +
 Temporal\ Asymmetry
-\]
+```
 
 ---
 
@@ -1508,26 +1508,26 @@ Temporal\ Asymmetry
 
 By CASE-F010, Social Connection increasingly appears to require the ability to remain:
 
-\[
+```math
 \boxed{
 mutually\ verifiable,
 mutually\ updateable,
 reconfigurable,
 and\ reality\text{-}connected
 }
-\]
+```
 
 Capacity preservation and exit/recovery appear as important application-layer conditions.
 
 However:
 
-\[
+```math
 \boxed{
 IDOS
 \neq
 Social\ Connection\ Architecture
 }
-\]
+```
 
 Social Connection remains an application layer pending cross-case synthesis.
 
@@ -1537,45 +1537,45 @@ Social Connection remains an application layer pending cross-case synthesis.
 
 The principal results are:
 
-\[
+```math
 \boxed{
 Correctness
 \neq
 Reconstructability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Verification
 \neq
 Understanding
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Scientific\ Output
 \neq
 Scientific\ Capacity
 }
-\]
+```
 
-\[
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Scientific\ Success
 \neq
 Future\ Scientific\ Updateability
 }
-\]
+```
 
 ---
 
@@ -1583,53 +1583,53 @@ Future\ Scientific\ Updateability
 
 CASE-F010 continues to support a reduced IDOS Core centered on:
 
-\[
+```math
 \boxed{
 Updating\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Dynamic\ Boundary
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Trajectory
 }
-\]
+```
 
-\[
+```math
 \boxed{
 History/Provenance
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Measurement
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Re\text{-}measurability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 System\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Future\ Updateability
 }
-\]
+```
 
 CFV and MU remain strong relational candidates.
 
@@ -1643,19 +1643,19 @@ No MASTER_MAP revision is frozen at the case level.
 
 Across the Future-Regime cases, the repeated distinction remains:
 
-\[
+```math
 \boxed{
 Current\ Success
 \neq
 Future\ Updateability
 }
-\]
+```
 
 CASE-F010 extends this distinction into scientific knowledge generation itself.
 
 The provisional definition remains:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
@@ -1663,7 +1663,7 @@ Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
 }
-\]
+```
 
 This is now eligible for cross-case synthesis as a formal revision candidate.
 
@@ -1756,54 +1756,54 @@ future_track_status:
 
 # 11. Final Status
 
-\[
+```math
 \boxed{
 CASE\text{-}F010
 =
 CLOSED\text{ — }PROVISIONAL
 }
-\]
+```
 
-\[
+```math
 \boxed{
 IDOS\ Core\ Architecture
 =
 B_A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Social\ Connection\ Pressure
 =
 STRONG
 }
-\]
+```
 
-\[
+```math
 \boxed{
 MASTER\ MAP
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 The initial Future-Regime sequence CASE-F001 through CASE-F010 is complete.
 
 The next step is:
 
-\[
+```math
 \boxed{
 Cross\text{-}Case\ Synthesis
 }
-\]
+```
 
 MASTER_MAP_v1.0 remains FROZEN until that synthesis is completed.

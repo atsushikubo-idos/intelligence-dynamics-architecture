@@ -21,11 +21,11 @@ Its purpose is to test whether the current IDOS architecture remains coherent, d
 
 The central question is:
 
-\[
+```math
 \boxed{
 \text{Does IDOS remain structurally adequate under future regimes that exceed current empirical complexity?}
 }
-\]
+```
 
 This protocol therefore complements, but does not replace, the present-day empirical case program.
 
@@ -37,11 +37,11 @@ IDOS validation is divided into two distinct tracks.
 
 ## Track P — Present-Day Empirical Stress Test
 
-\[
+```math
 \boxed{
 CASE\text{-}P001,\ CASE\text{-}P002,\ \ldots
 }
-\]
+```
 
 Purpose:
 
@@ -54,21 +54,21 @@ Purpose:
 
 Evidence type:
 
-\[
+```math
 \boxed{
 Empirical\ Evidence
 }
-\]
+```
 
 ---
 
 ## Track F — Future-Regime Prospective Stress Test
 
-\[
+```math
 \boxed{
 CASE\text{-}F001,\ CASE\text{-}F002,\ \ldots
 }
-\]
+```
 
 Purpose:
 
@@ -80,11 +80,11 @@ Purpose:
 
 Evidence type:
 
-\[
+```math
 \boxed{
 Prospective\ Scenario\ Evidence
 }
-\]
+```
 
 ---
 
@@ -92,13 +92,13 @@ Prospective\ Scenario\ Evidence
 
 The two evidence types must not be merged.
 
-\[
+```math
 \boxed{
 Empirical\ Evidence
 \neq
 Prospective\ Scenario\ Evidence
 }
-\]
+```
 
 A construct supported in Track F is not thereby empirically validated.
 
@@ -110,23 +110,23 @@ A construct weakened in Track P is not thereby globally unnecessary under future
 
 The central epistemic protection is:
 
-\[
+```math
 \boxed{
 \text{Not useful in present simple systems}
 \not\Rightarrow
 \text{Not necessary in future complex systems}
 }
-\]
+```
 
 Similarly:
 
-\[
+```math
 \boxed{
 \text{Useful in future scenario}
 \not\Rightarrow
 \text{Empirically established}
 }
-\]
+```
 
 Future-regime testing is therefore a stress test of architectural adequacy, not a substitute for empirical validation.
 
@@ -167,7 +167,7 @@ No future case may be used to retrospectively redesign the selection or scoring 
 
 The sequence is:
 
-\[
+```math
 \boxed{
 \text{Protocol Freeze}
 \rightarrow
@@ -177,17 +177,17 @@ The sequence is:
 \rightarrow
 \text{Analysis}
 }
-\]
+```
 
 Any later protocol revision must be versioned prospectively:
 
-\[
+```math
 v0.1
 \rightarrow
 v0.2
 \rightarrow
 v0.3
-\]
+```
 
 and must not rewrite prior frozen case results.
 
@@ -199,7 +199,7 @@ Each future case is a deliberately specified regime rather than a claim about th
 
 Each CASE-Fxxx must define:
 
-\[
+```math
 \boxed{
 Regime
 =
@@ -215,7 +215,7 @@ TimeScale,
 Environment
 \}
 }
-\]
+```
 
 A future case should contain enough structure to test IDOS, but should avoid unnecessary narrative detail.
 
@@ -245,23 +245,23 @@ Examples:
 
 At minimum classify:
 
-\[
+```math
 \boxed{
 Symmetric
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Moderately\ Asymmetric
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Strongly\ Asymmetric
 }
-\]
+```
 
 Potential dimensions:
 
@@ -299,17 +299,17 @@ Specify interaction speed.
 
 Examples:
 
-\[
+```math
 Human\ timescale
-\]
+```
 
-\[
+```math
 Mixed\ Human/AI\ timescale
-\]
+```
 
-\[
+```math
 Machine\ timescale
-\]
+```
 
 This matters because a system may undergo many AI-side transitions before Human observation occurs.
 
@@ -319,15 +319,15 @@ This matters because a system may undergo many AI-side transitions before Human 
 
 Specify whether:
 
-\[
+```math
 B_t = B_{t+1}
-\]
+```
 
 or:
 
-\[
+```math
 B_t \neq B_{t+1}
-\]
+```
 
 Potential future conditions include:
 
@@ -345,15 +345,15 @@ Potential future conditions include:
 
 Specify whether:
 
-\[
+```math
 F_t = F_{t+1}
-\]
+```
 
 or:
 
-\[
+```math
 F_t \neq F_{t+1}
-\]
+```
 
 Potential triggers:
 
@@ -371,15 +371,15 @@ Potential triggers:
 
 Specify whether:
 
-\[
+```math
 M_t = M_{t+1}
-\]
+```
 
 or:
 
-\[
+```math
 M_t \neq M_{t+1}
-\]
+```
 
 Future cases should include some regimes in which the measurement system itself changes.
 
@@ -389,15 +389,15 @@ Future cases should include some regimes in which the measurement system itself 
 
 Specify whether:
 
-\[
+```math
 V_t = V_{t+1}
-\]
+```
 
 and whether:
 
-\[
+```math
 C_t = C_{t+1}
-\]
+```
 
 where \(V\) is Value and \(C\) is Verification Criterion.
 
@@ -516,17 +516,17 @@ A frozen candidate pool must be created before analysis.
 
 Recommended minimum:
 
-\[
+```math
 6\ classes \times 4\ cases = 24\ future\ scenarios
-\]
+```
 
 The future-case pool should therefore contain:
 
-\[
+```math
 \boxed{
 24\ frozen\ scenario\ candidates
 }
-\]
+```
 
 Each candidate receives:
 
@@ -647,23 +647,23 @@ At minimum evaluate:
 
 Use:
 
-\[
+```math
 A = Strongly\ required
-\]
+```
 
-\[
+```math
 B = Plausible / useful
-\]
+```
 
-\[
+```math
 C = Unnecessary / unsupported
-\]
+```
 
 and additionally:
 
-\[
+```math
 X = Contradicted
-\]
+```
 
 for explicit architectural failure.
 
@@ -677,13 +677,13 @@ For every mapped construct ask:
 
 Formally:
 
-\[
+```math
 \boxed{
 \text{Added Value}
 >
 \text{Added Complexity}?
 }
-\]
+```
 
 A future scenario should not be used to justify a construct merely because the construct can be mapped.
 
@@ -695,41 +695,41 @@ For each construct ask whether it can be distinguished from adjacent alternative
 
 Examples:
 
-\[
+```math
 Difference
 \neq
 Residual
-\]
+```
 
-\[
+```math
 Interaction
 \neq
 Relational\ Update
-\]
+```
 
-\[
+```math
 Influence
 \neq
 Cross\text{-}Unit\ Update
-\]
+```
 
-\[
+```math
 Boundary\ Change
 \neq
 Environment\ Change
-\]
+```
 
-\[
+```math
 Performance\ Change
 \neq
 Updating\ Unit\ Update
-\]
+```
 
-\[
+```math
 System\ Performance
 \neq
 System\ Update
-\]
+```
 
 If the distinction cannot be operationalized even in a designed scenario, that generates weakening pressure.
 
@@ -739,17 +739,17 @@ If the distinction cannot be operationalized even in a designed scenario, that g
 
 For every construct classify:
 
-\[
+```math
 Observed
-\]
+```
 
-\[
+```math
 Inferred
-\]
+```
 
-\[
+```math
 Unobservable
-\]
+```
 
 even in the hypothetical regime.
 
@@ -759,13 +759,13 @@ Some internal states should remain inaccessible.
 
 The protocol must preserve:
 
-\[
+```math
 \boxed{
 Forward\ Dynamics
 \neq
 Inverse\ Measurement
 }
-\]
+```
 
 even in simulated future cases.
 
@@ -796,53 +796,53 @@ Future cases should explicitly test whether constructs weakened in Track P becom
 
 Initial watch constructs:
 
-\[
+```math
 \boxed{
 Holding
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Residual
 }
-\]
+```
 
-\[
+```math
 \boxed{
 12PDM
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Dynamic\ Boundary
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Translation\ Residual
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Relational\ Updating\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Mutual\ Updateability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Reflexive\ Measurement
 }
-\]
+```
 
 For each future case ask:
 
@@ -854,25 +854,25 @@ For each future case ask:
 
 A core future-regime target is:
 
-\[
+```math
 \boxed{
 Current\ Outcome\ Improvement
 \neq
 Future\ Updateability
 }
-\]
+```
 
 Every CASE-Fxxx should distinguish:
 
-\[
+```math
 Performance_t
-\]
+```
 
 from:
 
-\[
+```math
 Updateability_{t+1}
-\]
+```
 
 Possible questions:
 
@@ -937,37 +937,37 @@ At minimum, the future-regime program should include cases exhibiting:
 
 ### F-1 — Performance Without Updateability
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 Updateability_{t+1}\downarrow
-\]
+```
 
 ---
 
 ### F-2 — Coordination Without Mutual Update
 
-\[
+```math
 Coordination>0
-\]
+```
 
 while:
 
-\[
+```math
 MU=0
-\]
+```
 
 ---
 
 ### F-3 — Verification Without Influence
 
-\[
+```math
 CFV>0
-\]
+```
 
 while weaker units cannot alter system behavior.
 
@@ -981,9 +981,9 @@ Meaningful Difference is erased during translation.
 
 ### F-5 — Boundary Drift
 
-\[
+```math
 B_t \neq B_{t+1}
-\]
+```
 
 faster than governance can track.
 
@@ -997,15 +997,15 @@ The measured system changes the Measurement System in its own favor.
 
 ### F-7 — Local Improvement / System Degradation
 
-\[
+```math
 \Delta U_i > 0
-\]
+```
 
 while:
 
-\[
+```math
 \Delta System < 0
-\]
+```
 
 under some defined evaluation criterion.
 
@@ -1039,11 +1039,11 @@ The burden remains on IDOS.
 
 The test is:
 
-\[
+```math
 \boxed{
 \text{Does IDOS add a distinction or capability that the rival model lacks?}
 }
-\]
+```
 
 Case fit alone is insufficient.
 
@@ -1063,11 +1063,11 @@ A future scenario may generate architecture-level contradiction pressure if:
 
 Such cases receive:
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction = YES
 }
-\]
+```
 
 and may trigger later Master Map revision.
 
@@ -1096,15 +1096,15 @@ Present and future cases may be compared only at the level of pressure patterns,
 
 For construct \(K\):
 
-\[
+```math
 Pressure_P(K)
-\]
+```
 
 and:
 
-\[
+```math
 Pressure_F(K)
-\]
+```
 
 must remain separately recorded.
 
@@ -1112,33 +1112,33 @@ Possible outcomes:
 
 ### Type 1
 
-\[
+```math
 W_P,\ W_F
-\]
+```
 
 Repeated weakening across present and future regimes.
 
 ### Type 2
 
-\[
+```math
 W_P,\ R_F
-\]
+```
 
 Currently unnecessary but future-complexity dependent.
 
 ### Type 3
 
-\[
+```math
 R_P,\ W_F
-\]
+```
 
 Useful today but fails under future complexity.
 
 ### Type 4
 
-\[
+```math
 R_P,\ R_F
-\]
+```
 
 Cross-regime retain pressure.
 
@@ -1219,17 +1219,17 @@ Comparison with accumulated Track P evidence.
 
 One of:
 
-\[
+```math
 NO
-\]
+```
 
-\[
+```math
 WATCH
-\]
+```
 
-\[
+```math
 REVISION\ CANDIDATE
-\]
+```
 
 ---
 
@@ -1284,41 +1284,41 @@ case_status: CLOSED — PROVISIONAL
 
 The initial sequence after protocol freeze is:
 
-\[
+```math
 \boxed{
 FUTURE\_REGIME\_VALIDATION\_PROTOCOL\_v0.1
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 CASE\text{-}P005
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 FUTURE\_REGIME\_CANDIDATE\_POOL\_v0.1
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 CASE\text{-}F001
 }
-\]
+```
 
 The protocol is frozen before F001.
 
@@ -1338,13 +1338,13 @@ It answers:
 
 Therefore:
 
-\[
+```math
 \boxed{
 Future\ Scenario\ Stress\ Test
 \neq
 Future\ Prediction
 }
-\]
+```
 
 ---
 
@@ -1381,25 +1381,25 @@ The protocol itself should be revised if:
 
 The present-day and future-regime tracks serve different functions.
 
-\[
+```math
 \boxed{
 Track\ P
 =
 Reality\ Contact
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Track\ F
 =
 Complexity\ Stress\ Test
 }
-\]
+```
 
 Together:
 
-\[
+```math
 \boxed{
 Empirical\ Constraint
 +
@@ -1407,23 +1407,23 @@ Prospective\ Stress
 \rightarrow
 Architectural\ Refinement
 }
-\]
+```
 
 The governing principle is:
 
-\[
+```math
 \boxed{
 \textbf{Do not optimize IDOS only for the world that already exists.}
 }
-\]
+```
 
 But equally:
 
-\[
+```math
 \boxed{
 \textbf{Do not use an imagined future to protect concepts that fail every empirical test.}
 }
-\]
+```
 
 The architecture must survive both directions.
 
@@ -1435,34 +1435,34 @@ Once adopted, FUTURE_REGIME_VALIDATION_PROTOCOL_v0.1 should be treated as frozen
 
 Future revisions may modify the protocol prospectively, but must not rewrite prior CASE-Fxxx results.
 
-\[
+```math
 \boxed{
 FUTURE\_REGIME\_VALIDATION\_PROTOCOL\_v0.1
 =
 FREEZE\ CANDIDATE
 }
-\]
+```
 
 The next operational step is:
 
-\[
+```math
 \boxed{
 CASE\text{-}P005
 }
-\]
+```
 
 followed by construction and freezing of:
 
-\[
+```math
 \boxed{
 FUTURE\_REGIME\_CANDIDATE\_POOL\_v0.1
 }
-\]
+```
 
 before selection of:
 
-\[
+```math
 \boxed{
 CASE\text{-}F001
 }
-\]
+```

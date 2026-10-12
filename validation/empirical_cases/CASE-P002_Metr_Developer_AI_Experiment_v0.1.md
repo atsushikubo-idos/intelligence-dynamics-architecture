@@ -78,23 +78,23 @@ The study should therefore be interpreted as evidence about this specific popula
 
 The central experimental result was:
 
-\[
+```math
 \boxed{
 T_{\mathrm{AI}}
 >
 T_{\mathrm{NoAI}}
 }
-\]
+```
 
 with an estimated effect of approximately:
 
-\[
+```math
 \boxed{
 \text{AI allowed}
 \rightarrow
 19\% \text{ longer implementation time}
 }
-\]
+```
 
 Thus, under the studied conditions, AI availability was associated with a measurable productivity slowdown rather than a speedup.
 
@@ -104,31 +104,31 @@ Thus, under the studied conditions, AI availability was associated with a measur
 
 Before performing the tasks, developers expected AI to improve speed by approximately:
 
-\[
+```math
 \boxed{
 24\% \text{ speedup expected}
 }
-\]
+```
 
 The experimentally observed effect was:
 
-\[
+```math
 \boxed{
 19\% \text{ slowdown observed}
 }
-\]
+```
 
 After the study, developers still estimated that AI had made them approximately:
 
-\[
+```math
 \boxed{
 20\% \text{ faster}
 }
-\]
+```
 
 Therefore, three empirically distinct quantities existed:
 
-\[
+```math
 \boxed{
 \text{Expected Effect}
 \neq
@@ -136,21 +136,21 @@ Therefore, three empirically distinct quantities existed:
 \neq
 \text{Perceived Effect}
 }
-\]
+```
 
 More specifically:
 
-\[
+```math
 Expected=-24\% \text{ time}
-\]
+```
 
-\[
+```math
 Observed=+19\% \text{ time}
-\]
+```
 
-\[
+```math
 Perceived=-20\% \text{ time}
-\]
+```
 
 This distinction exists prior to any IDOS interpretation.
 
@@ -160,79 +160,79 @@ This distinction exists prior to any IDOS interpretation.
 
 The minimal event structure is:
 
-\[
+```math
 \boxed{
 \text{Experienced Developer}
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Real OSS Task}
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Random Assignment: AI Allowed / AI Disallowed}
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Task Execution}
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Measured Completion Time}
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 \text{AI Allowed}
 \rightarrow
 19\% \text{ Longer}
 }
-\]
+```
 
 In parallel:
 
-\[
+```math
 \boxed{
 \text{Expected Speedup}=24\%
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 \text{Post-hoc Perceived Speedup}=20\%
 }
-\]
+```
 
 No IDOS-specific process is required to state these facts.
 
@@ -244,13 +244,13 @@ No IDOS-specific process is required to state these facts.
 
 Mapping is not validation.
 
-\[
+```math
 \boxed{
 \text{Mapping}
 \neq
 \text{Validation}
 }
-\]
+```
 
 The following labels are used:
 
@@ -299,7 +299,7 @@ The case does not reproduce the full IDOS process structure.
 
 The strongest directly observable structure is:
 
-\[
+```math
 \boxed{
 \text{Reality Contact}
 \rightarrow
@@ -307,11 +307,11 @@ The strongest directly observable structure is:
 \rightarrow
 \text{Observed Difference}
 }
-\]
+```
 
 By contrast, much of the proposed internal update chain remains unobserved:
 
-\[
+```math
 \boxed{
 Residual
 \rightarrow
@@ -325,7 +325,7 @@ Possibility\ Space
 \rightarrow
 Trajectory
 }
-\]
+```
 
 cannot be reconstructed from this study without adding unobserved assumptions.
 
@@ -339,19 +339,19 @@ This is an important negative constraint.
 
 The central Red Team question is:
 
-\[
+```math
 \boxed{
 \text{Does IDOS explain anything here that simpler existing explanations do not?}
 }
-\]
+```
 
 The answer from CASE-P002 is currently:
 
-\[
+```math
 \boxed{
 \text{Not yet, for most of the observed result.}
 }
-\]
+```
 
 ---
 
@@ -365,13 +365,13 @@ The divergence between measured and perceived productivity may reflect ordinary 
 
 Therefore:
 
-\[
+```math
 \boxed{
 Observed
 \neq
 Perceived
 }
-\]
+```
 
 does not by itself establish the need for IDOS.
 
@@ -386,13 +386,13 @@ Differences among benchmark results, field experiments, forecasts, and self-repo
 
 Thus:
 
-\[
+```math
 \boxed{
 M_1(R)
 \neq
 M_2(R)
 }
-\]
+```
 
 does not by itself establish IDOS-specific explanatory value.
 
@@ -400,7 +400,7 @@ does not by itself establish IDOS-specific explanatory value.
 
 The slowdown may also be explained through ordinary interaction costs:
 
-\[
+```math
 \boxed{
 \text{Net Benefit}
 =
@@ -408,7 +408,7 @@ The slowdown may also be explained through ordinary interaction costs:
 -
 \text{Coordination / Verification Cost}
 }
-\]
+```
 
 No new Updating Unit or system-level theory is required to state this possibility.
 
@@ -418,13 +418,13 @@ The participants were experienced developers working in familiar repositories.
 
 Therefore:
 
-\[
+```math
 \boxed{
 \text{High Human Baseline}
 +
 \text{AI Interaction Cost}
 }
-\]
+```
 
 may be sufficient to explain the observed slowdown.
 
@@ -438,11 +438,11 @@ A measured discrepancy cannot automatically be labeled Residual.
 
 Otherwise:
 
-\[
+```math
 Residual
 =
 \text{Unexplained Difference}
-\]
+```
 
 would become merely a relabeling.
 
@@ -458,13 +458,13 @@ No independent evidence of Holding exists in this case.
 
 The experimental assignment of AI availability is not IDOS Selection.
 
-\[
+```math
 \boxed{
 \text{Experimental Assignment}
 \neq
 \text{Selection}
 }
-\]
+```
 
 **Assessment:** C
 
@@ -472,9 +472,9 @@ The experimental assignment of AI availability is not IDOS Selection.
 
 Human + AI interaction does not by itself establish:
 
-\[
+```math
 U_{HA}
-\]
+```
 
 as a distinct Updating Unit.
 
@@ -484,13 +484,13 @@ as a distinct Updating Unit.
 
 A change in task performance does not establish System Update.
 
-\[
+```math
 \boxed{
 \text{Performance Difference}
 \neq
 \text{System Update}
 }
-\]
+```
 
 **Assessment:** C
 
@@ -500,43 +500,43 @@ A change in task performance does not establish System Update.
 
 After removing explanations already available through measurement theory, cognitive science, and HCI, one potentially useful IDOS-level question remains:
 
-\[
+```math
 \boxed{
 \text{How does a detected Difference propagate across observation, recognition, response, and later updating?}
 }
-\]
+```
 
 CASE-P002 directly observes an external discrepancy:
 
-\[
+```math
 D_{\mathrm{external}}
 =
 T_{\mathrm{AI}}
 -
 T_{\mathrm{NoAI}}
-\]
+```
 
 but the relationship between that discrepancy and participant recognition or later updating is not directly measured.
 
 Thus:
 
-\[
+```math
 \boxed{
 D_{\mathrm{external}}
 \not\Rightarrow
 D_{\mathrm{recognized}}
 }
-\]
+```
 
 and potentially:
 
-\[
+```math
 \boxed{
 D_{\mathrm{external}}
 \not\Rightarrow
 Update
 }
-\]
+```
 
 The second statement remains unobserved and must not be treated as a result.
 
@@ -569,19 +569,19 @@ The research implication is that future tests must directly measure the propagat
 
 The case therefore does not validate IDOS.
 
-\[
+```math
 \boxed{
 \text{CASE-P002 does NOT validate IDOS}
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 \text{Most of CASE-P002 can currently be explained without IDOS}
 }
-\]
+```
 
 ---
 
@@ -591,22 +591,22 @@ and:
 
 The case does not currently justify revision of MASTER_MAP_v1.0.
 
-\[
+```math
 \boxed{
 \text{Architectural Revision}
 =
 0
 }
-\]
+```
 
 However:
 
-\[
+```math
 \boxed{
 \text{Measurement Pressure}
 \uparrow
 }
-\]
+```
 
 The case mainly changes empirical priorities rather than the frozen architecture.
 
@@ -642,19 +642,19 @@ The case mainly changes empirical priorities rather than the frozen architecture
 
 CASE-P002 makes one problem especially clear:
 
-\[
+```math
 \boxed{
 \text{Difference observed}
 \not\Rightarrow
 \text{Update observed}
 }
-\]
+```
 
 The current architecture can survive this result because MASTER_MAP_v1.0 does not require every provisional mechanism to be present in every case.
 
 But future empirical work must distinguish at least:
 
-\[
+```math
 \boxed{
 \text{Difference}
 \rightarrow
@@ -666,7 +666,7 @@ But future empirical work must distinguish at least:
 \rightarrow
 \text{Reality Recontact}
 }
-\]
+```
 
 without assuming that each transition occurred.
 
@@ -682,7 +682,7 @@ It also does not produce an architectural contradiction strong enough to revise 
 
 Instead, it exposes a major observational gap:
 
-\[
+```math
 \boxed{
 \textbf{Detected Difference}
 \quad
@@ -690,7 +690,7 @@ Instead, it exposes a major observational gap:
 \quad
 \textbf{Demonstrable Update}
 }
-\]
+```
 
 The architecture therefore survives, but only at a relatively abstract level.
 
@@ -698,21 +698,21 @@ The case places substantial pressure on the empirical program to directly observ
 
 The most defensible summary is:
 
-\[
+```math
 \boxed{
 \textbf{CASE-P002 preserved the architectural skeleton, but exposed a large observational gap between detected Difference and demonstrable Update.}
 }
-\]
+```
 
 This result should not be interpreted as support for all IDOS mechanisms.
 
 Rather, it narrows the next empirical task:
 
-\[
+```math
 \boxed{
 \textbf{Measure the Difference-Update Trace directly.}
 }
-\]
+```
 
 ---
 

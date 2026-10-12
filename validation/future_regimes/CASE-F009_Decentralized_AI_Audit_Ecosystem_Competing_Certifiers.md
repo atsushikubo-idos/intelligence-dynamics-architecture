@@ -17,19 +17,19 @@
 
 CASE-F009 follows the prospective separation used from CASE-F007 onward:
 
-\[
+```math
 \boxed{
 Axis\ A = IDOS\ Core\ Validation
 }
-\]
+```
 
 and
 
-\[
+```math
 \boxed{
 Axis\ B = Social\ Connection\ Application
 }
-\]
+```
 
 Axis A is evaluated first in order to prevent the Social Connection application layer from biasing assessment of the IDOS Core.
 
@@ -37,13 +37,13 @@ The case is intentionally structured so that verification can succeed while gove
 
 The central frozen condition is:
 
-\[
+```math
 \boxed{
 Verification\ Success
 +
 Governance\ Ineffectiveness
 }
-\]
+```
 
 The case therefore tests whether knowing, verifying, influencing, and updating are architecturally distinct functions.
 
@@ -59,21 +59,21 @@ after excluding CASE-F001 through CASE-F008.
 
 The selected candidate was:
 
-\[
+```math
 \boxed{
 F\text{-}D03
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F009
 =
 F\text{-}D03
 }
-\]
+```
 
 Recorded SHA-256:
 
@@ -174,9 +174,9 @@ Stage F-A reconstructs the scenario without relying on IDOS terminology.
 
 Multiple certifiers evaluate the same AI systems.
 
-\[
+```math
 C_1,C_2,\ldots,C_k
-\]
+```
 
 Each may emphasize different criteria:
 
@@ -190,13 +190,13 @@ Each may emphasize different criteria:
 
 Therefore:
 
-\[
+```math
 \boxed{
 One\ AI
 \neq
 One\ Audit\ Frame
 }
-\]
+```
 
 ---
 
@@ -204,27 +204,27 @@ One\ Audit\ Frame
 
 The same AI system may receive different outcomes:
 
-\[
+```math
 C_1(A)=Pass
-\]
+```
 
-\[
+```math
 C_2(A)=Conditional
-\]
+```
 
-\[
+```math
 C_3(A)=Fail
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Verification
 \neq
 Single\ Consensus
 }
-\]
+```
 
 Plurality itself is not a failure.
 
@@ -236,13 +236,13 @@ The case does not assume that the system is too opaque to inspect.
 
 One or more certifiers can correctly identify a relevant risk.
 
-\[
+```math
 \boxed{
 Verification\ Success
 =
 Possible
 }
-\]
+```
 
 The central problem therefore lies beyond verification itself.
 
@@ -252,23 +252,23 @@ The central problem therefore lies beyond verification itself.
 
 A risk may be confirmed by several certifiers:
 
-\[
+```math
 C_1,C_2,C_3
 \rightarrow
 Risk_X\ confirmed
-\]
+```
 
 while the AI operator does not materially change its behavior.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Verification
 \not\Rightarrow
 Behavioral\ Change
 }
-\]
+```
 
 ---
 
@@ -276,13 +276,13 @@ Behavioral\ Change
 
 Audit findings may be publicly available while remaining practically ineffective.
 
-\[
+```math
 \boxed{
 Information
 \neq
 Influence
 }
-\]
+```
 
 ---
 
@@ -290,13 +290,13 @@ Influence
 
 A certification may be withdrawn without forcing the AI system to stop operating.
 
-\[
+```math
 \boxed{
 Certification
 \neq
 Enforcement
 }
-\]
+```
 
 ---
 
@@ -304,13 +304,13 @@ Enforcement
 
 Market participants may recognize a risk while remaining structurally dependent on the AI system.
 
-\[
+```math
 \boxed{
 Risk\ Recognition
 \neq
 Ability\ to\ Exit
 }
-\]
+```
 
 ---
 
@@ -320,13 +320,13 @@ Certifier competition may improve methods.
 
 It may also create certification shopping.
 
-\[
+```math
 \boxed{
 More\ Certifiers
 \not\Rightarrow
 Better\ Governance
 }
-\]
+```
 
 ---
 
@@ -334,19 +334,19 @@ Better\ Governance
 
 Different certifiers may use different measurement systems:
 
-\[
+```math
 M_1(A),M_2(A),M_3(A)
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Shared\ Label
 \neq
 Shared\ Measurement
 }
-\]
+```
 
 ---
 
@@ -354,13 +354,13 @@ Shared\ Measurement
 
 Even full certifier agreement may fail to change the strongest actors.
 
-\[
+```math
 \boxed{
 Epistemic\ Agreement
 \neq
 Operational\ Change
 }
-\]
+```
 
 ---
 
@@ -384,13 +384,13 @@ The central failure is not verification failure.
 
 It is:
 
-\[
+```math
 \boxed{
 Verification\ Success
 +
 Governance\ Ineffectiveness
 }
-\]
+```
 
 The system may know what is wrong while remaining unable to change itself.
 
@@ -414,13 +414,13 @@ The relevant unit may be:
 
 Improving one component does not necessarily improve the relevant larger system.
 
-\[
+```math
 \boxed{
 Updating\ Unit
 \neq
 Individual\ Auditor
 }
-\]
+```
 
 **Judgment: A**
 
@@ -441,21 +441,21 @@ The effective governance system may include:
 
 Therefore:
 
-\[
+```math
 \boxed{
 Audit\ Boundary
 \neq
 Certification\ Organization
 }
-\]
+```
 
 and potentially:
 
-\[
+```math
 B_t
 \neq
 B_{t+1}
-\]
+```
 
 **Judgment: A**
 
@@ -465,7 +465,7 @@ B_{t+1}
 
 Different actors evaluate the same AI through different frames.
 
-\[
+```math
 Frame_{C_1}
 \neq
 Frame_{C_2}
@@ -473,7 +473,7 @@ Frame_{C_2}
 Frame_R
 \neq
 Frame_O
-\]
+```
 
 Important, but substantially covered by existing multi-stakeholder and measurement approaches.
 
@@ -485,13 +485,13 @@ Important, but substantially covered by existing multi-stakeholder and measureme
 
 Multiple measurement systems can coexist for the same AI.
 
-\[
+```math
 \boxed{
 Shared\ Object
 \neq
 Shared\ Measurement
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -501,13 +501,13 @@ Shared\ Measurement
 
 Historical certification results may need to be reassessed under future measurement criteria.
 
-\[
+```math
 \boxed{
 Certification\ Record
 \neq
 Re\text{-}measurable\ Evidence
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -517,13 +517,13 @@ Re\text{-}measurable\ Evidence
 
 Current certification status is insufficient.
 
-\[
+```math
 \boxed{
 Current\ Certification
 \neq
 Governance\ Trajectory
 }
-\]
+```
 
 Relevant trajectories include:
 
@@ -540,13 +540,13 @@ Relevant trajectories include:
 
 Current audit structure does not reveal how standards, incentives, power relations, and certifier status evolved.
 
-\[
+```math
 \boxed{
 Current\ Audit\ Structure
 \neq
 Institutional\ History
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -556,13 +556,13 @@ Institutional\ History
 
 Better verification does not necessarily update the larger system.
 
-\[
+```math
 \boxed{
 Verification\ Improvement
 \neq
 System\ Update
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -574,7 +574,7 @@ A currently functional audit ecosystem may still fail to adapt to future AI clas
 
 The F008 provisional definition remains consistent:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
@@ -582,7 +582,7 @@ Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -592,13 +592,13 @@ of\ future\ revision
 
 Different frames may remain different while still allowing evidence to be mutually checked.
 
-\[
+```math
 \boxed{
 Different\ Frames
 +
 Mutual\ Verification
 }
-\]
+```
 
 **Judgment: A**
 
@@ -608,13 +608,13 @@ Mutual\ Verification
 
 Verification may occur without reciprocal or relational update.
 
-\[
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-\]
+```
 
 **Judgment: A+**
 
@@ -622,13 +622,13 @@ MU
 
 ## Power
 
-\[
+```math
 \boxed{
 Epistemic\ Authority
 \neq
 Operational\ Power
 }
-\]
+```
 
 Power is important, but mature existing theories already address it well.
 
@@ -666,11 +666,11 @@ The failure is not primarily caused by inability to hold unresolved ambiguity.
 
 A 12PDM mapping is possible, but the principal F009 condition:
 
-\[
+```math
 Verified
 \ but\
 Not\ Updated
-\]
+```
 
 places strong pressure on any simple chain from detection to update.
 
@@ -684,7 +684,7 @@ places strong pressure on any simple chain from detection to update.
 
 Measurement supports verification only when evidence is accessible and methods are sufficiently transparent.
 
-\[
+```math
 \boxed{
 Measurement
 +
@@ -694,7 +694,7 @@ Method\ Transparency
 \rightarrow
 Verification
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -704,13 +704,13 @@ Verification
 
 This implication fails.
 
-\[
+```math
 \boxed{
 Cross\text{-}Frame\ Verifiability
 \neq
 Cross\text{-}Frame\ Agreement
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -720,13 +720,13 @@ Cross\text{-}Frame\ Agreement
 
 This implication fails.
 
-\[
+```math
 \boxed{
 Epistemic\ Agreement
 \not\Rightarrow
 Operational\ Influence
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -734,13 +734,13 @@ Operational\ Influence
 
 ## Verification → Influence
 
-\[
+```math
 \boxed{
 Verification
 \not\Rightarrow
 Influence
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -750,11 +750,11 @@ Influence
 
 Influence may produce only local or superficial change.
 
-\[
+```math
 Influence
 \not\Rightarrow
 System\ Update
-\]
+```
 
 **Judgment: B_R**
 
@@ -764,13 +764,13 @@ System\ Update
 
 This implication fails directly.
 
-\[
+```math
 \boxed{
 CFV
 \not\Rightarrow
 MU
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -780,13 +780,13 @@ MU
 
 Mutual updateability does not guarantee healthy system-level change.
 
-\[
+```math
 \boxed{
 MU
 \not\Rightarrow
 Healthy\ System\ Update
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -794,13 +794,13 @@ Healthy\ System\ Update
 
 ## Measurement → System Update
 
-\[
+```math
 \boxed{
 Measurement
 \not\Rightarrow
 System\ Update
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -810,13 +810,13 @@ System\ Update
 
 Re-measurement may support change without causing it.
 
-\[
+```math
 \boxed{
 Re\text{-}measurability
 \not\Rightarrow
 System\ Update
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -826,13 +826,13 @@ System\ Update
 
 Trajectory enables longitudinal verification beyond single-point audit.
 
-\[
+```math
 \boxed{
 Trajectory
 \rightarrow
 Longitudinal\ Verification
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -840,7 +840,7 @@ Longitudinal\ Verification
 
 ## Provenance → CFV
 
-\[
+```math
 \boxed{
 Provenance
 +
@@ -848,7 +848,7 @@ Evidence\ Access
 \rightarrow
 CFV
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -858,13 +858,13 @@ CFV
 
 This implication fails.
 
-\[
+```math
 \boxed{
 Provenance
 \not\Rightarrow
 MU
 }
-\]
+```
 
 **Judgment: X_R**
 
@@ -888,12 +888,12 @@ Large power asymmetry may reduce mutual updateability but does not determine it 
 
 ## Boundary → System Update
 
-\[
+```math
 \boxed{
 System\ Update
 is\ Boundary\text{-}dependent
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -901,12 +901,12 @@ is\ Boundary\text{-}dependent
 
 ## Updating Unit → MU
 
-\[
+```math
 \boxed{
 MU
 is\ Updating\text{-}Unit\ dependent
 }
-\]
+```
 
 **Judgment: A_R**
 
@@ -916,13 +916,13 @@ is\ Updating\text{-}Unit\ dependent
 
 Current system change does not guarantee future revisability.
 
-\[
+```math
 \boxed{
 System\ Update
 \not\Rightarrow
 Future\ Updateability
 }
-\]
+```
 
 **Judgment: B_R**
 
@@ -975,12 +975,12 @@ A strong rival combination includes:
 
 F009 can be diagnosed by existing governance and audit frameworks.
 
-\[
+```math
 \boxed{
 IDOS\ is\ not\ necessary
 to\ discover\ F009
 }
-\]
+```
 
 **Gain: Weak**
 
@@ -1008,15 +1008,15 @@ Verification itself is mature in existing TEVV and assurance approaches.
 
 IDOS explicitly separates:
 
-\[
+```math
 Cross\text{-}Frame\ Verifiability
-\]
+```
 
 from:
 
-\[
+```math
 Cross\text{-}Frame\ Agreement
-\]
+```
 
 and allows frames to remain heterogeneous.
 
@@ -1028,21 +1028,21 @@ and allows frames to remain heterogeneous.
 
 IDOS explicitly distinguishes:
 
-\[
+```math
 Verification
 \neq
 Influence
 \neq
 Update
-\]
+```
 
 and:
 
-\[
+```math
 CFV
 \neq
 MU
-\]
+```
 
 This retains architecture-level integrative value.
 
@@ -1054,13 +1054,13 @@ This retains architecture-level integrative value.
 
 Existing political economy, regulatory capture, dependency, and institutional theories are stronger.
 
-\[
+```math
 \boxed{
 Model\ C
 >
 Model\ A
 }
-\]
+```
 
 **Gain: Weak**
 
@@ -1078,13 +1078,13 @@ Existing governance and enforcement theories remain stronger.
 
 IDOS adds some value by treating system-level update as dependent on both boundary and updating-unit choice.
 
-\[
+```math
 \boxed{
 Local\ Update
 \neq
 System\ Update
 }
-\]
+```
 
 **Gain: Medium**
 
@@ -1094,7 +1094,7 @@ System\ Update
 
 The strongest candidate interpretation remains:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
@@ -1102,7 +1102,7 @@ Capacity\ to\ revise
 the\ conditions
 of\ future\ revision
 }
-\]
+```
 
 In F009 this includes the ability to revise:
 
@@ -1121,29 +1121,29 @@ In F009 this includes the ability to revise:
 
 IDOS can track:
 
-\[
+```math
 Certifier
-\]
+```
 
-\[
+```math
 Certifier\ Network
-\]
+```
 
-\[
+```math
 AI\ Operator
-\]
+```
 
-\[
+```math
 Audit\ Ecosystem
-\]
+```
 
-\[
+```math
 Regulatory\ Regime
-\]
+```
 
-\[
+```math
 Market
-\]
+```
 
 within a common architecture.
 
@@ -1155,13 +1155,13 @@ within a common architecture.
 
 IDOS integrates:
 
-\[
+```math
 Trajectory
 +
 Provenance
 +
 Measurement\ History
-\]
+```
 
 across institutional change.
 
@@ -1173,13 +1173,13 @@ across institutional change.
 
 Existing audit, governance, and regulatory approaches remain stronger for concrete institutional design.
 
-\[
+```math
 \boxed{
 Model\ C
 >
 Model\ A
 }
-\]
+```
 
 **Gain: Weak**
 
@@ -1189,7 +1189,7 @@ Model\ A
 
 IDOS compresses several research traditions into:
 
-\[
+```math
 Unit
 +
 Boundary
@@ -1209,15 +1209,15 @@ Provenance
 SystemUpdate
 +
 FutureUpdateability
-\]
+```
 
 However:
 
-\[
+```math
 Compression
 \neq
 Novel\ Theory
-\]
+```
 
 **Gain: Medium to Strong**
 
@@ -1235,29 +1235,29 @@ The same central cluster has survived across substantially different future regi
 
 Local governance, audit, power, and intervention problems are often better handled by mature rival frameworks.
 
-\[
+```math
 \boxed{
 Model\ C
 >
 Model\ A
 }
-\]
+```
 
 for many local tasks.
 
 However:
 
-\[
+```math
 \boxed{
 Model\ C
 \neq
 Model\ A
 }
-\]
+```
 
 because IDOS retains a cross-domain integrative architecture connecting:
 
-\[
+```math
 \boxed{
 Dynamic\ Unit
 +
@@ -1279,25 +1279,25 @@ System\ Update
 +
 Future\ Updateability
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ Core\ Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 Architecture contradiction:
 
-\[
+```math
 \boxed{
 NO
 }
-\]
+```
 
 ---
 
@@ -1307,49 +1307,49 @@ NO
 
 ## 5.1 Communication ≠ Verification
 
-\[
+```math
 \boxed{
 Communication
 \neq
 Verification
 }
-\]
+```
 
 ---
 
 ## 5.2 Verification ≠ Effective Influence
 
-\[
+```math
 \boxed{
 Verification
 \neq
 Effective\ Influence
 }
-\]
+```
 
 ---
 
 ## 5.3 Influence ≠ System Update
 
-\[
+```math
 \boxed{
 Influence
 \neq
 System\ Update
 }
-\]
+```
 
 ---
 
 ## 5.4 CFV ≠ MU
 
-\[
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-\]
+```
 
 Mutual verifiability is not mutual updateability.
 
@@ -1357,25 +1357,25 @@ Mutual verifiability is not mutual updateability.
 
 ## 5.5 Mutual Recognition ≠ Mutual Updateability
 
-\[
+```math
 \boxed{
 Mutual\ Recognition
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 ---
 
 ## 5.6 Transparency ≠ Correctability
 
-\[
+```math
 \boxed{
 Transparency
 \neq
 Correctability
 }
-\]
+```
 
 Seeing a problem is not equivalent to being able to correct it.
 
@@ -1383,25 +1383,25 @@ Seeing a problem is not equivalent to being able to correct it.
 
 ## 5.7 Accountability Assignment ≠ Effective Constraint
 
-\[
+```math
 \boxed{
 Accountability\ Assignment
 \neq
 Effective\ Constraint
 }
-\]
+```
 
 ---
 
 ## 5.8 Plurality ≠ Effective Governance
 
-\[
+```math
 \boxed{
 Plurality
 \neq
 Effective\ Governance
 }
-\]
+```
 
 Plurality can improve resilience or enable certification shopping.
 
@@ -1409,25 +1409,25 @@ Plurality can improve resilience or enable certification shopping.
 
 ## 5.9 Interoperability ≠ Power Balance
 
-\[
+```math
 \boxed{
 Interoperability
 \neq
 Power\ Balance
 }
-\]
+```
 
 ---
 
 ## 5.10 Risk Recognition ≠ Exit Capacity
 
-\[
+```math
 \boxed{
 Risk\ Recognition
 \neq
 Exit\ Capacity
 }
-\]
+```
 
 ---
 
@@ -1449,13 +1449,13 @@ This is retained as an application-layer implementation condition rather than a 
 
 Power remains highly relevant, but is provisionally treated as:
 
-\[
+```math
 \boxed{
 Power
 =
 Cross\text{-}cutting\ condition
 }
-\]
+```
 
 rather than a new Core node.
 
@@ -1465,7 +1465,7 @@ rather than a new Core node.
 
 The strongest application-layer cluster is:
 
-\[
+```math
 \boxed{
 Verification
 +
@@ -1477,11 +1477,11 @@ Mutual\ Updateability
 +
 Exit/Reconfiguration\ Capacity
 }
-\]
+```
 
 with cross-cutting conditions:
 
-\[
+```math
 Power
 +
 Dependency
@@ -1489,11 +1489,11 @@ Dependency
 Plurality
 +
 Interoperability
-\]
+```
 
 This yields:
 
-\[
+```math
 \boxed{
 Verification
 \neq
@@ -1501,7 +1501,7 @@ Influence
 \neq
 Update
 }
-\]
+```
 
 ---
 
@@ -1513,7 +1513,7 @@ Social Connection increasingly appears to require not only communication and ver
 
 A provisional formulation is:
 
-\[
+```math
 \boxed{
 Connection
 =
@@ -1523,7 +1523,7 @@ influenceable,
 reconfigurable,
 and\ updateable
 }
-\]
+```
 
 This formulation remains provisional and is not frozen before CASE-F010.
 
@@ -1533,17 +1533,17 @@ This formulation remains provisional and is not frozen before CASE-F010.
 
 The most important results are:
 
-\[
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Verification
 \neq
@@ -1551,17 +1551,17 @@ Influence
 \neq
 Update
 }
-\]
+```
 
 More broadly:
 
-\[
+```math
 \boxed{
 Knowing
 \neq
 Changing
 }
-\]
+```
 
 CASE-F009 therefore demonstrates that successful measurement and verification do not guarantee system-level or relational update.
 
@@ -1571,69 +1571,69 @@ CASE-F009 therefore demonstrates that successful measurement and verification do
 
 CASE-F009 continues to support a reduced IDOS Core centered on:
 
-\[
+```math
 \boxed{
 Updating\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Dynamic\ Boundary
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Trajectory
 }
-\]
+```
 
-\[
+```math
 \boxed{
 History/Provenance
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Measurement
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Re\text{-}measurability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 System\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Future\ Updateability
 }
-\]
+```
 
 CASE-F009 additionally provides strong pressure for:
 
-\[
+```math
 \boxed{
 CFV
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 MU
 }
-\]
+```
 
 to remain explicit architecture components or a dedicated relational layer.
 
@@ -1641,17 +1641,17 @@ Their final placement remains unresolved until CASE-F010 and cross-case synthesi
 
 The case further weakens the claim that the following are indispensable Core components:
 
-\[
+```math
 Residual
-\]
+```
 
-\[
+```math
 Holding
-\]
+```
 
-\[
+```math
 12PDM
-\]
+```
 
 No revision is yet frozen.
 
@@ -1671,13 +1671,13 @@ The CASE-F009 process improves resistance to confirmation bias through:
 
 However:
 
-\[
+```math
 \boxed{
 Architecture\ Stress\ Test
 \neq
 Empirical\ Validation
 }
-\]
+```
 
 The Future-Regime track remains a structured adversarial prospective validation exercise.
 
@@ -1774,45 +1774,45 @@ next_step:
 
 # 11. Final Status
 
-\[
+```math
 \boxed{
 CASE\text{-}F009
 =
 CLOSED\text{ — }PROVISIONAL
 }
-\]
+```
 
-\[
+```math
 \boxed{
 IDOS\ Core\ Architecture
 =
 B_A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Social\ Connection\ Pressure
 =
 STRONG
 }
-\]
+```
 
-\[
+```math
 \boxed{
 MASTER\ MAP
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 The next prospective case is CASE-F010.
 

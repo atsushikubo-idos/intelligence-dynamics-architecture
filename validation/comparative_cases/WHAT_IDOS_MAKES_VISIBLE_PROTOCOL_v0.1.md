@@ -12,19 +12,19 @@ The objective is not to prove that IDOS is correct, superior, or universally nec
 
 The primary question is:
 
-\[
+```math
 \boxed{
 What\ does\ IDOS\ make\ visible?
 }
-\]
+```
 
 The secondary question is:
 
-\[
+```math
 \boxed{
 When\ does\ IDOS\ become\ valuable?
 }
-\]
+```
 
 The protocol therefore focuses on differential visibility rather than theoretical confirmation.
 
@@ -34,21 +34,21 @@ The protocol therefore focuses on differential visibility rather than theoretica
 
 For each case:
 
-\[
+```math
 Conventional\ View = X
-\]
+```
 
-\[
+```math
 IDOS\ View = X + Y
-\]
+```
 
 where:
 
-\[
+```math
 \boxed{
 Y = Incremental\ Visibility
 }
-\]
+```
 
 The purpose of the analysis is to determine whether \(Y\):
 
@@ -72,33 +72,33 @@ The following outcomes are all acceptable:
 
 Conventional analysis already captures nearly everything.
 
-\[
+```math
 IDOS \approx Conventional\ Analysis
-\]
+```
 
 ### Outcome B
 
 IDOS provides additional terminology but little additional analytical value.
 
-\[
+```math
 IDOS = Re-description
-\]
+```
 
 ### Outcome C
 
 IDOS reveals a recurring structural feature that is difficult to express through conventional analysis.
 
-\[
+```math
 IDOS = Incremental\ Visibility
-\]
+```
 
 ### Outcome D
 
 IDOS becomes useful only under particular system regimes.
 
-\[
+```math
 Value_{IDOS}=f(System\ Regime)
-\]
+```
 
 The preferred result is not predetermined.
 
@@ -108,15 +108,15 @@ The preferred result is not predetermined.
 
 The comparison is not:
 
-\[
+```math
 IDOS\ vs\ One\ Existing\ Theory
-\]
+```
 
 Instead:
 
-\[
+```math
 IDOS
-\]
+```
 
 is compared against a reasonable combination of conventional analytical approaches appropriate to the case.
 
@@ -148,7 +148,7 @@ Each case must be analyzed in the following sequence.
 
 The stages must not be collapsed.
 
-\[
+```math
 \boxed{
 Raw
 \rightarrow
@@ -160,7 +160,7 @@ Difference
 \rightarrow
 Necessity
 }
-\]
+```
 
 This separation is intended to reduce hindsight contamination and IDOS-driven reconstruction.
 
@@ -278,15 +278,15 @@ Possible units may include:
 
 Ask:
 
-\[
+```math
 What\ is\ actually\ updating?
-\]
+```
 
 and:
 
-\[
+```math
 Does\ the\ Updating\ Unit\ change\ over\ time?
-\]
+```
 
 ---
 
@@ -303,9 +303,9 @@ Ask:
 
 Represent conceptually as:
 
-\[
+```math
 B_t \neq B_{t+1}
-\]
+```
 
 when appropriate.
 
@@ -322,7 +322,7 @@ Ask:
 - Does present performance hide degradation elsewhere?
 - Is the system entering an increasingly difficult-to-reverse trajectory?
 
-\[
+```math
 S_0
 \rightarrow
 S_1
@@ -332,7 +332,7 @@ S_2
 \dots
 \rightarrow
 S_t
-\]
+```
 
 ---
 
@@ -368,9 +368,9 @@ It may be:
 
 Ask:
 
-\[
+```math
 Observed\ from\ whose\ frame?
-\]
+```
 
 Identify the frame from which performance, error, success, or risk is being judged.
 
@@ -410,13 +410,13 @@ Loss of provenance may reduce later revisability.
 
 Definition candidate:
 
-\[
+```math
 \boxed{
 Future\ Updateability
 =
 Capacity\ to\ revise\ the\ conditions\ of\ future\ revision
 }
-\]
+```
 
 This does not merely ask whether the system can update now.
 
@@ -434,15 +434,15 @@ It asks whether the system preserves its capacity to later change:
 
 A system may show:
 
-\[
+```math
 Performance_t \uparrow
-\]
+```
 
 while simultaneously showing:
 
-\[
+```math
 Future\ Updateability_t \downarrow
-\]
+```
 
 This possibility should be explicitly tested.
 
@@ -456,11 +456,11 @@ CFV concerns whether claims, states, or outputs across agents can be meaningfull
 
 Conceptually:
 
-\[
+```math
 CFV_{ij}
 =
 Capacity\ for\ Cross\text{-}Frame\ Verification
-\]
+```
 
 The exact formal definition remains open.
 
@@ -479,11 +479,11 @@ MU concerns whether one agent can actually produce revision in another.
 
 Conceptually:
 
-\[
+```math
 MU_{ij}
 =
 Mutual\ Updateability
-\]
+```
 
 Ask:
 
@@ -495,11 +495,11 @@ Ask:
 
 The distinction must be maintained:
 
-\[
+```math
 \boxed{
 Verification \neq Influence \neq Update
 }
-\]
+```
 
 A system may allow verification without permitting meaningful update.
 
@@ -529,15 +529,15 @@ Ask whether relevant agents operate at compatible update speeds.
 
 Examples:
 
-\[
+```math
 \tau_{AI} \ll \tau_{Human}
-\]
+```
 
 or:
 
-\[
+```math
 \tau_{Market} \ll \tau_{Institution}
-\]
+```
 
 Check for:
 
@@ -644,13 +644,13 @@ After both analyses are complete, compare them directly.
 
 Construct:
 
-\[
+```math
 Conventional\ View = X
-\]
+```
 
-\[
+```math
 IDOS\ View = X + Y
-\]
+```
 
 Then identify \(Y\).
 
@@ -704,15 +704,15 @@ Test whether the insight survives.
 
 Example:
 
-\[
+```math
 Insight_Y
-\]
+```
 
 then remove:
 
-\[
+```math
 Updating\ Unit
-\]
+```
 
 If the same insight remains fully expressible, Updating Unit was not necessary for that insight.
 
@@ -767,9 +767,9 @@ A new concept requires at least one of the following:
 
 Otherwise the observation should remain as:
 
-\[
+```math
 Open\ Residual
-\]
+```
 
 rather than triggering immediate theory expansion.
 
@@ -807,19 +807,19 @@ This classification is descriptive rather than evaluative.
 
 After multiple cases, test:
 
-\[
+```math
 Value_{IDOS}(R1)
-\]
+```
 
 versus:
 
-\[
+```math
 Value_{IDOS}(R2,R3,R4,R5)
-\]
+```
 
 Possible hypothesis:
 
-\[
+```math
 Value_{IDOS}
 \uparrow
 \quad
@@ -831,7 +831,7 @@ Temporal\ Mismatch,
 and
 Measurement\ Change
 \uparrow
-\]
+```
 
 This remains a hypothesis until supported by cases.
 
@@ -935,7 +935,7 @@ Instead, they are structured as a progression from relatively stable present-day
 
 The regime sequence is:
 
-\[
+```math
 Present\ Normal
 \rightarrow
 Present\ Edge
@@ -945,19 +945,19 @@ Transition
 Agentic/Multi\text{-}Agent
 \rightarrow
 Future\ Regime\ Proxy
-\]
+```
 
 The purpose of this sequence is to test not only:
 
-\[
+```math
 Does\ IDOS\ add\ value?
-\]
+```
 
 but also:
 
-\[
+```math
 When\ does\ IDOS\ become\ valuable?
-\]
+```
 
 The five cases are therefore designed to examine whether the incremental visibility provided by IDOS changes as system boundaries, Updating Units, measurement regimes, temporal relationships, and forms of agency become more dynamic.
 
@@ -1076,20 +1076,20 @@ Purpose:
 
 Test the strongest version of the current working hypothesis:
 
-\[
+```math
 IDOS\ becomes\ increasingly\ useful
 \ when\
 the\ unit,\ boundary,\ measurement,\ and\ conditions\ of\ update
 \ themselves\ become\ dynamic
-\]
+```
 
 The central question is:
 
-\[
+```math
 Does\ IDOS\ provide\ substantial\ incremental\ visibility
 \ under\ conditions\ approximating
 \ a\ deeply\ AI\text{-}entangled\ society?
-\]
+```
 
 # 23A. Sampling Strengthening for the Five-Case Pilot
 
@@ -1099,7 +1099,7 @@ The five cases are therefore not treated as an undifferentiated sample.
 
 Instead, each case belongs to a pre-defined regime stratum:
 
-\[
+```math
 Present\ Normal
 \rightarrow
 Present\ Edge
@@ -1109,7 +1109,7 @@ Transition
 Agentic/Multi\text{-}Agent
 \rightarrow
 Future\ Regime\ Proxy
-\]
+```
 
 The regime structure is theoretically defined in advance.
 
@@ -1126,13 +1126,13 @@ To reduce case-selection bias, each regime should use the following sampling pro
 
 This creates the separation:
 
-\[
+```math
 Theory\ defines\ the\ regime
-\]
+```
 
-\[
+```math
 Sampling\ selects\ the\ case
-\]
+```
 
 The purpose is not statistical representativeness.
 
@@ -1157,21 +1157,21 @@ The expected characteristics are:
 
 Conceptually:
 
-\[
+```math
 Boundary\ Dynamism \approx Low
-\]
+```
 
-\[
+```math
 Updating\ Unit\ Instability \approx Low
-\]
+```
 
-\[
+```math
 AI\ Autonomy \approx Low
-\]
+```
 
-\[
+```math
 Measurement\ Change \approx Low
-\]
+```
 
 ## Inclusion Criteria
 
@@ -1200,10 +1200,10 @@ V001 functions as a low-complexity baseline.
 
 The key question is:
 
-\[
+```math
 Does\ IDOS\ add\ meaningful\ visibility
 \ under\ relatively\ stable\ conditions?
-\]
+```
 
 A weak or zero incremental result is fully acceptable.
 
@@ -1229,17 +1229,17 @@ Expected characteristics include some combination of:
 
 Conceptually:
 
-\[
+```math
 Boundary\ Dynamism > V001
-\]
+```
 
-\[
+```math
 AI\ Dependence > V001
-\]
+```
 
-\[
+```math
 Human\ Direct\ Observability < V001
-\]
+```
 
 ## Inclusion Criteria
 
@@ -1275,22 +1275,22 @@ Cases should not be chosen because they already contain explicit language simila
 
 V002 tests whether IDOS begins to become more useful as AI moves from:
 
-\[
+```math
 Tool
-\]
+```
 
 toward:
 
-\[
+```math
 Infrastructure
-\]
+```
 
 The key question is:
 
-\[
+```math
 Does\ incremental\ visibility\ emerge
 \ when\ AI\ becomes\ structurally\ embedded?
-\]
+```
 
 ---
 
@@ -1315,15 +1315,15 @@ Rather, the case should contain movement in one or more of the following:
 
 Conceptually:
 
-\[
+```math
 B_t \neq B_{t+1}
-\]
+```
 
 and potentially:
 
-\[
+```math
 U_t \neq U_{t+1}
-\]
+```
 
 where \(B\) represents the relevant boundary and \(U\) the Updating Unit.
 
@@ -1361,11 +1361,11 @@ V003 directly tests the concepts of:
 
 The key question is:
 
-\[
+```math
 Does\ IDOS\ reveal\ something
 \ specifically\ because\ the\ system\ itself
 \ is\ changing\ what\ counts\ as\ the\ system?
-\]
+```
 
 ---
 
@@ -1399,7 +1399,7 @@ Expected structural characteristics include:
 
 Conceptually:
 
-\[
+```math
 Agent_i
 \rightarrow
 Agent_j
@@ -1407,7 +1407,7 @@ Agent_j
 Agent_k
 \rightarrow
 Action
-\]
+```
 
 with no single actor necessarily observing the entire chain.
 
@@ -1447,18 +1447,18 @@ V004 particularly tests:
 
 The key question is:
 
-\[
+```math
 Can\ conventional\ analysis
 \ adequately\ describe
 \ who\ can\ verify,\ influence,\ and\ update\ whom?
-\]
+```
 
 and:
 
-\[
+```math
 Does\ IDOS\ add\ structure
 \ once\ interaction\ becomes\ distributed?
-\]
+```
 
 ---
 
@@ -1492,19 +1492,19 @@ These may include:
 
 Conceptually:
 
-\[
+```math
 Present\ Evidence
 \rightarrow
 Future\ Structural\ Proxy
-\]
+```
 
 not:
 
-\[
+```math
 Speculation
 \rightarrow
 Future\ Claim
-\]
+```
 
 ## Inclusion Criteria
 
@@ -1514,29 +1514,29 @@ No single advanced feature is sufficient.
 
 A candidate should ideally demonstrate multiple dimensions such as:
 
-\[
+```math
 Boundary\ Dynamism
-\]
+```
 
-\[
+```math
 Updating\ Unit\ Transition
-\]
+```
 
-\[
+```math
 Temporal\ Incompatibility
-\]
+```
 
-\[
+```math
 Measurement\ Change
-\]
+```
 
-\[
+```math
 Distributed\ Agency
-\]
+```
 
-\[
+```math
 Reduced\ Human\ Direct\ Control
-\]
+```
 
 The case may be a real deployment, controlled experiment, simulation, or tightly grounded composite proxy, provided the evidentiary status of each component is explicitly stated.
 
@@ -1562,20 +1562,20 @@ The final V005 case must not be chosen because it maximizes apparent IDOS releva
 
 V005 tests the strongest version of the current working hypothesis:
 
-\[
+```math
 IDOS\ becomes\ increasingly\ useful
 \ when\
 the\ unit,\ boundary,\ measurement,\ and\ conditions\ of\ update
 \ themselves\ become\ dynamic
-\]
+```
 
 The central question is:
 
-\[
+```math
 Does\ IDOS\ provide\ substantial\ incremental\ visibility
 \ under\ conditions\ approximating
 \ a\ deeply\ AI\text{-}entangled\ society?
-\]
+```
 
 ---
 
@@ -1585,7 +1585,7 @@ The five cases should not be interpreted as five independent examples only.
 
 Together they form a structured regime gradient:
 
-\[
+```math
 V001
 \rightarrow
 V002
@@ -1595,7 +1595,7 @@ V003
 V004
 \rightarrow
 V005
-\]
+```
 
 The cross-case analysis should therefore examine whether incremental visibility changes as structural complexity increases.
 
@@ -1603,17 +1603,17 @@ However, the protocol must not assume monotonic improvement.
 
 The following are all valid possible outcomes:
 
-\[
+```math
 Y_1 \approx Y_2 \approx Y_3 \approx Y_4 \approx Y_5
-\]
+```
 
-\[
+```math
 Y_1 < Y_2 < Y_3 < Y_4 < Y_5
-\]
+```
 
-\[
+```math
 Y_1 \approx 0,\quad Y_3>0,\quad Y_5>0
-\]
+```
 
 or any other observed pattern.
 
@@ -1660,17 +1660,17 @@ It is a structured exploratory test of architectural visibility across increasin
 
 The intended inference is therefore:
 
-\[
+```math
 Under\ what\ structural\ conditions
 \ does\ IDOS\ add\ visibility?
-\]
+```
 
 rather than:
 
-\[
+```math
 How\ common\ is\ IDOS\ value
 \ across\ all\ systems?
-\]
+```
 
 The sampling design should be understood accordingly.
 
@@ -1726,41 +1726,41 @@ Changes should normally occur only after the five-case pilot unless a severe int
 
 The sequence is:
 
-\[
+```math
 MASTER\_MAP\ v1.1
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 WHAT\_IDOS\_MAKES\_VISIBLE\_PROTOCOL\ v0.1
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 5\ Case\ Pilot
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Cross\text{-}Case\ Synthesis
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 Architecture\ Revision
-\]
+```
 
 This prevents case-by-case theoretical drift.
 
@@ -1772,33 +1772,33 @@ The five-case pilot succeeds even if IDOS performs poorly.
 
 The protocol is successful if it allows a disciplined answer to:
 
-\[
+```math
 \boxed{
 What\ does\ IDOS\ actually\ add?
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Under\ what\ conditions\ does\ that\ added\ visibility\ emerge?
 }
-\]
+```
 
 The strongest possible result is not:
 
-\[
+```math
 IDOS\ explains\ everything
-\]
+```
 
 but rather:
 
-\[
+```math
 \boxed{
 IDOS\ has\ identifiable\ scope\ conditions
 }
-\]
+```
 
 A useful architecture should clarify both where it helps and where it does not.
 
@@ -1808,18 +1808,18 @@ A useful architecture should clarify both where it helps and where it does not.
 
 The current hypothesis to be tested is:
 
-\[
+```math
 \boxed{
 IDOS\ becomes\ increasingly\ useful
 \ when
 the\ unit,\ boundary,\ measurement,\ and\ conditions\ of\ update
 \ themselves\ become\ dynamic
 }
-\]
+```
 
 More explicitly:
 
-\[
+```math
 Value_{IDOS}
 =
 f(
@@ -1830,7 +1830,7 @@ Temporal\ Incompatibility,
 Cross\text{-}Agent\ Update\ Difficulty,
 Future\ Updateability
 )
-\]
+```
 
 This is not a conclusion.
 
@@ -1842,17 +1842,17 @@ It is the hypothesis the five-case pilot is designed to challenge.
 
 The protocol retains the three core IDOS design principles:
 
-\[
+```math
 Difference\ without\ Isolation
-\]
+```
 
-\[
+```math
 Connection\ without\ Unification
-\]
+```
 
-\[
+```math
 Update\ without\ Erasure
-\]
+```
 
 These principles should guide interpretation but should not be treated as evidence that IDOS has succeeded.
 
@@ -1862,26 +1862,26 @@ These principles should guide interpretation but should not be treated as eviden
 
 For every case, ask:
 
-\[
+```math
 \boxed{
 Without\ IDOS,\ what\ would\ we\ say?
 }
-\]
+```
 
 then:
 
-\[
+```math
 \boxed{
 With\ IDOS,\ what\ additional\ statement\ can\ we\ justify?
 }
-\]
+```
 
 and finally:
 
-\[
+```math
 \boxed{
 Did\ we\ actually\ need\ IDOS\ to\ say\ it?
 }
-\]
+```
 
 Only the remainder after the third question qualifies as a candidate contribution of IDOS.

@@ -29,41 +29,41 @@ However, the validity or usefulness of individual constructs does not by itself 
 
 The central problem is:
 
-\[
+```math
 \boxed{
 \text{Value of Parts}
 \neq
 \text{Value of Architecture}
 }
-\]
+```
 
 Likewise:
 
-\[
+```math
 \boxed{
 \sum_i \text{Construct Support}_i
 \not\Rightarrow
 \text{Architecture Added Value}
 }
-\]
+```
 
 The purpose of this protocol is therefore to test whether the **organization, connection, and integration of IDOS constructs** provides explanatory, diagnostic, measurement, governance, or compression value beyond what can be achieved by the best available combination of rival frameworks.
 
 The central question is:
 
-\[
+```math
 \boxed{
 \text{Does the organization of the parts matter?}
 }
-\]
+```
 
 More operationally:
 
-\[
+```math
 \boxed{
 \text{Does IDOS as an architecture add value beyond its individual constructs and beyond a strong rival-framework combination?}
 }
-\]
+```
 
 ---
 
@@ -92,23 +92,23 @@ Conversely, individual concepts may be non-novel while their organization create
 
 Therefore:
 
-\[
+```math
 \boxed{
 \text{Construct Novelty}
 \neq
 \text{Architectural Value}
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 \text{Non-Novel Parts}
 \not\Rightarrow
 \text{Non-Valuable Architecture}
 }
-\]
+```
 
 This protocol tests that second question directly.
 
@@ -124,39 +124,39 @@ It may be cited as the historical trigger for this extension, but it must not be
 
 Formally:
 
-\[
+```math
 \boxed{
 \text{CASE-F001}
 =
 \text{Protocol-Generating Precedent}
 }
-\]
+```
 
 not:
 
-\[
+```math
 \boxed{
 \text{CASE-F001}
 =
 \text{Confirmatory Architecture Test}
 }
-\]
+```
 
 Formal prospective application begins with:
 
-\[
+```math
 \boxed{
 \text{CASE-F002}
 }
-\]
+```
 
 for Track F, and:
 
-\[
+```math
 \boxed{
 \text{CASE-P006}
 }
-\]
+```
 
 for Track P.
 
@@ -172,7 +172,7 @@ and must not be pooled with prospective architecture-level scores.
 
 Every applicable case is evaluated at three distinct levels.
 
-\[
+```math
 \boxed{
 \text{Level 1}
 \rightarrow
@@ -180,27 +180,27 @@ Every applicable case is evaluated at three distinct levels.
 \rightarrow
 \text{Level 3}
 }
-\]
+```
 
 where:
 
-\[
+```math
 \boxed{
 \text{Level 1 = Construct Validation}
 }
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Level 2 = Relational / Integrative Validation}
 }
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Level 3 = Architecture-Level Validation}
 }
-\]
+```
 
 These levels must remain analytically distinct.
 
@@ -221,21 +221,21 @@ For each relevant IDOS construct ask:
 
 The default case-level judgment remains:
 
-\[
+```math
 A = \text{Strongly required}
-\]
+```
 
-\[
+```math
 B = \text{Plausible / useful}
-\]
+```
 
-\[
+```math
 C = \text{Unnecessary / unsupported}
-\]
+```
 
-\[
+```math
 X = \text{Contradicted}
-\]
+```
 
 Level 1 evaluates **parts**.
 
@@ -253,21 +253,21 @@ For each important chain or dependency ask:
 
 For candidate constructs \(K_i\) and \(K_j\):
 
-\[
+```math
 \boxed{
 K_i
 \rightarrow
 K_j
 }
-\]
+```
 
 must be evaluated separately from:
 
-\[
+```math
 \boxed{
 K_i,\ K_j
 }
-\]
+```
 
 A successful Level 2 result requires more than co-occurrence.
 
@@ -313,33 +313,33 @@ Does the relation reveal how a local failure propagates through the larger syste
 
 Use:
 
-\[
+```math
 A_R = \text{Relation strongly required}
-\]
+```
 
-\[
+```math
 B_R = \text{Relation useful but replaceable}
-\]
+```
 
-\[
+```math
 C_R = \text{Relation adds little beyond juxtaposition}
-\]
+```
 
-\[
+```math
 X_R = \text{Proposed relation is contradicted or misleading}
-\]
+```
 
 Do not infer \(A_R\) merely because both endpoint constructs received Level 1 = A.
 
 Formally:
 
-\[
+```math
 \boxed{
 A(K_i) + A(K_j)
 \not\Rightarrow
 A_R(K_i\rightarrow K_j)
 }
-\]
+```
 
 ---
 
@@ -349,21 +349,21 @@ Level 3 evaluates IDOS as an organized architecture.
 
 The central comparison is not:
 
-\[
+```math
 \text{IDOS}
 \quad vs. \quad
 \text{one rival theory}
-\]
+```
 
 but:
 
-\[
+```math
 \boxed{
 \text{IDOS}
 \quad vs. \quad
 \text{Best Rival Combination}
 }
-\]
+```
 
 The rival baseline should be allowed to combine multiple established frameworks where appropriate.
 
@@ -397,13 +397,13 @@ It should include every established framework that a competent analyst would rea
 
 The test is:
 
-\[
+```math
 \boxed{
 \text{IDOS}
 \stackrel{?}{>}
 \text{Best Rival Combination}
 }
-\]
+```
 
 where \(>\) does not mean superior in every respect.
 
@@ -436,11 +436,11 @@ Possible answers include:
 
 If almost nothing is lost:
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value \approx 0
 }
-\]
+```
 
 This is an acceptable result.
 
@@ -456,9 +456,9 @@ At minimum evaluate the following five dimensions.
 
 Does IDOS identify a problem, distinction, dependency, or failure that the Best Rival Combination does not identify as clearly?
 
-\[
+```math
 DG
-\]
+```
 
 Questions:
 
@@ -483,19 +483,19 @@ Does IDOS connect phenomena across:
 
 more coherently than the rival combination?
 
-\[
+```math
 RG
-\]
+```
 
 This dimension is especially relevant to the Master Map hierarchy:
 
-\[
+```math
 \text{Individual Update}
 \rightarrow
 \text{Relational Update}
 \rightarrow
 \text{System Update}
-\]
+```
 
 ---
 
@@ -503,9 +503,9 @@ This dimension is especially relevant to the Master Map hierarchy:
 
 Does IDOS detect a failure mode that remains hidden or fragmented under rival approaches?
 
-\[
+```math
 FG
-\]
+```
 
 Examples:
 
@@ -521,9 +521,9 @@ Examples:
 
 Does IDOS identify a different or additional intervention point?
 
-\[
+```math
 IG
-\]
+```
 
 Examples:
 
@@ -540,9 +540,9 @@ A different label for the same intervention does not count as gain.
 
 Does IDOS represent the relevant structure more compactly or coherently than the Best Rival Combination?
 
-\[
+```math
 CG
-\]
+```
 
 Compression does not mean fewer words.
 
@@ -552,7 +552,7 @@ It means:
 
 A provisional conceptual expression is:
 
-\[
+```math
 \boxed{
 CG
 =
@@ -562,7 +562,7 @@ CG
 \text{Independent Explanatory Machinery Required}
 }
 }
-\]
+```
 
 This is not yet a canonical quantitative metric.
 
@@ -574,9 +574,9 @@ It is an evaluation principle.
 
 Where appropriate, evaluate:
 
-\[
+```math
 TG
-\]
+```
 
 for cross-domain transfer.
 
@@ -586,23 +586,23 @@ Question:
 
 For example:
 
-\[
+```math
 Human
 \leftrightarrow
 AI
-\]
+```
 
-\[
+```math
 Organization
 \leftrightarrow
 AI
-\]
+```
 
-\[
+```math
 Institution
 \leftrightarrow
 Multiple\ AI\ Systems
-\]
+```
 
 If the architecture works only after domain-specific reinterpretation so extensive that the common structure disappears, Transfer Gain is weak.
 
@@ -612,29 +612,29 @@ If the architecture works only after domain-specific reinterpretation so extensi
 
 After evaluating the dimensions, assign one overall architecture-level judgment.
 
-\[
+```math
 A_A
 =
 \text{Clear architecture-level added value}
-\]
+```
 
-\[
+```math
 B_A
 =
 \text{Some integrative added value}
-\]
+```
 
-\[
+```math
 C_A
 =
 \text{Mostly re-description / little added value}
-\]
+```
 
-\[
+```math
 X_A
 =
 \text{Architecture obscures, misclassifies, or degrades analysis}
-\]
+```
 
 The subscript \(A\) denotes **Architecture**, not the Level 1 construct judgment.
 
@@ -646,13 +646,13 @@ The overall architecture judgment must not be produced by a simple average of Le
 
 Forbidden logic:
 
-\[
+```math
 \boxed{
 \text{Many A constructs}
 \Rightarrow
 A_A
 }
-\]
+```
 
 Similarly, do not mechanically average \(DG, RG, FG, IG, CG\).
 
@@ -671,11 +671,11 @@ The overall judgment must explain the pattern.
 
 A central hypothesis to test is:
 
-\[
+```math
 \boxed{
 \text{Architecture as Compression}
 }
-\]
+```
 
 The hypothesis is not that IDOS replaces domain theories.
 
@@ -685,17 +685,17 @@ It is:
 
 The architecture is valuable if:
 
-\[
+```math
 \boxed{
 \text{IDOS}
 +
 \text{Domain-Specific Models}
 }
-\]
+```
 
 requires less disconnected explanatory machinery than:
 
-\[
+```math
 \boxed{
 Framework_1
 +
@@ -705,7 +705,7 @@ Framework_2
 +
 Framework_n
 }
-\]
+```
 
 while preserving relevant distinctions.
 
@@ -726,11 +726,11 @@ Compression fails if IDOS:
 
 In such cases:
 
-\[
+```math
 \boxed{
 CG \leq 0
 }
-\]
+```
 
 conceptually, and architecture-level weakening pressure should be recorded.
 
@@ -740,13 +740,13 @@ conceptually, and architecture-level weakening pressure should be recorded.
 
 A major distinction is:
 
-\[
+```math
 \boxed{
 Integration
 \neq
 Aggregation
 }
-\]
+```
 
 Aggregation means:
 
@@ -772,23 +772,23 @@ then the case provides weak support for IDOS as an architecture.
 
 For every architecture-level chain identified in a case:
 
-\[
+```math
 K_1
 \rightarrow
 K_2
 \rightarrow
 K_3
-\]
+```
 
 perform a conceptual ablation:
 
-\[
+```math
 K_1
 \quad
 K_2
 \quad
 K_3
-\]
+```
 
 without the relations.
 
@@ -811,11 +811,11 @@ Construct validation and architecture validation therefore differ:
 
 ### Node Deletion
 
-\[
+```math
 \boxed{
 \text{Remove }K_i
 }
-\]
+```
 
 Question:
 
@@ -823,11 +823,11 @@ Question:
 
 ### Arrow Deletion
 
-\[
+```math
 \boxed{
 \text{Remove }K_i\rightarrow K_j
 }
-\]
+```
 
 Question:
 
@@ -855,53 +855,53 @@ Strongest reasonable non-IDOS analysis.
 
 The strongest architecture-level evidence occurs when:
 
-\[
+```math
 \boxed{
 Model\ A
 >
 Model\ B
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Model\ A
 >
 Model\ C
 }
-\]
+```
 
 on at least one meaningful dimension.
 
 If:
 
-\[
+```math
 Model\ A
 \approx
 Model\ B
-\]
+```
 
 then the architecture adds little beyond its parts.
 
 If:
 
-\[
+```math
 Model\ A
 \approx
 Model\ C
-\]
+```
 
 then any value may be primarily compression or common-language value.
 
 If:
 
-\[
+```math
 Model\ A
 <
 Model\ C
-\]
+```
 
 then the case generates architecture-level weakening pressure.
 
@@ -924,11 +924,11 @@ A case generates strong architecture-level weakening or contradiction pressure i
 
 A contradiction-level result may be recorded as:
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction = YES
 }
-\]
+```
 
 where the failure cannot be repaired locally without altering the frozen architecture.
 
@@ -954,13 +954,13 @@ IDOS need not dominate every analytical dimension.
 
 The protocol must permit:
 
-\[
+```math
 \boxed{
 \text{Best Rival Combination}
 >
 \text{IDOS}
 }
-\]
+```
 
 This is not a protocol failure.
 
@@ -968,11 +968,11 @@ It is evidence.
 
 Likewise:
 
-\[
+```math
 \boxed{
 \text{IDOS Added Value} = 0
 }
-\]
+```
 
 is an acceptable case result.
 
@@ -986,27 +986,27 @@ Architecture-level evidence must preserve the existing Track distinction.
 
 For architecture judgment \(A_V\):
 
-\[
+```math
 Pressure_P^{Architecture}(A_V)
-\]
+```
 
 and:
 
-\[
+```math
 Pressure_F^{Architecture}(A_V)
-\]
+```
 
 must remain separate.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Empirical\ Architecture\ Evidence
 \neq
 Prospective\ Architecture\ Evidence
 }
-\]
+```
 
 A strong F-case architecture result does not empirically validate IDOS.
 
@@ -1018,9 +1018,9 @@ A weak P-case result does not establish failure under future complexity.
 
 Across cases, record at least:
 
-\[
+```math
 A_A,\ B_A,\ C_A,\ X_A
-\]
+```
 
 separately for Track P and Track F.
 
@@ -1099,9 +1099,9 @@ Evaluate:
 
 Assign:
 
-\[
+```math
 A_A/B_A/C_A/X_A
-\]
+```
 
 ## I. Architecture Contradiction
 
@@ -1202,13 +1202,13 @@ Do not treat the following as evidence by themselves:
 
 The burden is:
 
-\[
+```math
 \boxed{
 Added\ Value
 >
 Added\ Complexity
 }
-\]
+```
 
 at the architecture level.
 
@@ -1220,13 +1220,13 @@ This protocol does not test historical originality by itself.
 
 Architecture Added Value and novelty are separate questions.
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value
 \neq
 Historical\ Novelty
 }
-\]
+```
 
 A result may show:
 
@@ -1273,7 +1273,7 @@ For later large-scale evaluation, the protocol should support independent evalua
 
 Recommended future structure:
 
-\[
+```math
 \boxed{
 Independent\ Analysis
 \rightarrow
@@ -1281,7 +1281,7 @@ Disagreement\ Extraction
 \rightarrow
 Adjudication
 }
-\]
+```
 
 Evaluators should independently assess:
 
@@ -1344,23 +1344,23 @@ It tests whether that hierarchy itself provides added value.
 
 Therefore:
 
-\[
+```math
 \boxed{
 MASTER\_MAP\_v1.0
 =
 Object\ of\ Architecture\ Validation
 }
-\]
+```
 
 not:
 
-\[
+```math
 \boxed{
 MASTER\_MAP\_v1.0
 =
 Assumed\ Valid\ Architecture
 }
-\]
+```
 
 ---
 
@@ -1378,7 +1378,7 @@ The Future-Regime protocol already requires:
 
 This protocol adds a missing layer:
 
-\[
+```math
 \boxed{
 Construct\ Test
 \rightarrow
@@ -1386,7 +1386,7 @@ Relation\ Test
 \rightarrow
 Architecture\ Test
 }
-\]
+```
 
 For CASE-F002 onward, both protocols should be applied together.
 
@@ -1404,39 +1404,39 @@ This protocol governs:
 
 The recommended prospective sequence is:
 
-\[
+```math
 \boxed{
 ARCHITECTURE\_LEVEL\_VALIDATION\_PROTOCOL\_v0.1
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 Protocol\ Freeze
 }
-\]
+```
 
-\[
+```math
 \downarrow
-\]
+```
 
-\[
+```math
 \boxed{
 CASE\text{-}F002
 }
-\]
+```
 
 and independently:
 
-\[
+```math
 \boxed{
 CASE\text{-}P006
 }
-\]
+```
 
 Future cases and present-day cases continue to be sampled under their own frozen sampling rules.
 
@@ -1446,41 +1446,41 @@ Future cases and present-day cases continue to be sampled under their own frozen
 
 The central protection of this protocol is:
 
-\[
+```math
 \boxed{
 \text{A collection of useful concepts is not yet an architecture.}
 }
-\]
+```
 
 An architecture earns value only if the relations among its parts matter.
 
 Therefore:
 
-\[
+```math
 \boxed{
 \text{Test the nodes.}
 }
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Test the arrows.}
 }
-\]
+```
 
-\[
+```math
 \boxed{
 \text{Then test the whole.}
 }
-\]
+```
 
 The governing question is:
 
-\[
+```math
 \boxed{
 \textbf{Does the organization of the parts produce value that the parts alone do not?}
 }
-\]
+```
 
 ---
 
@@ -1490,22 +1490,22 @@ Once adopted, this protocol should be frozen before formal architecture-level an
 
 Later revisions must be prospective:
 
-\[
+```math
 v0.1
 \rightarrow
 v0.2
 \rightarrow
 v0.3
-\]
+```
 
 and must not rewrite prior architecture-level case results.
 
 Current status:
 
-\[
+```math
 \boxed{
 ARCHITECTURE\_LEVEL\_VALIDATION\_PROTOCOL\_v0.1
 =
 FREEZE\ CANDIDATE
 }
-\]
+```

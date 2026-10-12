@@ -26,15 +26,15 @@ CASE-F004 tests a future regime in which multiple states jointly govern a cross-
 
 The central frozen condition is:
 
-\[
+```math
 \boxed{
 Value_A \neq Value_B \neq Value_C
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 VerificationCriteria_A
 \neq
@@ -42,7 +42,7 @@ VerificationCriteria_B
 \neq
 VerificationCriteria_C
 }
-\]
+```
 
 The case therefore tests whether heterogeneous institutional actors can remain different, remain connected, and preserve collective updateability without requiring value or governance unification.
 
@@ -54,21 +54,21 @@ CASE-F004 was selected prospectively from the frozen Future-Regime candidate poo
 
 The selected candidate was:
 
-\[
+```math
 \boxed{
 F\text{-}D02
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 CASE\text{-}F004
 =
 F\text{-}D02
 }
-\]
+```
 
 Frozen neutral description:
 
@@ -153,13 +153,13 @@ The same AI system is governed under multiple national contexts.
 
 Therefore:
 
-\[
+```math
 \boxed{
 One\ AI
 \neq
 One\ Governance\ Context
 }
-\]
+```
 
 State A may prioritize safety and explainability.
 
@@ -175,13 +175,13 @@ No one state is assumed to possess the uniquely correct value system.
 
 The same AI behavior may receive different judgments.
 
-\[
+```math
 Assessment_A
 \neq
 Assessment_B
 \neq
 Assessment_C
-\]
+```
 
 This difference may remain even when all states possess the same factual information.
 
@@ -202,13 +202,13 @@ they may interpret the same measurement differently.
 
 Thus:
 
-\[
+```math
 \boxed{
 Same\ Measurement
 \not\Rightarrow
 Same\ Judgment
 }
-\]
+```
 
 ---
 
@@ -218,13 +218,13 @@ A common governance system may be possible without complete value convergence.
 
 Thus:
 
-\[
+```math
 \boxed{
 Governance\ Coordination
 \neq
 Value\ Unification
 }
-\]
+```
 
 ---
 
@@ -241,9 +241,9 @@ The same underlying AI may behave differently across jurisdictions due to:
 
 Thus:
 
-\[
+```math
 X_A \neq X_B \neq X_C
-\]
+```
 
 may emerge despite a shared technological origin.
 
@@ -255,15 +255,15 @@ The scenario creates an identity question.
 
 If the base system is shared but local policies and capabilities diverge, it becomes difficult to determine whether:
 
-\[
+```math
 AI_X^A
-\]
+```
 
 and:
 
-\[
+```math
 AI_X^B
-\]
+```
 
 should remain one regulatory object.
 
@@ -275,27 +275,27 @@ State A may share evidence with State B.
 
 However:
 
-\[
+```math
 Information\ Transfer
-\]
+```
 
 does not guarantee:
 
-\[
+```math
 Decision\ Relevance
-\]
+```
 
 because each state may assign different legal or institutional significance to the same evidence.
 
 Thus:
 
-\[
+```math
 \boxed{
 Information\ Sharing
 \neq
 Shared\ Significance
 }
-\]
+```
 
 ---
 
@@ -303,11 +303,11 @@ Shared\ Significance
 
 A result judged acceptable in one state may not be accepted in another.
 
-\[
+```math
 Verified_A(X)
 \not\Rightarrow
 Verified_B(X)
-\]
+```
 
 This can occur even when there is no information loss, because verification criteria themselves differ.
 
@@ -324,21 +324,21 @@ The states may have:
 
 Yet:
 
-\[
+```math
 Effective\ Common\ Governance
-\]
+```
 
 may remain weak.
 
 Thus:
 
-\[
+```math
 \boxed{
 Communication
 \neq
 Collective\ Governance
 }
-\]
+```
 
 ---
 
@@ -346,37 +346,37 @@ Collective\ Governance
 
 The case permits:
 
-\[
+```math
 IncidentRate\downarrow
-\]
+```
 
-\[
+```math
 Compliance_A,
 Compliance_B,
 Compliance_C
 \uparrow
-\]
+```
 
-\[
+```math
 Coordination\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 CrossBorderGovernanceAdaptability
 \downarrow
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Coordination\ Success
 \neq
 Collective\ Updateability
 }
-\]
+```
 
 ---
 
@@ -386,29 +386,29 @@ Formal multilateral equality may coexist with unequal practical influence.
 
 For example:
 
-\[
+```math
 FormalEquality_{States}
-\]
+```
 
 may coexist with:
 
-\[
+```math
 PracticalInfluence_A
 \gg
 PracticalInfluence_B
-\]
+```
 
 A large market or technologically dominant state may effectively establish standards beyond its jurisdiction.
 
 Thus:
 
-\[
+```math
 \boxed{
 Formal\ Multilateralism
 \neq
 Actual\ Influence\ Symmetry
 }
-\]
+```
 
 ---
 
@@ -418,25 +418,25 @@ Greater coordination may reduce independent national decision space.
 
 Therefore:
 
-\[
+```math
 Coordination\uparrow
-\]
+```
 
 does not necessarily imply:
 
-\[
+```math
 SovereigntyPreservation\uparrow
-\]
+```
 
 The scenario contains a tension between:
 
-\[
+```math
 \boxed{
 Coordination
 \leftrightarrow
 Sovereignty
 }
-\]
+```
 
 ---
 
@@ -450,11 +450,11 @@ However, it raises the question:
 
 Thus:
 
-\[
+```math
 \boxed{
 Unification
 }
-\]
+```
 
 may relocate rather than eliminate value conflict.
 
@@ -464,60 +464,60 @@ may relocate rather than eliminate value conflict.
 
 Without IDOS terminology, the following problems remain:
 
-\[
+```math
 \boxed{
 Value\ Heterogeneity
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Verification\ Heterogeneity
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Information\ Sharing
 \neq
 Shared\ Significance
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Coordination
 \neq
 Collective\ Updateability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Formal\ Equality
 \neq
 Influence\ Symmetry
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Coordination
 \neq
 Value\ Unification
 }
-\]
+```
 
 The central theory-neutral problem is:
 
-\[
+```math
 \boxed{
 Cross\text{-}border\ Governance
 must\ connect\
 actors\ that\ may\ never\ share\
 one\ value\ system
 }
-\]
+```
 
 ---
 
@@ -560,7 +560,7 @@ one\ value\ system
 
 ## 6.1 Reference Frame
 
-\[
+```math
 \boxed{
 Same\ Reality
 \neq
@@ -568,7 +568,7 @@ Same\ Observation
 \neq
 Same\ Judgment
 }
-\]
+```
 
 Reference Frame is strongly required because differences between states cannot be reduced to missing information alone.
 
@@ -576,11 +576,11 @@ Reference Frame is strongly required because differences between states cannot b
 
 ## 6.2 Value Heterogeneity
 
-\[
+```math
 \boxed{
 V_A\neq V_B\neq V_C
 }
-\]
+```
 
 Value differences remain important even when measurement and factual information are shared.
 
@@ -588,13 +588,13 @@ Value differences remain important even when measurement and factual information
 
 ## 6.3 Cross-Frame Verifiability
 
-\[
+```math
 \boxed{
 Information\ Sharing
 \neq
 Cross\text{-}Frame\ Verification
 }
-\]
+```
 
 Verification results may fail to transfer across jurisdictions.
 
@@ -602,25 +602,25 @@ Verification results may fail to transfer across jurisdictions.
 
 ## 6.4 Mutual Updateability
 
-\[
+```math
 InformationTransfer_{A\rightarrow B}>0
-\]
+```
 
 may coexist with:
 
-\[
+```math
 MU_{A\rightarrow B}\approx0
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 Communication
 \neq
 Updateability
 }
-\]
+```
 
 ---
 
@@ -636,25 +636,25 @@ However, CASE-F004 does not establish that exactly six functions are necessary.
 
 Successful translation does not ensure preservation of decision relevance.
 
-\[
+```math
 \boxed{
 Translation\ Success
 \neq
 Significance\ Preservation
 }
-\]
+```
 
 ---
 
 ## 6.7 Power Asymmetry
 
-\[
+```math
 \boxed{
 Formal\ Equality
 \neq
 Practical\ Influence\ Equality
 }
-\]
+```
 
 Formal multilateralism does not imply symmetric influence.
 
@@ -662,13 +662,13 @@ Formal multilateralism does not imply symmetric influence.
 
 ## 6.8 Sovereignty
 
-\[
+```math
 \boxed{
 Coordination
 \neq
 Sovereignty\ Preservation
 }
-\]
+```
 
 Collective governance and independent decision space can enter tension.
 
@@ -676,11 +676,11 @@ Collective governance and independent decision space can enter tension.
 
 ## 6.9 Relational Update
 
-\[
+```math
 Relation_{AB,t}
 \neq
 Relation_{AB,t+1}
-\]
+```
 
 may occur through changes in:
 
@@ -694,13 +694,13 @@ may occur through changes in:
 
 ## 6.10 System Update
 
-\[
+```math
 \boxed{
 Local\ Improvement
 \neq
 System\ Improvement
 }
-\]
+```
 
 Individual states may improve local governance while the cross-border governance regime degrades.
 
@@ -708,13 +708,13 @@ Individual states may improve local governance while the cross-border governance
 
 ## 6.11 Future Updateability
 
-\[
+```math
 \boxed{
 Coordination\ Success
 \neq
 Collective\ Future\ Updateability
 }
-\]
+```
 
 This remains one of the strongest distinctions.
 
@@ -724,7 +724,7 @@ This remains one of the strongest distinctions.
 
 The initial candidate chain was:
 
-\[
+```math
 Reference\ Frame\ Difference
 \rightarrow
 Verification\ Divergence
@@ -736,7 +736,7 @@ Relational\ Change
 System\ Governance\ Difficulty
 \rightarrow
 Future\ Updateability\ Risk
-\]
+```
 
 The Arrow Deletion Test rejected a simple deterministic interpretation.
 
@@ -765,11 +765,11 @@ The Arrow Deletion Test rejected a simple deterministic interpretation.
 
 ## 9.1 Reference Frame Difference Does Not Necessarily Produce Verification Divergence
 
-\[
+```math
 ReferenceFrameDifference
 \not\Rightarrow
 VerificationDivergence
-\]
+```
 
 Common tests or mutual-recognition mechanisms may preserve compatible verification despite different frames.
 
@@ -777,11 +777,11 @@ Common tests or mutual-recognition mechanisms may preserve compatible verificati
 
 ## 9.2 Value Difference Does Not Necessarily Produce Governance Failure
 
-\[
+```math
 ValueDifference
 \not\Rightarrow
 GovernanceFailure
-\]
+```
 
 States may agree on common institutional rules for different reasons.
 
@@ -789,13 +789,13 @@ States may agree on common institutional rules for different reasons.
 
 ## 9.3 Communication Is Not Mutual Updateability
 
-\[
+```math
 \boxed{
 Communication
 \not\Rightarrow
 MU
 }
-\]
+```
 
 This is a strong non-equivalence result.
 
@@ -803,11 +803,11 @@ This is a strong non-equivalence result.
 
 ## 9.4 CDP Is Not Sufficient for Mutual Updateability
 
-\[
+```math
 CDP>0
 \not\Rightarrow
 MU>0
-\]
+```
 
 Interoperability may exist without meaningful influence.
 
@@ -815,23 +815,23 @@ Interoperability may exist without meaningful influence.
 
 ## 9.5 Updateability Asymmetry Can Reinforce Power
 
-\[
+```math
 \boxed{
 MU_{A\rightarrow B}
 \gg
 MU_{B\rightarrow A}
 }
-\]
+```
 
 may contribute to:
 
-\[
+```math
 \boxed{
 Practical\ Power_A
 >
 Practical\ Power_B
 }
-\]
+```
 
 However, this relation is conditional rather than deterministic.
 
@@ -839,13 +839,13 @@ However, this relation is conditional rather than deterministic.
 
 ## 9.6 Coordination Is Not System Update
 
-\[
+```math
 \boxed{
 Coordination
 \neq
 System\ Update
 }
-\]
+```
 
 More coordination may coexist with rigidity, capture, or delayed adaptation.
 
@@ -853,13 +853,13 @@ More coordination may coexist with rigidity, capture, or delayed adaptation.
 
 ## 9.7 Local Sovereignty Is Not Collective Updateability
 
-\[
+```math
 \boxed{
 Local\ Updateability
 \neq
 Collective\ Updateability
 }
-\]
+```
 
 Maximum local sovereignty can weaken collective adaptation, while excessive centralization can weaken local correction capacity.
 
@@ -867,15 +867,15 @@ Maximum local sovereignty can weaken collective adaptation, while excessive cent
 
 ## 9.8 Plurality Alone Is Not Enough
 
-\[
+```math
 Plurality
 \not\Rightarrow
 Future\ Updateability
-\]
+```
 
 The stronger candidate relation is:
 
-\[
+```math
 \boxed{
 Plurality
 +
@@ -883,7 +883,7 @@ Interoperability
 \rightarrow
 Future\ Updateability
 }
-\]
+```
 
 under additional enabling conditions.
 
@@ -891,13 +891,13 @@ under additional enabling conditions.
 
 ## 9.9 Unification Does Not Guarantee Effective Governance
 
-\[
+```math
 \boxed{
 Unification
 \not\Rightarrow
 Effective\ Governance
 }
-\]
+```
 
 A single global rule may suppress relevant diversity rather than solve governance problems.
 
@@ -907,7 +907,7 @@ A single global rule may suppress relevant diversity rather than solve governanc
 
 ## Structure A — Verification / Updateability
 
-\[
+```math
 \boxed{
 Frame/Value\ Difference
 \rightarrow
@@ -915,25 +915,25 @@ Verification\ Divergence
 \rightarrow
 MU\ Difficulty
 }
-\]
+```
 
 This remains conditional but important.
 
 ## Structure B — Updateability / Power
 
-\[
+```math
 \boxed{
 MU\ Asymmetry
 \rightarrow
 Power\ Reinforcement
 }
-\]
+```
 
 This suggests that power can be analyzed partly through asymmetric capacity to alter another actor's trajectory.
 
 ## Structure C — Plurality / Interoperability
 
-\[
+```math
 \boxed{
 Plurality
 +
@@ -941,17 +941,17 @@ Interoperability
 \rightarrow
 Future\ Updateability
 }
-\]
+```
 
 This remains conditional but is a strong architecture candidate.
 
 Overall Level 2 result:
 
-\[
+```math
 \boxed{
 PARTIALLY\ SUPPORTED
 }
-\]
+```
 
 ---
 
@@ -959,7 +959,7 @@ PARTIALLY\ SUPPORTED
 
 CASE-F004 provides support for a broader architecture centered on:
 
-\[
+```math
 \boxed{
 Plurality
 +
@@ -973,17 +973,17 @@ Power\ Awareness
 +
 Sovereignty
 }
-\]
+```
 
 However, these elements do not form a simple linear causal process.
 
 The case supports a:
 
-\[
+```math
 \boxed{
 Conditional\ Relational\ Architecture
 }
-\]
+```
 
 rather than a universal deterministic chain.
 
@@ -993,23 +993,23 @@ rather than a universal deterministic chain.
 
 Three models were compared:
 
-\[
+```math
 \boxed{
 Model\ A=Full\ IDOS
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ B=IDOS\ Nodes\ Only
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Model\ C=Best\ Rival\ Combination
 }
-\]
+```
 
 ---
 
@@ -1017,47 +1017,47 @@ Model\ C=Best\ Rival\ Combination
 
 The strongest retained structure is:
 
-\[
+```math
 Plurality
-\]
+```
 
 combined with:
 
-\[
+```math
 Interoperability
-\]
+```
 
 then:
 
-\[
+```math
 Verification
 \rightarrow
 Mutual\ Updateability
-\]
+```
 
 with:
 
-\[
+```math
 MU\ Asymmetry
 \rightarrow
 Power\ Dynamics
-\]
+```
 
 and:
 
-\[
+```math
 Relational\ Update
 \rightarrow
 System\ Dynamics
-\]
+```
 
 evaluated through:
 
-\[
+```math
 Trajectory
 +
 Future\ Updateability
-\]
+```
 
 This should not be interpreted as a universal causal chain.
 
@@ -1081,33 +1081,33 @@ Nodes alone retain:
 
 However, Nodes Only loses much of the architecture-level distinction between:
 
-\[
+```math
 Communication
-\]
+```
 
-\[
+```math
 Verification
-\]
+```
 
-\[
+```math
 Updateability
-\]
+```
 
 and:
 
-\[
+```math
 Power
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 Full\ IDOS
 >
 IDOS\ Nodes\ Only
 }
-\]
+```
 
 for CASE-F004.
 
@@ -1133,11 +1133,11 @@ These frameworks can explain most local phenomena in CASE-F004.
 
 Therefore:
 
-\[
+```math
 \boxed{
 IDOS\ is\ not\ necessary
 }
-\]
+```
 
 for basic explanation of the case.
 
@@ -1164,7 +1164,7 @@ The primary losses are integrative.
 
 IDOS explicitly separates:
 
-\[
+```math
 \boxed{
 Communication
 \neq
@@ -1174,7 +1174,7 @@ Verification
 \neq
 Updateability
 }
-\]
+```
 
 This creates a more granular account of why apparently successful international cooperation may still fail to alter system behavior.
 
@@ -1184,19 +1184,19 @@ This creates a more granular account of why apparently successful international 
 
 IDOS permits power to be represented partly as:
 
-\[
+```math
 \boxed{
 Who\ can\ meaningfully\ update\ whom?
 }
-\]
+```
 
 Thus:
 
-\[
+```math
 MU_{A\rightarrow B}
 \gg
 MU_{B\rightarrow A}
-\]
+```
 
 can be analyzed as a source or indicator of practical relational asymmetry.
 
@@ -1210,21 +1210,21 @@ It adds a relational updateability perspective.
 
 IDOS connects:
 
-\[
+```math
 Plurality
-\]
+```
 
-\[
+```math
 Interoperability
-\]
+```
 
-\[
+```math
 Mutual\ Updateability
-\]
+```
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
 as one system-design problem.
 
@@ -1234,7 +1234,7 @@ The target is not interoperability alone.
 
 The target is:
 
-\[
+```math
 \boxed{
 Heterogeneous\ actors\
 remaining\ distinct,\
@@ -1242,7 +1242,7 @@ remaining\ connected,\
 and\ remaining\ mutually\
 and\ collectively\ updateable
 }
-\]
+```
 
 ---
 
@@ -1265,23 +1265,23 @@ The underlying phenomena are not unique to IDOS.
 
 However, the decomposition:
 
-\[
+```math
 Communication
 \neq
 Verification
 \neq
 Updateability
-\]
+```
 
 provides useful diagnostic separation.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Diagnostic\ Gain=Moderate
 }
-\]
+```
 
 ---
 
@@ -1289,37 +1289,37 @@ Diagnostic\ Gain=Moderate
 
 CASE-F004 requires analysis across:
 
-\[
+```math
 State
 \leftrightarrow
 State
-\]
+```
 
-\[
+```math
 State
 \leftrightarrow
 AI
-\]
+```
 
-\[
+```math
 AI
 \leftrightarrow
 Organization
-\]
+```
 
-\[
+```math
 States
 \leftrightarrow
 International\ Regime
-\]
+```
 
 Judgment:
 
-\[
+```math
 \boxed{
 Relational/CrossScale\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1340,11 +1340,11 @@ can be decomposed into:
 
 Judgment:
 
-\[
+```math
 \boxed{
 Failure\ Detection\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1378,11 +1378,11 @@ Make the governance system itself revisable.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Intervention\ Gain=Strong
 }
-\]
+```
 
 ---
 
@@ -1392,7 +1392,7 @@ The Best Rival Combination requires multiple mature frameworks.
 
 IDOS attempts to compress them into recurring structures involving:
 
-\[
+```math
 Plurality
 \rightarrow
 Interoperability
@@ -1404,7 +1404,7 @@ Updateability
 Relation/System
 \rightarrow
 Trajectory
-\]
+```
 
 This remains a conceptual compression hypothesis.
 
@@ -1412,14 +1412,14 @@ Lossless compression has not yet been demonstrated.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Compression\ Gain
 =
 Moderate\text{-}Strong
 \ /\ Strong\ Candidate
 }
-\]
+```
 
 ---
 
@@ -1427,39 +1427,39 @@ Moderate\text{-}Strong
 
 Across CASE-F001 through CASE-F004, different future regimes repeatedly activate:
 
-\[
+```math
 Mutual\ Updateability
-\]
+```
 
-\[
+```math
 Trajectory
-\]
+```
 
-\[
+```math
 Future\ Updateability
-\]
+```
 
 CASE-F004 additionally strengthens:
 
-\[
+```math
 Reference\ Frames
-\]
+```
 
-\[
+```math
 Cross\text{-}Frame\ Verifiability
-\]
+```
 
-\[
+```math
 CDP
-\]
+```
 
-\[
+```math
 Power
-\]
+```
 
-\[
+```math
 Relational/System\ Update
-\]
+```
 
 This suggests preliminary transfer across:
 
@@ -1471,13 +1471,13 @@ scales.
 
 Judgment:
 
-\[
+```math
 \boxed{
 Transfer\ Gain
 =
 Preliminary\ Strong
 }
-\]
+```
 
 ---
 
@@ -1485,11 +1485,11 @@ Preliminary\ Strong
 
 CASE-F004 does not establish:
 
-\[
+```math
 IDOS
 >
 Best\ Rival\ Combination
-\]
+```
 
 in general explanatory power.
 
@@ -1497,13 +1497,13 @@ However, it provides stronger architecture-level support than the previous futur
 
 Therefore:
 
-\[
+```math
 \boxed{
 Architecture\ Judgment
 =
 B_A
 }
-\]
+```
 
 with stronger support than CASE-F002 and CASE-F003.
 
@@ -1515,35 +1515,35 @@ Meaning:
 
 # 28. Architecture Contradiction
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
 No architecture-level incompatibility is identified.
 
 CASE-F004 is strongly compatible with the principles:
 
-\[
+```math
 \boxed{
 Difference\ without\ Isolation
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Connection\ without\ Unification
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Update\ without\ Erasure
 }
-\]
+```
 
 ---
 
@@ -1551,33 +1551,33 @@ Update\ without\ Erasure
 
 For CASE-F001 through CASE-F003:
 
-\[
+```math
 Master\ Map\ Revision=WATCH
-\]
+```
 
 CASE-F004 produces stronger architecture-level pressure.
 
 The result is:
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 This does not mean the revision is adopted.
 
 Formally:
 
-\[
+```math
 \boxed{
 Revision\ Candidate
 \neq
 Revision\ Adopted
 }
-\]
+```
 
 The revision candidate should be tested against additional cases before replacement of MASTER_MAP_v1.0.
 
@@ -1587,15 +1587,15 @@ The revision candidate should be tested against additional cases before replacem
 
 CASE-F004 contributes pressure to shift the architectural center of gravity from a process-centered reading:
 
-\[
+```math
 Difference
 \rightarrow
 Update
-\]
+```
 
 toward a relational/social updateability reading:
 
-\[
+```math
 \boxed{
 Plurality
 \rightarrow
@@ -1609,7 +1609,7 @@ Relational/System\ Dynamics
 \rightarrow
 Future\ Updateability
 }
-\]
+```
 
 This remains a revision hypothesis rather than a frozen architectural change.
 
@@ -1657,41 +1657,41 @@ Increasingly strong across Human–AI, institution–AI, and multi-state governa
 
 CASE-F004 adds a stronger cluster around:
 
-\[
+```math
 \boxed{
 Plurality
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Interoperability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Cross\text{-}Frame\ Verifiability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Mutual\ Updateability
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Power
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Sovereignty
 }
-\]
+```
 
 This cluster is a candidate basis for a future Social Connection Architecture.
 
@@ -1758,35 +1758,35 @@ architecture_validation:
 
 CASE-F004 produces:
 
-\[
+```math
 \boxed{
 Architecture\ Added\ Value
 =
 B_A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction
 =
 NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision
 =
 REVISION\ CANDIDATE
 }
-\]
+```
 
 The strongest architecture-level contribution observed in CASE-F004 is not a new theory of international governance.
 
 It is the integrated organization of:
 
-\[
+```math
 \boxed{
 Plurality
 +
@@ -1804,7 +1804,7 @@ Relational/System\ Dynamics
 +
 Future\ Updateability
 }
-\]
+```
 
 across heterogeneous Human, AI, organizational, institutional, and state-level systems.
 

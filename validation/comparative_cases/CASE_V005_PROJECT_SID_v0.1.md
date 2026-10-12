@@ -19,9 +19,9 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 # 2. Regime Classification
 
-$$
+```math
 \boxed{V005 = Future\ Regime\ Proxy}
-$$
+```
 
 V005 is not treated as a future society itself.
 
@@ -61,9 +61,9 @@ Project Sid is a simulation environment. Findings inside the simulation are not 
 
 Project Sid is a many-agent simulation in which approximately:
 
-$$
+```math
 10 \sim 1000+
-$$
+```
 
 AI agents interact in a Minecraft environment.
 
@@ -78,11 +78,11 @@ The research reports social dynamics including:
 
 The case therefore represents:
 
-$$
+```math
 \boxed{
 Many\text{-}Agent\ Social\ Dynamics
 }
-$$
+```
 
 rather than a small hierarchical agent team.
 
@@ -92,11 +92,11 @@ rather than a small hierarchical agent team.
 
 Project Sid introduces:
 
-$$
+```math
 \boxed{
 PIANO
 }
-$$
+```
 
 or:
 
@@ -106,7 +106,7 @@ The architecture supports large numbers of agents interacting in parallel while 
 
 Conceptually:
 
-$$
+```math
 Many\ Agents
 +
 Parallel\ Interaction
@@ -114,7 +114,7 @@ Parallel\ Interaction
 Information\ Aggregation
 +
 Orchestration
-$$
+```
 
 ---
 
@@ -124,9 +124,9 @@ Agents may occupy differentiated roles.
 
 Thus:
 
-$$
+```math
 Role_1,\ Role_2,\ldots,Role_n
-$$
+```
 
 become part of the social structure.
 
@@ -134,11 +134,11 @@ This is different from V004, where specialization was primarily task-oriented in
 
 V005 moves toward:
 
-$$
+```math
 \boxed{
 Society\text{-}level\ Functional\ Differentiation
 }
-$$
+```
 
 ---
 
@@ -148,19 +148,19 @@ Agents are reported to follow and modify collective rules.
 
 Thus:
 
-$$
+```math
 Rule_t
 \neq
 Rule_{t+1}
-$$
+```
 
 This is important because:
 
-$$
+```math
 Behavioral\ Update
 \neq
 Rule\ Update
-$$
+```
 
 The system therefore contains not only changing actions but changing conditions governing future actions.
 
@@ -170,23 +170,23 @@ The system therefore contains not only changing actions but changing conditions 
 
 Information and social representations may propagate across agents:
 
-$$
+```math
 Agent_i
 \rightarrow
 Agent_j
 \rightarrow
 Agent_k
-$$
+```
 
 This can produce socially persistent patterns not stored in one single agent.
 
 Thus a potential structure is:
 
-$$
+```math
 \boxed{
 Persistence\ without\ central\ storage
 }
-$$
+```
 
 ---
 
@@ -204,9 +204,9 @@ The society-level state may include:
 
 Therefore:
 
-$$
+```math
 State_{Society}
-$$
+```
 
 cannot be assumed to equal a simple sum of individual agent states.
 
@@ -226,11 +226,11 @@ Humans remain external designers and observers of:
 
 Thus:
 
-$$
+```math
 Society\ Autonomy
 \neq
 Full\ System\ Autonomy
-$$
+```
 
 The agent society remains embedded in a human-designed simulation environment.
 
@@ -314,11 +314,11 @@ V005 is strongly explainable through:
 
 Thus:
 
-$$
+```math
 \boxed{
 Conventional\ analysis\ is\ extremely\ strong
 }
-$$
+```
 
 ---
 
@@ -326,11 +326,11 @@ $$
 
 Local interactions can generate macro-level patterns:
 
-$$
+```math
 Local\ Interaction
 \rightarrow
 Macro\ Pattern
-$$
+```
 
 This already explains much of the observed social structure.
 
@@ -360,11 +360,11 @@ Role differentiation, norm formation, and information diffusion are standard con
 
 Macro-level structure may emerge from local interactions:
 
-$$
+```math
 Micro\ Rules
 \rightarrow
 Macro\ Structure
-$$
+```
 
 This does not require IDOS.
 
@@ -388,11 +388,11 @@ Rule formation and rule modification can be treated as institutional change.
 
 Thus:
 
-$$
+```math
 Rule_t
 \rightarrow
 Rule_{t+1}
-$$
+```
 
 is already visible conventionally.
 
@@ -437,29 +437,29 @@ Possible units include:
 
 ### D. Society state is relational
 
-$$
+```math
 State_{Society}
 \neq
 \sum_i State_{Agent_i}
-$$
+```
 
 in any simple sense.
 
 ### E. Rule change alters future update conditions
 
-$$
+```math
 \boxed{
 Update\ changes\ future\ update\ conditions
 }
-$$
+```
 
 ### F. Power affects who can modify rules
 
-$$
+```math
 Influence_i
 \neq
 Influence_j
-$$
+```
 
 ### G. Persistence may occur without central storage
 
@@ -469,17 +469,17 @@ Culture may persist in relations and interaction patterns.
 
 The problem becomes not only:
 
-$$
+```math
 Who\ observes\ the\ whole?
-$$
+```
 
 but:
 
-$$
+```math
 \boxed{
 What\ counts\ as\ the\ whole?
 }
-$$
+```
 
 ---
 
@@ -491,37 +491,37 @@ V005 does not have one stable Updating Unit.
 
 Relevant units include:
 
-$$
+```math
 Agent_i
-$$
+```
 
-$$
+```math
 Group
-$$
+```
 
-$$
+```math
 Role
-$$
+```
 
-$$
+```math
 Rule
-$$
+```
 
-$$
+```math
 Institution
-$$
+```
 
-$$
+```math
 Society
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Updating\ Unit\ is\ multi\text{-}level
 }
-$$
+```
 
 ---
 
@@ -538,19 +538,19 @@ Relevant boundaries include:
 
 Thus:
 
-$$
+```math
 B_t
 \neq
 B_{t+1}
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Social\ Boundary
 }
-$$
+```
 
 becomes part of the trajectory.
 
@@ -560,13 +560,13 @@ becomes part of the trajectory.
 
 Society-level change is:
 
-$$
+```math
 S_t
 \rightarrow
 S_{t+1}
 \rightarrow
 S_{t+2}
-$$
+```
 
 where state includes:
 
@@ -579,11 +579,11 @@ where state includes:
 
 Thus:
 
-$$
+```math
 \boxed{
 Trajectory_{Society}
 }
-$$
+```
 
 is the main observation target rather than a single final output.
 
@@ -593,17 +593,17 @@ is the main observation target rather than a single final output.
 
 Differences can occur across:
 
-$$
+```math
 Rule_i \neq Rule_j
-$$
+```
 
-$$
+```math
 Norm_i \neq Norm_j
-$$
+```
 
-$$
+```math
 Belief_i \neq Belief_j
-$$
+```
 
 These differences can produce conflict, adaptation, institutional change, or social differentiation.
 
@@ -613,25 +613,25 @@ These differences can produce conflict, adaptation, institutional change, or soc
 
 Reference frames may exist at multiple levels:
 
-$$
+```math
 F_{Agent}
-$$
+```
 
-$$
+```math
 F_{Group}
-$$
+```
 
-$$
+```math
 F_{Institution}
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Reference\ Frame\ becomes\ multi\text{-}level
 }
-$$
+```
 
 ---
 
@@ -639,11 +639,11 @@ $$
 
 V005 introduces the possibility that the measurement system itself changes:
 
-$$
+```math
 M_t
 \neq
 M_{t+1}
-$$
+```
 
 For example, what counts as:
 
@@ -656,11 +656,11 @@ may change with institutions and norms.
 
 Thus:
 
-$$
+```math
 \boxed{
 Measurement\ is\ endogenous
 }
-$$
+```
 
 ---
 
@@ -676,11 +676,11 @@ Relevant provenance includes:
 
 Thus:
 
-$$
+```math
 \boxed{
 Institutional\ Provenance
 }
-$$
+```
 
 becomes important.
 
@@ -692,33 +692,33 @@ This is central in V005.
 
 The key question is:
 
-$$
+```math
 \boxed{
 Can\ the\ society\ change\ the\ conditions\ under\ which\ it\ changes?
 }
-$$
+```
 
 Thus:
 
-$$
+```math
 Rule_t
 \rightarrow
 Rule_{t+1}
-$$
+```
 
 may alter:
 
-$$
+```math
 Conditions(Update_{t+2})
-$$
+```
 
 Therefore:
 
-$$
+```math
 \boxed{
 Update\ changes\ future\ update\ conditions
 }
-$$
+```
 
 ---
 
@@ -726,27 +726,27 @@ $$
 
 Verification becomes level-dependent:
 
-$$
+```math
 CFV_{Agent,Agent}
-$$
+```
 
-$$
+```math
 CFV_{Agent,Institution}
-$$
+```
 
-$$
+```math
 CFV_{Observer,Society}
-$$
+```
 
 Thus:
 
-$$
+```math
 Local\ CFV
 \neq
 Institutional\ CFV
 \neq
 Global\ CFV
-$$
+```
 
 ---
 
@@ -754,33 +754,33 @@ $$
 
 Mutual Updateability operates across levels:
 
-$$
+```math
 Agent \rightarrow Agent
-$$
+```
 
-$$
+```math
 Agent \rightarrow Rule
-$$
+```
 
-$$
+```math
 Rule \rightarrow Agent
-$$
+```
 
-$$
+```math
 Group \rightarrow Institution
-$$
+```
 
-$$
+```math
 Institution \rightarrow Group
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 MU\ becomes\ multi\text{-}level
 }
-$$
+```
 
 ---
 
@@ -788,19 +788,19 @@ $$
 
 Power becomes:
 
-$$
+```math
 \boxed{
 Who\ can\ modify\ future\ update\ conditions?
 }
-$$
+```
 
 This can be interpreted as:
 
-$$
+```math
 \boxed{
 Meta\text{-}Update\ Authority
 }
-$$
+```
 
 ---
 
@@ -808,13 +808,13 @@ $$
 
 Different levels may evolve at different rates:
 
-$$
+```math
 \tau_{Agent}
 \neq
 \tau_{Institution}
 \neq
 \tau_{Culture}
-$$
+```
 
 Thus temporal compatibility becomes a multi-timescale issue.
 
@@ -826,13 +826,13 @@ V005 remains a simulation.
 
 Thus:
 
-$$
+```math
 \boxed{
 Simulation\ Validity
 \neq
 Real\text{-}World\ Validity
 }
-$$
+```
 
 Reality Contact is therefore limited.
 
@@ -842,31 +842,31 @@ Reality Contact is therefore limited.
 
 Potential residuals include:
 
-$$
+```math
 Rule
 -
 Observed\ Behavior
-$$
+```
 
-$$
+```math
 Norm
 -
 Actual\ Practice
-$$
+```
 
-$$
+```math
 Institutional\ Goal
 -
 Social\ Outcome
-$$
+```
 
 These can be treated as:
 
-$$
+```math
 \boxed{
 Institutional\ Residual
 }
-$$
+```
 
 ---
 
@@ -876,11 +876,11 @@ Conflicting norms and unresolved rule structures may persist without immediate c
 
 Thus:
 
-$$
+```math
 \boxed{
 Plurality\ can\ persist
 }
-$$
+```
 
 Holding is analytically useful, though not confirmed as an explicit Project Sid mechanism.
 
@@ -898,11 +898,11 @@ The possibility space includes not only actions but:
 
 Thus:
 
-$$
+```math
 \boxed{
 Institutional\ Possibility\ Space
 }
-$$
+```
 
 emerges as an analytical object.
 
@@ -922,11 +922,11 @@ The 12-process dynamic model becomes relevant as a way to trace multi-level upda
 
 Thus:
 
-$$
+```math
 \boxed{
 12PDM
 }
-$$
+```
 
 becomes useful for multi-level dynamics rather than only detailed description.
 
@@ -953,7 +953,7 @@ These are not counted as IDOS-specific findings.
 
 IDOS makes it easier to connect:
 
-$$
+```math
 Agent
 \rightarrow
 Relation
@@ -961,15 +961,15 @@ Relation
 Rule
 \rightarrow
 Institution
-$$
+```
 
 as one update chain.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -979,27 +979,27 @@ Boundary becomes part of the social trajectory rather than a fixed analytical fr
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
 ## 7.4 Y3 — Behavioral vs Rule Update
 
-$$
+```math
 Behavioral\ Update
 \neq
 Rule\ Update
-$$
+```
 
 This distinction is already strongly available in institutional theory.
 
 Classification:
 
-$$
+```math
 IV\text{-}1/2
-$$
+```
 
 ---
 
@@ -1007,19 +1007,19 @@ $$
 
 V005 makes explicit:
 
-$$
+```math
 FU_t
 \neq
 FU_{t+1}
-$$
+```
 
 Current adaptation may improve while future ability to revise the system decreases.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1027,17 +1027,17 @@ $$
 
 Power becomes:
 
-$$
+```math
 \boxed{
 Who\ can\ change\ the\ conditions\ of\ future\ change?
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1047,9 +1047,9 @@ Updateability connects different levels of the system.
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1057,17 +1057,17 @@ $$
 
 The system may alter what counts as success:
 
-$$
+```math
 M_t
 \neq
 M_{t+1}
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -1075,13 +1075,13 @@ $$
 
 The strongest candidate is:
 
-$$
+```math
 \boxed{
 Global\ System_t
 \neq
 Global\ System_{t+1}
 }
-$$
+```
 
 The issue is no longer only that no actor sees the whole.
 
@@ -1089,20 +1089,20 @@ The definition of the whole itself changes over time.
 
 Thus:
 
-$$
+```math
 \boxed{
 The\ system\ that\ updates
 \ also\ updates\ what\ counts\ as\ the\ system
 }
-$$
+```
 
 Classification:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate
 }
-$$
+```
 
 ---
 
@@ -1149,16 +1149,16 @@ These are already visible in established frameworks.
 
 The strongest candidate remains:
 
-$$
+```math
 \boxed{
 The\ system\ that\ updates
 \ also\ updates\ what\ counts\ as\ the\ system
 }
-$$
+```
 
 This can be represented as:
 
-$$
+```math
 Update_t
 \rightarrow
 Boundary_{t+1}
@@ -1166,7 +1166,7 @@ Boundary_{t+1}
 Measurement_{t+1}
 +
 Future\ Updateability_{t+1}
-$$
+```
 
 This means the system changes not only its state but the future conditions under which state change is evaluated and permitted.
 
@@ -1194,11 +1194,11 @@ Existing theories remain strong alternatives:
 
 Therefore:
 
-$$
+```math
 \boxed{
 Only\ IDOS\ can\ explain\ this
 }
-$$
+```
 
 is not supported.
 
@@ -1214,19 +1214,19 @@ However, IDOS provides one integrated update architecture for:
 
 Thus:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate\ retained
 }
-$$
+```
 
 but:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ not\ yet\ confirmed
 }
-$$
+```
 
 Final confirmation is deferred to cross-case synthesis.
 
@@ -1255,19 +1255,19 @@ Final confirmation is deferred to cross-case synthesis.
 
 A notable pattern is that:
 
-$$
+```math
 Dynamic\ Boundary,\ Reference\ Frame,\ Provenance,\ CFV,\ Power
-$$
+```
 
 move from:
 
-$$
+```math
 N0
 \rightarrow
 N1
 \rightarrow
 N2
-$$
+```
 
 between V001 and V003, then remain N2 through V005.
 
@@ -1281,13 +1281,13 @@ This is important because regime complexity does not mechanically increase the i
 
 V004:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 Meaning:
 
@@ -1295,13 +1295,13 @@ Meaning:
 
 V005:
 
-$$
+```math
 \boxed{
 Global\ System_t
 \neq
 Global\ System_{t+1}
 }
-$$
+```
 
 Meaning:
 
@@ -1319,16 +1319,16 @@ V005 has an exceptionally strong conventional baseline.
 
 Nevertheless, the following structure survives the Necessity Test:
 
-$$
+```math
 \boxed{
 The\ system\ that\ updates
 \ also\ updates\ what\ counts\ as\ the\ system
 }
-$$
+```
 
 More precisely:
 
-$$
+```math
 \boxed{
 Update_t
 \rightarrow
@@ -1338,7 +1338,7 @@ Measurement_{t+1}
 +
 Future\ Updateability_{t+1}
 }
-$$
+```
 
 In Japanese:
 
@@ -1346,21 +1346,21 @@ In Japanese:
 
 Thus:
 
-$$
+```math
 \boxed{
 Incremental\ Visibility_{V005}
 =
 High
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 IV\text{-}3\ candidate\ retained
 }
-$$
+```
 
 However, IV-3 confirmation is deferred to the cross-case synthesis.
 

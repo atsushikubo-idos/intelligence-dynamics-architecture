@@ -20,19 +20,19 @@ IDOS does **not** currently claim that each of its components is individually no
 
 Instead, the main hypothesis is:
 
-$$
+```math
 \boxed{
 Component\ Novelty = Limited
 }
-$$
+```
 
 while:
 
-$$
+```math
 \boxed{
 Architectural\ Difference = Candidate
 }
-$$
+```
 
 The possible distinctiveness lies in how IDOS combines multiple dimensions into a common architecture for observing and tracing **changing conditions of updating**.
 
@@ -42,31 +42,31 @@ The possible distinctiveness lies in how IDOS combines multiple dimensions into 
 
 The current position is:
 
-$$
+```math
 \boxed{
 No\ individual\ IDOS\ component
 is\ claimed\ to\ be\ wholly\ novel
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 No\ exact\ functional\ equivalent
 has\ yet\ been\ identified
 }
-$$
+```
 
 These statements are intentionally asymmetric.
 
 “Not yet identified” does **not** mean:
 
-$$
+```math
 \boxed{
 No\ equivalent\ exists
 }
-$$
+```
 
 The purpose of comparison is therefore not to defend uniqueness, but to identify where IDOS may or may not offer additional architectural value.
 
@@ -106,7 +106,7 @@ They are structural combinations.
 
 IDOS explicitly separates:
 
-$$
+```math
 \boxed{
 Verification
 \neq
@@ -114,7 +114,7 @@ Influence
 \neq
 Update
 }
-$$
+```
 
 A human may:
 
@@ -132,29 +132,29 @@ This distinction becomes increasingly important in complex human–AI and organi
 
 IDOS distinguishes:
 
-$$
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-$$
+```
 
 A system can have high cross-frame verifiability but low mutual updateability.
 
 Example structure:
 
-$$
+```math
 Actor_A
 \ can\ inspect\ Actor_B
-$$
+```
 
 while:
 
-$$
+```math
 Actor_A
 \ cannot\ meaningfully\ update\ Actor_B
-$$
+```
 
 The reverse may also occur.
 
@@ -166,13 +166,13 @@ This distinction helps prevent “oversight,” “control,” “communication,
 
 A recurring cross-case distinction is:
 
-$$
+```math
 \boxed{
 Current\ Success
 \neq
 Future\ Updateability
 }
-$$
+```
 
 A system may become:
 
@@ -192,13 +192,13 @@ This is one of the strongest operational distinctions currently supported by the
 
 The strongest second-order formulation is:
 
-$$
+```math
 \boxed{
 Update_t
 \rightarrow
 Conditions(Update_{t+1})
 }
-$$
+```
 
 IDOS is especially concerned with cases where updating changes:
 
@@ -211,12 +211,12 @@ IDOS is especially concerned with cases where updating changes:
 
 Thus:
 
-$$
+```math
 \boxed{
 The\ conditions\ of\ updating
 are\ themselves\ part\ of\ the\ trajectory
 }
-$$
+```
 
 ---
 
@@ -258,59 +258,59 @@ Therefore, IDOS should not be presented as replacing these traditions.
 
 The strongest current hypothesis is:
 
-$$
+```math
 \boxed{
 IDOS\ adds\ value\ primarily
 by\ integrating\ changing\ update\ conditions
 within\ a\ common\ architecture
 }
-$$
+```
 
 The candidate architecture links:
 
-$$
+```math
 Updating\ Unit
-$$
+```
 
-$$
+```math
 Dynamic\ Boundary
-$$
+```
 
-$$
+```math
 Trajectory
-$$
+```
 
-$$
+```math
 Reference\ Frame
-$$
+```
 
-$$
+```math
 Measurement
-$$
+```
 
-$$
+```math
 Provenance
-$$
+```
 
-$$
+```math
 CFV
-$$
+```
 
-$$
+```math
 MU
-$$
+```
 
-$$
+```math
 Power
-$$
+```
 
-$$
+```math
 Temporal\ Compatibility
-$$
+```
 
-$$
+```math
 Future\ Updateability
-$$
+```
 
 within one update-centered structure.
 
@@ -324,33 +324,33 @@ The claim under investigation is that their integration may make cross-domain co
 
 A key candidate value of IDOS is the ability to ask the same structural questions across different domains:
 
-$$
+```math
 What\ is\ updating?
-$$
+```
 
-$$
+```math
 Where\ is\ the\ boundary?
-$$
+```
 
-$$
+```math
 Who\ can\ verify?
-$$
+```
 
-$$
+```math
 Who\ can\ influence?
-$$
+```
 
-$$
+```math
 Who\ can\ update?
-$$
+```
 
-$$
+```math
 What\ can\ no\ longer\ be\ updated?
-$$
+```
 
-$$
+```math
 Can\ the\ conditions\ of\ future\ updating\ still\ be\ revised?
-$$
+```
 
 These questions can be applied to:
 
@@ -363,11 +363,11 @@ These questions can be applied to:
 
 The candidate value is therefore:
 
-$$
+```math
 \boxed{
 Cross\text{-}domain\ structural\ comparability
 }
-$$
+```
 
 rather than a claim of domain-specific explanatory superiority.
 
@@ -377,25 +377,25 @@ rather than a claim of domain-specific explanatory superiority.
 
 The five-case pilot produced an important negative result:
 
-$$
+```math
 \boxed{
 Confirmed\ Case\text{-}level\ IV\text{-}3
 =
 None
 }
-$$
+```
 
 No individual case demonstrated that IDOS uniquely reveals a phenomenon unavailable to a strong combination of existing theories.
 
 However:
 
-$$
+```math
 \boxed{
 Strong\ Cross\text{-}Case\ Structural\ Visibility
 =
 Yes
 }
-$$
+```
 
 The same architecture remained usable across:
 
@@ -407,19 +407,19 @@ The same architecture remained usable across:
 
 The most persistent concepts were:
 
-$$
+```math
 \boxed{
 Trajectory
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 Both remained structurally necessary across all five pilot cases.
 
@@ -465,13 +465,13 @@ A more defensible current formulation is:
 
 A shorter formulation is:
 
-$$
+```math
 \boxed{
 IDOS
 =
 Architecture\ for\ Changing\ Conditions\ of\ Updating
 }
-$$
+```
 
 Another useful formulation is:
 
@@ -483,14 +483,14 @@ Another useful formulation is:
 
 The central unresolved question is:
 
-$$
+```math
 \boxed{
 Does\ architectural\ integration
 produce\ practical\ or\ explanatory\ value
 beyond\ a\ well\ chosen\ combination
 of\ existing\ frameworks?
 }
-$$
+```
 
 Future work should test whether IDOS changes:
 

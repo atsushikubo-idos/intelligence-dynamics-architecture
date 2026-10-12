@@ -227,11 +227,11 @@ AI-based lending decisions alter applicant behavior and market structure.
 
 Thus:
 
-\[
+```math
 Measurement_t
 \rightarrow Enactment_t
 \rightarrow Reality_{t+1}
-\]
+```
 
 and the meaning of variables can change.
 
@@ -289,7 +289,7 @@ Ablation suggested:
 
 A much smaller structure could preserve much of the functionality:
 
-\[
+```math
 Reality_t
 \rightarrow Difference_t
 \rightarrow Representation_t
@@ -297,7 +297,7 @@ Reality_t
 \rightarrow Update_t
 \rightarrow Enactment_t
 \rightarrow Reality_{t+1}
-\]
+```
 
 ## Judgment
 
@@ -330,15 +330,15 @@ Multi-agent interaction, group-level dynamics, observer reflexivity, and shared-
 
 Potentially stronger remaining candidates included:
 
-\[
+```math
 G_i(t)\rightarrow G_i(t+1)
-\]
+```
 
 update-rule transformation,
 
-\[
+```math
 M_i(t)\rightarrow M_i(t+1)
-\]
+```
 
 measurement-system transformation,
 
@@ -364,9 +364,9 @@ Can heterogeneous intelligences coordinate while retaining non-equivalent intern
 
 Let:
 
-\[
+```math
 G_H \neq G_A \neq G_B
-\]
+```
 
 Three conditions were compared:
 
@@ -413,7 +413,7 @@ Internal representations, reasoning procedures, objectives, and model architectu
 
 Initially, only the following interface was exposed:
 
-\[
+```math
 I_i=
 \{
 Observation,
@@ -422,7 +422,7 @@ Confidence,
 UpdateCondition,
 Action
 \}
-\]
+```
 
 ## Result
 
@@ -432,13 +432,13 @@ Confidence and Action were not strictly necessary.
 
 A candidate minimum became:
 
-\[
+```math
 \{
 Observation,
 Claim,
 UpdateCondition
 \}
-\]
+```
 
 But false observations introduced a verification problem, requiring evidence traceability.
 
@@ -464,9 +464,9 @@ Must an intelligence know in advance what would make it change its judgment?
 
 A Human unit was assigned:
 
-\[
+```math
 U_H = Unknown
-\]
+```
 
 New Differences were introduced sequentially.
 
@@ -485,9 +485,9 @@ The observed update condition could only be estimated retrospectively and could 
 
 Thus:
 
-\[
+```math
 U_i(t)=f(Trajectory_{0:t},Context_t,State_i(t))
-\]
+```
 
 is more plausible than a fixed rule.
 
@@ -522,15 +522,15 @@ Direct recontact with the original actor was unnecessary if sufficient relationa
 
 Even when:
 
-\[
+```math
 AI_{v1}\neq AI_{v2}
-\]
+```
 
 a successor could inherit part of the trajectory.
 
 A minimal trace candidate was:
 
-\[
+```math
 T_k=
 \{
 t,
@@ -539,7 +539,7 @@ Difference,
 Update,
 Outcome
 \}
-\]
+```
 
 Actor identity could sometimes be removed, but relation identity could not be removed in multi-agent systems without losing causal/relational structure.
 
@@ -605,9 +605,9 @@ What happens when not only state values but the state space itself changes?
 
 Initial system:
 
-\[
+```math
 S_t\in\mathcal S_t
-\]
+```
 
 Later interaction generated:
 
@@ -618,18 +618,18 @@ Later interaction generated:
 
 Thus:
 
-\[
+```math
 \mathcal S_t\neq\mathcal S_{t+1}
-\]
+```
 
 A stronger case replaced old categories rather than merely adding dimensions.
 
 A mapping was required:
 
-\[
+```math
 \Phi_{t\rightarrow t+1}:
 \mathcal S_t\rightarrow\mathcal S_{t+1}
-\]
+```
 
 and the mapping itself could require construction or revision.
 
@@ -641,18 +641,18 @@ Dynamic ontologies, schema evolution, meta-state representations, non-stationary
 
 A sufficiently large meta-state can absorb:
 
-\[
+```math
 \mathcal R_t=
 \{
 S_t,U_t,B_t,M_t,G_t,P_t,\Phi_t
 \}
-\]
+```
 
 into:
 
-\[
+```math
 \mathcal R_t\rightarrow\mathcal R_{t+1}
-\]
+```
 
 ## Judgment
 
@@ -674,9 +674,9 @@ The more relevant IDOS question becomes observational:
 
 Is:
 
-\[
+```math
 Difference\rightarrow Update\rightarrow Consequence
-\]
+```
 
 an invariant specific to intelligence?
 
@@ -694,9 +694,9 @@ It appeared to hold.
 
 A thermostat also exhibits:
 
-\[
+```math
 Difference\rightarrow Change\rightarrow Consequence
-\]
+```
 
 Even a physical object under force can be described in the same abstract form.
 
@@ -704,9 +704,9 @@ Therefore the pattern becomes too general and approaches ordinary causality.
 
 A stronger candidate was:
 
-\[
+```math
 G_t\rightarrow G_{t+1}
-\]
+```
 
 where the system changes its own response/update mapping.
 
@@ -792,10 +792,10 @@ The relevant object is not necessarily a static capability or agent state.
 
 A useful observation target is the history of how updating changes through interaction.
 
-\[
+```math
 Trajectory=
 \{Interaction, Difference, Update, Consequence,\ldots\}_{0:T}
-\]
+```
 
 This should currently be treated as an observational stance rather than a proven definition of intelligence.
 
@@ -811,23 +811,23 @@ It is:
 
 Define provisionally:
 
-\[
+```math
 \mathcal U_t
 =
 \text{capacity of the system to undergo relevant future updates}
-\]
+```
 
 A key possible configuration is:
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 while:
 
-\[
+```math
 \mathcal U_t\downarrow
-\]
+```
 
 For example, an AI-supported organization may become more accurate and efficient while simultaneously losing:
 
@@ -847,7 +847,7 @@ Single-agent formulations showed particularly high reducibility to existing theo
 
 The stronger IDOS problem therefore lies in systems containing non-equivalent intelligences:
 
-\[
+```math
 H
 \leftrightarrow
 AI_1
@@ -857,7 +857,7 @@ AI_2
 Organization
 \leftrightarrow
 Institution
-\]
+```
 
 The central issue is not simply multi-agent interaction.
 
@@ -879,21 +879,21 @@ The experiments did not support the necessity of a common internal representatio
 
 A potentially important architecture target is therefore:
 
-\[
+```math
 G_i\neq G_j
-\]
+```
 
 while still allowing:
 
-\[
+```math
 Coordination(i,j)
-\]
+```
 
 and potentially:
 
-\[
+```math
 MutualUpdateability(i,j)
-\]
+```
 
 The objective is not necessarily semantic unification.
 
@@ -905,15 +905,15 @@ It may instead be interoperability among non-equivalent intelligences.
 
 First-order change:
 
-\[
+```math
 S_t\rightarrow S_{t+1}
-\]
+```
 
 Second-order change:
 
-\[
+```math
 G_t\rightarrow G_{t+1}
-\]
+```
 
 where the update rule itself changes.
 
@@ -937,20 +937,20 @@ The experiments suggest separating the IDOS core research question from its obse
 
 ## Layer 1 — Core Research Question
 
-\[
+```math
 \boxed{
 How\ does\ Future\ Updateability\ change?
 }
-\]
+```
 
 More specifically:
 
-\[
+```math
 \boxed{
 How\ does\ Future\ Updateability\ change
 across\ interacting\ heterogeneous\ intelligences?
 }
-\]
+```
 
 ---
 
@@ -958,12 +958,12 @@ across\ interacting\ heterogeneous\ intelligences?
 
 A minimal working description may involve:
 
-\[
+```math
 Difference
 \rightarrow Interaction
 \rightarrow Update
 \rightarrow Trajectory
-\]
+```
 
 with consequences feeding future interactions.
 
@@ -1088,21 +1088,21 @@ They test different questions.
 
 In short:
 
-\[
+```math
 \text{P/F/Measurement}
 =
 \text{IDOS against external cases}
-\]
+```
 
 whereas:
 
-\[
+```math
 \boxed{
 \text{Architecture Reduction}
 =
 \text{IDOS against itself}
 }
-\]
+```
 
 ---
 
@@ -1147,7 +1147,7 @@ It supports a narrower conclusion:
 
 The strongest remaining cluster is:
 
-\[
+```math
 \boxed{
 \begin{aligned}
 &\text{Intelligence as a Trajectory}\\
@@ -1157,7 +1157,7 @@ The strongest remaining cluster is:
 &\text{Change in the Capacity to Change}
 \end{aligned}
 }
-\]
+```
 
 The next stage should test these surviving claims rather than rebuild the eliminated ones.
 
@@ -1173,15 +1173,15 @@ The next empirical question should be:
 
 A stronger test would seek real or independently sourced systems in which:
 
-\[
+```math
 Performance_t\uparrow
-\]
+```
 
 while the hypothesis predicts:
 
-\[
+```math
 FutureUpdateability_t\downarrow
-\]
+```
 
 and then examine whether later adaptation failure is more likely.
 

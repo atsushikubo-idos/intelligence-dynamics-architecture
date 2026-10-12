@@ -14,7 +14,7 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 This synthesis evaluates what remains after five frozen cases spanning:
 
-$$
+```math
 Present\ Normal
 \rightarrow
 Present\ Edge
@@ -24,7 +24,7 @@ Transition
 Agentic/Multi\text{-}Agent
 \rightarrow
 Future\ Regime\ Proxy
-$$
+```
 
 The objective is not to prove IDOS correct.
 
@@ -58,13 +58,13 @@ V001 was dominated by conventional productivity and decision-support analysis.
 
 The strongest surviving IDOS distinction was:
 
-$$
+```math
 \boxed{
 Current\ Performance
 \neq
 Future\ Updateability
 }
-$$
+```
 
 AI assistance may improve current task performance without establishing that future independent revision capacity is preserved.
 
@@ -76,23 +76,23 @@ V002 shifted the problem toward infrastructure-scale coordination.
 
 A key distinction became:
 
-$$
+```math
 \boxed{
 Human\ Presence
 \neq
 Meaningful\ Oversight
 }
-$$
+```
 
 and:
 
-$$
+```math
 Verification
 \neq
 Influence
 \neq
 Update
-$$
+```
 
 The important issue was no longer only whether humans remained in the loop, but whether they could meaningfully verify, influence, or redesign the system.
 
@@ -104,13 +104,13 @@ V003 introduced machine-side interpretation of human intent.
 
 The central distinction was:
 
-$$
+```math
 \boxed{
 Formal\ Authority
 \neq
 Effective\ Interpretive\ Authority
 }
-$$
+```
 
 A human may retain goal-setting authority while the machine increasingly determines how that goal becomes operational meaning.
 
@@ -122,13 +122,13 @@ V004 introduced a distributed multi-agent architecture in which no single actor 
 
 The strongest candidate was:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 A single system output may exist even when no single agent fully observes the entire process that generated it.
 
@@ -140,23 +140,23 @@ V005 moved beyond distributed coordination toward multi-level social and institu
 
 The strongest structure was:
 
-$$
+```math
 \boxed{
 Update_t
 \rightarrow
 Conditions(Update_{t+1})
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Global\ System_t
 \neq
 Global\ System_{t+1}
 }
-$$
+```
 
 The system may update not only its state, but also its future boundary, measurement conditions, and revision possibilities.
 
@@ -166,79 +166,79 @@ The system may update not only its state, but also its future boundary, measurem
 
 Across the five cases, the dominant analytical question shifted as follows:
 
-$$
+```math
 Performance
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Coordination
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Interpretation
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Distributed\ Knowing
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Conditions\ of\ Future\ Change
-$$
+```
 
 An equivalent formulation is:
 
-$$
+```math
 Who\ performs?
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Who\ coordinates?
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Who\ interprets?
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Who\ knows\ the\ whole?
-$$
+```
 
-$$
+```math
 \downarrow
-$$
+```
 
-$$
+```math
 Who\ can\ change\ how\ the\ system\ changes?
-$$
+```
 
 ---
 
@@ -271,13 +271,13 @@ $$
 
 The clearest activation pattern was:
 
-$$
+```math
 N0
 \rightarrow
 N1
 \rightarrow
 N2
-$$
+```
 
 for:
 
@@ -305,7 +305,7 @@ This suggests that these concepts become more relevant once:
 
 Temporal Compatibility did not increase monotonically:
 
-$$
+```math
 N0
 \rightarrow
 N2
@@ -315,17 +315,17 @@ N1
 N2
 \rightarrow
 N1
-$$
+```
 
 This is important.
 
 The five-case pattern does not support:
 
-$$
+```math
 Regime\ Complexity\uparrow
 \Rightarrow
 Every\ IDOS\ Concept\uparrow
-$$
+```
 
 Different concepts activate under different structural conditions.
 
@@ -337,19 +337,19 @@ This reduces the plausibility that the N2 classifications were mechanically assi
 
 Two concepts remained N2 in all five cases:
 
-$$
+```math
 \boxed{
 Trajectory
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 }
-$$
+```
 
 ---
 
@@ -379,13 +379,13 @@ Current social state did not reveal institutional and rule trajectory.
 
 Thus:
 
-$$
+```math
 \boxed{
 Static\ State
 \rightarrow
 Trajectory
 }
-$$
+```
 
 was consistently necessary.
 
@@ -417,7 +417,7 @@ Modification of future update conditions at institutional or society level.
 
 Thus:
 
-$$
+```math
 Human
 \rightarrow
 System
@@ -427,15 +427,15 @@ Authority
 Architecture
 \rightarrow
 Institution / Society
-$$
+```
 
 The recurring question was:
 
-$$
+```math
 \boxed{
 Can\ the\ conditions\ of\ future\ revision\ still\ be\ revised?
 }
-$$
+```
 
 ---
 
@@ -443,21 +443,21 @@ $$
 
 A prior functional-equivalence review had already established the following provisional position:
 
-$$
+```math
 \boxed{
 Exact\ Functional\ Equivalent
 =
 Not\ Identified
 }
-$$
+```
 
 while avoiding the stronger claim:
 
-$$
+```math
 \boxed{
 No\ Equivalent\ Exists
 }
-$$
+```
 
 A strong rival combination can cover most individual functions through a combination of:
 
@@ -472,13 +472,13 @@ A strong rival combination can cover most individual functions through a combina
 
 Thus:
 
-$$
+```math
 \boxed{
 Compositional\ Coverage
 \neq
 Architectural\ Equivalence
 }
-$$
+```
 
 Individual IDOS components are largely not novel in isolation.
 
@@ -488,31 +488,31 @@ Individual IDOS components are largely not novel in isolation.
 
 The pilot does not support:
 
-$$
+```math
 \boxed{
 IDOS\ is\ necessary\ for\ ordinary\ AI\ analysis
 }
-$$
+```
 
 Nor does it support:
 
-$$
+```math
 \boxed{
 IDOS\ uniquely\ explains\ the\ individual\ phenomena
 }
-$$
+```
 
 Most case-level phenomena remained substantially explainable through established frameworks.
 
 Therefore:
 
-$$
+```math
 \boxed{
 IDOS\ value
 \neq
 replacement\ of\ existing\ theories
 }
-$$
+```
 
 ---
 
@@ -520,24 +520,24 @@ $$
 
 The strongest cross-case pattern is:
 
-$$
+```math
 \boxed{
 IDOS\ becomes\ increasingly\ useful
 when\ the\ conditions\ of\ updating
 cannot\ be\ treated\ as\ fixed
 }
-$$
+```
 
 More explicitly:
 
-$$
+```math
 \boxed{
 IDOS\ becomes\ increasingly\ useful
 when\ the\ Updating\ Unit,\ Boundary,\ Measurement,
 Authority,\ and\ Future\ Updateability
 cannot\ be\ treated\ as\ fixed
 }
-$$
+```
 
 In Japanese:
 
@@ -549,13 +549,13 @@ In Japanese:
 
 The pilot supports:
 
-$$
+```math
 \boxed{
 IDOS\ novelty
 \neq
 new\ individual\ concepts
 }
-$$
+```
 
 Most of the following already exist in established disciplines:
 
@@ -570,21 +570,21 @@ Most of the following already exist in established disciplines:
 
 The stronger candidate is:
 
-$$
+```math
 \boxed{
 Architectural\ Integration
 }
-$$
+```
 
 Specifically:
 
-$$
+```math
 \boxed{
 IDOS\ value
 =
 integration\ of\ changing\ update\ conditions
 }
-$$
+```
 
 ---
 
@@ -592,7 +592,7 @@ $$
 
 The following distinctions became increasingly useful across V002–V005:
 
-$$
+```math
 \boxed{
 Verification
 \neq
@@ -600,17 +600,17 @@ Influence
 \neq
 Update
 }
-$$
+```
 
 and:
 
-$$
+```math
 \boxed{
 CFV
 \neq
 MU
 }
-$$
+```
 
 The system may allow an actor to:
 
@@ -630,13 +630,13 @@ These relations should not be collapsed into a single concept of “human oversi
 
 V004 proposed:
 
-$$
+```math
 \boxed{
 Global\ Output
 \neq
 Global\ Observer
 }
-$$
+```
 
 This remains analytically strong.
 
@@ -650,13 +650,13 @@ can explain much of the phenomenon.
 
 Therefore:
 
-$$
+```math
 \boxed{
 V004
 =
 Strong\ IV\text{-}2
 }
-$$
+```
 
 rather than confirmed IV-3.
 
@@ -674,12 +674,12 @@ The main added IDOS value is integrated treatment of:
 
 V005 proposed:
 
-$$
+```math
 \boxed{
 The\ system\ that\ updates
 \ also\ updates\ what\ counts\ as\ the\ system
 }
-$$
+```
 
 This also remains analytically strong.
 
@@ -693,13 +693,13 @@ However, similar structures exist in:
 
 Therefore:
 
-$$
+```math
 \boxed{
 V005
 =
 Strong\ IV\text{-}2
 }
-$$
+```
 
 rather than confirmed IV-3.
 
@@ -709,13 +709,13 @@ rather than confirmed IV-3.
 
 Across all five cases:
 
-$$
+```math
 \boxed{
 Confirmed\ Case\text{-}level\ IV\text{-}3
 =
 None
 }
-$$
+```
 
 This is an important negative result.
 
@@ -737,44 +737,44 @@ Across:
 
 the same architectural questions could be asked:
 
-$$
+```math
 What\ is\ updating?
-$$
+```
 
-$$
+```math
 Where\ is\ the\ boundary?
-$$
+```
 
-$$
+```math
 Who\ can\ verify?
-$$
+```
 
-$$
+```math
 Who\ can\ update?
-$$
+```
 
-$$
+```math
 Can\ the\ conditions\ of\ future\ update\ still\ be\ changed?
-$$
+```
 
 Thus:
 
-$$
+```math
 \boxed{
 Strong\ Cross\text{-}Case\ Incremental\ Value
 =
 Yes
 }
-$$
+```
 
 The strongest candidate is:
 
-$$
+```math
 \boxed{
 Cross\text{-}domain\ architectural\ integration
 of\ changing\ update\ conditions
 }
-$$
+```
 
 ---
 
@@ -782,20 +782,20 @@ $$
 
 The strongest statement supported by the pilot is:
 
-$$
+```math
 \boxed{
 IDOS\ does\ not\ mainly\ add\ new\ phenomena.
 }
-$$
+```
 
 Instead:
 
-$$
+```math
 \boxed{
 IDOS\ adds\ a\ common\ architecture
 for\ tracing\ how\ updateability\ changes.
 }
-$$
+```
 
 In Japanese:
 
@@ -807,28 +807,28 @@ In Japanese:
 
 The five cases suggest that IDOS may be stronger when framed not primarily as a theory of intelligence performance, but as:
 
-$$
+```math
 \boxed{
 An\ architecture\ for\ observing
 the\ changing\ conditions\ of\ intelligent\ updating
 }
-$$
+```
 
 This does not reject the original formulation:
 
-$$
+```math
 \boxed{
 Intelligence\ as\ a\ Trajectory
 }
-$$
+```
 
 Rather, it suggests that the most observable operational core is:
 
-$$
+```math
 \boxed{
 Updateability
 }
-$$
+```
 
 ---
 
@@ -838,13 +838,13 @@ $$
 
 The strongest pilot-supported core is:
 
-$$
+```math
 \boxed{
 Trajectory
 +
 Future\ Updateability
 }
-$$
+```
 
 Both remained N2 across all five cases.
 
@@ -866,23 +866,23 @@ The following dimensions appear to activate conditionally:
 
 Thus:
 
-$$
+```math
 \boxed{
 IDOS
 \neq
 Fixed\ Checklist
 }
-$$
+```
 
 A more useful interpretation is:
 
-$$
+```math
 \boxed{
 Core
 +
 Conditionally\ Activated\ Structural\ Dimensions
 }
-$$
+```
 
 ---
 
@@ -892,19 +892,19 @@ The pilot supports the current secondary positioning of:
 
 ### Residual
 
-$$
+```math
 Residual:
 N0,N0,N1,N1,N1
-$$
+```
 
 This remains better treated as a diagnostic primitive than as an always-on universal core.
 
 ### Holding
 
-$$
+```math
 Holding:
 N0,N0,N0,N1,N1
-$$
+```
 
 This remains better treated as a domain-specific or context-sensitive mechanism.
 
@@ -914,7 +914,7 @@ Useful but not structurally necessary across the five cases.
 
 ### 12PDM
 
-$$
+```math
 12PDM:
 N0
 \rightarrow
@@ -925,15 +925,15 @@ N1
 N2
 \rightarrow
 N2
-$$
+```
 
 This supports its current positioning as a:
 
-$$
+```math
 \boxed{
 High\text{-}Resolution\ Observation / Description\ Protocol
 }
-$$
+```
 
 particularly for recursive and multi-level updating systems.
 
@@ -945,12 +945,12 @@ The five-case pilot does not reveal a contradiction severe enough to invalidate 
 
 Thus:
 
-$$
+```math
 \boxed{
 MASTER\ MAP\ v1.1
 \ remains\ structurally\ viable
 }
-$$
+```
 
 However, the pilot does not imply that every concept should be activated in every analysis.
 
@@ -962,7 +962,7 @@ No full architecture rewrite is justified at this stage.
 
 A candidate interpretation emerging from the pilot is:
 
-$$
+```math
 \boxed{
 IDOS
 =
@@ -970,17 +970,17 @@ Core\ Update\ Trajectory
 +
 Conditionally\ Activated\ Structural\ Dimensions
 }
-$$
+```
 
 with:
 
 ### Core observational spine
 
-$$
+```math
 Trajectory
 \leftrightarrow
 Future\ Updateability
-$$
+```
 
 ### Conditional dimensions
 
@@ -1013,21 +1013,21 @@ Begin with:
 
 ### Q1
 
-$$
+```math
 What\ is\ updating?
-$$
+```
 
 ### Q2
 
-$$
+```math
 What\ trajectory\ is\ being\ created?
-$$
+```
 
 ### Q3
 
-$$
+```math
 Is\ Future\ Updateability\ increasing\ or\ decreasing?
-$$
+```
 
 Then activate additional dimensions only if structurally necessary.
 
@@ -1040,11 +1040,11 @@ Examples:
 
 Thus IDOS may be operationalized as:
 
-$$
+```math
 \boxed{
 Adaptive\ Diagnostic\ Architecture
 }
-$$
+```
 
 rather than a fixed universal checklist.
 
@@ -1054,45 +1054,45 @@ rather than a fixed universal checklist.
 
 The five-case pilot supports the following:
 
-$$
+```math
 \boxed{
 IDOS\ disproved? \rightarrow No
 }
-$$
+```
 
-$$
+```math
 \boxed{
 IDOS\ uniquely\ explains\ individual\ phenomena? \rightarrow No
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Confirmed\ Case\text{-}level\ IV\text{-}3? \rightarrow No
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Strong\ Cross\text{-}Case\ Structural\ Visibility? \rightarrow Yes
 }
-$$
+```
 
-$$
+```math
 \boxed{
 Architecture\ remains\ viable? \rightarrow Yes
 }
-$$
+```
 
 The strongest remaining hypothesis is:
 
-$$
+```math
 \boxed{
 IDOS\ becomes\ useful
 when\ the\ conditions\ of\ updating
 cannot\ be\ treated\ as\ fixed
 }
-$$
+```
 
 ---
 

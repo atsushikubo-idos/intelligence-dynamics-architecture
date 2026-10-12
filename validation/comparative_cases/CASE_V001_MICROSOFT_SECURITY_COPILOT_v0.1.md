@@ -19,9 +19,9 @@ Sampling source: `CASE_POOL_FREEZE_v0.1`
 
 # 2. Regime Classification
 
-$$
+```math
 \boxed{V001 = Present\ Normal}
-$$
+```
 
 V001 is used as the low-complexity baseline of the five-case pilot.
 
@@ -85,7 +85,7 @@ The AI system supported users by:
 
 The observed experimental structure was approximately:
 
-$$
+```math
 Security\ Data
 \rightarrow
 AI\ Interpretation
@@ -93,7 +93,7 @@ AI\ Interpretation
 Human\ Analyst
 \rightarrow
 Security\ Judgment / Response
-$$
+```
 
 The system was not evaluated as a fully autonomous security operator in this experiment.
 
@@ -140,11 +140,11 @@ The experimental measurement focused mainly on:
 
 Conceptually:
 
-$$
+```math
 Measured\ Success
 \approx
 Speed + Accuracy + Task\ Quality
-$$
+```
 
 ---
 
@@ -183,17 +183,17 @@ The directly relevant actors and components include:
 
 The basic experimental structure can be summarized as:
 
-$$
+```math
 AI\ proposes / interprets
-$$
+```
 
-$$
+```math
 Human\ evaluates
-$$
+```
 
-$$
+```math
 Human\ acts
-$$
+```
 
 Human responsibility and task execution remain recognizable.
 
@@ -207,13 +207,13 @@ The case can be explained strongly using established analytical frameworks.
 
 The simplest explanation is:
 
-$$
+```math
 \boxed{AI = Cognitive\ Assistance}
-$$
+```
 
 Copilot reduces portions of:
 
-$$
+```math
 Search
 +
 Interpretation
@@ -221,25 +221,25 @@ Interpretation
 Recall
 +
 Synthesis
-$$
+```
 
 This can yield:
 
-$$
+```math
 Cognitive\ Load \downarrow
-$$
+```
 
-$$
+```math
 Search\ Cost \downarrow
-$$
+```
 
-$$
+```math
 Task\ Completion\ Time \downarrow
-$$
+```
 
-$$
+```math
 Accuracy \uparrow
-$$
+```
 
 ---
 
@@ -247,13 +247,13 @@ $$
 
 The system is readily interpretable as an advanced decision-support system:
 
-$$
+```math
 Information
 \rightarrow
 Recommendation
 \rightarrow
 Human\ Judgment
-$$
+```
 
 No distinct IDOS concept is required to explain this basic structure.
 
@@ -279,9 +279,9 @@ Humans contribute:
 
 Thus:
 
-$$
+```math
 Human + AI > Human\ Alone
-$$
+```
 
 is a conventional and sufficient explanation for much of the short-run result.
 
@@ -304,13 +304,13 @@ Novices have less accumulated expertise and therefore more room to benefit from 
 
 Copilot can also be viewed as a mechanism for making expert or organizational knowledge more accessible:
 
-$$
+```math
 Organizational\ Knowledge
 \rightarrow
 AI
 \rightarrow
 Individual\ Worker
-$$
+```
 
 This fits conventional knowledge-management analysis.
 
@@ -345,21 +345,21 @@ Examples include:
 
 Is observed improvement located in:
 
-$$
+```math
 Human
-$$
+```
 
 or:
 
-$$
+```math
 Human + AI
-$$
+```
 
 or:
 
-$$
+```math
 Organization
-$$
+```
 
 ?
 
@@ -367,15 +367,15 @@ $$
 
 It is possible in principle that:
 
-$$
+```math
 Performance_t \uparrow
-$$
+```
 
 while:
 
-$$
+```math
 Independent\ Capability_{t+1} \downarrow
-$$
+```
 
 ### C. Verification vs system revision
 
@@ -393,19 +393,19 @@ Current success metrics may fail to capture future system capability.
 
 ## 5.8 Conventional analysis conclusion
 
-$$
+```math
 \boxed{
 Conventional\ Analysis\ is\ already\ strong
 }
-$$
+```
 
 At this stage:
 
-$$
+```math
 \boxed{
 No\ clear\ IDOS\ necessity\ yet
 }
-$$
+```
 
 ---
 
@@ -419,35 +419,35 @@ It does not directly demonstrate increased independent human capability.
 
 Thus:
 
-$$
+```math
 U_0 = Human
-$$
+```
 
 may partially shift toward:
 
-$$
+```math
 U_1 = Human\text{-}AI\ Task\ System
-$$
+```
 
 A conservative interpretation is:
 
-$$
+```math
 \boxed{
 Updating\ Unit = Human\text{-}centered\ coupled\ unit
 }
-$$
+```
 
 This makes explicit the distinction:
 
-$$
+```math
 Performance_{Human+AI}\uparrow
-$$
+```
 
 does not automatically imply:
 
-$$
+```math
 Capability_{Human}\uparrow
-$$
+```
 
 ---
 
@@ -455,27 +455,27 @@ $$
 
 AI enters the operational work process:
 
-$$
+```math
 Human
 \leftrightarrow
 Copilot
 \leftrightarrow
 Security\ Data
-$$
+```
 
 However, authority, responsibility, and organizational structure remain comparatively stable.
 
 Thus:
 
-$$
+```math
 B_t \approx stable
-$$
+```
 
 V001 is better characterized as:
 
-$$
+```math
 Boundary\ expansion
-$$
+```
 
 rather than major boundary migration.
 
@@ -487,11 +487,11 @@ The RCT mainly measures short-run performance.
 
 IDOS adds a longitudinal question:
 
-$$
+```math
 Current\ Performance
 \neq
 Future\ Trajectory
-$$
+```
 
 Relevant future variables may include:
 
@@ -511,19 +511,19 @@ It is the ability to connect multiple future consequences into one longitudinal 
 
 Potential differences include:
 
-$$
+```math
 Human\ Interpretation
 \neq
 AI\ Recommendation
-$$
+```
 
 and:
 
-$$
+```math
 Observed\ Incident
 \neq
 Expected\ State
-$$
+```
 
 However, anomaly detection and disagreement can already be treated conventionally.
 
@@ -535,19 +535,19 @@ Difference is therefore not central in V001.
 
 Human and AI interpretation may rely on different frames:
 
-$$
+```math
 F_H \neq F_{AI}
-$$
+```
 
 But the RCT does not directly measure frame divergence.
 
 Therefore:
 
-$$
+```math
 \boxed{
 Frame\ divergence = plausible,\ not\ demonstrated
 }
-$$
+```
 
 ---
 
@@ -557,15 +557,15 @@ The experiment measures mainly speed, accuracy, and task quality.
 
 IDOS asks whether:
 
-$$
+```math
 Measured\ Success
-$$
+```
 
 is equivalent to:
 
-$$
+```math
 System\ Capability
-$$
+```
 
 A system can improve measured task performance while unmeasured capabilities change in another direction.
 
@@ -584,11 +584,11 @@ Later system revision may depend on preserving:
 
 Conceptually:
 
-$$
+```math
 Provenance
 \rightarrow
 Later\ Revisability
-$$
+```
 
 However, the RCT does not demonstrate provenance failure.
 
@@ -598,37 +598,37 @@ However, the RCT does not demonstrate provenance failure.
 
 Working definition:
 
-$$
+```math
 \boxed{
 Future\ Updateability
 =
 Capacity\ to\ revise\ the\ conditions\ of\ future\ revision
 }
-$$
+```
 
 The relevant question is not merely:
 
-$$
+```math
 Can\ the\ system\ perform?
-$$
+```
 
 but:
 
-$$
+```math
 Can\ the\ system\ later\ change\ how\ it\ performs?
-$$
+```
 
 A theoretically possible trajectory is:
 
-$$
+```math
 Performance_t \uparrow
-$$
+```
 
 while:
 
-$$
+```math
 Future\ Updateability_t \downarrow
-$$
+```
 
 if increasing AI dependence reduces the organization's ability to alter:
 
@@ -649,11 +649,11 @@ It only shows that short-run performance improvement is insufficient evidence th
 
 Human users can inspect AI outputs, but:
 
-$$
+```math
 Output\ Visibility
 \neq
 Verifiability
-$$
+```
 
 True verification depends on access to evidence, context, and sufficiently interpretable output.
 
@@ -667,23 +667,23 @@ The update relation may be asymmetric.
 
 AI recommendations can alter human judgment:
 
-$$
+```math
 AI \rightarrow Human
-$$
+```
 
 But human correction does not necessarily modify the underlying model:
 
-$$
+```math
 Human \not\Rightarrow Immediate\ Model\ Update
-$$
+```
 
 Thus:
 
-$$
+```math
 MU_{AI\rightarrow H}
 \neq
 MU_{H\rightarrow AI}
-$$
+```
 
 This is useful for separating interaction from actual system revision.
 
@@ -699,7 +699,7 @@ A human may:
 
 Therefore:
 
-$$
+```math
 \boxed{
 Verification
 \neq
@@ -707,7 +707,7 @@ Influence
 \neq
 Update
 }
-$$
+```
 
 ---
 
@@ -731,11 +731,11 @@ The experiment preserves time for human review.
 
 Therefore:
 
-$$
+```math
 \boxed{
 Temporal\ Compatibility \approx preserved
 }
-$$
+```
 
 This provides a useful baseline for later regimes.
 
@@ -747,11 +747,11 @@ Cybersecurity outcomes remain linked to external events and operational conseque
 
 Therefore:
 
-$$
+```math
 \boxed{
 Reality\ Contact = relatively\ strong
 }
-$$
+```
 
 Again, this is one reason V001 does not strongly activate the full IDOS architecture.
 
@@ -781,9 +781,9 @@ High-resolution 12PDM analysis is not required for V001.
 
 ## 7.1 Conventional View
 
-$$
+```math
 Conventional\ View = X
-$$
+```
 
 where \(X\) already explains:
 
@@ -805,39 +805,39 @@ The strongest remaining candidates are:
 
 ### Y1 — Performance vs Updating Unit
 
-$$
+```math
 Performance_{Human+AI}\uparrow
-$$
+```
 
 does not imply:
 
-$$
+```math
 Capability_{Human}\uparrow
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}1 \sim IV\text{-}2
-$$
+```
 
 ### Y2 — Current Performance vs Future Updateability
 
-$$
+```math
 Performance_t\uparrow
-$$
+```
 
 can coexist in principle with:
 
-$$
+```math
 Future\ Updateability_t\downarrow
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y3 — Verification ≠ Influence ≠ Update
 
@@ -845,15 +845,15 @@ Human-in-the-loop does not automatically mean human capacity to revise the syste
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ### Y4 — Fragmented risks integrated as one trajectory
 
 Potential sequence:
 
-$$
+```math
 AI\ Assistance
 \rightarrow
 Human\ Reliance\uparrow
@@ -865,13 +865,13 @@ Fallback\ Capacity\downarrow
 Dependency\uparrow
 \rightarrow
 Future\ Updateability\downarrow
-$$
+```
 
 Classification:
 
-$$
+```math
 IV\text{-}2
-$$
+```
 
 ---
 
@@ -894,13 +894,13 @@ These are already well covered by established frameworks.
 
 The strongest surviving candidate is:
 
-$$
+```math
 \boxed{
 Performance\ improvement
 \neq
 Preservation\ of\ future\ revision\ capacity
 }
-$$
+```
 
 IDOS mainly adds a common architecture connecting:
 
@@ -928,19 +928,19 @@ IDOS mainly adds a common architecture connecting:
 
 ## 7.6 Stage 4 conclusion
 
-$$
+```math
 \boxed{
 No\ strong\ IV\text{-}3\ Differential\ Discovery
 }
-$$
+```
 
 For V001:
 
-$$
+```math
 \boxed{
 IDOS\ mostly\ integrates\ rather\ than\ discovers
 }
-$$
+```
 
 The principal candidate added value is structural integration.
 
@@ -974,31 +974,31 @@ The principal candidate added value is structural integration.
 
 After the necessity test, the strongest surviving IDOS structure is:
 
-$$
+```math
 \boxed{
 Trajectory
 +
 Future\ Updateability
 }
-$$
+```
 
 Supporting but non-essential concepts are:
 
-$$
+```math
 Updating\ Unit
 +
 Measurement
 +
 MU
-$$
+```
 
 This suggests a regime-sensitive architecture:
 
-$$
+```math
 \boxed{
 Different\ regimes\ may\ activate\ different\ subsets\ of\ IDOS
 }
-$$
+```
 
 ---
 

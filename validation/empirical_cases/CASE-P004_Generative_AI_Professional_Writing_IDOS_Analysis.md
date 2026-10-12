@@ -22,9 +22,9 @@ CASE-P004 was selected mechanically from the frozen v0.2 candidate pool.
 
 The frozen stratum order for Cycle 1 is:
 
-\[
+```math
 D3 \rightarrow D2 \rightarrow D6 \rightarrow D4 \rightarrow D1 \rightarrow D5
-\]
+```
 
 CASE-P003 used D3. Therefore the next stratum was D2.
 
@@ -37,11 +37,11 @@ Within D2, the frozen SHA-256 ordering placed the candidates in the following or
 
 Accordingly:
 
-\[
+```math
 \boxed{
 \text{CASE-P004 = D2-01 — Generative AI and Professional Writing Productivity}
 }
-\]
+```
 
 The case was selected before IDOS mapping or case-specific interpretation.
 
@@ -57,25 +57,25 @@ Participants completed occupationally relevant writing tasks under experimental 
 
 The core experimental comparison was therefore:
 
-\[
+```math
 \text{Professional writing without ChatGPT access}
-\]
+```
 
 versus
 
-\[
+```math
 \text{Professional writing with ChatGPT access}
-\]
+```
 
 At this stage, no claim was made that the experiment compared ontologically distinct intelligence systems.
 
 The neutral formulation was:
 
-\[
+```math
 \boxed{
 \text{Human task performance under different tool-access conditions}
 }
-\]
+```
 
 ---
 
@@ -83,21 +83,21 @@ The neutral formulation was:
 
 The intervention was:
 
-\[
+```math
 \boxed{
 \text{Access to ChatGPT}
 }
-\]
+```
 
 The treatment did not directly manipulate a defined Human Updating Unit, Human–AI Updating Unit, Reference Frame, Boundary, or Possibility Space.
 
 The most neutral description is:
 
-\[
+```math
 \text{Human Task Performance}
 +
 \text{Available Generative-AI Assistance}
-\]
+```
 
 The following stronger claims were not assumed:
 
@@ -117,31 +117,31 @@ The study directly measured task-level outcomes including:
 
 The reported treatment effects were approximately:
 
-\[
+```math
 \boxed{
 Time \downarrow \approx 40\%
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Quality \uparrow \approx 18\%
 }
-\]
+```
 
 Thus:
 
-\[
+```math
 T_{\mathrm{AI}} < T_{\mathrm{Control}}
-\]
+```
 
 and:
 
-\[
+```math
 Q_{\mathrm{AI}} > Q_{\mathrm{Control}}
-\]
+```
 
 The strongest theory-neutral statement is:
 
@@ -157,11 +157,11 @@ Lower-baseline performers tended to experience larger gains.
 
 Therefore:
 
-\[
+```math
 \Delta Performance_i
 \neq
 \Delta Performance_j
-\]
+```
 
 The experiment supports heterogeneous treatment effects.
 
@@ -180,41 +180,41 @@ Participants with experimental ChatGPT access were more likely to report using C
 
 The observable sequence was:
 
-\[
+```math
 \text{Experimental Exposure}
 \rightarrow
 \text{Later AI Adoption}
-\]
+```
 
 However:
 
-\[
+```math
 \boxed{
 Later\ Adoption
 \neq
 Learning
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Later\ Adoption
 \neq
 Dependence
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Later\ Adoption
 \neq
 Human\text{-}AI\ Integration
 }
-\]
+```
 
 ---
 
@@ -250,13 +250,13 @@ Human\text{-}AI\ Integration
 
 The key epistemic boundary is:
 
-\[
+```math
 \boxed{
 Observed\ Performance\ Change
 \neq
 Observed\ Internal\ Cognitive\ Change
 }
-\]
+```
 
 ---
 
@@ -264,31 +264,31 @@ Observed\ Internal\ Cognitive\ Change
 
 The experiment supports:
 
-\[
+```math
 Performance_{H+AI}
 >
 Performance_H
-\]
+```
 
 under the tested conditions.
 
 It does not establish:
 
-\[
+```math
 Capability_H(t+1)
 >
 Capability_H(t)
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Observed\ Performance
 \neq
 Underlying\ Human\ Capability
 }
-\]
+```
 
 This distinction became one of the strongest findings of CASE-P004.
 
@@ -298,7 +298,7 @@ This distinction became one of the strongest findings of CASE-P004.
 
 The case can be reconstructed as:
 
-\[
+```math
 T_0
 \rightarrow
 T_1
@@ -308,33 +308,33 @@ T_2
 T_3
 \rightarrow
 T_4
-\]
+```
 
 where:
 
-\[
+```math
 T_0 = \text{Pre-treatment / baseline}
-\]
+```
 
-\[
+```math
 T_1 = \text{Initial task performance}
-\]
+```
 
-\[
+```math
 T_2 = \text{ChatGPT access intervention and subsequent task}
-\]
+```
 
-\[
+```math
 T_3 = \text{Two-week follow-up}
-\]
+```
 
-\[
+```math
 T_4 = \text{Two-month follow-up}
-\]
+```
 
 A simplified empirical sequence is:
 
-\[
+```math
 \text{Baseline}
 \rightarrow
 \text{Initial Task}
@@ -344,45 +344,45 @@ A simplified empirical sequence is:
 \text{Changed Task Performance}
 \rightarrow
 \text{Later Adoption}
-\]
+```
 
 However, the measured variable changes across time.
 
 During the experiment:
 
-\[
+```math
 \text{Task Performance}
-\]
+```
 
 was measured.
 
 During follow-up:
 
-\[
+```math
 \text{AI Adoption Behavior}
-\]
+```
 
 was measured.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Performance\ Trajectory
 \neq
 Adoption\ Trajectory
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Repeated\ Observations
 \neq
 Observed\ Trajectory
 }
-\]
+```
 
 unless the same underlying state variable is defensibly tracked across time.
 
@@ -392,73 +392,73 @@ unless the same underlying state variable is defensibly tracked across time.
 
 The minimum theory-neutral components were:
 
-\[
+```math
 \boxed{
 Human
 }
-\]
+```
 
-\[
+```math
 \boxed{
 ChatGPT
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Task
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Output
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Evaluator
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Experimental / Work Environment
 }
-\]
+```
 
 Relations included:
 
-\[
+```math
 R_{HT}
-\]
+```
 
 Human–Task interaction,
 
-\[
+```math
 R_{HA}
-\]
+```
 
 Human–AI interaction,
 
-\[
+```math
 R_{AT}
-\]
+```
 
 AI–Task interaction,
 
 and:
 
-\[
+```math
 R_{OE}
-\]
+```
 
 Output–Evaluator relation.
 
 The neutral distinction is:
 
-\[
+```math
 \boxed{
 Actor
 \neq
@@ -470,7 +470,7 @@ Environment
 \neq
 Measurement
 }
-\]
+```
 
 Observable Human–AI interaction did not establish a persistent Human–AI relational entity.
 
@@ -480,99 +480,99 @@ Observable Human–AI interaction did not establish a persistent Human–AI rela
 
 Randomization supports estimation of the average treatment effect:
 
-\[
+```math
 \boxed{
 ATE
 =
 E[Y_i(1)-Y_i(0)]
 }
-\]
+```
 
 The study strongly identifies:
 
-\[
+```math
 \boxed{
 ChatGPT\ Access
 \rightarrow
 Task\text{-}level\ Performance\ Change
 }
-\]
+```
 
 It does not identify the complete mechanism generating that effect.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Treatment\ Effect
 \neq
 Mechanism\ Identification
 }
-\]
+```
 
 It also does not identify:
 
-\[
+```math
 Capability_H^{afterAI}
 -
 Capability_H^{beforeAI}
-\]
+```
 
 nor:
 
-\[
+```math
 Relation_{HA,after}
 -
 Relation_{HA,before}
-\]
+```
 
 nor:
 
-\[
+```math
 System_{H-AI-Org,after}
 -
 System_{H-AI-Org,before}
-\]
+```
 
 The central counterfactual distinction is:
 
 ### Counterfactual 1
 
-\[
+```math
 Human+AI
 \quad vs \quad
 Human
-\]
+```
 
 **Relatively well identified.**
 
 ### Counterfactual 2
 
-\[
+```math
 Human_{afterAI,\ withoutAI}
 \quad vs \quad
 Human_{beforeAI}
-\]
+```
 
 **Not identified.**
 
 ### Counterfactual 3
 
-\[
+```math
 Relation_{HA,\ after}
 \quad vs \quad
 Relation_{HA,\ before}
-\]
+```
 
 **Not identified.**
 
 ### Counterfactual 4
 
-\[
+```math
 System_{H-AI-Org,\ after}
 \quad vs \quad
 System_{H-AI-Org,\ before}
-\]
+```
 
 **Not identified.**
 
@@ -584,11 +584,11 @@ System_{H-AI-Org,\ before}
 
 ### Stage A Status
 
-\[
+```math
 \boxed{
 \text{STAGE A — COMPLETE / FROZEN}
 }
-\]
+```
 
 ---
 
@@ -598,123 +598,123 @@ System_{H-AI-Org,\ before}
 
 The minimum candidate units were:
 
-\[
+```math
 U_H = \text{Human}
-\]
+```
 
-\[
+```math
 U_A = \text{AI}
-\]
+```
 
 with an observable relation:
 
-\[
+```math
 U_H
 \xleftrightarrow{R_{HA}}
 U_A
-\]
+```
 
 ### Human
 
-\[
+```math
 \boxed{
 U_H:\ A
 }
-\]
+```
 
 The Human is a defensible analytical Updating Unit candidate.
 
 However:
 
-\[
+```math
 \boxed{
 U_H\ exists
 \neq
 Update_H\ occurred
 }
-\]
+```
 
 ### AI
 
-\[
+```math
 \boxed{
 U_A:\ A
 }
-\]
+```
 
 The AI is distinguishable as a functional unit.
 
 However:
 
-\[
+```math
 \boxed{
 Update_A:\ Not\ observed
 }
-\]
+```
 
 ### Human–AI Relation
 
-\[
+```math
 \boxed{
 R_{HA}:\ A
 }
-\]
+```
 
 Observable interaction exists.
 
 But:
 
-\[
+```math
 \boxed{
 Relational\ Update_{HA}:\ B
 }
-\]
+```
 
 because relational properties such as trust, authority, dependence, verification, and role allocation were not tracked longitudinally.
 
 ### Human–AI Relational Updating Unit
 
-\[
+```math
 U_{HA}
-\]
+```
 
 was not required to explain the case.
 
 Joint performance improvement does not imply emergence of a new Updating Unit:
 
-\[
+```math
 \boxed{
 Performance_{HA}>Performance_H
 \not\Rightarrow
 U_{HA}\ exists
 }
-\]
+```
 
 Thus:
 
-\[
+```math
 \boxed{
 U_{HA}:\ B\ as\ possibility,\ C\ as\ necessary\ construct
 }
-\]
+```
 
 ### Human–AI–Task Unit
 
-\[
+```math
 \boxed{
 U_{HAT}:\ C
 }
-\]
+```
 
 Task is more parsimoniously treated as an object/environmental constraint rather than an Updating Unit.
 
 ### Human–AI–Organization Unit
 
-\[
+```math
 \boxed{
 U_{HAO}:\ C
 }
-\]
+```
 
 Organization-level evidence was absent.
 
@@ -724,55 +724,55 @@ Organization-level evidence was absent.
 
 Human boundary:
 
-\[
+```math
 \boxed{
 B_H:\ A
 }
-\]
+```
 
 Operational AI boundary:
 
-\[
+```math
 \boxed{
 B_A:\ A
 }
-\]
+```
 
 Ontological AI boundary:
 
-\[
+```math
 \boxed{
 B_A^{ontological}:\ B
 }
-\]
+```
 
 Human–AI boundary:
 
-\[
+```math
 \boxed{
 B_{HA}:\ B
 }
-\]
+```
 
 Dynamic Boundary change:
 
-\[
+```math
 \boxed{
 Dynamic\ Boundary\ Change:\ B
 }
-\]
+```
 
 The simpler alternative explanation is that the task environment changed.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Tool\ Access
 \not\Rightarrow
 Boundary\ Expansion
 }
-\]
+```
 
 ---
 
@@ -780,7 +780,7 @@ Boundary\ Expansion
 
 The minimal IDOS update structure is:
 
-\[
+```math
 \boxed{
 Difference
 \rightarrow
@@ -788,37 +788,37 @@ Selective\ Transformation
 \rightarrow
 Reality\ Recontact
 }
-\]
+```
 
 ### Difference
 
 The Human internal Difference was not directly measured.
 
-\[
+```math
 \boxed{
 D_H:\ B
 }
-\]
+```
 
 Task input itself cannot be equated with Difference:
 
-\[
+```math
 \boxed{
 Input
 \neq
 Difference
 }
-\]
+```
 
 Likewise:
 
-\[
+```math
 \boxed{
 AI\ Output
 \neq
 Difference_H
 }
-\]
+```
 
 although AI output may trigger a Difference.
 
@@ -826,19 +826,19 @@ although AI output may trigger a Difference.
 
 Theoretical Selection mechanism:
 
-\[
+```math
 \boxed{
 \Gamma_H:\ B
 }
-\]
+```
 
 Observable behavioral selection:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 because participants used, modified, selected, and submitted outputs.
 
@@ -846,101 +846,101 @@ because participants used, modified, selected, and submitted outputs.
 
 Task-process Transformation:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 Output Transformation:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 Human Transformation:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 AI Transformation:
 
-\[
+```math
 \boxed{
 C / unobserved
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 Performance\ Change
 \not\Rightarrow
 Human\ State\ Transformation
 }
-\]
+```
 
 ### Update
 
 Human Update:
 
-\[
+```math
 \boxed{
 B / not\ established
 }
-\]
+```
 
 AI Update:
 
-\[
+```math
 \boxed{
 C
 }
-\]
+```
 
 Relational Update:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 ### Reality Recontact
 
 The produced output returned to an external evaluation context.
 
-\[
+```math
 \boxed{
 Reality\ Recontact:\ A
 }
-\]
+```
 
 Task-level Validation:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 Human Update Validation:
 
-\[
+```math
 \boxed{
 Unavailable
 }
-\]
+```
 
 The central Stage B result is:
 
-\[
+```math
 \boxed{
 Performance\ Improvement
 +
@@ -948,7 +948,7 @@ Process\ Transformation
 \not\Rightarrow
 Human\ Update
 }
-\]
+```
 
 ---
 
@@ -973,7 +973,7 @@ The 12PDM was not assumed to be necessary.
 
 The strongest directly observable subset was approximately:
 
-\[
+```math
 \boxed{
 Reality
 \rightarrow
@@ -981,25 +981,25 @@ Enactment
 \rightarrow
 Reality'
 }
-\]
+```
 
 Several internal nodes required theoretical completion rather than direct empirical identification.
 
 Therefore:
 
-\[
+```math
 \boxed{
 12PDM\ FULL\ MAPPING:\ NOT\ SUPPORTED
 }
-\]
+```
 
 but:
 
-\[
+```math
 \boxed{
 12PDM:\ NOT\ FALSIFIED
 }
-\]
+```
 
 P004 does not support the necessity of twelve distinct empirical process nodes.
 
@@ -1009,13 +1009,13 @@ P004 does not support the necessity of twelve distinct empirical process nodes.
 
 The minimum Human–AI structure was:
 
-\[
+```math
 U_H
 \xleftrightarrow[
 Response
 ]{Prompt}
 U_A
-\]
+```
 
 ### CDP Functions
 
@@ -1030,89 +1030,89 @@ U_A
 
 Thus:
 
-\[
+```math
 \boxed{
 Partial\ CDP\ functionality:\ SUPPORTED
 }
-\]
+```
 
 but:
 
-\[
+```math
 \boxed{
 Full\ CDP\ realization:\ NOT\ ESTABLISHED
 }
-\]
+```
 
 Translation Residual:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 Cross-Frame Verifiability:
 
-\[
+```math
 \boxed{
 A/B
 }
-\]
+```
 
 Mutual Updateability:
 
-\[
+```math
 \boxed{
 B/C
 }
-\]
+```
 
 Cross-Unit Influence:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 Cross-Unit Update:
 
-\[
+```math
 \boxed{
 B/C
 }
-\]
+```
 
 The strongest distinction was:
 
-\[
+```math
 \boxed{
 Cross\text{-}Unit\ Influence
 \neq
 Cross\text{-}Unit\ Update
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Bidirectional\ Interaction
 \neq
 Mutual\ Update
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Interoperability
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 ---
 
@@ -1120,53 +1120,53 @@ Mutual\ Updateability
 
 Individual performance change:
 
-\[
+```math
 \boxed{
 A
 }
-\]
+```
 
 Human Updating-Unit Update:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 Relational Update:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 System Update:
 
-\[
+```math
 \boxed{
 C/B — NOT\ ESTABLISHED
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \boxed{
 System\ Performance\ Change
 \neq
 System\ Update
 }
-\]
+```
 
 The case did not establish:
 
-\[
+```math
 \mathcal S_t
 \rightarrow
 \mathcal S_{t+1}
-\]
+```
 
 at the system-architecture level.
 
@@ -1176,21 +1176,21 @@ at the system-architecture level.
 
 The IDOS measurement hierarchy was applied as:
 
-\[
+```math
 L1 = State
-\]
+```
 
-\[
+```math
 L2 = Transition
-\]
+```
 
-\[
+```math
 L3 = Trajectory
-\]
+```
 
-\[
+```math
 L4 = Ecosystem
-\]
+```
 
 Judgment:
 
@@ -1203,11 +1203,11 @@ Judgment:
 
 Thus P004 is primarily:
 
-\[
+```math
 \boxed{
 L1/L2\ evidence
 }
-\]
+```
 
 not L3/L4 evidence.
 
@@ -1215,13 +1215,13 @@ A strong causal experiment at one level does not automatically provide evidence 
 
 This generated the candidate measurement rule:
 
-\[
+```math
 \boxed{
 Evidence_{L_k}
 \not\Rightarrow
 Evidence_{L_{k+1}}
 }
-\]
+```
 
 This is not yet canonical.
 
@@ -1233,21 +1233,21 @@ The actual Human–AI task process contains dynamics that were not fully observe
 
 Measured variables included:
 
-\[
+```math
 Time,\ Quality,\ Usage,\ Survey
-\]
+```
 
 These do not uniquely reconstruct the full underlying dynamic process.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Forward\ Dynamics
 \neq
 Inverse\ Measurement
 }
-\]
+```
 
 received strong support as a methodological distinction.
 
@@ -1259,11 +1259,11 @@ received strong support as a methodological distinction.
 
 ### Stage B Status
 
-\[
+```math
 \boxed{
 \text{STAGE B — COMPLETE / FROZEN}
 }
-\]
+```
 
 ---
 
@@ -1273,12 +1273,12 @@ received strong support as a methodological distinction.
 
 The adversarial null hypothesis was:
 
-\[
+```math
 \boxed{
 H_0:
 \text{CASE-P004 can be adequately explained without IDOS}
 }
-\]
+```
 
 The burden of proof remained on IDOS.
 
@@ -1299,21 +1299,21 @@ Strong competing explanations included:
 
 These frameworks can explain the main empirical result:
 
-\[
+```math
 ChatGPT\ Access
 \rightarrow
 Time\downarrow,\ Quality\uparrow
-\]
+```
 
 without IDOS.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Historical / causal explanation requires IDOS = false
 }
-\]
+```
 
 ---
 
@@ -1329,11 +1329,11 @@ IDOS was not necessary for:
 
 Thus:
 
-\[
+```math
 \boxed{
 Primary\ empirical\ explanation:\ conventional\ frameworks\ sufficient
 }
-\]
+```
 
 ---
 
@@ -1341,67 +1341,67 @@ Primary\ empirical\ explanation:\ conventional\ frameworks\ sufficient
 
 IDOS added explicit distinctions among:
 
-\[
+```math
 \boxed{
 Performance\ Change
 \neq
 Human\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Human\ Update
 \neq
 Relational\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Relational\ Update
 \neq
 System\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Cross\text{-}Unit\ Influence
 \neq
 Cross\text{-}Unit\ Update
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Interoperability
 \neq
 Mutual\ Updateability
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 Evidence_{L_k}
 \not\Rightarrow
 Evidence_{L_{k+1}}
 }
-\]
+```
 
 These distinctions may improve measurement discipline.
 
 However:
 
-\[
+```math
 \boxed{
 Conceptual\ Usefulness
 \neq
 Empirical\ Incremental\ Value
 }
-\]
+```
 
 No independent predictive advantage was demonstrated.
 
@@ -1413,66 +1413,66 @@ No independent predictive advantage was demonstrated.
 
 Holding was not required to explain the case.
 
-\[
+```math
 \boxed{
 Holding\ necessity\ in\ P004:\ C
 }
-\]
+```
 
 ### Residual
 
 Residual was not required beyond Difference.
 
-\[
+```math
 \boxed{
 Residual\ necessity\ in\ P004:\ C
 }
-\]
+```
 
 ### Limit
 
 An independent Limit process was not required.
 
-\[
+```math
 \boxed{
 Limit\ necessity\ in\ P004:\ C/B
 }
-\]
+```
 
 ### Full 12PDM
 
-\[
+```math
 \boxed{
 12PDM\ necessity:\ NOT\ SUPPORTED
 }
-\]
+```
 
 ### Relational Updating Unit
 
-\[
+```math
 \boxed{
 U_{HA}
 \text{ possible but unnecessary}
 }
-\]
+```
 
 ### Full CDP
 
 Full CDP was not required to explain the observed experimental result.
 
-\[
+```math
 \boxed{
 CDP\ necessity\ for\ P004\ description:\ C
 }
-\]
+```
 
 Potential value for richer Human–AI governance remained:
 
-\[
+```math
 \boxed{
 B
 }
-\]
+```
 
 ---
 
@@ -1501,35 +1501,35 @@ B
 
 ## 3.7 Stage C Result
 
-\[
+```math
 \boxed{
 IDOS\ compatibility:\ A
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Incremental\ structural\ value:\ B
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Incremental\ empirical\ value:\ NOT\ YET\ ESTABLISHED
 }
-\]
+```
 
-\[
+```math
 \boxed{
 12PDM\ necessity:\ NOT\ SUPPORTED
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Master\ Map\ revision:\ NO
 }
-\]
+```
 
 ### Stage C Freeze Statement
 
@@ -1537,11 +1537,11 @@ Master\ Map\ revision:\ NO
 
 ### Stage C Status
 
-\[
+```math
 \boxed{
 \text{STAGE C — COMPLETE / FROZEN}
 }
-\]
+```
 
 ---
 
@@ -1549,19 +1549,19 @@ Master\ Map\ revision:\ NO
 
 CASE-P003:
 
-\[
+```math
 \boxed{
 Michigan\ ICU\ Keystone
 }
-\]
+```
 
 CASE-P004:
 
-\[
+```math
 \boxed{
 Generative\ AI\ and\ Professional\ Writing
 }
-\]
+```
 
 The two cases come from substantially different domains.
 
@@ -1579,13 +1579,13 @@ Both cases can be substantially explained without IDOS.
 
 Thus in both:
 
-\[
+```math
 \boxed{
 Case\ Fit
 \neq
 Incremental\ Explanatory\ Value
 }
-\]
+```
 
 Neither case established a strong retrospective explanatory advantage for IDOS.
 
@@ -1595,23 +1595,23 @@ Neither case established a strong retrospective explanatory advantage for IDOS.
 
 P003 strongly supported:
 
-\[
+```math
 Difference
 \rightarrow
 Selective\ Transformation
 \rightarrow
 Reality\ Recontact
-\]
+```
 
 P004 could also be organized using this structure, although Difference and focal Human Transformation were less directly observable.
 
 Cross-case pressure:
 
-\[
+```math
 \boxed{
 Minimal\ Architecture:\ RETAIN
 }
-\]
+```
 
 No claim of universality is made.
 
@@ -1625,12 +1625,12 @@ P004 also did not require Holding to explain the observed dynamics.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Holding\ as\ necessary\ independent\ stage:
 REPEATED\ WEAKENING
 }
-\]
+```
 
 ---
 
@@ -1642,20 +1642,20 @@ P004 also did not require Residual as a separate empirical category.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Residual\ necessity:
 REPEATED\ WEAKENING
 }
-\]
+```
 
 Candidate cross-case heuristic:
 
-\[
+```math
 \boxed{
 Prefer\ Difference\ unless\ Residual\ adds\ measurable\ value
 }
-\]
+```
 
 This is not yet canonical.
 
@@ -1667,12 +1667,12 @@ Neither P003 nor P004 required the full 12PDM as an empirical sequence.
 
 Therefore:
 
-\[
+```math
 \boxed{
 12PDM\ as\ universal\ empirical\ sequence:
 STRONG\ REPEATED\ WEAKENING
 }
-\]
+```
 
 This remains consistent with MASTER_MAP_v1.0, where 12PDM is provisional and revisable.
 
@@ -1682,35 +1682,35 @@ This remains consistent with MASTER_MAP_v1.0, where 12PDM is provisional and rev
 
 P003:
 
-\[
+```math
 Infection\ Rate\downarrow
-\]
+```
 
 did not by itself establish System Update.
 
 P004:
 
-\[
+```math
 Time\downarrow,\ Quality\uparrow
-\]
+```
 
 did not establish Human Update.
 
 Therefore:
 
-\[
+```math
 \boxed{
 Outcome\ Improvement
 \not\Rightarrow
 Updating\ Unit\ Update
 }
-\]
+```
 
 recurred across two different domains.
 
 More generally:
 
-\[
+```math
 \boxed{
 Observed\ Outcome\ Change
 \not\Rightarrow
@@ -1720,7 +1720,7 @@ Relational\ Update
 \not\Rightarrow
 System\ Update
 }
-\]
+```
 
 This is an evidential non-implication, not a claim that one level excludes the next.
 
@@ -1734,23 +1734,23 @@ P004 showed strong L1/L2 evidence but weak L3/L4 evidence.
 
 Together they reinforce:
 
-\[
+```math
 \boxed{
 Causal\ Identification
 \neq
 Multi\text{-}Level\ Dynamic\ Measurement
 }
-\]
+```
 
 and the candidate rule:
 
-\[
+```math
 \boxed{
 Evidence_{L_k}
 \not\Rightarrow
 Evidence_{L_{k+1}}
 }
-\]
+```
 
 This remains a Cross-Case Watch item rather than a canonical principle.
 
@@ -1760,35 +1760,35 @@ This remains a Cross-Case Watch item rather than a canonical principle.
 
 P003 used:
 
-\[
+```math
 U_{primary}
 =
 ICU / ICU\ implementation\ team
-\]
+```
 
 as an analytical choice.
 
 P004 used:
 
-\[
+```math
 U_H,\ U_A
-\]
+```
 
 while rejecting the necessity of:
 
-\[
+```math
 U_{HA}
-\]
+```
 
 Thus both cases support the methodological importance of choosing an Updating Unit while resisting the assumption that there is one uniquely correct ontological unit.
 
 Cross-case pressure:
 
-\[
+```math
 \boxed{
 Updating\ Unit:\ RETAIN
 }
-\]
+```
 
 with continuing caution about ontological reification.
 
@@ -1802,11 +1802,11 @@ P004 contained observable Human–AI interaction but did not establish persisten
 
 Thus:
 
-\[
+```math
 \boxed{
 Relational\ Change:\ RETAIN\ AS\ DISTINCT\ MEASUREMENT\ TARGET
 }
-\]
+```
 
 but operationalization remains incomplete.
 
@@ -1816,13 +1816,13 @@ but operationalization remains incomplete.
 
 P003 generated the question:
 
-\[
+```math
 \boxed{
 Performance_t
 \neq
 Updateability_{t+1}
 }
-\]
+```
 
 P004 generated the same structural question.
 
@@ -1830,13 +1830,13 @@ AI-assisted performance improvement does not establish that the Human becomes mo
 
 Therefore:
 
-\[
+```math
 \boxed{
 Current\ Outcome\ Improvement
 \neq
 Future\ Updateability
 }
-\]
+```
 
 is now a repeated cross-case research target.
 
@@ -1848,23 +1848,23 @@ This is not yet canonical.
 
 Both cases strongly reinforced:
 
-\[
+```math
 \boxed{
 Forward\ Dynamics
 \neq
 Inverse\ Measurement
 }
-\]
+```
 
 The underlying dynamics exceed what can be uniquely reconstructed from observed variables.
 
 Cross-case pressure:
 
-\[
+```math
 \boxed{
 STRONG\ RETAIN
 }
-\]
+```
 
 ---
 
@@ -1872,7 +1872,7 @@ STRONG\ RETAIN
 
 Both cases required strict separation of:
 
-\[
+```math
 \boxed{
 Observed
 \neq
@@ -1880,7 +1880,7 @@ Inferred
 \neq
 Unobservable
 }
-\]
+```
 
 This was especially necessary for:
 
@@ -1893,11 +1893,11 @@ This was especially necessary for:
 
 Cross-case pressure:
 
-\[
+```math
 \boxed{
 STRONG\ RETAIN
 }
-\]
+```
 
 ---
 
@@ -1961,33 +1961,33 @@ Can relational change be measured independently from individual performance or u
 
 ## 4.15 Stage D Result
 
-\[
+```math
 \boxed{
 Master\ Map\ Revision = NO
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Cross\text{-}Case\ Repeated\ Pressure = YES
 }
-\]
+```
 
 Repeated weakening pressure:
 
-\[
+```math
 \boxed{
 Holding,\ Residual,\ 12PDM
 }
-\]
+```
 
 Repeated retain pressure:
 
-\[
+```math
 \boxed{
 Minimal\ Architecture,\ Updating\ Unit,\ Reality\ Recontact,\ Measurement\ Discipline
 }
-\]
+```
 
 ### Stage D Freeze Statement
 
@@ -1995,10 +1995,10 @@ Minimal\ Architecture,\ Updating\ Unit,\ Reality\ Recontact,\ Measurement\ Disci
 
 ### Stage D Status
 
-\[
+```math
 \boxed{
 \text{STAGE D — COMPLETE / FROZEN}
-\]
+```
 
 ---
 
@@ -2014,27 +2014,27 @@ Pressure categories:
 
 Important:
 
-\[
+```math
 \boxed{
 U \neq W \neq C
 }
-\]
+```
 
 CASE-P004 did not generate an architecture-level contradiction.
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction = NONE
 }
-\]
+```
 
 No Master Map revision is triggered.
 
-\[
+```math
 \boxed{
 MASTER\ MAP\ v1.0 = FROZEN,\ NO\ CHANGE
 }
-\]
+```
 
 ### P004 Pressure Summary
 
@@ -2077,33 +2077,33 @@ The following findings should be retained as empirical research provenance.
 
 ## Finding P004-1
 
-\[
+```math
 \boxed{
 Performance\ Improvement
 \not\Rightarrow
 Updating\ Unit\ Update
 }
-\]
+```
 
 ## Finding P004-2
 
-\[
+```math
 \boxed{
 Cross\text{-}Unit\ Influence
 \not\Rightarrow
 Cross\text{-}Unit\ Update
 }
-\]
+```
 
 ## Finding P004-3
 
-\[
+```math
 \boxed{
 Evidence_{L_k}
 \not\Rightarrow
 Evidence_{L_{k+1}}
 }
-\]
+```
 
 These are not yet canonical principles.
 
@@ -2136,11 +2136,11 @@ The case shows that:
 
 The primary forward-looking question emerging from P004 is:
 
-\[
+```math
 \boxed{
 \text{Can Future Updateability be measured independently of current AI-assisted performance improvement?}
 }
-\]
+```
 
 ---
 
@@ -2253,8 +2253,8 @@ Future work should not retrospectively rewrite P004 merely to improve fit with I
 
 The case remains:
 
-\[
+```math
 \boxed{
 CASE\text{-}P004\ —\ CLOSED\ (PROVISIONAL)
 }
-\]
+```

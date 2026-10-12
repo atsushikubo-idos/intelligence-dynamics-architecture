@@ -11,18 +11,18 @@
 
 This document fixes the current answer to the following question:
 
-\[
+```math
 \boxed{
 Q_2:\quad
 \textbf{What is IDOS an architecture for, if its purpose is to answer Q1 and change real systems?}
 }
-\]
+```
 
 The goal is not to add new concepts or theories.
 
 The goal is to define what IDOS is used for, so that the architecture can move from:
 
-\[
+```math
 Conceptual\ Architecture
 \rightarrow
 Operational\ Architecture
@@ -32,7 +32,7 @@ Implementation
 PoC
 \rightarrow
 Social\ Implementation
-\]
+```
 
 ---
 
@@ -40,68 +40,68 @@ Social\ Implementation
 
 The current canonical question of IDOS is:
 
-\[
+```math
 \boxed{
 \textbf{変わった結果、次も変われるのか？}
 }
-\]
+```
 
 More precisely:
 
-\[
+```math
 \boxed{
 \textbf{この系は変化した結果、
 次の変化に対応する能力そのものまでどう変わったのか？}
 }
-\]
+```
 
 Architecturally:
 
-\[
+```math
 \boxed{
 \textbf{変化によって、「次の変わり方」そのものはどう変わったのか？}
 }
-\]
+```
 
 Formally:
 
-\[
+```math
 Update_t
 \rightarrow
 \Delta Capacity(Update_{t+1})
-\]
+```
 
 or:
 
-\[
+```math
 G_t
 \rightarrow
 G_{t+1}
-\]
+```
 
 The key distinction is:
 
-\[
+```math
 Current\ Performance \uparrow
-\]
+```
 
 does not necessarily imply:
 
-\[
+```math
 Future\ Updateability \uparrow
-\]
+```
 
 IDOS therefore asks not only:
 
-\[
+```math
 Present
 \rightarrow
 Predict(Future)
-\]
+```
 
 but:
 
-\[
+```math
 Present
 \rightarrow
 Update
@@ -109,7 +109,7 @@ Update
 Unknown\ Future
 \rightarrow
 Update\ Again
-\]
+```
 
 A plain-language form is:
 
@@ -121,7 +121,7 @@ A plain-language form is:
 
 The current canonical answer is:
 
-\[
+```math
 \boxed{
 \textbf{
 IDOS is an architecture for maintaining and reconfiguring
@@ -130,11 +130,11 @@ without losing contact with Reality,
 even as their reference frames, boundaries, and measurement systems change.
 }
 }
-\]
+```
 
 Japanese:
 
-\[
+```math
 \boxed{
 \textbf{
 IDOSは、参照系・境界・測定系も変化し続ける異種知性系において、
@@ -142,7 +142,7 @@ Realityとの接触を失わず、
 「次も変われる状態」を維持・再構成するためのArchitectureである。
 }
 }
-\]
+```
 
 A more explicit operational form is:
 
@@ -157,13 +157,13 @@ The revised Q2 distinguishes the core purpose of IDOS from its social and operat
 
 ### Core Purpose
 
-\[
+```math
 \boxed{
 Reality\ Contact
 +
 Continued\ Updateability
 }
-\]
+```
 
 IDOS is concerned with whether an evolving heterogeneous system can remain in contact with Reality while preserving or reconfiguring its capacity to update again.
 
@@ -173,7 +173,7 @@ Measurement, diagnosis, design, coordination, and governance are not competing d
 
 They are different functional moments through which the core purpose may be operationalized.
 
-\[
+```math
 Measurement
 \rightarrow
 Diagnosis
@@ -183,7 +183,7 @@ Design
 Coordination
 \rightarrow
 Governance
-\]
+```
 
 The core purpose remains prior to any single one of these functions.
 
@@ -192,17 +192,17 @@ The core purpose remains prior to any single one of these functions.
 
 Design mainly asks:
 
-\[
+```math
 Desired\ State
 \rightarrow
 System\ Design
 \rightarrow
 Implementation
-\]
+```
 
 IDOS must continue beyond implementation:
 
-\[
+```math
 Design
 \rightarrow
 Enactment
@@ -216,7 +216,7 @@ Update
 Recontact
 \rightarrow
 Reopening
-\]
+```
 
 The central problem is therefore not only:
 
@@ -228,11 +228,11 @@ but:
 
 Design is therefore one function inside the larger architecture.
 
-\[
+```math
 Governance
 \supset
 Measurement,\ Diagnosis,\ Warning,\ Coordination,\ Design
-\]
+```
 
 However, IDOS does not seek to control the system toward a fixed optimum.
 
@@ -246,11 +246,11 @@ IDOS does not primarily govern a fixed system state.
 
 Its object is:
 
-\[
+```math
 \boxed{
 Conditions\ of\ Updateability
 }
-\]
+```
 
 Examples include:
 
@@ -269,11 +269,11 @@ Updateability itself is not treated as a directly controllable object.
 
 Rather:
 
-\[
+```math
 Conditions_t
 \rightarrow
 Updateability_{t+1}
-\]
+```
 
 IDOS observes and reconfigures the conditions that influence whether the system can update again.
 
@@ -283,7 +283,7 @@ IDOS observes and reconfigures the conditions that influence whether the system 
 
 Human–AI–Organization systems evolve across multiple interacting updating units:
 
-\[
+```math
 AI
 \leftrightarrow
 Human
@@ -293,47 +293,47 @@ Organization
 Institution
 \leftrightarrow
 Environment
-\]
+```
 
 These units do not necessarily update in the same way:
 
-\[
+```math
 G_H
 \neq
 G_{AI}
 \neq
 G_{Org}
-\]
+```
 
 A change may improve total system performance while redistributing or degrading future updateability.
 
 For example:
 
-\[
+```math
 System\ Performance \uparrow
-\]
+```
 
 while:
 
-\[
+```math
 Human\ Independent\ Judgment \downarrow
-\]
+```
 
-\[
+```math
 AI\ Dependency \uparrow
-\]
+```
 
-\[
+```math
 Detection\ Diversity \downarrow
-\]
+```
 
 Therefore, IDOS must track not only state change, but also:
 
-\[
+```math
 \boxed{
 \text{who can detect, interpret, decide, override, update, and reconfigure}
 }
-\]
+```
 
 across time.
 
@@ -349,7 +349,7 @@ MASTER_MAP v1.1 remains unchanged.
 
 Its main cycle is:
 
-\[
+```math
 Reality
 \rightarrow
 Difference
@@ -373,7 +373,7 @@ Enactment
 Reality'
 \rightarrow
 Reopening
-\]
+```
 
 Q2 is not an additional layer attached afterward.
 
@@ -398,29 +398,29 @@ It is a higher-order statement of what this existing architecture is for.
 
 The architecture therefore does not stop at:
 
-\[
+```math
 Problem
 \rightarrow
 Solution
-\]
+```
 
 or:
 
-\[
+```math
 Difference
 \rightarrow
 Update
-\]
+```
 
 It continues through:
 
-\[
+```math
 Update
 \rightarrow
 Reality'
 \rightarrow
 Reopening
-\]
+```
 
 This is the structural basis for Q1 and Q2.
 
@@ -430,21 +430,21 @@ This is the structural basis for Q1 and Q2.
 
 IDOS includes the possibility that the measurement system itself changes.
 
-\[
+```math
 Y_t=M(R_t;F_t,O_t,I_t)
-\]
+```
 
 where the frame, observer, and instrument may also change through updating.
 
 Therefore, IDOS must consider whether:
 
-\[
+```math
 Measurement\ Rigidity
 \rightarrow
 Difference\ Detection \downarrow
 \rightarrow
 Future\ Updateability \downarrow
-\]
+```
 
 The system must remain capable not only of changing its answers, but also of changing what it observes and how it interprets reality.
 
@@ -454,7 +454,7 @@ The system must remain capable not only of changing its answers, but also of cha
 
 The Common Dynamics Protocol already contains:
 
-\[
+```math
 Describe
 \rightarrow
 Translate
@@ -466,7 +466,7 @@ Coordinate
 Trace
 \rightarrow
 Recontact
-\]
+```
 
 Under Q2, CDP can be interpreted as an operational coordination layer for heterogeneous updating systems.
 
@@ -489,7 +489,7 @@ This supports the governance of the conditions required for future updating.
 
 Q2 implies a minimum operational loop:
 
-\[
+```math
 \boxed{
 Detect
 \rightarrow
@@ -503,7 +503,7 @@ Recontact
 \rightarrow
 Reopen
 }
-\]
+```
 
 ### Detect
 Detect a meaningful difference between expected and observed reality.
@@ -533,13 +533,13 @@ Evaluate whether the system still retains the capacity to update again.
 
 The central minimum condition is:
 
-\[
+```math
 \boxed{
 Update_t
 \rightarrow
 Condition(Update_{t+1})
 }
-\]
+```
 
 A loop that executes change but never evaluates the consequences for the next update is not sufficient for Minimum IDOS.
 
@@ -560,9 +560,9 @@ What was changed?
 
 Possible categories:
 
-\[
+```math
 Frame,\ Role/Rule,\ Coupling,\ Boundary,\ Measurement
-\]
+```
 
 ### 4. Distribution Change
 How did capability, authority, dependence, detection, or override capacity shift across updating units?
@@ -573,11 +573,11 @@ What happened after the update when the system returned to real operation?
 ### 6. Next Updateability
 Did the latest change increase, preserve, reduce, or leave uncertain the system's ability to update again?
 
-\[
+```math
 Future\ Updateability:
 \quad
 \uparrow,\ \rightarrow,\ \downarrow,\ ?
-\]
+```
 
 ---
 
@@ -589,43 +589,43 @@ The practical test for Q2 is not merely:
 
 The stronger operational test is:
 
-\[
+```math
 \boxed{
 \textbf{
 Did IDOS alter the action in order to preserve future updateability?
 }
 }
-\]
+```
 
 In particular:
 
-\[
+```math
 Same\ Evidence
 \rightarrow
 Different\ Action
-\]
+```
 
 may occur when IDOS identifies that a successful current intervention is closing future update paths.
 
 Example:
 
-\[
+```math
 Current\ Performance \uparrow
-\]
+```
 
 but:
 
-\[
+```math
 Future\ Updateability \downarrow
-\]
+```
 
 Then IDOS may recommend:
 
-\[
+```math
 Current\ Improvement
 +
 Conditions\ for\ Future\ Updating
-\]
+```
 
 rather than rejecting the improvement itself.
 
@@ -635,11 +635,11 @@ rather than rejecting the improvement itself.
 
 Across multiple candidate cases, a recurring pattern is:
 
-\[
+```math
 Optimization
 \rightarrow
 Path\ Closure
-\]
+```
 
 An intervention may improve current performance while reducing:
 
@@ -683,17 +683,17 @@ If an intervention is:
 
 then:
 
-\[
+```math
 Future\ Updateability \approx Stable
-\]
+```
 
 and IDOS may produce no different action.
 
-\[
+```math
 Action_{existing}
 =
 Action_{IDOS}
-\]
+```
 
 This is a valid result.
 
@@ -708,27 +708,27 @@ IDOS may add little value to simple one-off tasks where:
 
 In such cases:
 
-\[
+```math
 Q2\ Relevance \approx 0
-\]
+```
 
 and the correct action may simply be:
 
-\[
+```math
 Do\ not\ use\ IDOS
-\]
+```
 
 ### Applicability boundary
 
 IDOS is most relevant when:
 
-\[
+```math
 \boxed{
 Update_t
 \rightarrow
 \Delta Capacity(Update_{t+1})
 }
-\]
+```
 
 is non-negligible.
 
@@ -742,7 +742,7 @@ In plain language:
 
 ### Canonical English
 
-\[
+```math
 \boxed{
 \textbf{
 IDOS is an architecture for maintaining and reconfiguring
@@ -751,11 +751,11 @@ without losing contact with Reality,
 even as their reference frames, boundaries, and measurement systems change.
 }
 }
-\]
+```
 
 ### Canonical Japanese
 
-\[
+```math
 \boxed{
 \textbf{
 IDOSは、参照系・境界・測定系も変化し続ける異種知性系において、
@@ -763,7 +763,7 @@ Realityとの接触を失わず、
 「次も変われる状態」を維持・再構成するためのArchitectureである。
 }
 }
-\]
+```
 
 ### Operational Japanese
 
@@ -793,7 +793,7 @@ The next step is not further conceptual expansion.
 
 The next step is:
 
-\[
+```math
 \boxed{
 Q2
 \rightarrow
@@ -803,18 +803,18 @@ Implementation\ Spec
 \rightarrow
 PoC
 }
-\]
+```
 
 with the specific empirical question:
 
-\[
+```math
 \boxed{
 \textbf{
 Does IDOS change real action specifically when an intervention changes
 the system's capacity to update again?
 }
 }
-\]
+```
 
 ---
 

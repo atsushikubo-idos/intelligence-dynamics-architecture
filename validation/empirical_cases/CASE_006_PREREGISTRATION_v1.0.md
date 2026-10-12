@@ -26,15 +26,15 @@ The confirmatory question is:
 
 Formally, the test concerns whether:
 
-\[
+```math
 P(U \mid D)
-\]
+```
 
 contains predictive information beyond a simpler baseline related to:
 
-\[
+```math
 P(U)
-\]
+```
 
 for subsequent adaptation under an environmental change.
 
@@ -70,19 +70,19 @@ Post-experiment questionnaires are not used in the confirmatory test.
 
 The experiment contains two sessions:
 
-\[
+```math
 PRE = Session\ 1
-\]
+```
 
-\[
+```math
 POST = Session\ 2
-\]
+```
 
 The transition between Session 1 and Session 2 is treated as the environmental-change boundary:
 
-\[
+```math
 t^*
-\]
+```
 
 ---
 
@@ -90,9 +90,9 @@ t^*
 
 The primary observational unit is:
 
-\[
+```math
 \boxed{Team}
-\]
+```
 
 Individual participants, roles, and process managers are not treated as independent primary observations.
 
@@ -106,19 +106,19 @@ They are therefore treated as one observational unit using a deterministic ident
 
 The initial data-quality sequence was:
 
-\[
+```math
 24\ PRE
 \rightarrow
 23\ PRE+POST
 \rightarrow
 22\ independent\ candidate\ teams
-\]
+```
 
 A further measurement-availability rule described below reduces the expected maximum primary cohort to approximately:
 
-\[
+```math
 N=21
-\]
+```
 
 before application of POST outcome-availability rules.
 
@@ -130,9 +130,9 @@ Final sample size and all exclusions will be reported.
 
 The primary Difference is an observable failed route-addition attempt.
 
-\[
+```math
 D_{failure}
-\]
+```
 
 is defined only by raw system-recorded actions:
 
@@ -143,9 +143,9 @@ No inference about subjective failure recognition, belief, intention, residual, 
 
 Thus:
 
-\[
+```math
 D_{failure,t}=1
-\]
+```
 
 when either predefined raw event occurs.
 
@@ -155,43 +155,43 @@ when either predefined raw event occurs.
 
 A successful route addition occurring within 60 seconds after a failed route attempt is treated as an observable correction.
 
-\[
+```math
 U_{60s}=1
-\]
+```
 
 if a successful `ManualPathAdded` event occurs during:
 
-\[
+```math
 (t,t+60s]
-\]
+```
 
 following \(D_{failure,t}\).
 
 Otherwise:
 
-\[
+```math
 U_{60s}=0
-\]
+```
 
 The primary response window is:
 
-\[
+```math
 \boxed{h=60\ seconds}
-\]
+```
 
 This window was selected using PRE-only response-time structure before inspection of the confirmatory POST outcome.
 
 Sensitivity windows are preregistered as:
 
-\[
+```math
 h=30s
-\]
+```
 
 and
 
-\[
+```math
 h=120s
-\]
+```
 
 These sensitivity analyses will not replace the primary 60-second result.
 
@@ -201,29 +201,29 @@ These sensitivity analyses will not replace the primary 60-second result.
 
 For team \(i\), define:
 
-\[
+```math
 G_i=
 \frac{
 N(U_{60s}=1 \mid D_{failure})
 }{
 N(D_{failure})
 }
-\]
+```
 
 Equivalently:
 
-\[
+```math
 G_i=
 P(U_{60s}=1 \mid D_{failure})
-\]
+```
 
 at the team level.
 
 A minimum denominator rule is imposed:
 
-\[
+```math
 \boxed{N(D_{failure})\ge10}
-\]
+```
 
 Teams with fewer than 10 observed failed route attempts do not receive a primary \(G_i\) estimate.
 
@@ -231,9 +231,9 @@ This threshold is not claimed to be statistically optimal.
 
 It is a preregistered measurement-quality rule intended to prevent highly unstable estimates such as:
 
-\[
+```math
 3/3=1.00
-\]
+```
 
 from being treated as reliable team-level conditional response measures.
 
@@ -245,9 +245,9 @@ The threshold will not be changed after inspection of POST outcomes.
 
 This preregistration does **not** assume:
 
-\[
+```math
 G=\Gamma
-\]
+```
 
 The measure \(G\) is an observable difference-conditioned behavioral response measure.
 
@@ -263,26 +263,26 @@ The primary baseline measures general route-success tendency.
 
 For team \(i\):
 
-\[
+```math
 B_i=
 \frac{
 N(SuccessfulRouteAddition)
 }{
 N(AllRouteAdditionAttempts)
 }
-\]
+```
 
 The central comparison is therefore between:
 
-\[
+```math
 G_i=P(U_{60s}\mid D_{failure})
-\]
+```
 
 and a simpler general behavioral tendency:
 
-\[
+```math
 B_i
-\]
+```
 
 The purpose is to test whether conditioning update behavior on an observable Difference adds predictive information beyond general route success.
 
@@ -294,14 +294,14 @@ A stronger preregistered sensitivity baseline controls for local 60-second behav
 
 Define:
 
-\[
+```math
 M_i=
 P(
 SuccessfulRouteAddition_{(t,t+60s]}
 \mid
 SuccessfulRouteAddition_t
 )
-\]
+```
 
 The anchor event itself is not counted as the subsequent successful event.
 
@@ -315,39 +315,39 @@ This is a strong sensitivity analysis and is not the primary success criterion.
 
 The POST session is divided into two fixed windows:
 
-\[
+```math
 Early = 0-5\ minutes
-\]
+```
 
-\[
+```math
 Late = 15-20\ minutes
-\]
+```
 
 For each team, the best observed valid numeric Profit state in each window is calculated:
 
-\[
+```math
 P_i^{early}
 =
 \max Profit_{i,t},
 \quad
 t\in[0,5min)
-\]
+```
 
-\[
+```math
 P_i^{late}
 =
 \max Profit_{i,t},
 \quad
 t\in[15,20min]
-\]
+```
 
 The primary adaptation outcome is:
 
-\[
+```math
 \boxed{
 A_i=P_i^{late}-P_i^{early}
 }
-\]
+```
 
 This measures within-POST performance improvement after entry into the changed environment.
 
@@ -363,7 +363,7 @@ All such exclusions will be reported.
 
 The confirmatory hypothesis is:
 
-\[
+```math
 \boxed{
 H_1:
 G_i
@@ -372,25 +372,25 @@ A_i
 \text{ beyond }
 B_i
 }
-\]
+```
 
 The baseline model is:
 
-\[
+```math
 BL:
 A_i
 =
 \beta_0+\beta_1B_i+\epsilon_i
-\]
+```
 
 The candidate model is:
 
-\[
+```math
 PM:
 A_i
 =
 \beta_0+\beta_1B_i+\beta_2G_i+\epsilon_i
-\]
+```
 
 No additional predictors will be added to the primary models after POST inspection.
 
@@ -404,15 +404,15 @@ Because the expected sample is small, the primary evaluation uses:
 
 For every eligible team \(i\):
 
-\[
+```math
 Train_{-i}
 \rightarrow
 \widehat{A}_i
-\]
+```
 
 The primary prediction metric is:
 
-\[
+```math
 RMSE
 =
 \sqrt{
@@ -420,37 +420,37 @@ RMSE
 \sum_i
 (A_i-\widehat{A}_i)^2
 }
-\]
+```
 
 Define:
 
-\[
+```math
 RMSE_{BL}
-\]
+```
 
 for the baseline model and:
 
-\[
+```math
 RMSE_{PM}
-\]
+```
 
 for the candidate model.
 
 The primary contrast is:
 
-\[
+```math
 \boxed{
 \Delta RMSE
 =
 RMSE_{BL}-RMSE_{PM}
 }
-\]
+```
 
 Therefore:
 
-\[
+```math
 \Delta RMSE>0
-\]
+```
 
 means that adding \(G_i\) reduced out-of-sample prediction error.
 
@@ -462,9 +462,9 @@ Interpretation is frozen before POST outcome analysis.
 
 ### If:
 
-\[
+```math
 \Delta RMSE\le0
-\]
+```
 
 the result will be reported as:
 
@@ -476,9 +476,9 @@ No post-hoc redefinition of \(D\), \(U\), \(G\), the time window, or the primary
 
 ### If:
 
-\[
+```math
 \Delta RMSE>0
-\]
+```
 
 the result will initially be reported as:
 
@@ -494,9 +494,9 @@ Because the expected sample size is small and LOTO folds have highly overlapping
 
 Resampling analyses may be used to examine the stability of:
 
-\[
+```math
 \Delta RMSE
-\]
+```
 
 across team compositions.
 
@@ -508,9 +508,9 @@ rather than treated as conventional independent-sample confidence intervals.
 
 The sign of the preregistered primary:
 
-\[
+```math
 \Delta RMSE
-\]
+```
 
 remains the primary result.
 
@@ -520,41 +520,41 @@ remains the primary result.
 
 A stronger sensitivity comparison will evaluate:
 
-\[
+```math
 BL_M:
 A_i
 =
 \beta_0+\beta_1B_i+\beta_2M_i+\epsilon_i
-\]
+```
 
 against:
 
-\[
+```math
 PM_M:
 A_i
 =
 \beta_0+\beta_1B_i+\beta_2M_i+\beta_3G_i+\epsilon_i
-\]
+```
 
 Define:
 
-\[
+```math
 \Delta RMSE_{matched}
 =
 RMSE_{BL_M}-RMSE_{PM_M}
-\]
+```
 
 If:
 
-\[
+```math
 \Delta RMSE>0
-\]
+```
 
 but:
 
-\[
+```math
 \Delta RMSE_{matched}\le0
-\]
+```
 
 the primary positive signal will be interpreted cautiously because local temporal activity dynamics remain a plausible alternative explanation.
 
@@ -566,7 +566,7 @@ If both are positive, the result provides stronger preliminary evidence that fai
 
 Only the following chain is confirmatory in Case 006:
 
-\[
+```math
 \boxed{
 D_{failure}
 \rightarrow
@@ -576,19 +576,19 @@ G
 \rightarrow
 A
 }
-\]
+```
 
 with the preregistered comparison:
 
-\[
+```math
 A\sim B
-\]
+```
 
 versus:
 
-\[
+```math
 A\sim B+G
-\]
+```
 
 The following are explicitly exploratory in Case 006:
 
@@ -618,9 +618,9 @@ However, it does count against the specific measurement hypothesis tested here.
 
 If:
 
-\[
+```math
 \Delta RMSE\le0
-\]
+```
 
 then the claim that this operationalization of difference-conditioned update provides incremental predictive information must be downgraded.
 
@@ -669,7 +669,7 @@ Any subsequent deviation must be documented explicitly as a deviation from prere
 
 The intended sequence is:
 
-\[
+```math
 Raw\ Data
 \rightarrow
 Observable\ Difference
@@ -683,7 +683,7 @@ Frozen\ Prediction\ Rule
 Unseen\ POST\ Outcome
 \rightarrow
 Out\text{-}of\text{-}Sample\ Evaluation
-\]
+```
 
 The purpose is not to make IDOS fit the dataset.
 

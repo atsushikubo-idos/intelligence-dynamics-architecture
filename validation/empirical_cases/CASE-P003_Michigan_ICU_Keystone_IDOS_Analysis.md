@@ -72,29 +72,29 @@ The original study analyzed 103 ICUs, 1,981 ICU-months, and 375,757 catheter-day
 
 The reported median catheter-related bloodstream infection rate fell from approximately:
 
-\[
+```math
 2.7
-\]
+```
 
 per 1,000 catheter-days at baseline to:
 
-\[
+```math
 0
-\]
+```
 
 within three months after implementation.
 
 The mean rate fell from approximately:
 
-\[
+```math
 7.7
-\]
+```
 
 at baseline to:
 
-\[
+```math
 1.4
-\]
+```
 
 at 16–18 months.
 
@@ -175,11 +175,11 @@ Several candidate units were possible:
 
 For this case, the strongest empirical basis existed at:
 
-\[
+```math
 \boxed{
 U_{\text{primary}} = \text{ICU / ICU implementation team}
 }
-\]
+```
 
 This was an analytical choice, not a claim that the ICU was the uniquely correct ontological Updating Unit.
 
@@ -199,7 +199,7 @@ The strongest mappings were:
 
 The most parsimonious case-level structure was:
 
-\[
+```math
 \boxed{
 \text{Difference}
 \rightarrow
@@ -207,7 +207,7 @@ The most parsimonious case-level structure was:
 \rightarrow
 \text{Reality Recontact}
 }
-\]
+```
 
 ## 3.4 Weak or Inferred Mappings
 
@@ -242,12 +242,12 @@ The minimal structure mapped substantially better than the older seven-stage seq
 
 The null hypothesis was:
 
-\[
+```math
 \boxed{
 H_0:
 \text{P003 can be adequately explained without IDOS}
 }
-\]
+```
 
 The burden of proof was placed on IDOS.
 
@@ -276,29 +276,29 @@ At Stage C, IDOS did not demonstrate a strong retrospective explanatory advantag
 
 Specifically:
 
-\[
+```math
 \boxed{
 \text{Strong explanatory increment: NOT ESTABLISHED}
 }
-\]
+```
 
 and:
 
-\[
+```math
 \boxed{
 \text{Incremental predictive value: NOT TESTED}
 }
-\]
+```
 
 The case could be historically explained without IDOS.
 
 Therefore:
 
-\[
+```math
 \boxed{
 H_0\text{: NOT REJECTED}
 }
-\]
+```
 
 ## 4.4 Potential IDOS-Specific Questions
 
@@ -306,21 +306,21 @@ IDOS nevertheless generated additional questions that were not central in the co
 
 ### Heterogeneous Difference
 
-\[
+```math
 D_i \neq D_j
-\]
+```
 
 Different actors or units may generate different Differences from the same situation.
 
 ### Individual vs Relational vs System Change
 
-\[
+```math
 \Delta U_i
 \neq
 \Delta Relation_{ij}
 \neq
 \Delta System
-\]
+```
 
 Outcome improvement does not automatically establish System Update.
 
@@ -332,11 +332,11 @@ A successful intervention raises a further question:
 
 This suggests:
 
-\[
+```math
 Performance_t
 \neq
 Updateability_{t+1}
-\]
+```
 
 ### Measurement-System Dynamics
 
@@ -344,9 +344,9 @@ Measurement did not merely observe the case; feedback was part of the interventi
 
 However, P003 did not establish:
 
-\[
+```math
 M_t \rightarrow M_{t+1}
-\]
+```
 
 as a measured transformation of the measurement system itself.
 
@@ -354,13 +354,13 @@ as a measured transformation of the measurement system itself.
 
 The strongest conclusion was:
 
-\[
+```math
 \boxed{
 \text{Case fit}
 \neq
 \text{Explanatory value}
 }
-\]
+```
 
 P003 could be mapped to IDOS, but clean mapping alone was not evidence of IDOS superiority.
 
@@ -380,9 +380,9 @@ The main potential contribution of IDOS was therefore not a better retrospective
 
 Important:
 
-\[
+```math
 U \neq W \neq C
-\]
+```
 
 Failure to observe a construct was not treated as evidence that the construct was false.
 
@@ -412,11 +412,11 @@ P003 generated weakening pressure for:
 
 The case could be reconstructed without requiring a distinct observable Holding process.
 
-\[
+```math
 Persistent\ Problem
 \neq
 Holding
-\]
+```
 
 ### Stabilization as an independent universal stage
 
@@ -428,9 +428,9 @@ Persistent discrepancy could often be described as Difference without requiring 
 
 Thus the case raised the Purpose Test:
 
-\[
+```math
 Added\ Value > Added\ Complexity?
-\]
+```
 
 ### 12PDM as a universal sequence
 
@@ -500,19 +500,19 @@ The following could not be meaningfully tested:
 
 No direct contradiction with the frozen Master Map v1.0 was identified.
 
-\[
+```math
 \boxed{
 Architecture\ Contradiction = NONE
 }
-\]
+```
 
 No Master Map revision was triggered.
 
-\[
+```math
 \boxed{
 MASTER\ MAP\ v1.0 = FROZEN,\ NO\ CHANGE
 }
-\]
+```
 
 ## Mechanism-Level Result
 
@@ -520,89 +520,89 @@ The case did generate simplification pressure.
 
 The strongest weakening pressure was on:
 
-\[
+```math
 \boxed{
 Holding
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Stabilization
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Residual
 }
-\]
+```
 
-\[
+```math
 \boxed{
 12PDM
 }
-\]
+```
 
 when treated as necessary or universal process components.
 
 The strongest retain pressure was on:
 
-\[
+```math
 \boxed{
 Difference
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Selection
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Transformation
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Reality\ Recontact
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Updating\ Unit
 }
-\]
+```
 
-\[
+```math
 \boxed{
 Trajectory
 }
-\]
+```
 
 and on the methodological distinction:
 
-\[
+```math
 \boxed{
 Observed
 \neq
 Inferred
 }
-\]
+```
 
 together with:
 
-\[
+```math
 \boxed{
 Forward\ Dynamics
 \neq
 Inverse\ Measurement
 }
-\]
+```
 
 ---
 
@@ -625,11 +625,11 @@ The case shows that:
 
 The primary forward-looking question emerging from P003 is therefore:
 
-\[
+```math
 \boxed{
 \text{Can future Updateability be measured independently of current outcome improvement?}
 }
-\]
+```
 
 ---
 
@@ -704,8 +704,8 @@ Future work should not rewrite P003 retrospectively merely to improve fit with I
 
 The case remains:
 
-\[
+```math
 \boxed{
 CASE\text{-}P003\ —\ CLOSED\ (PROVISIONAL)
 }
-\]
+```

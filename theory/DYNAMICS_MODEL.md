@@ -72,9 +72,9 @@ A dynamic model therefore requires mechanisms for:
 
 Let a Residual at time \(t\) be represented conceptually as:
 
-\[
+```math
 R_t
-\]
+```
 
 A Residual is not simply the magnitude of an error.
 
@@ -87,9 +87,9 @@ Two candidate properties are:
 
 Conceptually:
 
-\[
+```math
 R_t \rightarrow (R_t,\pi_t,S_t)
-\]
+```
 
 ### Precision
 
@@ -115,19 +115,19 @@ Residuals may accumulate over time.
 
 Let:
 
-\[
+```math
 \rho_t
-\]
+```
 
 represent a provisional accumulated Residual state.
 
 A general update form may be written as:
 
-\[
+```math
 \rho_{t+1}
 =
 f(\rho_t,R_t,\pi_t,S_t,H_t,\mathcal{T}_{0:t},\ldots)
-\]
+```
 
 where:
 
@@ -169,13 +169,13 @@ A held Residual may remain dynamically available while:
 
 Conceptually:
 
-\[
+```math
 Residual
 \rightarrow
 Holding
 \rightarrow
 Possible\ Reinterpretation
-\]
+```
 
 Holding may therefore affect the future influence of Residual on the dynamics.
 
@@ -203,9 +203,9 @@ Accumulated Residual may eventually reach conditions under which the currently o
 
 A minimal candidate representation is:
 
-\[
+```math
 \rho_t \geq \theta_t
-\]
+```
 
 where:
 
@@ -216,7 +216,7 @@ The threshold is not assumed to be constant.
 
 Conceptually:
 
-\[
+```math
 \theta_t
 =
 g(
@@ -228,7 +228,7 @@ Resources_t,
 History_t,
 \ldots
 )
-\]
+```
 
 This means that the same Residual pattern may produce different responses in different trajectories or contexts.
 
@@ -252,11 +252,11 @@ This candidate event is referred to as:
 
 Conceptually:
 
-\[
+```math
 \rho_t \geq \theta_t
 \rightarrow
 Ignition
-\]
+```
 
 Ignition does not necessarily mean catastrophic failure.
 
@@ -264,11 +264,11 @@ It refers to a possible transition from one mode of updating to another.
 
 The deeper interpretation is:
 
-\[
+```math
 Quantitative\ Accumulation
 \rightarrow
 Qualitative\ Transition
-\]
+```
 
 However, IDOS does not currently claim that all Frame transformations or higher-order Updates are threshold phenomena.
 
@@ -297,19 +297,19 @@ Examples may include:
 
 Conceptually:
 
-\[
+```math
 Residual \rightarrow Local\ Absorption
-\]
+```
 
 ### L2 — Parameter Update
 
 The existing model remains operative, but parameters within it are changed.
 
-\[
+```math
 Parameters_t
 \rightarrow
 Parameters_{t+1}
-\]
+```
 
 The underlying Reference Frame remains substantially stable.
 
@@ -317,11 +317,11 @@ The underlying Reference Frame remains substantially stable.
 
 The operative Reference Frame itself changes.
 
-\[
+```math
 F_t
 \rightarrow
 F_{t+1}
-\]
+```
 
 The system does not merely adjust values inside the existing frame.
 
@@ -331,11 +331,11 @@ It changes part of the structure through which Reality is interpreted.
 
 The Updating Unit moves between distinct available Reference Frames.
 
-\[
+```math
 F_i
 \rightarrow
 F_j
-\]
+```
 
 This differs from modifying a single frame.
 
@@ -347,17 +347,17 @@ The space of frames or possibilities available to the Updating Unit itself chang
 
 Conceptually:
 
-\[
+```math
 \mathbb{F}_{existing}
 \rightarrow
 \mathbb{F}_{expanded}
-\]
+```
 
 or, more strongly:
 
-\[
+```math
 F_{new}\notin\mathbb{F}_{existing}
-\]
+```
 
 This is the strongest and most uncertain level.
 
@@ -405,13 +405,13 @@ An Update changes more than the immediate state when it becomes part of history.
 
 Let an intelligence-related state be represented as:
 
-\[
+```math
 \mathcal{I}_t
-\]
+```
 
 A minimal conceptual update can be written as:
 
-\[
+```math
 \mathcal{I}_{t+1}
 =
 \mathcal{U}
@@ -420,7 +420,7 @@ A minimal conceptual update can be written as:
 Res_t,
 \mathcal{T}_{0:t}
 )
-\]
+```
 
 where:
 
@@ -430,7 +430,7 @@ where:
 
 Similarly, a Reference Frame may change according to:
 
-\[
+```math
 \mathcal{F}_{t+1}
 =
 \mathcal{G}
@@ -439,7 +439,7 @@ Similarly, a Reference Frame may change according to:
 Res_t,
 \mathcal{T}_{0:t}
 )
-\]
+```
 
 These equations are intentionally incomplete.
 
@@ -455,7 +455,7 @@ The same Residual encountered by two systems with different trajectories may pro
 
 A minimal Trajectory representation may be written as:
 
-\[
+```math
 \mathcal{T}_{0:t}
 =
 \{
@@ -464,7 +464,7 @@ A minimal Trajectory representation may be written as:
 Res_{\tau},
 \mathcal{A}_{\tau}
 \}_{\tau=0}^{t}
-\]
+```
 
 where:
 
@@ -498,7 +498,7 @@ They may generate action.
 
 Conceptually:
 
-\[
+```math
 \mathcal{A}_t
 =
 \Pi(
@@ -506,13 +506,13 @@ Conceptually:
 \mathcal{F}_t,
 \mathcal{T}_{0:t}
 )
-\]
+```
 
 Action then changes or probes the relation with Reality.
 
 A minimal environmental representation is:
 
-\[
+```math
 Reality_{t+1}
 \sim
 \mathcal{E}
@@ -521,7 +521,7 @@ Reality_t,
 \mathcal{A}_t,
 \ldots
 )
-\]
+```
 
 This creates a recursive loop:
 
@@ -583,21 +583,21 @@ Multiple Trajectories may interact.
 
 Conceptually:
 
-\[
+```math
 \{T_1,T_2,\ldots,T_n\}
 \rightarrow
 Coupling
-\]
+```
 
 Some forms of sufficiently persistent or mutually constraining coupling may contribute to the enactment of a higher-order Updating Unit.
 
-\[
+```math
 Coupling
 \rightarrow
 Enactment
 \rightarrow
 Updating\ Unit
-\]
+```
 
 However:
 
@@ -615,11 +615,11 @@ No universal enactment threshold is currently claimed.
 
 If Updating Units emerge dynamically, their boundaries may also change.
 
-\[
+```math
 Boundary_t
 \neq
 Boundary_{t+1}
-\]
+```
 
 Boundary dynamics may affect:
 
@@ -651,17 +651,17 @@ The distinction matters because optimization inside a fixed Possibility Space is
 
 Conceptually:
 
-\[
+```math
 Trajectory_t
 \rightarrow
 ReferenceFrame_t
 \rightarrow
 PossibilitySpace_t
-\]
+```
 
 but subsequent dynamics may produce:
 
-\[
+```math
 PossibilitySpace_t
 \rightarrow
 New\ Trajectories
@@ -669,7 +669,7 @@ New\ Trajectories
 New\ ReferenceFrames
 \rightarrow
 PossibilitySpace_{t+1}
-\]
+```
 
 Therefore, the space in which updating occurs may itself become part of the dynamics.
 
@@ -703,7 +703,7 @@ Historical and path-dependent patterns across time.
 
 Conceptually:
 
-\[
+```math
 Measurement
 =
 Quantitative
@@ -713,7 +713,7 @@ Structural
 Transitional
 +
 Trajectory
-\]
+```
 
 This expression is conceptual rather than mathematical.
 
