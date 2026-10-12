@@ -121,28 +121,11 @@ A plain-language form is:
 
 The current canonical answer is:
 
-```math
-\boxed{
-\textbf{
-IDOS is an architecture for maintaining and reconfiguring
-the capacity of evolving heterogeneous systems to update again,
-without losing contact with Reality,
-even as their reference frames, boundaries, and measurement systems change.
-}
-}
-```
+> **IDOS is an architecture for maintaining and reconfiguring the capacity of evolving heterogeneous systems to update again, without losing contact with Reality, even as their reference frames, boundaries, and measurement systems change.**
 
 Japanese:
 
-```math
-\boxed{
-\textbf{
-IDOSは、参照系・境界・測定系も変化し続ける異種知性系において、
-Realityとの接触を失わず、
-「次も変われる状態」を維持・再構成するためのArchitectureである。
-}
-}
-```
+> **IDOSは、参照系・境界・測定系も変化し続ける異種知性系において、 Realityとの接触を失わず、 「次も変われる状態」を維持・再構成するためのArchitectureである。**
 
 A more explicit operational form is:
 
