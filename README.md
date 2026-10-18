@@ -6,6 +6,16 @@
 
 **Status (12 October 2026):** architectural research baseline frozen at **[MASTER_MAP v1.1](architecture/MASTER_MAP_v1.1.md)**. The measurement specification is **provisional (v0.3)**. Independent replication, construct validity and superiority over established methods **have not been demonstrated**. This repository is a research and design archive, **not a production-ready or scientifically validated measurement system**.
 
+## Related Writings (note)
+
+**Japanese Articles / 日本語解説**
+
+https://note.com/large_puma4976
+
+This note publication provides Japanese-language discussions of the research background, conceptual development, theoretical questions, and potential social applications of IDOS.
+
+IDOSの研究背景、基本的な問い、理論の発展過程、および社会実装の可能性について、日本語で解説しています。
+
 ## Archived Reference (Zenodo)
 
 Master Map v1.1 was frozen on October 2, 2026, and is permanently archived on Zenodo.
