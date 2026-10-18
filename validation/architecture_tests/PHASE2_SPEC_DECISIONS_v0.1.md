@@ -20,6 +20,19 @@ cycle flag to true) was shown separately by `audit_repro.py` case 2a.
 Authorship caveat: the tests and the fixes were written by the same agent in the same session. They
 encode one reading of the constraints and should be reviewed by someone who did not write them.
 
+## Status update (integrity fix, 2026-10-18) — read this first
+
+This document records the Phase 2 state as executed. A later change set (`INTEGRITY_FIX_NOTES_v0.1.md`,
+`src/idos_reference_v1_1_research_safe.py`) revises it. Nothing below was deleted.
+
+- **P4 is withdrawn.** Forced rejection of `FU=INCREASED` without a recontact route is not adopted as a specification
+  (no MASTER_MAP v1.1 rule requires it; Measurement protocol v0.3 §5.6 treats FU as a latent capacity). SD-6 stays open.
+  `idos_reference_v1_1_proposed.py` is kept as a Phase 2 artifact only and is not the recommended variant.
+- **SD-1 (update levels):** addressed in `research_safe` by flags only, never auto-assignment. Still open as a specification question.
+- **SD-8 (cross-frame `compare()`):** addressed in `research_safe` by returning no numeric difference unless a shared measure is
+  declared (then marked `declared_unverified`). Still open: what makes a declaration adequate.
+- Other decisions unchanged. New decisions SD-12 to SD-16 are in `INTEGRITY_FIX_NOTES_v0.1.md`.
+
 ## What is implemented in the proposed file (and what it deliberately does NOT claim)
 
 | # | Change | Does NOT establish |
@@ -27,7 +40,7 @@ encode one reading of the constraints and should be reviewed by someone who did 
 | P1 | Holding stays active until every referenced residual is resolved; ids unknown to the unit are treated as still open; ignored ids are recorded in provenance | that "resolved" was correctly judged |
 | P2 | `transition()` cannot leave DISSOLUTION; REEMERGENCE requires a predecessor | a complete allowed-transition matrix (SD-11) |
 | P3 | `reopen()` rejects evidence ids absent from recorded provenance; provenance states "existence-checked only; semantic adequacy not assessed" | that evidence is relevant or sufficient (SD-5) |
-| P4 | `FU=INCREASED` requires `reality_recontact_route_exists=True` | that this is a MASTER_MAP rule (it is an interpretation — SD-6) |
+| P4 | `FU=INCREASED` requires `reality_recontact_route_exists=True` | that this is a MASTER_MAP rule (it is an interpretation — SD-6) **Withdrawn — see Status update.** |
 | P5 | `cycle_event_order_satisfied()` replaces the demo's `bool(reopening_history)`; demo key renamed; demo states theory assessment is not performed | that a Minimum IDOS cycle occurred in the theoretical sense (SD-2) |
 
 ## Open decisions
