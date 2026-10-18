@@ -20,6 +20,10 @@ def load(s, t):
 
 
 print("# Test result summary (generated)\n")
+print("> **Not all tests pass.** `phase2 / research_safe` has 1 failure and 2 unexpected successes (plus 3 expected failures):")
+print("> differences caused by the specification change recorded in `validation/architecture_tests/INTEGRITY_FIX_NOTES_v0.1.md`")
+print("> section 3, not a claim that Phase 2 passes. `integrity` tests fail on the frozen/Phase 2 files by design.")
+print("> Nothing here is evidence for the original 34-test audit result, which is not reproduced.\n")
 print("| suite | implementation | total | " + " | ".join(cats) + " |")
 print("|---|---|---:|" + "---:|" * len(cats))
 data = {}

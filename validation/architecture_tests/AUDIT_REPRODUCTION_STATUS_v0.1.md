@@ -61,9 +61,10 @@ reported 34. They test selected behaviours of the reference code and make no cla
 
 ## 6. Integrity of the original record
 
-`ARCHITECTURE_INVARIANT_AUDIT_v0.1.md` is left **byte-for-byte unchanged** by this correction. The notice is
-placed in this separate file and linked from `README.md` and `DOCUMENT_INDEX.md`. A banner inside the original
-file would be more visible but would alter a preserved record; that choice is left to the maintainer.
+`ARCHITECTURE_INVARIANT_AUDIT_v0.1.md` keeps its **entire original text unchanged**. At the maintainer's request (2026-10-18)
+a short notice of 6 lines was **prepended** to it; no line of the original was edited or removed (the original is an exact
+suffix of the current file, and `git diff --numstat` shows 6 additions / 0 deletions). The fuller correction is this file,
+linked from `README.md` and `DOCUMENT_INDEX.md`.
 
 ## 7. How to close this
 

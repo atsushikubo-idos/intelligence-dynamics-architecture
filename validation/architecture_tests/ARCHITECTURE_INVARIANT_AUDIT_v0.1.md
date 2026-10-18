@@ -1,3 +1,9 @@
+> **Notice added 2026-10-18 — added text only; the record below is unchanged.**
+> The result reported below (“34 passed / 0 xfailed / 0 failed”) **cannot be independently reproduced from this repository**:
+> the named suite `test_idos_invariants.py` is not in the repository or its history, and several statements below do not
+> match the committed `src/idos_reference_v1_1.py`. It is preserved as the figure reported at the time and **should not be
+> cited as evidence**. See [AUDIT_REPRODUCTION_STATUS_v0.1.md](AUDIT_REPRODUCTION_STATUS_v0.1.md).
+
 # ARCHITECTURE_INVARIANT_AUDIT_v0.1
 
 ## Status

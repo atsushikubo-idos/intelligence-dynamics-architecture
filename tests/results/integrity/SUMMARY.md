@@ -1,5 +1,10 @@
 # Test result summary (generated)
 
+> **Not all tests pass.** `phase2 / research_safe` has 1 failure and 2 unexpected successes (plus 3 expected failures):
+> differences caused by the specification change recorded in `validation/architecture_tests/INTEGRITY_FIX_NOTES_v0.1.md`
+> section 3, not a claim that Phase 2 passes. `integrity` tests fail on the frozen/Phase 2 files by design.
+> Nothing here is evidence for the original 34-test audit result, which is not reproduced.
+
 | suite | implementation | total | pass | fail | error | xfail | unexpected_success | skip |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 | phase2 | original | 37 | 17 | 15 | 0 | 5 | 0 | 0 |

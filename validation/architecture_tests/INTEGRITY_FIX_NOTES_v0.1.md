@@ -2,8 +2,8 @@
 
 Status: proposal on branch `integrity/minimal-research-fix`. Not merged. Not pushed.
 **Unchanged by this fix:** `architecture/MASTER_MAP_v1.1.md`, `theory/DYNAMICS_MODEL.md`, the frozen
-`src/idos_reference_v1_1.py`, and `validation/architecture_tests/ARCHITECTURE_INVARIANT_AUDIT_v0.1.md`
-(byte-identical to `main`).
+`src/idos_reference_v1_1.py`. `validation/architecture_tests/ARCHITECTURE_INVARIANT_AUDIT_v0.1.md` has a 6-line notice
+**prepended** (maintainer's request); its original text is otherwise unchanged.
 
 ## 1. Scope
 
@@ -117,7 +117,26 @@ results in `tests/results/integrity/` are from the re-run, not from the first dr
 
 Carried over unchanged: SD-2, SD-3, SD-4, SD-5, SD-6 (route/FU consistency stays open), SD-7, SD-9, SD-10, SD-11.
 
-## 7. What this does not establish
+## 7. Known limitations retained (not resolved by this fix)
+
+- **FU measurement state.** The variant records an evaluator's judgment and a `measurement_status` of `not_estimable` or
+  `latent_not_validated`. It does **not** measure Future Updateability, does not verify that a claimed perturbation/re-test
+  exists (SD-13), and the relation between the six assessment questions and the status label has no aggregation rule
+  (SD-6, SD-14). Per Measurement protocol v0.3 §5.6, FU stays latent and unscored.
+- **Cross-frame comparison.** Comparability rests on a free-text declaration that the code cannot verify (SD-15);
+  what makes a declaration adequate, and when two frames are incommensurable (`KNOWN_LIMITATIONS.md` §20), remains open.
+  Literal comparisons still returned ungated: SD-16.
+- No theory revision and no large code change are part of this fix.
+
+## 8. How to read the test results
+
+**Not all tests pass.** On the research-safe variant the new suite passes 43/43, but the unedited Phase 2 suite ends with
+**1 failure and 2 unexpected successes** (plus 3 expected failures, 31 passes). They are differences caused by the
+specification change in §3 — the withdrawn P4 rule, and two formerly open decisions now partly addressed — not defects,
+and the Phase 2 suite is not reported as “all passing” for this variant. The frozen file fails 36 of the 43 new tests by
+design: those tests describe the research-safe behaviour it lacks.
+
+## 9. What this does not establish
 
 No test result here validates IDOS scientifically or shows the original 34-test result. The tests and the variant were
 reviewed by the same agent that adopted them; independent review is recommended.
