@@ -68,7 +68,8 @@ Canonical master baseline: [MASTER_MAP v1.1](architecture/MASTER_MAP_v1.1.md).
 
 ## validation/architecture_tests
 
-- [ARCHITECTURE_INVARIANT_AUDIT_v0.1.md](<validation/architecture_tests/ARCHITECTURE_INVARIANT_AUDIT_v0.1.md>) — Architecture stress, reduction, and falsification.
+- [ARCHITECTURE_INVARIANT_AUDIT_v0.1.md](<validation/architecture_tests/ARCHITECTURE_INVARIANT_AUDIT_v0.1.md>) — Architecture stress, reduction, and falsification. **Reported “34 passed” result: not reproduced; see the correction notice below.**
+- [AUDIT_REPRODUCTION_STATUS_v0.1.md](<validation/architecture_tests/AUDIT_REPRODUCTION_STATUS_v0.1.md>) — Correction notice (added 2026-10-18): reproducibility status of the recorded 34/34 audit result.
 - [ARCHITECTURE_LEVEL_VALIDATION_PROTOCOL_v0.1.md](<validation/architecture_tests/ARCHITECTURE_LEVEL_VALIDATION_PROTOCOL_v0.1.md>) — Architecture stress, reduction, and falsification.
 - [ARCHITECTURE_REDUCTION_AND_FALSIFICATION_v0.1 .md](<validation/architecture_tests/ARCHITECTURE_REDUCTION_AND_FALSIFICATION_v0.1%20.md>) — Architecture stress, reduction, and falsification.
 - [FUTURE_UPDATEABILITY_AND_MUTUAL_UPDATEABILITY_VALIDATION_v0.1.md](<validation/architecture_tests/FUTURE_UPDATEABILITY_AND_MUTUAL_UPDATEABILITY_VALIDATION_v0.1.md>) — Architecture stress, reduction, and falsification.

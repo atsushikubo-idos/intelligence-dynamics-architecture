@@ -6,6 +6,8 @@
 
 **Status (12 October 2026):** architectural research baseline frozen at **[MASTER_MAP v1.1](architecture/MASTER_MAP_v1.1.md)**. The measurement specification is **provisional (v0.3)**. Independent replication, construct validity and superiority over established methods **have not been demonstrated**. This repository is a research and design archive, **not a production-ready or scientifically validated measurement system**.
 
+> **Reproducibility notice (18 October 2026):** the result “34 passed / 0 xfailed / 0 failed” reported in [ARCHITECTURE_INVARIANT_AUDIT_v0.1.md](validation/architecture_tests/ARCHITECTURE_INVARIANT_AUDIT_v0.1.md) is preserved as a historical report only. The test suite it names is not in this repository and the result **has not been reproduced**; do not cite it as evidence. See [AUDIT_REPRODUCTION_STATUS_v0.1.md](validation/architecture_tests/AUDIT_REPRODUCTION_STATUS_v0.1.md).
+
 ## Archived Reference (Zenodo)
 
 Master Map v1.1 was frozen on October 2, 2026, and is permanently archived on Zenodo.

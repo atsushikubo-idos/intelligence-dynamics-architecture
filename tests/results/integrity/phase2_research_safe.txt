@@ -1,0 +1,58 @@
+test_demo_reports_event_order_not_cycle_completion (__main__.CycleEventOrder.test_demo_reports_event_order_not_cycle_completion) ... ok
+test_event_order_true_does_not_imply_theoretical_cycle (__main__.CycleEventOrder.test_event_order_true_does_not_imply_theoretical_cycle)
+Event order can be satisfied with NO Difference, NO Residual and NO distribution-change ... ok
+test_no_reopening_is_not_satisfied (__main__.CycleEventOrder.test_no_reopening_is_not_satisfied) ... ok
+test_reopen_without_any_recontact_is_not_event_order_complete (__main__.CycleEventOrder.test_reopen_without_any_recontact_is_not_event_order_complete) ... ok
+test_stale_contact_before_update_does_not_count (__main__.CycleEventOrder.test_stale_contact_before_update_does_not_count) ... ok
+test_update_then_recontact_then_reopen_satisfies_event_order (__main__.CycleEventOrder.test_update_then_recontact_then_reopen_satisfies_event_order) ... ok
+test_existence_check_does_not_imply_semantic_validity (__main__.EvidenceChecks.test_existence_check_does_not_imply_semantic_validity)
+LIMITATION DOCUMENTED, NOT ENDORSED: an id that merely exists in provenance but is ... ok
+test_reopen_without_evidence_still_allowed (__main__.EvidenceChecks.test_reopen_without_evidence_still_allowed) ... ok
+test_reopening_provenance_states_semantic_adequacy_not_assessed (__main__.EvidenceChecks.test_reopening_provenance_states_semantic_adequacy_not_assessed) ... ok
+test_traceable_evidence_is_accepted (__main__.EvidenceChecks.test_traceable_evidence_is_accepted) ... ok
+test_unknown_evidence_id_is_rejected (__main__.EvidenceChecks.test_unknown_evidence_id_is_rejected) ... ok
+test_increased_with_route_is_accepted (__main__.FutureUpdateabilityConsistency.test_increased_with_route_is_accepted) ... ok
+test_increased_without_recontact_route_is_rejected (__main__.FutureUpdateabilityConsistency.test_increased_without_recontact_route_is_rejected) ... FAIL
+test_preserved_without_route_not_constrained (__main__.FutureUpdateabilityConsistency.test_preserved_without_route_not_constrained) ... ok
+test_reduced_without_route_remains_recordable (__main__.FutureUpdateabilityConsistency.test_reduced_without_route_remains_recordable) ... ok
+test_uncertain_without_route_remains_recordable (__main__.FutureUpdateabilityConsistency.test_uncertain_without_route_remains_recordable) ... ok
+test_full_resolution_deactivates_holding (__main__.HoldingResolution.test_full_resolution_deactivates_holding) ... ok
+test_ignored_unregistered_ids_are_recorded_in_provenance (__main__.HoldingResolution.test_ignored_unregistered_ids_are_recorded_in_provenance) ... ok
+test_partial_resolution_keeps_holding_active (__main__.HoldingResolution.test_partial_resolution_keeps_holding_active) ... ok
+test_partial_resolution_visible_in_cdp_description (__main__.HoldingResolution.test_partial_resolution_visible_in_cdp_description) ... ok
+test_resolving_an_unregistered_residual_does_nothing (__main__.HoldingResolution.test_resolving_an_unregistered_residual_does_nothing) ... ok
+test_unregistered_residual_id_is_not_counted_as_resolved (__main__.HoldingResolution.test_unregistered_residual_id_is_not_counted_as_resolved) ... ok
+test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged (__main__.OpenSpecDecisions.test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged) ... unexpected success
+test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames (__main__.OpenSpecDecisions.test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames) ... unexpected success
+test_SPEC4_translate_depends_on_target (__main__.OpenSpecDecisions.test_SPEC4_translate_depends_on_target) ... expected failure
+test_SPEC6_holding_has_a_review_or_expiry_condition (__main__.OpenSpecDecisions.test_SPEC6_holding_has_a_review_or_expiry_condition) ... expected failure
+test_SPEC_X2_fu_comparative_status_requires_comparison_basis (__main__.OpenSpecDecisions.test_SPEC_X2_fu_comparative_status_requires_comparison_basis) ... expected failure
+test_coupling_does_not_enact_without_criterion (__main__.ParitySmoke.test_coupling_does_not_enact_without_criterion) ... ok
+test_demo_runs (__main__.ParitySmoke.test_demo_runs) ... ok
+test_difference_is_not_automatically_residual (__main__.ParitySmoke.test_difference_is_not_automatically_residual) ... ok
+test_update_does_not_auto_resolve_residual (__main__.ParitySmoke.test_update_does_not_auto_resolve_residual) ... ok
+test_branch_dormancy_dissolution_path_still_works (__main__.TrajectoryTransitions.test_branch_dormancy_dissolution_path_still_works) ... ok
+test_dissolved_to_dissolved_is_allowed (__main__.TrajectoryTransitions.test_dissolved_to_dissolved_is_allowed) ... ok
+test_record_on_dissolved_trajectory_raises (__main__.TrajectoryTransitions.test_record_on_dissolved_trajectory_raises) ... ok
+test_reemerge_method_still_works (__main__.TrajectoryTransitions.test_reemerge_method_still_works) ... ok
+test_reemergence_phase_requires_predecessor (__main__.TrajectoryTransitions.test_reemergence_phase_requires_predecessor) ... ok
+test_transition_cannot_revive_dissolved_trajectory (__main__.TrajectoryTransitions.test_transition_cannot_revive_dissolved_trajectory) ... ok
+
+======================================================================
+FAIL: test_increased_without_recontact_route_is_rejected (__main__.FutureUpdateabilityConsistency.test_increased_without_recontact_route_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 234, in test_increased_without_recontact_route_is_rejected
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+UNEXPECTED SUCCESS: test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged (__main__.OpenSpecDecisions.test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged)
+UNEXPECTED SUCCESS: test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames (__main__.OpenSpecDecisions.test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames)
+----------------------------------------------------------------------
+Ran 37 tests in 0.007s
+
+FAILED (failures=1, expected failures=3, unexpected successes=2)
+
+SUMMARY {"fail": 1, "pass": 31, "unexpected_success": 2, "xfail": 3}

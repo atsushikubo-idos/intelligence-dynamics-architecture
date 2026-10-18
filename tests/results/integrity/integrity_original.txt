@@ -1,0 +1,469 @@
+test_cdp_description_exposes_judgment_nature_of_latest_fu (__main__.FUJudgmentRecord.test_cdp_description_exposes_judgment_nature_of_latest_fu) ... FAIL
+test_demo_marks_fu_as_judgment_and_not_estimable (__main__.FUJudgmentRecord.test_demo_marks_fu_as_judgment_and_not_estimable) ... FAIL
+test_increased_with_route_has_no_flag (__main__.FUJudgmentRecord.test_increased_with_route_has_no_flag) ... FAIL
+test_increased_without_route_carries_non_binding_review_flag (__main__.FUJudgmentRecord.test_increased_without_route_carries_non_binding_review_flag) ... FAIL
+test_increased_without_route_is_accepted_not_rejected (__main__.FUJudgmentRecord.test_increased_without_route_is_accepted_not_rejected) ... ok
+test_measurement_status_latent_not_validated_with_perturbation_claim (__main__.FUJudgmentRecord.test_measurement_status_latent_not_validated_with_perturbation_claim) ... FAIL
+test_measurement_status_never_asserts_an_estimate (__main__.FUJudgmentRecord.test_measurement_status_never_asserts_an_estimate) ... FAIL
+test_measurement_status_not_estimable_without_perturbation_claim (__main__.FUJudgmentRecord.test_measurement_status_not_estimable_without_perturbation_claim) ... FAIL
+test_record_type_is_evaluator_judgment (__main__.FUJudgmentRecord.test_record_type_is_evaluator_judgment) ... FAIL
+test_reduced_with_route_is_accepted_and_unflagged (__main__.FUJudgmentRecord.test_reduced_with_route_is_accepted_and_unflagged) ... FAIL
+test_reopen_accepts_increased_without_route_and_records_judgment_nature (__main__.FUJudgmentRecord.test_reopen_accepts_increased_without_route_and_records_judgment_nature) ... FAIL
+test_route_presence_alone_neither_confirms_nor_denies (__main__.FUJudgmentRecord.test_route_presence_alone_neither_confirms_nor_denies) ... ERROR
+test_blank_shared_measure_is_treated_as_absent (__main__.FrameComparisonGate.test_blank_shared_measure_is_treated_as_absent) ... FAIL
+test_declared_shared_measure_returns_values_marked_unverified (__main__.FrameComparisonGate.test_declared_shared_measure_returns_values_marked_unverified) ... FAIL
+test_different_frame_names_also_not_established (__main__.FrameComparisonGate.test_different_frame_names_also_not_established) ... FAIL
+test_literal_field_comparisons_still_present (__main__.FrameComparisonGate.test_literal_field_comparisons_still_present) ... ok
+test_measurement_version_difference_not_returned_without_shared_measure (__main__.FrameComparisonGate.test_measurement_version_difference_not_returned_without_shared_measure) ... FAIL
+test_no_declared_measure_marks_not_established (__main__.FrameComparisonGate.test_no_declared_measure_marks_not_established) ... FAIL
+test_residual_difference_not_returned_without_shared_measure (__main__.FrameComparisonGate.test_residual_difference_not_returned_without_shared_measure) ... FAIL
+test_same_frame_name_does_not_establish_comparability (__main__.FrameComparisonGate.test_same_frame_name_does_not_establish_comparability) ... FAIL
+test_L5_with_frame_replacement_only_is_flagged (__main__.GapGuards.test_L5_with_frame_replacement_only_is_flagged) ... FAIL
+test_blank_or_non_string_perturbation_claims_stay_not_estimable (__main__.GapGuards.test_blank_or_non_string_perturbation_claims_stay_not_estimable) ... FAIL
+test_caller_cannot_inject_derived_fu_fields (__main__.GapGuards.test_caller_cannot_inject_derived_fu_fields) ... FAIL
+test_compare_output_has_no_numeric_values_without_shared_measure (__main__.GapGuards.test_compare_output_has_no_numeric_values_without_shared_measure) ... FAIL
+test_one_non_blank_claim_among_blanks_is_enough_for_latent_not_validated (__main__.GapGuards.test_one_non_blank_claim_among_blanks_is_enough_for_latent_not_validated) ... FAIL
+test_translate_carries_fu_judgment_nature (__main__.GapGuards.test_translate_carries_fu_judgment_nature) ... FAIL
+test_demo_runs (__main__.Parity.test_demo_runs) ... ok
+test_update_applies_changes_for_unflagged_case (__main__.Parity.test_update_applies_changes_for_unflagged_case) ... ok
+test_L1_with_frame_replacement_is_flagged_as_definition_conflict (__main__.UpdateLevelConsistency.test_L1_with_frame_replacement_is_flagged_as_definition_conflict) ... FAIL
+test_L1_with_no_change_has_no_flags (__main__.UpdateLevelConsistency.test_L1_with_no_change_has_no_flags) ... FAIL
+test_L2_with_frame_replacement_is_flagged_as_definition_conflict (__main__.UpdateLevelConsistency.test_L2_with_frame_replacement_is_flagged_as_definition_conflict) ... FAIL
+test_L3_with_frame_and_space_gets_only_convention_dependent_flag (__main__.UpdateLevelConsistency.test_L3_with_frame_and_space_gets_only_convention_dependent_flag) ... FAIL
+test_L3_with_frame_replacement_only_has_no_flags (__main__.UpdateLevelConsistency.test_L3_with_frame_replacement_only_has_no_flags) ... FAIL
+test_L3_without_frame_replacement_is_flagged (__main__.UpdateLevelConsistency.test_L3_without_frame_replacement_is_flagged) ... FAIL
+test_L4_is_not_checked_for_frame_replacement (__main__.UpdateLevelConsistency.test_L4_is_not_checked_for_frame_replacement) ... FAIL
+test_L5_with_space_replacement_has_no_flags (__main__.UpdateLevelConsistency.test_L5_with_space_replacement_has_no_flags) ... FAIL
+test_L5_without_space_replacement_is_flagged (__main__.UpdateLevelConsistency.test_L5_without_space_replacement_is_flagged) ... FAIL
+test_boundary_or_measurement_change_alone_is_not_mapped_to_levels (__main__.UpdateLevelConsistency.test_boundary_or_measurement_change_alone_is_not_mapped_to_levels) ... FAIL
+test_declared_level_is_never_altered_or_auto_assigned (__main__.UpdateLevelConsistency.test_declared_level_is_never_altered_or_auto_assigned) ... ok
+test_demo_update_with_space_change_under_L3_carries_convention_flag (__main__.UpdateLevelConsistency.test_demo_update_with_space_change_under_L3_carries_convention_flag) ... FAIL
+test_flagged_update_is_still_applied_not_blocked (__main__.UpdateLevelConsistency.test_flagged_update_is_still_applied_not_blocked) ... ok
+test_flags_are_also_recorded_in_provenance (__main__.UpdateLevelConsistency.test_flags_are_also_recorded_in_provenance) ... FAIL
+test_module_level_checker_is_available_and_consistent (__main__.UpdateLevelConsistency.test_module_level_checker_is_available_and_consistent) ... FAIL
+
+======================================================================
+ERROR: test_route_presence_alone_neither_confirms_nor_denies (__main__.FUJudgmentRecord.test_route_presence_alone_neither_confirms_nor_denies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 161, in test_route_presence_alone_neither_confirms_nor_denies
+    self.assertEqual(with_route.measurement_status, without_route.measurement_status)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FutureUpdateabilityAssessment' object has no attribute 'measurement_status'
+
+======================================================================
+FAIL: test_cdp_description_exposes_judgment_nature_of_latest_fu (__main__.FUJudgmentRecord.test_cdp_description_exposes_judgment_nature_of_latest_fu)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 198, in test_cdp_description_exposes_judgment_nature_of_latest_fu
+    self.assertIsNone(getattr(d0, "latest_fu_record_type", "MISSING"))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'MISSING' is not None
+
+======================================================================
+FAIL: test_demo_marks_fu_as_judgment_and_not_estimable (__main__.FUJudgmentRecord.test_demo_marks_fu_as_judgment_and_not_estimable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 208, in test_demo_marks_fu_as_judgment_and_not_estimable
+    self.assertEqual(fu.get("record_type"), "evaluator_judgment")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'evaluator_judgment'
+
+======================================================================
+FAIL: test_increased_with_route_has_no_flag (__main__.FUJudgmentRecord.test_increased_with_route_has_no_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 154, in test_increased_with_route_has_no_flag
+    self.assertEqual(getattr(fu, "review_flags", None), [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != []
+
+======================================================================
+FAIL: test_increased_without_route_carries_non_binding_review_flag (__main__.FUJudgmentRecord.test_increased_without_route_carries_non_binding_review_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 149, in test_increased_without_route_carries_non_binding_review_flag
+    self.assertTrue(flags, "expected a reviewer flag")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None is not true : expected a reviewer flag
+
+======================================================================
+FAIL: test_measurement_status_latent_not_validated_with_perturbation_claim (__main__.FUJudgmentRecord.test_measurement_status_latent_not_validated_with_perturbation_claim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 65, in mk_fu
+    return m.FutureUpdateabilityAssessment(**kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+TypeError: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 177, in test_measurement_status_latent_not_validated_with_perturbation_claim
+    fu = mk_fu(self, m.FutureUpdateabilityStatus.INCREASED, claimed=["perturbation-1"])
+  File "/tmp/idos/tests/test_integrity_fix.py", line 67, in mk_fu
+    tc.fail(f"API missing on this implementation: {e}")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+======================================================================
+FAIL: test_measurement_status_never_asserts_an_estimate (__main__.FUJudgmentRecord.test_measurement_status_never_asserts_an_estimate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 184, in test_measurement_status_never_asserts_an_estimate
+    self.assertIn(ms, {"not_estimable", "latent_not_validated"})
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None not found in {'not_estimable', 'latent_not_validated'}
+
+======================================================================
+FAIL: test_measurement_status_not_estimable_without_perturbation_claim (__main__.FUJudgmentRecord.test_measurement_status_not_estimable_without_perturbation_claim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 174, in test_measurement_status_not_estimable_without_perturbation_claim
+    self.assertEqual(getattr(fu, "measurement_status", None), "not_estimable")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'not_estimable'
+
+======================================================================
+FAIL: test_record_type_is_evaluator_judgment (__main__.FUJudgmentRecord.test_record_type_is_evaluator_judgment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 169, in test_record_type_is_evaluator_judgment
+    self.assertEqual(getattr(mk_fu(self, m.FutureUpdateabilityStatus.PRESERVED), "record_type", None),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     "evaluator_judgment")
+                     ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'evaluator_judgment'
+
+======================================================================
+FAIL: test_reduced_with_route_is_accepted_and_unflagged (__main__.FUJudgmentRecord.test_reduced_with_route_is_accepted_and_unflagged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 166, in test_reduced_with_route_is_accepted_and_unflagged
+    self.assertEqual(getattr(fu, "review_flags", None), [])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != []
+
+======================================================================
+FAIL: test_reopen_accepts_increased_without_route_and_records_judgment_nature (__main__.FUJudgmentRecord.test_reopen_accepts_increased_without_route_and_records_judgment_nature)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 192, in test_reopen_accepts_increased_without_route_and_records_judgment_nature
+    self.assertIn("evaluator", desc)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+AssertionError: 'evaluator' not found in "Reopened 'r' -> maintain; future updateability=increased. b"
+
+======================================================================
+FAIL: test_blank_shared_measure_is_treated_as_absent (__main__.FrameComparisonGate.test_blank_shared_measure_is_treated_as_absent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 89, in compare
+    return cdp.compare(cdp.describe(a), cdp.describe(b), **kw)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CommonDynamicsProtocol.compare() got an unexpected keyword argument 'shared_measure'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 123, in test_blank_shared_measure_is_treated_as_absent
+    out = compare(self, self.a, self.b, shared_measure=blank)
+  File "/tmp/idos/tests/test_integrity_fix.py", line 91, in compare
+    tc.fail(f"API missing on this implementation: {e}")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: CommonDynamicsProtocol.compare() got an unexpected keyword argument 'shared_measure'
+
+======================================================================
+FAIL: test_declared_shared_measure_returns_values_marked_unverified (__main__.FrameComparisonGate.test_declared_shared_measure_returns_values_marked_unverified)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 89, in compare
+    return cdp.compare(cdp.describe(a), cdp.describe(b), **kw)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CommonDynamicsProtocol.compare() got an unexpected keyword argument 'shared_measure'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 128, in test_declared_shared_measure_returns_values_marked_unverified
+    out = compare(self, self.a, self.b, shared_measure="count of registered residuals, same coder protocol")
+  File "/tmp/idos/tests/test_integrity_fix.py", line 91, in compare
+    tc.fail(f"API missing on this implementation: {e}")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: CommonDynamicsProtocol.compare() got an unexpected keyword argument 'shared_measure'
+
+======================================================================
+FAIL: test_different_frame_names_also_not_established (__main__.FrameComparisonGate.test_different_frame_names_also_not_established)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 119, in test_different_frame_names_also_not_established
+    self.assertEqual(out.get("comparability"), "not_established")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'not_established'
+
+======================================================================
+FAIL: test_measurement_version_difference_not_returned_without_shared_measure (__main__.FrameComparisonGate.test_measurement_version_difference_not_returned_without_shared_measure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 107, in test_measurement_version_difference_not_returned_without_shared_measure
+    self.assertIsNone(compare(self, self.a, self.b).get("measurement_version_difference"))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 is not None
+
+======================================================================
+FAIL: test_no_declared_measure_marks_not_established (__main__.FrameComparisonGate.test_no_declared_measure_marks_not_established)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 101, in test_no_declared_measure_marks_not_established
+    self.assertEqual(compare(self, self.a, self.b).get("comparability"), "not_established")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'not_established'
+
+======================================================================
+FAIL: test_residual_difference_not_returned_without_shared_measure (__main__.FrameComparisonGate.test_residual_difference_not_returned_without_shared_measure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 104, in test_residual_difference_not_returned_without_shared_measure
+    self.assertIsNone(compare(self, self.a, self.b).get("residual_difference"))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 3 is not None
+
+======================================================================
+FAIL: test_same_frame_name_does_not_establish_comparability (__main__.FrameComparisonGate.test_same_frame_name_does_not_establish_comparability)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 112, in test_same_frame_name_does_not_establish_comparability
+    self.assertEqual(out.get("comparability"), "not_established")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'not_established'
+
+======================================================================
+FAIL: test_L5_with_frame_replacement_only_is_flagged (__main__.GapGuards.test_L5_with_frame_replacement_only_is_flagged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 356, in test_L5_with_frame_replacement_only_is_flagged
+    self.assertTrue(any(f.startswith("definition_conflict") for f in flags_of(self, u)))
+                                                                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_blank_or_non_string_perturbation_claims_stay_not_estimable (__main__.GapGuards.test_blank_or_non_string_perturbation_claims_stay_not_estimable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 65, in mk_fu
+    return m.FutureUpdateabilityAssessment(**kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+TypeError: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 331, in test_blank_or_non_string_perturbation_claims_stay_not_estimable
+    fu = mk_fu(self, m.FutureUpdateabilityStatus.INCREASED, claimed=claimed)
+  File "/tmp/idos/tests/test_integrity_fix.py", line 67, in mk_fu
+    tc.fail(f"API missing on this implementation: {e}")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+======================================================================
+FAIL: test_caller_cannot_inject_derived_fu_fields (__main__.GapGuards.test_caller_cannot_inject_derived_fu_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 314, in test_caller_cannot_inject_derived_fu_fields
+    self.assertIsNotNone(getattr(base, "measurement_status", None), "derived FU fields missing on this implementation")
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : derived FU fields missing on this implementation
+
+======================================================================
+FAIL: test_compare_output_has_no_numeric_values_without_shared_measure (__main__.GapGuards.test_compare_output_has_no_numeric_values_without_shared_measure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 351, in test_compare_output_has_no_numeric_values_without_shared_measure
+    self.assertEqual(numeric, {}, "numeric cross-unit values returned without a declared shared measure")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'residual_difference': 4, 'measurement_version_difference': 0} != {}
+- {'measurement_version_difference': 0, 'residual_difference': 4}
++ {} : numeric cross-unit values returned without a declared shared measure
+
+======================================================================
+FAIL: test_one_non_blank_claim_among_blanks_is_enough_for_latent_not_validated (__main__.GapGuards.test_one_non_blank_claim_among_blanks_is_enough_for_latent_not_validated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 65, in mk_fu
+    return m.FutureUpdateabilityAssessment(**kw)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+TypeError: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 335, in test_one_non_blank_claim_among_blanks_is_enough_for_latent_not_validated
+    fu = mk_fu(self, m.FutureUpdateabilityStatus.INCREASED, claimed=["", "p-1"])
+  File "/tmp/idos/tests/test_integrity_fix.py", line 67, in mk_fu
+    tc.fail(f"API missing on this implementation: {e}")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: FutureUpdateabilityAssessment.__init__() got an unexpected keyword argument 'claimed_perturbation_evidence_ids'
+
+======================================================================
+FAIL: test_translate_carries_fu_judgment_nature (__main__.GapGuards.test_translate_carries_fu_judgment_nature)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 343, in test_translate_carries_fu_judgment_nature
+    self.assertEqual(ds.get("latest_fu_record_type"), "evaluator_judgment")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'evaluator_judgment'
+
+======================================================================
+FAIL: test_L1_with_frame_replacement_is_flagged_as_definition_conflict (__main__.UpdateLevelConsistency.test_L1_with_frame_replacement_is_flagged_as_definition_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 233, in test_L1_with_frame_replacement_is_flagged_as_definition_conflict
+    self.assertTrue(self._has(flags_of(self, u), "definition_conflict"))
+                              ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L1_with_no_change_has_no_flags (__main__.UpdateLevelConsistency.test_L1_with_no_change_has_no_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 272, in test_L1_with_no_change_has_no_flags
+    self.assertEqual(flags_of(self, u), [])
+                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L2_with_frame_replacement_is_flagged_as_definition_conflict (__main__.UpdateLevelConsistency.test_L2_with_frame_replacement_is_flagged_as_definition_conflict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 237, in test_L2_with_frame_replacement_is_flagged_as_definition_conflict
+    self.assertTrue(self._has(flags_of(self, u), "definition_conflict"))
+                              ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L3_with_frame_and_space_gets_only_convention_dependent_flag (__main__.UpdateLevelConsistency.test_L3_with_frame_and_space_gets_only_convention_dependent_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 257, in test_L3_with_frame_and_space_gets_only_convention_dependent_flag
+    fl = flags_of(self, u)
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L3_with_frame_replacement_only_has_no_flags (__main__.UpdateLevelConsistency.test_L3_with_frame_replacement_only_has_no_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 241, in test_L3_with_frame_replacement_only_has_no_flags
+    self.assertEqual(flags_of(self, u), [])
+                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L3_without_frame_replacement_is_flagged (__main__.UpdateLevelConsistency.test_L3_without_frame_replacement_is_flagged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 245, in test_L3_without_frame_replacement_is_flagged
+    self.assertTrue(self._has(flags_of(self, u), "definition_conflict"))
+                              ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L4_is_not_checked_for_frame_replacement (__main__.UpdateLevelConsistency.test_L4_is_not_checked_for_frame_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 268, in test_L4_is_not_checked_for_frame_replacement
+    self.assertEqual(flags_of(self, u), [])
+                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L5_with_space_replacement_has_no_flags (__main__.UpdateLevelConsistency.test_L5_with_space_replacement_has_no_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 253, in test_L5_with_space_replacement_has_no_flags
+    self.assertEqual(flags_of(self, u), [])
+                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_L5_without_space_replacement_is_flagged (__main__.UpdateLevelConsistency.test_L5_without_space_replacement_is_flagged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 249, in test_L5_without_space_replacement_is_flagged
+    self.assertTrue(self._has(flags_of(self, u), "definition_conflict"))
+                              ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_boundary_or_measurement_change_alone_is_not_mapped_to_levels (__main__.UpdateLevelConsistency.test_boundary_or_measurement_change_alone_is_not_mapped_to_levels)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 264, in test_boundary_or_measurement_change_alone_is_not_mapped_to_levels
+    self.assertEqual(flags_of(self, u), [], kw)
+                     ~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_integrity_fix.py", line 82, in flags_of
+    tc.fail("API missing on this implementation: UpdateEvent.level_flags")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: UpdateEvent.level_flags
+
+======================================================================
+FAIL: test_demo_update_with_space_change_under_L3_carries_convention_flag (__main__.UpdateLevelConsistency.test_demo_update_with_space_change_under_L3_carries_convention_flag)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 304, in test_demo_update_with_space_change_under_L3_carries_convention_flag
+    self.assertTrue(any("convention_dependent" in e["description"] for e in evs))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_flags_are_also_recorded_in_provenance (__main__.UpdateLevelConsistency.test_flags_are_also_recorded_in_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 277, in test_flags_are_also_recorded_in_provenance
+    self.assertIn("level_mismatch", kinds)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'level_mismatch' not found in ['unit_initialized', 'trajectory_record', 'frame_revision']
+
+======================================================================
+FAIL: test_module_level_checker_is_available_and_consistent (__main__.UpdateLevelConsistency.test_module_level_checker_is_available_and_consistent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_integrity_fix.py", line 296, in test_module_level_checker_is_available_and_consistent
+    self.fail("API missing on this implementation: check_update_level_consistency")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing on this implementation: check_update_level_consistency
+
+----------------------------------------------------------------------
+Ran 43 tests in 0.017s
+
+FAILED (failures=36, errors=1)
+
+SUMMARY {"error": 1, "fail": 36, "pass": 6}

@@ -1,0 +1,197 @@
+test_demo_reports_event_order_not_cycle_completion (__main__.CycleEventOrder.test_demo_reports_event_order_not_cycle_completion) ... FAIL
+test_event_order_true_does_not_imply_theoretical_cycle (__main__.CycleEventOrder.test_event_order_true_does_not_imply_theoretical_cycle)
+Event order can be satisfied with NO Difference, NO Residual and NO distribution-change ... FAIL
+test_no_reopening_is_not_satisfied (__main__.CycleEventOrder.test_no_reopening_is_not_satisfied) ... FAIL
+test_reopen_without_any_recontact_is_not_event_order_complete (__main__.CycleEventOrder.test_reopen_without_any_recontact_is_not_event_order_complete) ... FAIL
+test_stale_contact_before_update_does_not_count (__main__.CycleEventOrder.test_stale_contact_before_update_does_not_count) ... FAIL
+test_update_then_recontact_then_reopen_satisfies_event_order (__main__.CycleEventOrder.test_update_then_recontact_then_reopen_satisfies_event_order) ... FAIL
+test_existence_check_does_not_imply_semantic_validity (__main__.EvidenceChecks.test_existence_check_does_not_imply_semantic_validity)
+LIMITATION DOCUMENTED, NOT ENDORSED: an id that merely exists in provenance but is ... ok
+test_reopen_without_evidence_still_allowed (__main__.EvidenceChecks.test_reopen_without_evidence_still_allowed) ... ok
+test_reopening_provenance_states_semantic_adequacy_not_assessed (__main__.EvidenceChecks.test_reopening_provenance_states_semantic_adequacy_not_assessed) ... FAIL
+test_traceable_evidence_is_accepted (__main__.EvidenceChecks.test_traceable_evidence_is_accepted) ... ok
+test_unknown_evidence_id_is_rejected (__main__.EvidenceChecks.test_unknown_evidence_id_is_rejected) ... FAIL
+test_increased_with_route_is_accepted (__main__.FutureUpdateabilityConsistency.test_increased_with_route_is_accepted) ... ok
+test_increased_without_recontact_route_is_rejected (__main__.FutureUpdateabilityConsistency.test_increased_without_recontact_route_is_rejected) ... FAIL
+test_preserved_without_route_not_constrained (__main__.FutureUpdateabilityConsistency.test_preserved_without_route_not_constrained) ... ok
+test_reduced_without_route_remains_recordable (__main__.FutureUpdateabilityConsistency.test_reduced_without_route_remains_recordable) ... ok
+test_uncertain_without_route_remains_recordable (__main__.FutureUpdateabilityConsistency.test_uncertain_without_route_remains_recordable) ... ok
+test_full_resolution_deactivates_holding (__main__.HoldingResolution.test_full_resolution_deactivates_holding) ... ok
+test_ignored_unregistered_ids_are_recorded_in_provenance (__main__.HoldingResolution.test_ignored_unregistered_ids_are_recorded_in_provenance) ... FAIL
+test_partial_resolution_keeps_holding_active (__main__.HoldingResolution.test_partial_resolution_keeps_holding_active) ... FAIL
+test_partial_resolution_visible_in_cdp_description (__main__.HoldingResolution.test_partial_resolution_visible_in_cdp_description) ... FAIL
+test_resolving_an_unregistered_residual_does_nothing (__main__.HoldingResolution.test_resolving_an_unregistered_residual_does_nothing) ... ok
+test_unregistered_residual_id_is_not_counted_as_resolved (__main__.HoldingResolution.test_unregistered_residual_id_is_not_counted_as_resolved) ... FAIL
+test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged (__main__.OpenSpecDecisions.test_SPEC1_declared_L1_with_frame_replacement_is_rejected_or_flagged) ... expected failure
+test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames (__main__.OpenSpecDecisions.test_SPEC3_compare_does_not_subtract_residual_counts_across_different_frames) ... expected failure
+test_SPEC4_translate_depends_on_target (__main__.OpenSpecDecisions.test_SPEC4_translate_depends_on_target) ... expected failure
+test_SPEC6_holding_has_a_review_or_expiry_condition (__main__.OpenSpecDecisions.test_SPEC6_holding_has_a_review_or_expiry_condition) ... expected failure
+test_SPEC_X2_fu_comparative_status_requires_comparison_basis (__main__.OpenSpecDecisions.test_SPEC_X2_fu_comparative_status_requires_comparison_basis) ... expected failure
+test_coupling_does_not_enact_without_criterion (__main__.ParitySmoke.test_coupling_does_not_enact_without_criterion) ... ok
+test_demo_runs (__main__.ParitySmoke.test_demo_runs) ... ok
+test_difference_is_not_automatically_residual (__main__.ParitySmoke.test_difference_is_not_automatically_residual) ... ok
+test_update_does_not_auto_resolve_residual (__main__.ParitySmoke.test_update_does_not_auto_resolve_residual) ... ok
+test_branch_dormancy_dissolution_path_still_works (__main__.TrajectoryTransitions.test_branch_dormancy_dissolution_path_still_works) ... ok
+test_dissolved_to_dissolved_is_allowed (__main__.TrajectoryTransitions.test_dissolved_to_dissolved_is_allowed) ... ok
+test_record_on_dissolved_trajectory_raises (__main__.TrajectoryTransitions.test_record_on_dissolved_trajectory_raises) ... ok
+test_reemerge_method_still_works (__main__.TrajectoryTransitions.test_reemerge_method_still_works) ... ok
+test_reemergence_phase_requires_predecessor (__main__.TrajectoryTransitions.test_reemergence_phase_requires_predecessor) ... FAIL
+test_transition_cannot_revive_dissolved_trajectory (__main__.TrajectoryTransitions.test_transition_cannot_revive_dissolved_trajectory) ... FAIL
+
+======================================================================
+FAIL: test_demo_reports_event_order_not_cycle_completion (__main__.CycleEventOrder.test_demo_reports_event_order_not_cycle_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 293, in test_demo_reports_event_order_not_cycle_completion
+    self.assertIn("minimum_idos_cycle_event_order_satisfied", result)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'minimum_idos_cycle_event_order_satisfied' not found in {'architecture_manifest': {'version': '1.1', 'baseline': 'MASTER_MAP_v1.1', 'q1': 'Can the system remain capable of changing how it changes?', 'q2': 'Maintain and reconfigure the capacity of evolving heterogeneous systems to update again without losing contact with Reality.', 'design_principles': ['Difference without Isolation', 'Connection without Unification', 'Update without Erasure'], 'surviving_core_candidates': ['Updating Unit', 'Dynamic Boundary', 'Trajectory', 'Reference Frame', 'Measurement', 'Provenance', 'Future Updateability'], 'repositioned_constructs': {'Residual': 'diagnostic form of Difference', 'Holding': 'domain-specific update mechanism', 'Possibility Space': 'generative extension', '12PDM': 'dynamic observation/description protocol', 'CDP': 'relational/application interoperability layer'}, 'minimum_operational_loop': ['Detect', 'Preserve', 'Update', 'Trace', 'Recontact', 'Reopen'], 'reopening_actions': ['maintain', 'adjust', 'reconfigure', 'abandon'], 'non_equivalences': ['Current Performance != Future Updateability', 'Reopening != Reconfiguration', 'Provenance != Causality', 'Meaning Unification != Interoperability', 'Physical Entity != Updating Unit']}, 'human': {'unit_id': 'unit-a52c5e30', 'trajectory_id': 'traj-688a82f7', 'phase': 'persistence', 'frame_name': 'Efficiency-and-optionality frame', 'boundary_version': 2, 'possibility_space_version': 2, 'measurement_version': 2, 'unresolved_residuals': 0, 'active_holdings': 0, 'reopening_count': 1, 'latest_future_updateability': 'preserved', 'component_ids': [], 'epistemic_status': <EpistemicStatus.PROVISIONAL: 'P'>}, 'ai': {'unit_id': 'unit-420b1fd5', 'trajectory_id': 'traj-b507036e', 'phase': 'birth', 'frame_name': 'Optimization frame', 'boundary_version': 1, 'possibility_space_version': 1, 'measurement_version': 1, 'unresolved_residuals': 0, 'active_holdings': 0, 'reopening_count': 0, 'latest_future_updateability': None, 'component_ids': [], 'epistemic_status': <EpistemicStatus.PROVISIONAL: 'P'>}, 'comparison': {'same_phase': False, 'same_frame_name': False, 'residual_difference': 0, 'both_holding': False, 'measurement_version_difference': 1, 'future_updateability_equal': False, 'note': 'Comparison does not imply identical internal representation.'}, 'translation_to_ai': {'target': 'AI', 'source_unit': 'unit-a52c5e30', 'dynamic_state': {'phase': 'persistence', 'frame': 'Efficiency-and-optionality frame', 'unresolved_residuals': 0, 'active_holdings': 0, 'measurement_version': 2, 'reopening_count': 1, 'latest_future_updateability': 'preserved'}, 'translation_quality': 'partial', 'translation_residual': 'Internal semantics and values are not assumed equivalent.'}, 'coupling': {'trajectory_ids': ['traj-688a82f7', 'traj-b507036e'], 'description': 'Joint inquiry into efficiency versus future optionality', 'directionality': 'mutual', 'strength': None, 'id': 'coupling-82e6138b'}, 'coupling_without_enactment': True, 'higher_order_unit': {'unit_id': 'unit-e6216f29', 'trajectory_id': 'traj-c4dcaa38', 'phase': 'enactment', 'frame_name': 'Human-AI Inquiry shared provisional frame', 'boundary_version': 1, 'possibility_space_version': 1, 'measurement_version': 1, 'unresolved_residuals': 0, 'active_holdings': 0, 'reopening_count': 0, 'latest_future_updateability': None, 'component_ids': ['unit-a52c5e30', 'unit-420b1fd5'], 'epistemic_status': <EpistemicStatus.PROVISIONAL: 'P'>}, 'trajectory_nonfixity_demo': {'branch_id': 'traj-160a641d', 'branch_phase': 'dissolution', 'reemergent_id': 'traj-7d4e9f12', 'reemergent_phase': 're-emergence', 'identity_claimed': False}, 'future_updateability': {'status': <FutureUpdateabilityStatus.PRESERVED: 'preserved'>, 'can_detect_new_difference': True, 'alternatives_can_emerge': True, 'override_or_revision_exists': True, 'irreversible_dependency_increased': False, 'reality_recontact_route_exists': True, 'updating_structure_can_change': True, 'rationale': 'The updated system retains independent detection, alternative actions, override, Reality recontact, and revisable updating structure.', 'timestamp': '2026-10-18T08:49:02.509603+00:00', 'id': 'fu-31aff418'}, 'reopening': {'action': <ReopeningAction.MAINTAIN: 'maintain'>, 'assessment': {'status': <FutureUpdateabilityStatus.PRESERVED: 'preserved'>, 'can_detect_new_difference': True, 'alternatives_can_emerge': True, 'override_or_revision_exists': True, 'irreversible_dependency_increased': False, 'reality_recontact_route_exists': True, 'updating_structure_can_change': True, 'rationale': 'The updated system retains independent detection, alternative actions, override, Reality recontact, and revisable updating structure.', 'timestamp': '2026-10-18T08:49:02.509603+00:00', 'id': 'fu-31aff418'}, 'basis': 'Follow-up evidence supports maintaining the current rule for now; maintenance is deliberate, not automatic closure.', 'decision_rule_reopened': 'efficiency-and-optionality decision rule', 'evidence_ids': ['contact-3f09f63e', 'contact-c8f37533'], 'timestamp': '2026-10-18T08:49:02.509612+00:00', 'id': 'reopen-8b31527e'}, 'minimum_idos_cycle_complete': True, 'human_provenance': [{'event_type': 'unit_initialized', 'description': "Initialized human updating unit 'Human'", 'source_ids': ['unit-a52c5e30'], 'timestamp': '2026-10-18T08:49:02.509378+00:00', 'id': 'prov-d8332c60'}, {'event_type': 'reality_contact', 'description': 'Contact via joint task outcome (observation)', 'source_ids': ['contact-3f09f63e'], 'timestamp': '2026-10-18T08:49:02.509449+00:00', 'id': 'prov-6650a7da'}, {'event_type': 'residual_registered', 'description': "Difference treated as unresolved relative to frame 'Efficiency-first frame'", 'source_ids': ['contact-3f09f63e', 'diff-a5e645c8', 'res-4243d2e9'], 'timestamp': '2026-10-18T08:49:02.509466+00:00', 'id': 'prov-db564ae0'}, {'event_type': 'holding', 'description': 'Holding 1 residual(s): unresolved', 'source_ids': ['res-4243d2e9'], 'timestamp': '2026-10-18T08:49:02.509479+00:00', 'id': 'prov-ad7006ec'}, {'event_type': 'trajectory_record', 'description': 'Revised frame and measurement after holding unresolved residual', 'source_ids': ['upd-8882d1a3'], 'timestamp': '2026-10-18T08:49:02.509547+00:00', 'id': 'prov-bb6b7826'}, {'event_type': 'frame_revision', 'description': 'Revised frame and measurement after holding unresolved residual', 'source_ids': ['frame-3b1b7d03', 'frame-1244334d'], 'timestamp': '2026-10-18T08:49:02.509554+00:00', 'id': 'prov-fb907503'}, {'event_type': 'boundary_revision', 'description': 'Revised frame and measurement after holding unresolved residual', 'source_ids': ['boundary-4e705d0a', 'boundary-06a37eee'], 'timestamp': '2026-10-18T08:49:02.509560+00:00', 'id': 'prov-c19e2dd0'}, {'event_type': 'possibility_space_revision', 'description': 'Revised frame and measurement after holding unresolved residual', 'source_ids': ['space-99bfd019', 'space-948e3266'], 'timestamp': '2026-10-18T08:49:02.509566+00:00', 'id': 'prov-4780c267'}, {'event_type': 'measurement_revision', 'description': 'Revised frame and measurement after holding unresolved residual', 'source_ids': ['measure-465b6af8', 'measure-02928e73'], 'timestamp': '2026-10-18T08:49:02.509570+00:00', 'id': 'prov-b03f6cc1'}, {'event_type': 'reality_contact', 'description': 'Contact via follow-up task outcome (observation)', 'source_ids': ['contact-c8f37533'], 'timestamp': '2026-10-18T08:49:02.509584+00:00', 'id': 'prov-39adb689'}, {'event_type': 'residual_resolution_judgment', 'description': 'Follow-up Reality contact provisionally supports treating the earlier Residual as resolved.', 'source_ids': ['res-4243d2e9'], 'timestamp': '2026-10-18T08:49:02.509594+00:00', 'id': 'prov-5ca763f4'}, {'event_type': 'reopening', 'description': "Reopened 'efficiency-and-optionality decision rule' -> maintain; future updateability=preserved. Follow-up evidence supports maintaining the current rule for now; maintenance is deliberate, not automatic closure.", 'source_ids': ['fu-31aff418', 'reopen-8b31527e', 'contact-3f09f63e', 'contact-c8f37533'], 'timestamp': '2026-10-18T08:49:02.509622+00:00', 'id': 'prov-7f06c6eb'}, {'event_type': 'branch_source', 'description': 'Branched to traj-160a641d: Preserve an alternative line of inquiry without asserting identity equivalence.', 'source_ids': ['traj-160a641d'], 'timestamp': '2026-10-18T08:49:02.509678+00:00', 'id': 'prov-06b0fd09'}]}
+
+======================================================================
+FAIL: test_event_order_true_does_not_imply_theoretical_cycle (__main__.CycleEventOrder.test_event_order_true_does_not_imply_theoretical_cycle)
+Event order can be satisfied with NO Difference, NO Residual and NO distribution-change
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 287, in test_event_order_true_does_not_imply_theoretical_cycle
+    self.assertTrue(cycle_check(self, u))
+                    ~~~~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_phase2_regression.py", line 89, in cycle_check
+    tc.fail("API missing: UpdatingUnit.cycle_event_order_satisfied()")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing: UpdatingUnit.cycle_event_order_satisfied()
+
+======================================================================
+FAIL: test_no_reopening_is_not_satisfied (__main__.CycleEventOrder.test_no_reopening_is_not_satisfied)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 277, in test_no_reopening_is_not_satisfied
+    self.assertFalse(cycle_check(self, u))
+                     ~~~~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_phase2_regression.py", line 89, in cycle_check
+    tc.fail("API missing: UpdatingUnit.cycle_event_order_satisfied()")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing: UpdatingUnit.cycle_event_order_satisfied()
+
+======================================================================
+FAIL: test_reopen_without_any_recontact_is_not_event_order_complete (__main__.CycleEventOrder.test_reopen_without_any_recontact_is_not_event_order_complete)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 257, in test_reopen_without_any_recontact_is_not_event_order_complete
+    self.assertFalse(cycle_check(self, u))
+                     ~~~~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_phase2_regression.py", line 89, in cycle_check
+    tc.fail("API missing: UpdatingUnit.cycle_event_order_satisfied()")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing: UpdatingUnit.cycle_event_order_satisfied()
+
+======================================================================
+FAIL: test_stale_contact_before_update_does_not_count (__main__.CycleEventOrder.test_stale_contact_before_update_does_not_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 264, in test_stale_contact_before_update_does_not_count
+    self.assertFalse(cycle_check(self, u))
+                     ~~~~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_phase2_regression.py", line 89, in cycle_check
+    tc.fail("API missing: UpdatingUnit.cycle_event_order_satisfied()")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing: UpdatingUnit.cycle_event_order_satisfied()
+
+======================================================================
+FAIL: test_update_then_recontact_then_reopen_satisfies_event_order (__main__.CycleEventOrder.test_update_then_recontact_then_reopen_satisfies_event_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 271, in test_update_then_recontact_then_reopen_satisfies_event_order
+    self.assertTrue(cycle_check(self, u))
+                    ~~~~~~~~~~~^^^^^^^^^
+  File "/tmp/idos/tests/test_phase2_regression.py", line 89, in cycle_check
+    tc.fail("API missing: UpdatingUnit.cycle_event_order_satisfied()")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: API missing: UpdatingUnit.cycle_event_order_satisfied()
+
+======================================================================
+FAIL: test_reopening_provenance_states_semantic_adequacy_not_assessed (__main__.EvidenceChecks.test_reopening_provenance_states_semantic_adequacy_not_assessed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 221, in test_reopening_provenance_states_semantic_adequacy_not_assessed
+    self.assertIn("semantic adequacy not assessed", last.description)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'semantic adequacy not assessed' not found in "Reopened 'rule' -> maintain; future updateability=preserved. regression test"
+
+======================================================================
+FAIL: test_unknown_evidence_id_is_rejected (__main__.EvidenceChecks.test_unknown_evidence_id_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 195, in test_unknown_evidence_id_is_rejected
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_increased_without_recontact_route_is_rejected (__main__.FutureUpdateabilityConsistency.test_increased_without_recontact_route_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 234, in test_increased_without_recontact_route_is_rejected
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_ignored_unregistered_ids_are_recorded_in_provenance (__main__.HoldingResolution.test_ignored_unregistered_ids_are_recorded_in_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 142, in test_ignored_unregistered_ids_are_recorded_in_provenance
+    self.assertIn(ghost.id, last.description)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'res-cee93493' not found in 'ghost only'
+
+======================================================================
+FAIL: test_partial_resolution_keeps_holding_active (__main__.HoldingResolution.test_partial_resolution_keeps_holding_active)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 104, in test_partial_resolution_keeps_holding_active
+    self.assertTrue(h.active, "Holding deactivated although r2 is still unresolved")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Holding deactivated although r2 is still unresolved
+
+======================================================================
+FAIL: test_partial_resolution_visible_in_cdp_description (__main__.HoldingResolution.test_partial_resolution_visible_in_cdp_description)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 111, in test_partial_resolution_visible_in_cdp_description
+    self.assertEqual(m.CommonDynamicsProtocol().describe(u).active_holdings, 1)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_unregistered_residual_id_is_not_counted_as_resolved (__main__.HoldingResolution.test_unregistered_residual_id_is_not_counted_as_resolved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 126, in test_unregistered_residual_id_is_not_counted_as_resolved
+    self.assertTrue(h.active, "unknown residual id was silently treated as resolved")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : unknown residual id was silently treated as resolved
+
+======================================================================
+FAIL: test_reemergence_phase_requires_predecessor (__main__.TrajectoryTransitions.test_reemergence_phase_requires_predecessor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 171, in test_reemergence_phase_requires_predecessor
+    with self.assertRaises(RuntimeError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_transition_cannot_revive_dissolved_trajectory (__main__.TrajectoryTransitions.test_transition_cannot_revive_dissolved_trajectory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/idos/tests/test_phase2_regression.py", line 158, in test_transition_cannot_revive_dissolved_trajectory
+    with self.assertRaises(RuntimeError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.011s
+
+FAILED (failures=15, expected failures=5)
+
+SUMMARY {"fail": 15, "pass": 17, "xfail": 5}

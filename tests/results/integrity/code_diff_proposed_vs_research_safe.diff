@@ -1,0 +1,278 @@
+diff --git a/src/idos_reference_v1_1_proposed.py b/src/idos_reference_v1_1_research_safe.py
+index 537ccd0..3fbb9a3 100644
+--- a/src/idos_reference_v1_1_proposed.py
++++ b/src/idos_reference_v1_1_research_safe.py
+@@ -11,9 +11,18 @@ from uuid import uuid4
+ Intelligence Dynamics Architecture (IDOS)
+ Executable Reference Architecture v1.1
+ 
+-*** PHASE 2 PROPOSED FIXES - NOT the frozen reference file. ***
+-Differences from idos_reference_v1_1.py are limited to the items listed in
+-validation/architecture_tests/PHASE2_SPEC_DECISIONS_v0.1.md. MASTER_MAP v1.1 is unchanged.
++*** RESEARCH-SAFE VARIANT - NOT the frozen reference file. ***
++Derived from idos_reference_v1_1_proposed.py (Phase 2). Differences from the frozen
++idos_reference_v1_1.py are documented in
++validation/architecture_tests/INTEGRITY_FIX_NOTES_v0.1.md. MASTER_MAP v1.1 is unchanged.
++
++Purpose: do not present unverified judgments as determinate measurement results.
++  A. compare() returns no Residual-count difference unless a shared measure is declared.
++  B. FU statuses are evaluator-judgment records; measurement_status follows Measurement
++     protocol v0.3 section 5.6 (not_estimable / latent_not_validated only).
++     The Phase 2 P4 forced rejection (FU=INCREASED needs a recontact route) is NOT adopted.
++  C. Declared update levels are cross-checked against recorded structure changes and
++     inconsistencies are FLAGGED. Levels are never auto-assigned or corrected.
+ 
+ Aligned with:
+ - MASTER_MAP v1.1 (frozen research baseline)
+@@ -353,15 +362,39 @@ class FutureUpdateabilityAssessment:
+     rationale: str
+     timestamp: str = field(default_factory=now)
+     id: str = field(default_factory=lambda: uid("fu"))
++    # ---- research-safe additions (all defaulted; existing constructor calls keep working) ----
++    # Ids the evaluator CLAIMS document a perturbation / re-test (Measurement protocol v0.3
++    # section 5.6). Claimed, not validated here.
++    claimed_perturbation_evidence_ids: List[str] = field(default_factory=list)
++    # Derived in __post_init__; never accepted from the caller.
++    record_type: str = field(init=False, default="evaluator_judgment")
++    measurement_status: str = field(init=False, default="not_estimable")
++    review_flags: List[str] = field(init=False, default_factory=list)
+ 
+     def __post_init__(self) -> None:
+-        # PROPOSED (interpretive, not an explicit MASTER_MAP rule): Q2 asks to update again
+-        # "without losing contact with Reality", and Operational Protocol v0.2 section 14
+-        # requires Reality Recontact for a completed cycle. FU=INCREASED with no recontact
+-        # route is therefore treated as inconsistent. PRESERVED/REDUCED/UNCERTAIN unaffected.
++        # This object is an EVALUATOR'S JUDGMENT RECORD, not a measurement of Future Updateability.
++        # Measurement protocol v0.3 section 5.6: FU is a latent capacity; with no perturbation /
++        # re-test it is `not_estimable`; with one it stays `latent_not_validated`. This code never
++        # produces an 'estimated' or 'validated' value and never invents a score.
++        # Review hardening: blank or non-string entries are not a claim. Only a non-blank string
++        # id moves the status off `not_estimable`; the claim itself is still not verified here.
++        object.__setattr__(
++            self,
++            "measurement_status",
++            "latent_not_validated"
++            if any(isinstance(i, str) and i.strip() for i in self.claimed_perturbation_evidence_ids)
++            else "not_estimable",
++        )
++        flags: List[str] = []
+         if (self.status == FutureUpdateabilityStatus.INCREASED
+                 and not self.reality_recontact_route_exists):
+-            raise ValueError("FU=INCREASED requires reality_recontact_route_exists=True")
++            # NON-BINDING reviewer note. It does not reject, alter, confirm or deny the judgment:
++            # no MASTER_MAP v1.1 rule decides whether a recontact route is required (open decision SD-6).
++            flags.append(
++                "unreconciled: evaluator judged INCREASED while recording no Reality recontact route; "
++                "no MASTER_MAP v1.1 rule decides this (open decision SD-6); judgment left unchanged"
++            )
++        object.__setattr__(self, "review_flags", flags)
+ 
+ 
+ @dataclass(frozen=True)
+@@ -403,6 +436,9 @@ class UpdateEvent:
+     reversible: Optional[bool] = None
+     timestamp: str = field(default_factory=now)
+     id: str = field(default_factory=lambda: uid("upd"))
++    # Consistency flags between the DECLARED level and the recorded structure changes.
++    # Flags never change `level`; see check_update_level_consistency().
++    level_flags: List[str] = field(default_factory=list)
+ 
+ 
+ @dataclass(frozen=True)
+@@ -503,6 +539,55 @@ class Trajectory:
+         return child
+ 
+ 
++# -----------------------------------------------------------------------------
++# Update-level consistency check (flags only; NO automatic level assignment)
++# -----------------------------------------------------------------------------
++
++def check_update_level_consistency(
++    level: UpdateLevel,
++    *,
++    frame_replaced: bool,
++    possibility_space_replaced: bool,
++) -> List[str]:
++    """[P] Cross-check a DECLARED level against recorded structure changes.
++
++    Returns flags only. It never assigns, corrects or rejects a level, because update depth
++    may be scale- and observer-dependent (KNOWN_LIMITATIONS section 6). Boundary and
++    Measurement changes are deliberately NOT mapped to levels: DYNAMICS_MODEL section 8
++    does not relate them to L1-L5. L4 (frame traversal) is not checked: moving between
++    existing frames is not distinguishable in this record.
++
++    Severity:
++      definition_conflict   - contradicts the level's own definition (DYNAMICS_MODEL section 8)
++                              as far as the recorded channel shows.
++      convention_dependent  - depends on an unstated labelling convention.
++    """
++    flags: List[str] = []
++    if level in (UpdateLevel.L1, UpdateLevel.L2) and frame_replaced:
++        flags.append(
++            f"definition_conflict: {level.name} declared but a Reference Frame replacement is recorded "
++            "(L1 = no material change to the operative frame; L2 = frame substantially stable). "
++            "Magnitude of the change is not assessed."
++        )
++    if level == UpdateLevel.L3 and not frame_replaced:
++        flags.append(
++            "definition_conflict: L3 declared but no Reference Frame replacement is recorded "
++            "(L3 = the operative frame itself changes). Only the update() recording channel is checked."
++        )
++    if level == UpdateLevel.L5 and not possibility_space_replaced:
++        flags.append(
++            "definition_conflict: L5 declared but no Possibility Space replacement is recorded "
++            "(L5 = the space of frames/possibilities changes). Only the update() recording channel is checked."
++        )
++    if level != UpdateLevel.L5 and possibility_space_replaced:
++        flags.append(
++            f"convention_dependent: Possibility Space replacement recorded under declared {level.name}. "
++            "L5 is defined as the level at which the space changes, but the documents do not say whether an "
++            "update touching several structures is labelled by its deepest level."
++        )
++    return flags
++
++
+ # -----------------------------------------------------------------------------
+ # Updating Unit
+ # -----------------------------------------------------------------------------
+@@ -625,11 +710,19 @@ class UpdatingUnit:
+         old_space = self.possibility_space
+         old_measurement = self.measurement
+ 
++        level_flags = check_update_level_consistency(
++            level,
++            frame_replaced=new_frame is not None and new_frame.id != old_frame.id,
++            possibility_space_replaced=(
++                new_possibility_space is not None and new_possibility_space.id != old_space.id
++            ),
++        )
+         event = UpdateEvent(
+             level=level,
+             description=description,
+             residual_ids=[r.id for r in residuals],
+             reversible=reversible,
++            level_flags=level_flags,
+         )
+ 
+         if new_frame is not None:
+@@ -670,6 +763,14 @@ class UpdatingUnit:
+             self.trajectory.provenance.append(
+                 ProvenanceEvent("measurement_revision", description, [old_measurement.id, self.measurement.id])
+             )
++        for flag in level_flags:
++            self.trajectory.provenance.append(
++                ProvenanceEvent(
++                    "level_mismatch",
++                    f"{flag} [declared level {level.value} retained; levels are not auto-assigned]",
++                    [event.id],
++                )
++            )
+         return event
+ 
+     def resolve_residuals(
+@@ -775,7 +876,8 @@ class UpdatingUnit:
+                 event_type="reopening",
+                 description=(
+                     f"Reopened '{decision_rule_reopened}' -> {action.value}; "
+-                    f"future updateability={assessment.status.value}. {basis}"
++                    f"evaluator FU judgment={assessment.status.value} "
++                    f"(measurement_status={assessment.measurement_status}). {basis}"
+                     + (" [evidence: existence-checked only; semantic adequacy not assessed]"
+                        if evidence_ids else " [no evidence ids supplied]")
+                 ),
+@@ -888,6 +990,9 @@ class CDPDescription:
+     latest_future_updateability: Optional[str]
+     component_ids: List[str]
+     epistemic_status: EpistemicStatus = EpistemicStatus.PROVISIONAL
++    # `latest_future_updateability` is an EVALUATOR JUDGMENT label, not a measured value.
++    latest_fu_record_type: Optional[str] = None
++    latest_fu_measurement_status: Optional[str] = None
+ 
+ 
+ class CommonDynamicsProtocol:
+@@ -910,6 +1015,12 @@ class CommonDynamicsProtocol:
+                 if unit.reopening_history else None
+             ),
+             component_ids=list(unit.component_ids),
++            latest_fu_record_type=(
++                unit.reopening_history[-1].assessment.record_type if unit.reopening_history else None
++            ),
++            latest_fu_measurement_status=(
++                unit.reopening_history[-1].assessment.measurement_status if unit.reopening_history else None
++            ),
+         )
+ 
+     def translate(self, description: CDPDescription, target_label: str) -> Dict[str, Any]:
+@@ -925,23 +1036,57 @@ class CommonDynamicsProtocol:
+                 "measurement_version": description.measurement_version,
+                 "reopening_count": description.reopening_count,
+                 "latest_future_updateability": description.latest_future_updateability,
++                "latest_fu_record_type": description.latest_fu_record_type,
++                "latest_fu_measurement_status": description.latest_fu_measurement_status,
+             },
+             "translation_quality": "partial",
+             "translation_residual": "Internal semantics and values are not assumed equivalent.",
+         }
+ 
+-    def compare(self, a: CDPDescription, b: CDPDescription) -> Dict[str, Any]:
+-        return {
++    def compare(
++        self,
++        a: CDPDescription,
++        b: CDPDescription,
++        *,
++        shared_measure: Optional[str] = None,
++    ) -> Dict[str, Any]:
++        """[P] Cross-unit comparison.
++
++        Numeric differences (Residual counts, measurement-version numbers) are returned ONLY when
++        the caller declares a shared measure, and are then marked `declared_unverified` (this code
++        cannot verify the declaration). Otherwise they are None and comparability is
++        `not_established`. Equality of Reference Frame NAMES is never evidence of comparability.
++        """
++        established = bool(shared_measure and shared_measure.strip())
++        out: Dict[str, Any] = {
++            # literal field comparisons (not measured comparisons)
+             "same_phase": a.phase == b.phase,
+             "same_frame_name": a.frame_name == b.frame_name,
+-            "residual_difference": a.unresolved_residuals - b.unresolved_residuals,
+             "both_holding": a.active_holdings > 0 and b.active_holdings > 0,
+-            "measurement_version_difference": a.measurement_version - b.measurement_version,
+             "future_updateability_equal": (
+                 a.latest_future_updateability == b.latest_future_updateability
+             ),
+-            "note": "Comparison does not imply identical internal representation.",
++            "fu_comparison_basis": "evaluator_judgment_labels_only",
+         }
++        if established:
++            out["comparability"] = "declared_unverified"
++            out["shared_measure"] = shared_measure
++            out["residual_difference"] = a.unresolved_residuals - b.unresolved_residuals
++            out["measurement_version_difference"] = a.measurement_version - b.measurement_version
++            out["comparability_note"] = (
++                "A shared measure was declared by the caller; this implementation does not verify it."
++            )
++        else:
++            out["comparability"] = "not_established"
++            out["residual_difference"] = None
++            out["measurement_version_difference"] = None
++            out["comparability_note"] = (
++                "No shared measure declared. Residual counts and measurement-version numbers are not "
++                "comparable across different Reference Frames / measurement systems; equality of "
++                "frame names is not evidence of comparability."
++            )
++        out["note"] = "Comparison does not imply identical internal representation."
++        return out
+ 
+     def coordinate(self, a: UpdatingUnit, b: UpdatingUnit, purpose: str) -> Coupling:
+         return Coupling(
+@@ -1049,6 +1194,9 @@ def architecture_manifest() -> Dict[str, Any]:
+             "Provenance != Causality",
+             "Meaning Unification != Interoperability",
+             "Physical Entity != Updating Unit",
++            "Evaluator FU judgment != measured Future Updateability",
++            "Declared update level != automatically verified update level",
++            "Frame-name equality != comparability",
+         ],
+     }
+ 
