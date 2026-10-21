@@ -1,0 +1,544 @@
+{
+  "method": "cross-domain schema coverage, not outcome equivalence",
+  "shared_dimensions": [
+    "imagined_futures",
+    "feasible_options",
+    "observations",
+    "residuals",
+    "holdings",
+    "decisions",
+    "option_changes",
+    "boundary_changes",
+    "original_and_revised_commitments",
+    "recorded_revisions"
+  ],
+  "coverage": [
+    {
+      "case_id": "SYNTHETIC_MA",
+      "domain": "M&A",
+      "counts": {
+        "imagined_futures": 3,
+        "feasible_options": 1,
+        "observations": 1,
+        "residuals": 1,
+        "holdings": 1,
+        "decisions": 1,
+        "option_changes": 1,
+        "boundary_changes": 0,
+        "original_and_revised_commitments": 1,
+        "recorded_revisions": 1
+      }
+    },
+    {
+      "case_id": "SYNTHETIC_HIRING",
+      "domain": "hiring",
+      "counts": {
+        "imagined_futures": 3,
+        "feasible_options": 1,
+        "observations": 1,
+        "residuals": 1,
+        "holdings": 1,
+        "decisions": 1,
+        "option_changes": 1,
+        "boundary_changes": 0,
+        "original_and_revised_commitments": 1,
+        "recorded_revisions": 1
+      }
+    }
+  ],
+  "reports": [
+    {
+      "case_id": "SYNTHETIC_MA",
+      "domain": "M&A",
+      "as_of": "2026-10-21",
+      "synthetic": true,
+      "timeline": [
+        {
+          "id": "M1",
+          "date": "2026-01-10",
+          "actor": "buyer",
+          "kind": "imagined_future",
+          "topic": "strategy",
+          "value": "Double operating profit",
+          "evidence": "Synthetic buyer memo",
+          "visibility": "public"
+        },
+        {
+          "id": "M2",
+          "date": "2026-01-10",
+          "actor": "seller",
+          "kind": "imagined_future",
+          "topic": "employment",
+          "value": "Maintain employment",
+          "evidence": "Synthetic seller memo",
+          "visibility": "public"
+        },
+        {
+          "id": "M3",
+          "date": "2026-01-15",
+          "actor": "board",
+          "kind": "commitment",
+          "topic": "profit_target",
+          "value": "2x baseline in three years",
+          "evidence": "Synthetic approval",
+          "visibility": "public"
+        },
+        {
+          "id": "M4",
+          "date": "2026-01-20",
+          "actor": "joint",
+          "kind": "feasible_option",
+          "topic": "integration",
+          "value": "Full or staged integration",
+          "evidence": "Synthetic options memo",
+          "visibility": "public"
+        },
+        {
+          "id": "M5",
+          "date": "2026-02-01",
+          "actor": "joint",
+          "kind": "residual",
+          "topic": "culture",
+          "value": "Management-style difference unresolved",
+          "evidence": "Synthetic workshop",
+          "visibility": "consented"
+        },
+        {
+          "id": "M6",
+          "date": "2026-02-02",
+          "actor": "joint",
+          "kind": "holding",
+          "topic": "culture",
+          "value": "Proceed while keeping issue open",
+          "evidence": "Synthetic decision",
+          "visibility": "consented",
+          "deadline": "2026-08-01"
+        },
+        {
+          "id": "M7",
+          "date": "2026-02-03",
+          "actor": "board",
+          "kind": "decision",
+          "topic": "transaction",
+          "value": "Staged integration",
+          "evidence": "Synthetic board minutes",
+          "visibility": "public"
+        },
+        {
+          "id": "M10",
+          "date": "2026-08-01",
+          "actor": "buyer",
+          "kind": "imagined_future",
+          "topic": "strategy",
+          "value": "Improve core and test adjacent service",
+          "evidence": "Synthetic strategy revision",
+          "visibility": "public"
+        },
+        {
+          "id": "M8",
+          "date": "2026-08-01",
+          "actor": "finance",
+          "kind": "observation",
+          "topic": "profit",
+          "value": "Below original plan",
+          "evidence": "Synthetic financial report",
+          "visibility": "public"
+        },
+        {
+          "id": "M9",
+          "date": "2026-08-01",
+          "actor": "buyer",
+          "kind": "option_change",
+          "topic": "adjacent_service",
+          "value": "Pilot became available",
+          "evidence": "Synthetic project memo",
+          "visibility": "public"
+        }
+      ],
+      "recorded_revisions": [
+        {
+          "actor": "buyer",
+          "topic": "strategy",
+          "kind": "imagined_future",
+          "before": "Double operating profit",
+          "after": "Improve core and test adjacent service",
+          "before_date": "2026-01-10",
+          "after_date": "2026-08-01",
+          "note": "Recorded difference only; not inferred causality."
+        }
+      ],
+      "original_and_revised_commitments": [
+        {
+          "date": "2026-01-15",
+          "actor": "board",
+          "kind": "commitment",
+          "topic": "profit_target",
+          "value": "2x baseline in three years",
+          "evidence": "Synthetic approval",
+          "visibility": "public",
+          "id": "M3"
+        }
+      ],
+      "imagined_futures": [
+        {
+          "date": "2026-01-10",
+          "actor": "buyer",
+          "kind": "imagined_future",
+          "topic": "strategy",
+          "value": "Double operating profit",
+          "evidence": "Synthetic buyer memo",
+          "visibility": "public",
+          "id": "M1"
+        },
+        {
+          "date": "2026-01-10",
+          "actor": "seller",
+          "kind": "imagined_future",
+          "topic": "employment",
+          "value": "Maintain employment",
+          "evidence": "Synthetic seller memo",
+          "visibility": "public",
+          "id": "M2"
+        },
+        {
+          "date": "2026-08-01",
+          "actor": "buyer",
+          "kind": "imagined_future",
+          "topic": "strategy",
+          "value": "Improve core and test adjacent service",
+          "evidence": "Synthetic strategy revision",
+          "visibility": "public",
+          "id": "M10"
+        }
+      ],
+      "feasible_options": [
+        {
+          "date": "2026-01-20",
+          "actor": "joint",
+          "kind": "feasible_option",
+          "topic": "integration",
+          "value": "Full or staged integration",
+          "evidence": "Synthetic options memo",
+          "visibility": "public",
+          "id": "M4"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-08-01",
+          "actor": "finance",
+          "kind": "observation",
+          "topic": "profit",
+          "value": "Below original plan",
+          "evidence": "Synthetic financial report",
+          "visibility": "public",
+          "id": "M8"
+        }
+      ],
+      "residuals": [
+        {
+          "date": "2026-02-01",
+          "actor": "joint",
+          "kind": "residual",
+          "topic": "culture",
+          "value": "Management-style difference unresolved",
+          "evidence": "Synthetic workshop",
+          "visibility": "consented",
+          "id": "M5"
+        }
+      ],
+      "holdings": [
+        {
+          "topic": "culture",
+          "actor": "joint",
+          "deadline": "2026-08-01",
+          "review_status": "review_due",
+          "note": "Status is a date check, not a delay recommendation."
+        }
+      ],
+      "decisions": [
+        {
+          "date": "2026-02-03",
+          "actor": "board",
+          "kind": "decision",
+          "topic": "transaction",
+          "value": "Staged integration",
+          "evidence": "Synthetic board minutes",
+          "visibility": "public",
+          "id": "M7"
+        }
+      ],
+      "option_changes": [
+        {
+          "date": "2026-08-01",
+          "actor": "buyer",
+          "kind": "option_change",
+          "topic": "adjacent_service",
+          "value": "Pilot became available",
+          "evidence": "Synthetic project memo",
+          "visibility": "public",
+          "id": "M9"
+        }
+      ],
+      "boundary_changes": [],
+      "privacy": {
+        "restricted_count": 1,
+        "rule": "Restricted records excluded from every report; consented data requires separate lawful-purpose review."
+      },
+      "limitations": [
+        "No causal inference or prediction.",
+        "No inferred trust, intent, psychological state or success probability.",
+        "Option changes are recorded assertions, not measured future updateability.",
+        "No automated decision or ROI substitution.",
+        "Not mathematically integrated with idos_reference_v1_1.py."
+      ]
+    },
+    {
+      "case_id": "SYNTHETIC_HIRING",
+      "domain": "hiring",
+      "as_of": "2026-10-21",
+      "synthetic": true,
+      "timeline": [
+        {
+          "id": "H1",
+          "date": "2026-01-10",
+          "actor": "candidate",
+          "kind": "imagined_future",
+          "topic": "career",
+          "value": "Lead new product within two years",
+          "evidence": "Synthetic candidate statement",
+          "visibility": "consented"
+        },
+        {
+          "id": "H2",
+          "date": "2026-01-10",
+          "actor": "employer",
+          "kind": "imagined_future",
+          "topic": "role",
+          "value": "Improve existing product operations",
+          "evidence": "Synthetic hiring brief",
+          "visibility": "public"
+        },
+        {
+          "id": "H3",
+          "date": "2026-01-12",
+          "actor": "employer",
+          "kind": "commitment",
+          "topic": "role_scope",
+          "value": "Operations leadership, not product ownership",
+          "evidence": "Synthetic offer letter",
+          "visibility": "public"
+        },
+        {
+          "id": "H4",
+          "date": "2026-01-15",
+          "actor": "joint",
+          "kind": "feasible_option",
+          "topic": "role_design",
+          "value": "Start in operations; review later",
+          "evidence": "Synthetic agreement",
+          "visibility": "public"
+        },
+        {
+          "id": "H5",
+          "date": "2026-01-20",
+          "actor": "joint",
+          "kind": "residual",
+          "topic": "expectation_gap",
+          "value": "Career and role expectations differ",
+          "evidence": "Synthetic meeting notes",
+          "visibility": "consented"
+        },
+        {
+          "id": "H6",
+          "date": "2026-01-21",
+          "actor": "joint",
+          "kind": "holding",
+          "topic": "expectation_gap",
+          "value": "Review role expectations after onboarding",
+          "evidence": "Synthetic review plan",
+          "visibility": "consented",
+          "deadline": "2026-07-21"
+        },
+        {
+          "id": "H7",
+          "date": "2026-02-01",
+          "actor": "employer",
+          "kind": "decision",
+          "topic": "hire",
+          "value": "Hire for operations role",
+          "evidence": "Synthetic hiring decision",
+          "visibility": "public"
+        },
+        {
+          "id": "H8",
+          "date": "2026-07-21",
+          "actor": "manager",
+          "kind": "observation",
+          "topic": "role",
+          "value": "Operations delivery improved",
+          "evidence": "Synthetic performance summary",
+          "visibility": "public"
+        },
+        {
+          "id": "H9",
+          "date": "2026-07-21",
+          "actor": "joint",
+          "kind": "option_change",
+          "topic": "new_product",
+          "value": "Cross-functional pilot became possible",
+          "evidence": "Synthetic planning memo",
+          "visibility": "public"
+        },
+        {
+          "id": "H10",
+          "date": "2026-07-22",
+          "actor": "candidate",
+          "kind": "imagined_future",
+          "topic": "career",
+          "value": "Lead a cross-functional pilot first",
+          "evidence": "Synthetic candidate statement",
+          "visibility": "consented"
+        }
+      ],
+      "recorded_revisions": [
+        {
+          "actor": "candidate",
+          "topic": "career",
+          "kind": "imagined_future",
+          "before": "Lead new product within two years",
+          "after": "Lead a cross-functional pilot first",
+          "before_date": "2026-01-10",
+          "after_date": "2026-07-22",
+          "note": "Recorded difference only; not inferred causality."
+        }
+      ],
+      "original_and_revised_commitments": [
+        {
+          "date": "2026-01-12",
+          "actor": "employer",
+          "kind": "commitment",
+          "topic": "role_scope",
+          "value": "Operations leadership, not product ownership",
+          "evidence": "Synthetic offer letter",
+          "visibility": "public",
+          "id": "H3"
+        }
+      ],
+      "imagined_futures": [
+        {
+          "date": "2026-01-10",
+          "actor": "candidate",
+          "kind": "imagined_future",
+          "topic": "career",
+          "value": "Lead new product within two years",
+          "evidence": "Synthetic candidate statement",
+          "visibility": "consented",
+          "id": "H1"
+        },
+        {
+          "date": "2026-01-10",
+          "actor": "employer",
+          "kind": "imagined_future",
+          "topic": "role",
+          "value": "Improve existing product operations",
+          "evidence": "Synthetic hiring brief",
+          "visibility": "public",
+          "id": "H2"
+        },
+        {
+          "date": "2026-07-22",
+          "actor": "candidate",
+          "kind": "imagined_future",
+          "topic": "career",
+          "value": "Lead a cross-functional pilot first",
+          "evidence": "Synthetic candidate statement",
+          "visibility": "consented",
+          "id": "H10"
+        }
+      ],
+      "feasible_options": [
+        {
+          "date": "2026-01-15",
+          "actor": "joint",
+          "kind": "feasible_option",
+          "topic": "role_design",
+          "value": "Start in operations; review later",
+          "evidence": "Synthetic agreement",
+          "visibility": "public",
+          "id": "H4"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-07-21",
+          "actor": "manager",
+          "kind": "observation",
+          "topic": "role",
+          "value": "Operations delivery improved",
+          "evidence": "Synthetic performance summary",
+          "visibility": "public",
+          "id": "H8"
+        }
+      ],
+      "residuals": [
+        {
+          "date": "2026-01-20",
+          "actor": "joint",
+          "kind": "residual",
+          "topic": "expectation_gap",
+          "value": "Career and role expectations differ",
+          "evidence": "Synthetic meeting notes",
+          "visibility": "consented",
+          "id": "H5"
+        }
+      ],
+      "holdings": [
+        {
+          "topic": "expectation_gap",
+          "actor": "joint",
+          "deadline": "2026-07-21",
+          "review_status": "review_due",
+          "note": "Status is a date check, not a delay recommendation."
+        }
+      ],
+      "decisions": [
+        {
+          "date": "2026-02-01",
+          "actor": "employer",
+          "kind": "decision",
+          "topic": "hire",
+          "value": "Hire for operations role",
+          "evidence": "Synthetic hiring decision",
+          "visibility": "public",
+          "id": "H7"
+        }
+      ],
+      "option_changes": [
+        {
+          "date": "2026-07-21",
+          "actor": "joint",
+          "kind": "option_change",
+          "topic": "new_product",
+          "value": "Cross-functional pilot became possible",
+          "evidence": "Synthetic planning memo",
+          "visibility": "public",
+          "id": "H9"
+        }
+      ],
+      "boundary_changes": [],
+      "privacy": {
+        "restricted_count": 1,
+        "rule": "Restricted records excluded from every report; consented data requires separate lawful-purpose review."
+      },
+      "limitations": [
+        "No causal inference or prediction.",
+        "No inferred trust, intent, psychological state or success probability.",
+        "Option changes are recorded assertions, not measured future updateability.",
+        "No automated decision or ROI substitution.",
+        "Not mathematically integrated with idos_reference_v1_1.py."
+      ]
+    }
+  ],
+  "caution": "Equal field names do not establish equivalent constructs across domains."
+}
