@@ -1,174 +1,170 @@
-# IDOS ver.83 — 企業軌道経営モデル
+# IDOS ver.83 — Enterprise Trajectory Management
 
-**Enterprise Trajectory Management — Conceptual Model**
+**Conceptual model | Intelligence Dynamics Architecture (IDOS)**
 
-![IDOS ver.83 企業軌道経営モデル](assets/idos_ver83_enterprise_trajectory_management.png)
+[日本語版 / Japanese README](README_JA.md) · [Reference implementation](../../src/idos_reference_v1_1.py) · [Trajectory observation](../trajectory_observation/) · [Cross-domain observation](../cross_domain_observation/)
 
-## 1. 根本の問い
+![IDOS ver.83 — Enterprise Trajectory Management (original Japanese diagram)](assets/idos_ver83_enterprise_trajectory_management.png)
 
-> AI時代に必要になるのは、より賢い知性なのか。それとも、異なる知性が相互作用し、変化していく社会全体を捉える新しい記述体系なのか。
+> **Status:** This is a conceptual research model, not a completed enterprise-management application or an empirically validated predictive system. The original diagram is in Japanese; the English documentation below explains its structure without claiming additional empirical findings.
 
-本モデルは後者の可能性を、企業経営を題材に検討するための概念的な動的アーキテクチャである。AIが探索・比較・最適化を高速に行うようになっても、企業活動は単一の合理性だけでは決まらない。人間や組織の価値判断、権力関係、慣性、制度、資金や時間の制約、さらに物理世界に介入するAIなどが相互に作用する。
+## 1. Foundational question
 
-そこで、個々の要素を一時点で評価するだけでなく、**異なるものを異なるまま接続し、その変化と相互作用を時間軸に沿って記述する**ことを目指す。ここでいう「OS」は完成した業務ソフトウェアを意味せず、観測・記述・比較・更新を組み立てるためのアーキテクチャという位置づけである。
+> In the age of AI, do we need more intelligent agents—or a new descriptive framework for understanding how different forms of intelligence interact and how society changes through those interactions?
 
-## 2. 対象となる四つの領域（図の1〜4）
+This model explores the second possibility through the example of enterprise management. Even when AI accelerates search, comparison, and optimization, enterprise behavior cannot be reduced to a single rationality. Human values, organizational power, institutional constraints, inertia, cash and time limitations, and AI systems that intervene in the physical world interact over time.
 
-### 1. デジタルAI・システムの合理性
+The aim is therefore not merely to evaluate separate elements at a particular instant, but to **connect different kinds of entities without erasing their differences, and to describe their transformations and interactions over time**. “OS” in the broader IDOS terminology denotes an architecture for organizing observation, description, comparison, and revision—not a finished business software product.
 
-LLM、AIエージェント、ERP/CRM、業務システム等による大量の探索、分析、比較、最適化を扱う。データに基づく一貫した判断を得やすい一方、目的や評価尺度を誰が設定したか、何が観測されていないかは別途検討を要する。図は、ソフトウェア上の実行能力と、現実に対する妥当性を同一視していない。
+## 2. Four interacting domains (diagram elements 1–4)
 
-### 2. 人間・組織の複合性
+### 1. Rationality of digital AI and systems
 
-経営者・株主、従業員・管理職、部門・組織、企業文化を含む。価値観、感情、慣性、認知バイアス、権力関係、既得権益、役割の再定義などが意思決定に影響する。これらを単なる「非合理性」として除外せず、AIとは異なる性質を持つ主体の変化として観測対象に含める。
+LLMs, AI agents, ERP/CRM platforms, and business information systems can conduct large-scale search, analysis, comparison, and optimization. Yet their apparent consistency does not resolve who defines objectives and evaluation criteria, what remains unobserved, or whether outputs are appropriate in reality. Software execution and real-world validity must remain distinct.
 
-### 3. フィジカルAIの直接介入
+### 2. Complexity of humans and organizations
 
-工場・ロボット、物流・ドローン、建設・インフラ、医療・介護、小売・サービスなどを想定する。デジタルな判断が物理的な動作に接続すると、環境の変化が新たな観測を生み、次の判断にも影響する。物理的制約、安全性、現場での予期しない変化を考慮する必要がある。
+Executives, shareholders, employees, managers, departments, and organizational cultures bring values, emotions, inertia, cognitive biases, power relations, vested interests, and changing roles into decision-making. Rather than dismissing these as mere irrationality, the model treats them as features of actors whose dynamics differ from those of AI systems.
 
-### 4. 現実の制約
+### 3. Direct intervention by physical AI
 
-資本・キャッシュフロー、人材・時間・物理的能力、市場・顧客・競争環境、法規制・政策・社会的責任、自然環境・地域や地政学的リスク、既存システムやサプライチェーンなどを含む。これらは単なる初期条件ではなく、経営判断や外部環境によって変わり得る制約として扱う。
+Examples include factories and robots, logistics and drones, construction and infrastructure, healthcare and care services, and retail operations. When digital decisions become physical actions, they change the environment, generate new observations, and influence subsequent decisions. Physical constraints, safety, and unexpected on-site effects therefore matter.
 
-## 3. 企業の状態から次の状態へ（図の5・7〜9）
+### 4. Constraints of reality
 
-**5. 現在の企業状態 Xₜ** は、財務・資本、顧客・市場、商品・サービス、人材・組織、技術・AI・システム、業務プロセス、リスク・コンプライアンス、取引先・サプライチェーン、社会・環境などの多次元の状態を指す。図では、これらを観測・記録し、共通形式で表現することを構想している。Xₜは企業のすべてを完全に表現した数値ベクトルであると確定しているわけではない。
+Capital and cash flow; human resources, time, and physical capacity; markets, customers, and competitors; law, public policy, and social responsibility; environmental, regional, and geopolitical risks; and legacy systems and supply chains are all relevant. These constraints are not necessarily fixed initial conditions: decisions and external events may alter them.
 
-**7. 複数の未来軌道の探索** では、大量の候補を生成・比較・評価する。図に示すCandidate A〜Hは、利益最大化・コスト最適化、成長投資、新規事業、人間とAIの協働、システム統合、BPO、M&A、現状維持など、互いに異なる方向の例示である。単一の「最適解」を前提にせず、選択の余地と分岐を見えるようにすることに意味がある。これらの候補は予測結果や推奨順位ではない。
+## 3. From enterprise state to renewed enterprise state (elements 5 and 7–9)
 
-**8. 選択と実行** は、人と組織の意思決定、AI・システム・フィジカルAIとの協働、資源配分、組織・業務・システムの変更、実行管理からなる。合理性と非合理性の両方を含む現実の意思決定を想定する。
+**5. Current enterprise state, Xₜ.** The diagram envisages observing and representing multiple dimensions: finance and capital, customers and markets, products and services, people and organization, technology and AI, processes, risk and compliance, suppliers, and social and environmental effects. It does **not** assert that all such dimensions can already be exhaustively measured as one numerical vector.
 
-**9. 新たな現実 Xₜ₊₁** では、実行後の財務結果、顧客・市場、人と組織、業務、社会的影響、新たなリスク、予期せぬ結果などを再観測する。計画と異なる結果も次の記述・比較・更新の起点になる。重要なのは「実行したら終了」ではなく、**再び現実に接触する循環**である。
+**7. Exploration of multiple future trajectories.** Candidate A–H illustrate divergent directions such as profit or cost optimization, growth investment, new ventures, human–AI collaboration, systems integration, BPO, M&A, and maintaining the status quo. These are examples of alternative pathways—not validated forecasts or a ranked list of recommendations. The point is to make branching and remaining options visible rather than presume one optimal future.
 
-## 4. IDOSの12プロセス動的記述モデル（図の6）
+**8. Selection and enactment.** People and organizations make decisions, coordinate with AI and physical systems, allocate resources, redesign structures and processes, and manage execution. Real decisions can reflect both rational analysis and competing values or constraints.
 
-図中の12PDM（Provisional 12-Process Dynamics Model）は、現実と記述の関係を継続的に見直すための暫定的なプロセス群である。以下は図の短いラベルを文章化したもので、厳密な測定アルゴリズムの確定を意味しない。
+**9. Renewed reality, Xₜ₊₁.** After intervention, financial outcomes, market changes, organizational responses, social effects, new risks, and unintended consequences are observed again. Deviations from plans are inputs for further description and revision. **Execution is not the end of the process: renewed contact with reality is essential.**
 
-| 番号 | プロセス | 図における役割 |
+## 4. Provisional 12-Process Dynamics Model (12PDM; element 6)
+
+The 12PDM is a **provisional descriptive sequence** for revisiting the relationship between reality and its representation. Its labels do not amount to a finalized measurement algorithm, nor must every real process traverse the twelve steps exactly once or in this order.
+
+| # | Process | Intended role |
 |---|---|---|
-| 1 | **Reality** | 現実の観測。何が起きているかを捉える入口 |
-| 2 | **Difference** | 差異の検出。期待・予測と観測の違いを記録 |
-| 3 | **Representation** | 表現。観測を記録・モデル化する |
-| 4 | **Residual** | 残差。未解決・不確実なものを明示する |
-| 5 | **Holding** | 保持。判断を急がず、問題や解釈を保留する更新メカニズム |
-| 6 | **Update** | 更新。人・組織・AI・システムの変化を反映する |
-| 7 | **Possibility Space** | 可能性空間。選択肢や行動の候補を捉える |
-| 8 | **Trajectory** | 軌道。変化を時間軸に沿って追跡する |
-| 9 | **Limit** | 限界。明示された制約・停止条件を扱う |
-| 10 | **Enactment** | 実行。選択した行為を現実に介入させる |
-| 11 | **Reality’** | 変化した現実。結果を再観測する |
-| 12 | **Reopening** | 再開。閉じた問いや判断を再び開く |
+| 1 | **Reality** | Observe what is happening; establish contact with reality. |
+| 2 | **Difference** | Record differences between expectations or predictions and observations. |
+| 3 | **Representation** | Document and model observations. |
+| 4 | **Residual** | Explicitly identify what remains unresolved or uncertain. |
+| 5 | **Holding** | Preserve unresolved issues or competing interpretations without premature closure. |
+| 6 | **Update** | Register changes in humans, organizations, AI, systems, models, or rules. |
+| 7 | **Possibility Space** | Describe available actions and alternative possibilities. |
+| 8 | **Trajectory** | Follow changes and their sequence through time. |
+| 9 | **Limit** | Identify constraints, boundaries, and stopping conditions. |
+| 10 | **Enactment** | Put a selected action into effect in the world. |
+| 11 | **Reality′** | Reobserve reality after an intervention or change. |
+| 12 | **Reopening** | Reopen a previously settled, suspended, or closed question or decision. |
 
-**DifferenceとResidualは同義ではない。** 差異が観測されたことだけを理由に、自動的に「未解決の残差」と判定しない。残差として扱うための判断基準と根拠が必要になる。
+**Difference is not the same as Residual.** A detected discrepancy does not automatically become a classified unresolved residual. That classification requires an explicit criterion and supporting evidence.
 
-**Holdingは単なる停滞ではない。** 早期に一つの説明へ収束させず、異なる解釈や未解決事項を保持する可能性を表す。ただし、いつでも保持すべきという規範ではなく、領域固有の期限・安全性・責任との関係で判断する。
+**Holding is not simply stagnation.** It can preserve alternatives and unexplained differences instead of forcing an early interpretation. It is not a universal instruction to delay: domain-specific deadlines, safety requirements, and accountability may require action.
 
-**UpdateとReopeningも異なる。** 更新は状態・モデル・ルール等の変更を含むが、Reopeningは、いったん採用・停止・終結した判断や問いを、再観測を踏まえて開き直すことに重点がある。図の並びは観測のための整理であり、あらゆる現象が必ずこの順序を一度ずつ通ることを主張しない。
+**Update is not the same as Reopening.** Updating may change a state, model, or rule; reopening specifically revisits a question or decision that had been provisionally closed, often following renewed observation.
 
-## 5. IDOSの四つの構造（図の6、MASTER MAP v1.1に基づく）
+## 5. Four structural perspectives in IDOS (element 6; MASTER MAP v1.1)
 
-### A. Dynamics（動態の記述）
+### A. Dynamics
 
-Updating Unit、Dynamic Boundary、Trajectoryなどを用い、観測対象の状態だけでなく、その境界や更新の過程を扱う。何を一つの主体・単位と見なすかも固定とは限らない。
+Concepts such as **Updating Unit**, **Dynamic Boundary**, and **Trajectory** address changes in the observed entity, its boundaries, and its updating processes. What counts as one actor or unit is itself potentially revisable.
 
-### B. Observability（観測と記述）
+### B. Observability
 
-Reference Frame、Measurement、Provenanceを扱う。何を観測し、どの尺度・参照枠で記述し、どの記録に基づいて判断したかを追えることを重視する。観測結果と観測の仕組みを区別する。
+**Reference Frame**, **Measurement**, and **Provenance** concern what is observed, by which instruments and criteria, and on what evidential basis a description or judgment is made. The observation and the system that produces or interprets it must be distinguished. A reference frame can itself change: not just the observed value, but what is considered important, measurable, or meaningful.
 
-### C. Relational Dynamics（相互作用の動態）
+### C. Relational Dynamics
 
-CFV、Cross-Frame Verifiability、MU、Mutual Updateabilityなどを図示している。異なる参照枠や主体が接触したとき、単なる情報交換ではなく、相互の判断や更新可能性がどう変わるかを扱う構想である。各略語の操作的定義・測定手順は本図だけでは確定しない。
+The diagram includes **CFV (Cross-Frame Verifiability)** and **MU (Mutual Updateability)**. Its concern is not merely whether actors exchange information, but how contact among different actors or reference frames may change their interpretations, roles, authority, dependencies, and capacities for further change. Their operational definitions and measurement procedures are not established by this diagram alone.
 
-### D. Second-Order Updateability（二階の更新可能性）
+### D. Second-Order Updateability
 
-現在の成果だけでなく、**将来も変化に対応できる仕組みを維持・修正できるか**を問う。判断規則、観測方法、組織の更新ルール自体が変わり得ることを視野に入れる。図の下部には、Cross-Cutting ConditionsとしてPower（権力）とTemporal Compatibility（時間の整合性）、External GroundingとしてReality Contact（現実接触）を配置している。
+The model asks whether a system can preserve or revise **the mechanisms by which it updates**, not merely improve its current performance. Decision rules, observation methods, organizational routines, and their revision procedures may all change. The diagram additionally highlights **Power** and **Temporal Compatibility** as cross-cutting conditions, and **Reality Contact** as external grounding.
 
-四つの構造は、現時点で普遍的に実証された自然法則ではなく、異なる領域を記述するための研究上の構成である。
+These four perspectives are proposed research constructs for describing heterogeneous processes, **not empirically demonstrated universal laws**.
 
-## 6. 軌道の評価指標（図の10）
+## 6. Evaluating trajectories (element 10)
 
-図は、財務や成長率だけでなく、**将来の更新可能性（Future Updateability）**を含む複数の評価観点を提案する。
+Alongside conventional business performance, the model proposes **Future Updateability** as a dimension of evaluation: can an enterprise still detect new differences, consider alternatives, revise decisions, and respond to change later?
 
-- 財務結果：利益、キャッシュフロー、ROI、資本効率
-- 成長性：市場機会、事業価値
-- コスト・生産性：業務効率、人件費、AIコスト
-- 実行可能性：時間、人材、技術、法規制
-- リスク：事業・市場・外部要因、ロックイン
-- 人材への影響：雇用、スキル、満足度、文化
-- 社会的価値：ESG、信頼、ステークホルダー
-- Future Updateability：将来の更新可能性、柔軟性、再選択の余地
+Potential dimensions include:
 
-これらは**評価候補**であり、重み付け、尺度の標準化、因果推定、企業間比較の妥当性は別途検討が必要である。
+- **Financial outcomes:** profit, cash flow, ROI, capital efficiency.
+- **Growth:** market opportunities and enterprise value.
+- **Cost and productivity:** operating efficiency, labor costs, AI costs.
+- **Feasibility:** time, people, technology, regulatory conditions.
+- **Risk:** business and market exposure, external shocks, lock-in.
+- **Effects on people:** employment, skills, satisfaction, culture.
+- **Social value:** ESG, trust, and stakeholder effects.
+- **Future Updateability:** flexibility, revisability, and remaining options.
 
-## 7. 軌道オブザーバトリ（図の11）
+These are **candidate evaluation dimensions**. Their weighting, measurement validity, comparability across organizations, and causal interpretation require further research.
 
-軌道を単なる始点と終点の差ではなく、途中の変化として見るために、次の観測観点を置く。
+## 7. Trajectory Observatory (element 11)
 
-| 観点 | 図の意図 |
+Instead of comparing only a starting point with an endpoint, the proposed observatory considers features of the path between them:
+
+| Dimension | Intended observation |
 |---|---|
-| 曲率（Curvature） | 軌道の方向転換の速さ |
-| 停滞（Stagnation） | 更新の停滞 |
-| 分岐（Branching） | 分岐の発生 |
-| 残差（Residual） | 未解決の課題 |
-| ロックイン（Lock-in） | 固定化の程度 |
-| 複雑性（Complexity） | 相互作用の増加 |
+| **Curvature** | Changes in the direction of a trajectory. |
+| **Stagnation** | Periods of stalled or constrained updating. |
+| **Branching** | Emergence or disappearance of alternative paths. |
+| **Residual** | Unresolved issues that remain explicitly recorded. |
+| **Lock-in** | Increasing rigidity or difficulty of changing course. |
+| **Complexity** | Changes in the structure or extent of interactions. |
 
-これらは現時点では**観測すべき特徴の候補**である。例えば「曲率」をどの状態空間・距離尺度で計算するか、残差をどの基準で認定するかは、対象領域と測定設計なしには一意に決まらない。
+These are **proposed observation targets, not standardized metrics**. For example, computing curvature requires a defined state space and distance measure; identifying a residual requires an explicit classification criterion. Domain-specific measurement design is necessary.
 
-## 8. ガバナンスと説明可能性（図のG・12・13）
+## 8. Governance, accountability, and explainability (G, 12, and 13)
 
-図全体を横断する **G. Governance & Accountability** は、実行を効率化するだけでなく、その実行を誰が、何のために、どのような根拠で認めるかを問う。
+**G. Governance & Accountability** cuts across the diagram. The question is not only how to execute decisions efficiently, but **who authorizes change, for what purpose, on which evidence, and with what capacity to intervene or stop**.
 
-- 目的・価値の設定：誰のための変化か
-- ルール・制度の設計：法規制、社内ルール、倫理
-- モニタリングとアラート：リスク、逸脱、安全性
-- 責任の所在：人、組織、AI、外部関係者
-- 介入・停止・修正：Temporary Closure（暫定的な閉鎖）
-- 継続的な更新：ガバナンス自体の学習
+The diagram includes:
 
-**12. 継続的な進化** では、観測・学習・再設計・更新を繰り返し、環境変化への適応、新たな価値の再探索、より良い選択メカニズム、組織の学習・文化の変化につなぐ。
+- **Purpose and values:** whose interests a change is intended to serve.
+- **Rules and institutions:** legal requirements, internal rules, ethics.
+- **Monitoring and alerts:** risk, deviations, and safety.
+- **Responsibility:** the roles of people, organizations, AI, and external actors.
+- **Intervention, stopping, and correction:** including **Temporary Closure**, rather than assuming permanent consensus.
+- **Ongoing revision:** the governance mechanisms themselves may learn or change.
 
-**13. 社会的ガバナンスと説明可能性** では、意思決定の履歴・理由、データ・モデル・仮定の記録、リスク・問題発生時の追跡、外部監査・説明可能性、倫理・法規制・社会的責任を扱う。
+**12. Continuous evolution** concerns repeated observation, learning, redesign, and updating, including adaptation to environmental changes, re-exploration of value, improved selection mechanisms, and organizational learning.
 
-ここでの説明可能性は、AIの内部計算を完全に説明できるという主張ではない。少なくとも、どの観測と判断を経て何が実行されたかを記録するという方向性である。
+**13. Social governance and explainability** concerns records of decisions and reasons, data and model assumptions, traceability when problems occur, external auditability, and legal, ethical, and social responsibility. This does **not** claim complete explainability of AI internals. It proposes, at minimum, preserving a trace of observations, judgments, and enacted decisions.
 
-## 9. 本モデルが提案する視点
+## 9. The perspective proposed by this model
 
-**IDOSは、主体の状態や行動の変化だけでなく、主体間の関係性、現実を認識・評価する参照系、さらにそれらを更新する仕組み自体の変化を、相互に関連する動的過程として捉えようとする。**
+**IDOS seeks to describe not only changes in actors' states and actions, but also changes in relationships between actors, changes in the reference frames used to perceive and evaluate reality, and changes in the mechanisms that revise all of these—as mutually interacting dynamic processes.**
 
-ここでいう参照系の変化とは、単に観測値が変わることではなく、何を重要とみなし、何を観測し、どの基準で解釈・評価するかが変わることを含む。また、関係性の変化とは、主体間の接続の有無だけでなく、相互の影響、役割、権限、依存関係、更新可能性が変化することを含む。これらは独立した変化としても、互いに影響する変化としても記録の対象となる。
+A changing **reference frame** is more than a change in measured values. It may change what is noticed, which distinctions matter, what counts as evidence, and how an outcome is interpreted or evaluated. Changing **relationships** involve more than connections appearing or disappearing: mutual influence, roles, authority, dependencies, and updateability may change. These transformations may be tracked separately while also examining their interactions.
 
-企業経営を、現在の状態から単一の最適解を求める問題としてのみ捉えるのではなく、**異なる主体・制度・技術・現実が相互作用し、企業とその判断基準自体が変わっていく軌道**として捉える。
+Enterprise management is therefore not viewed solely as optimization from a current state toward one answer. It is also viewed as a **trajectory in which heterogeneous actors, institutions, technologies, and reality interact—and in which the enterprise and the criteria by which it judges itself can change**.
 
-新しいのは、これまで重要だと知られていなかった要素を発見することではなく、重要だと分かっていながら十分に扱えなかった複雑な変化を、共通の構造のもとで継続的に捉えようとする点にある。
+> **The proposed novelty is not the discovery of previously unrecognized important factors, but the attempt to continuously observe complex changes—long recognized as important yet difficult to handle adequately—within a shared structural framework.**
 
-この共通構造は、各領域の意味を消すための抽象化ではない。共通の記述形式を使いながら、領域固有の違い、未解決事項、観測の限界を残すことを重視する。
+A shared structure should not erase domain-specific meaning. Differences, unresolved questions, provenance, and limits of observation should remain visible rather than be compressed into superficial equivalence.
 
-## 10. 研究段階・実装との関係
+## 10. Research status and relationship to code
 
-**本資料は概念モデルであり、企業経営向けの完成したソフトウェアではない。** 図に含まれる12プロセス、評価指標、オブザーバトリ、ガバナンスがすべて実装済みという意味ではない。また、予測精度、因果関係、経営成果の改善、他手法に対する優位性も本資料では実証していない。
+**This repository entry documents a conceptual model, not a complete enterprise trajectory management application.** The twelve processes, proposed metrics, observatory, and governance arrangements have **not** all been implemented as enterprise software. This document does not demonstrate forecasting accuracy, causality, improved enterprise outcomes, or superiority over established methods.
 
-関連する実装として、同じリポジトリ内に以下の研究用コードがある。
+Related experimental implementations in this repository include:
 
-- [`src/idos_reference_v1_1.py`](../../src/idos_reference_v1_1.py) — IDOSの参照実装
-- [`implementation/trajectory_observation/`](../trajectory_observation/) — 軌道観測の試作
-- [`implementation/cross_domain_observation/`](../cross_domain_observation/) — 複数領域の共通観測の試作
+- [`src/idos_reference_v1_1.py`](../../src/idos_reference_v1_1.py) — IDOS reference implementation.
+- [`implementation/trajectory_observation/`](../trajectory_observation/) — trajectory observation prototype.
+- [`implementation/cross_domain_observation/`](../cross_domain_observation/) — cross-domain observation prototype.
 
-これらは本図の構想に関連するが、**企業軌道経営モデル全体を実装・検証したものではない**。架空事例の動作確認と、実世界での有効性の確認も区別する必要がある。
+These prototypes are related to the conceptual architecture but **do not implement or validate the entire enterprise model**. Successful execution with synthetic examples must not be confused with evidence of real-world effectiveness.
 
-## 11. English overview
+## 11. Original diagram and use
 
-**IDOS ver.83 — Enterprise Trajectory Management** is a conceptual architecture for observing and describing enterprise change as trajectories shaped by interacting humans, organizations, digital AI, embodied AI, and real-world constraints. Rather than reducing these different systems to one type of rational agent, it seeks a shared descriptive structure that preserves domain-specific differences.
-
-The model connects current enterprise conditions, multiple candidate future trajectories, selection and execution, re-observation, and continuous revision. It explicitly considers changes in relationships between actors, changes in the reference frames used to observe and evaluate reality, and changes in the mechanisms through which these are revised. Its provisional twelve-process model includes reality contact, difference, representation, residual, holding, update, possibility space, trajectory, limit, enactment, renewed reality contact, and reopening. Four complementary perspectives address dynamics, observability, relational dynamics, and second-order updateability—the capacity to revise the mechanisms of updating themselves.
-
-The diagram also highlights governance, accountability, and potential trajectory-observation dimensions such as curvature, stagnation, branching, unresolved residuals, lock-in, and complexity. These are proposed descriptive and evaluative dimensions, **not established universal metrics or validated predictions**. Related Python prototypes exist in this repository, but the full enterprise model has not been implemented or empirically validated.
-
-The intended contribution is not to discover that complex changes matter, but to explore whether changes already recognized as important—yet difficult to observe continuously—can be described through a shared, revisable architecture.
-
-## 図・利用条件
-
-原図は [`assets/idos_ver83_enterprise_trajectory_management.png`](assets/idos_ver83_enterprise_trajectory_management.png) に収録する。利用・再配布に際しては、リポジトリで明示されているライセンスや権利関係を確認すること。本READMEは図の説明文であり、図そのものに含まれない実証結果を付加するものではない。
+The original Japanese-language diagram is stored at [`assets/idos_ver83_enterprise_trajectory_management.png`](assets/idos_ver83_enterprise_trajectory_management.png). This English README is an explanatory companion, not a claim that the diagram contains results beyond those represented in the original. For reuse or redistribution, consult the repository's applicable license and rights information.
 
 ---
 
