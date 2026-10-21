@@ -134,6 +134,10 @@ CFV、Cross-Frame Verifiability、MU、Mutual Updateabilityなどを図示して
 
 ## 9. 本モデルが提案する視点
 
+**IDOSは、主体の状態や行動の変化だけでなく、主体間の関係性、現実を認識・評価する参照系、さらにそれらを更新する仕組み自体の変化を、相互に関連する動的過程として捉えようとする。**
+
+ここでいう参照系の変化とは、単に観測値が変わることではなく、何を重要とみなし、何を観測し、どの基準で解釈・評価するかが変わることを含む。また、関係性の変化とは、主体間の接続の有無だけでなく、相互の影響、役割、権限、依存関係、更新可能性が変化することを含む。これらは独立した変化としても、互いに影響する変化としても記録の対象となる。
+
 企業経営を、現在の状態から単一の最適解を求める問題としてのみ捉えるのではなく、**異なる主体・制度・技術・現実が相互作用し、企業とその判断基準自体が変わっていく軌道**として捉える。
 
 新しいのは、これまで重要だと知られていなかった要素を発見することではなく、重要だと分かっていながら十分に扱えなかった複雑な変化を、共通の構造のもとで継続的に捉えようとする点にある。
@@ -156,7 +160,7 @@ CFV、Cross-Frame Verifiability、MU、Mutual Updateabilityなどを図示して
 
 **IDOS ver.83 — Enterprise Trajectory Management** is a conceptual architecture for observing and describing enterprise change as trajectories shaped by interacting humans, organizations, digital AI, embodied AI, and real-world constraints. Rather than reducing these different systems to one type of rational agent, it seeks a shared descriptive structure that preserves domain-specific differences.
 
-The model connects current enterprise conditions, multiple candidate future trajectories, selection and execution, re-observation, and continuous revision. Its provisional twelve-process model includes reality contact, difference, representation, residual, holding, update, possibility space, trajectory, limit, enactment, renewed reality contact, and reopening. Four complementary perspectives address dynamics, observability, relational dynamics, and second-order updateability—the capacity to revise the mechanisms of updating themselves.
+The model connects current enterprise conditions, multiple candidate future trajectories, selection and execution, re-observation, and continuous revision. It explicitly considers changes in relationships between actors, changes in the reference frames used to observe and evaluate reality, and changes in the mechanisms through which these are revised. Its provisional twelve-process model includes reality contact, difference, representation, residual, holding, update, possibility space, trajectory, limit, enactment, renewed reality contact, and reopening. Four complementary perspectives address dynamics, observability, relational dynamics, and second-order updateability—the capacity to revise the mechanisms of updating themselves.
 
 The diagram also highlights governance, accountability, and potential trajectory-observation dimensions such as curvature, stagnation, branching, unresolved residuals, lock-in, and complexity. These are proposed descriptive and evaluative dimensions, **not established universal metrics or validated predictions**. Related Python prototypes exist in this repository, but the full enterprise model has not been implemented or empirically validated.
 
