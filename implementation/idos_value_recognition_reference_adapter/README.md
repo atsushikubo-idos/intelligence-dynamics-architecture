@@ -14,8 +14,14 @@ The adapter records how previously observed events can be reassessed when refere
 - Separation of an **unassessed value candidate** from IDOS `Residual` and `HoldingState`: lack of valuation data does **not** imply a detected mismatch or a Residual.
 
 ## Run
-Place the uploaded reference file, renamed to `idos_reference_v1_1.py`, and the previous prototype's `value_recognition.py` on `PYTHONPATH`, alongside this directory, then run `python example.py`. A packaged copy of both dependencies is included for convenience.
 
+Run the example from the repository root using Python 3:
+
+```bash
+python implementation/idos_value_recognition_reference_adapter/example.py
+```
+
+The adapter imports the canonical IDOS Reference v1.1 from `src/idos_reference_v1_1.py`. No duplicate copy of the reference file is required.
 ## Limits
 - Scores and features in the demonstration are hypothetical and depend on externally provided valuation criteria.
 - Reevaluation is not discovery of intrinsic value, not causal inference, and not empirical validation.
