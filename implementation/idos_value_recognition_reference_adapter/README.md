@@ -1,6 +1,8 @@
 # IDOS Reference v1.1 × Value Recognition (experimental adapter)
 
-This adapter connects the existing standalone `value_recognition.py` prototype to the uploaded `idos_reference_v1_1.py` **without modifying either original file**.
+This experimental adapter connects the standalone `value_recognition.py` prototype to the canonical IDOS Reference v1.1 located at `../../src/idos_reference_v1_1.py`, without modifying the reference architecture.
+
+The adapter records how previously observed events can be reassessed when reference frames and valuation criteria change. This is an experimental implementation, not a validated method for discovering unknown values.
 
 ## What is reused
 - `UpdatingUnit`, `ReferenceFrame.revise()`, `UpdatingUnit.update()`, `UpdateLevel.L3`, and `ProvenanceEvent` from IDOS Reference v1.1.
