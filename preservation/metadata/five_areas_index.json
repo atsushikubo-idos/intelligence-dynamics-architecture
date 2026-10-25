@@ -1,0 +1,93 @@
+{
+  "01_pre_representational_hazama": {
+    "title": "前表象・ハザマ",
+    "original_figures": [
+      "ver.56",
+      "ver.55",
+      "ver.54",
+      "ver.45",
+      "ハザマ保持",
+      "問い生成条件論"
+    ],
+    "distinctions": [
+      "pre-representational dynamics != observed difference",
+      "uncaptured != suppressed != irrecoverable-from-current-system",
+      "articulability != trace persistence",
+      "hazama != diagnosed residual",
+      "frame generation != frame revision"
+    ]
+  },
+  "02_subject_sovereignty": {
+    "title": "主体・主権",
+    "original_figures": [
+      "ver.47",
+      "ver.46",
+      "ver.41",
+      "ver.39",
+      "ver.79",
+      "主体生成理論",
+      "主体の主権"
+    ],
+    "distinctions": [
+      "updating unit != agency != subject != sovereign subject",
+      "capability != legitimate authority",
+      "withdrawal != dissolution",
+      "causal contribution != legal responsibility"
+    ]
+  },
+  "05_relational_trajectory": {
+    "title": "関係軌道",
+    "original_figures": [
+      "ver.76",
+      "ver.74",
+      "ver.52",
+      "ver.48",
+      "ver.29",
+      "共創場モデル",
+      "主体間"
+    ],
+    "distinctions": [
+      "relation trajectory != sum of individual trajectories",
+      "coupling != enactment",
+      "synchronization != spurious synchronization",
+      "projection loss != unknown unknowns"
+    ]
+  },
+  "06_reality_reference_frame": {
+    "title": "Reality・参照系生成",
+    "original_figures": [
+      "ver.59",
+      "ver.58",
+      "ver.54",
+      "ver.51",
+      "ver.49",
+      "ver.43",
+      "ver.80",
+      "存在ダイナミクス"
+    ],
+    "distinctions": [
+      "reality != representation",
+      "frame revision != novel frame genesis",
+      "unobserved != unobservable-in-then-frame",
+      "measurement reconfiguration != measurement precision"
+    ]
+  },
+  "07_asset_to_body": {
+    "title": "階層間主体資産移行",
+    "original_figures": [
+      "主体資産",
+      "ver.23",
+      "ver.24",
+      "ver.26",
+      "ver.33",
+      "組織オートポイエーシス",
+      "暗黙知循環"
+    ],
+    "distinctions": [
+      "asset transfer != data copying",
+      "source lived trajectory != recorded trajectory != reconstructed trajectory",
+      "asset in level n != body at level n+1",
+      "inheritance != reproduction"
+    ]
+  }
+}
