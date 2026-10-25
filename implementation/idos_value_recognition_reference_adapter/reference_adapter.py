@@ -7,6 +7,12 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "src"))
+
 from value_recognition import Observation, ReferenceFrame as ValueFrame, Trajectory as ValueTrajectory
 from idos_reference_v1_1 import (UpdatingUnit, ReferenceFrame as IDOSFrame,
                                   UpdateLevel, ProvenanceEvent)

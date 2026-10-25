@@ -1,4 +1,8 @@
 """Run with PYTHONPATH including the Reference v1.1 and standalone prototype folders."""
+from pathlib import Path
+import sys
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "src"))
 from idos_reference_v1_1 import make_unit
 from value_recognition import Observation, ReferenceFrame
 from reference_adapter import ValueRecognitionAdapter
