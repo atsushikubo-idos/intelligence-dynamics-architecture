@@ -82,3 +82,20 @@ python implementation/discovery_architecture/example.py
 Version 1.0 fixes a *minimal, inspectable architectural reference* for a potential general-purpose discovery protocol (analogous in accessibility, **not** equivalent in operation, to PDCA). It is **not** an empirical demonstration of novel discoveries or a fully automated intervention engine. Keep primary source diagrams and the `preservation/` archive as the source of record; future implementations can extend this design without erasing differences or retroactively changing v1.0.
 
 **License:** Intended for distribution under Apache-2.0, consistent with the repository's software license; confirm repository licensing before publication.
+
+
+## Executable Discovery Engine (v0.4)
+
+The Discovery Architecture does not guarantee the discovery of the unknown. It provides an executable architecture for engaging with unknown possibilities through four connected operations:
+
+1. Generate possibility candidates without specifying their content in advance.
+2. Update observation targets and evaluation methods according to the proposed reference frame.
+3. Reconfigure intervention conditions and executable operations.
+4. Feed intervention outcomes back into the next generation cycle.
+
+The engine preserves previous reference frames, unresolved differences, and conditions for future reconsideration.
+
+The current implementation supports simulation-based execution and an optional AI candidate-generation interface. Actual AI-generated discovery remains unverified.
+
+See [emergent_engine/README_v04.md](emergent_engine/README_v04.md) for implementation details and execution instructions.
+  
