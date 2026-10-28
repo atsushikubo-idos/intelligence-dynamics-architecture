@@ -1,0 +1,137 @@
+{
+  "mode": "replay",
+  "real_ai_queried": false,
+  "fixture_only": true,
+  "events": [
+    {
+      "cycle": 1,
+      "frame_before": "F0",
+      "frame_after": "F1",
+      "metric_before": "wealth",
+      "metric_after": "generated:b5f28e0bd78b",
+      "generated_expression": "capacity-output",
+      "candidate": {
+        "idea": "Supply bottleneck",
+        "expression": "capacity-output",
+        "maximize": false,
+        "action": "expand_energy",
+        "rationale": "test fixture"
+      },
+      "review_status": "authorized_for_controlled_transition",
+      "rejection": null,
+      "possible_metric_id": "generated:b5f28e0bd78b",
+      "before_old": 50.0,
+      "after_old": 49.0,
+      "before_new": 3.0,
+      "after_new": 3.0,
+      "eligible_before": [
+        "subsidize",
+        "inspect"
+      ],
+      "eligible_after": [
+        "expand_energy",
+        "inspect"
+      ],
+      "action": "expand_energy",
+      "world_before": {
+        "wealth": 50.0,
+        "energy": 4.0,
+        "output": 6.0,
+        "capacity": 9.0
+      },
+      "world_after": {
+        "wealth": 49.0,
+        "energy": 6.0,
+        "output": 6.0,
+        "capacity": 9.0
+      },
+      "source_type": "unverified_generator",
+      "record_hash": "fba5e3100f11582852aa2aef1fbb7be4fd35ac3ab119ee9780d7c490eab3b776"
+    },
+    {
+      "cycle": 2,
+      "frame_before": "F1",
+      "frame_after": "F2",
+      "metric_before": "generated:b5f28e0bd78b",
+      "metric_after": "generated:710fd7707845",
+      "generated_expression": "output/energy",
+      "candidate": {
+        "idea": "Energy productivity",
+        "expression": "output/energy",
+        "maximize": true,
+        "action": "boost_output",
+        "rationale": "test fixture"
+      },
+      "review_status": "authorized_for_controlled_transition",
+      "rejection": null,
+      "possible_metric_id": "generated:710fd7707845",
+      "before_old": 3.0,
+      "after_old": 1.125,
+      "before_new": 1.0,
+      "after_new": 1.5,
+      "eligible_before": [
+        "expand_energy",
+        "inspect"
+      ],
+      "eligible_after": [
+        "boost_output",
+        "inspect"
+      ],
+      "action": "boost_output",
+      "world_before": {
+        "wealth": 49.0,
+        "energy": 6.0,
+        "output": 6.0,
+        "capacity": 9.0
+      },
+      "world_after": {
+        "wealth": 49.0,
+        "energy": 5.25,
+        "output": 7.875,
+        "capacity": 9.0
+      },
+      "source_type": "unverified_generator",
+      "record_hash": "93d46a838f58482acc472d2d37167fe2d404f46dee892eb792fb67495be96037"
+    },
+    {
+      "cycle": 3,
+      "frame_before": "F2",
+      "frame_after": "F2",
+      "metric_before": "generated:710fd7707845",
+      "metric_after": "generated:710fd7707845",
+      "generated_expression": null,
+      "candidate": null,
+      "review_status": "no_candidate",
+      "rejection": null,
+      "possible_metric_id": null,
+      "before_old": 1.5,
+      "after_old": 1.5,
+      "before_new": 1.5,
+      "after_new": 1.5,
+      "eligible_before": [
+        "boost_output",
+        "inspect"
+      ],
+      "eligible_after": [
+        "boost_output",
+        "inspect"
+      ],
+      "action": "boost_output",
+      "world_before": {
+        "wealth": 49.0,
+        "energy": 5.25,
+        "output": 7.875,
+        "capacity": 9.0
+      },
+      "world_after": {
+        "wealth": 49.0,
+        "energy": 4.5,
+        "output": 6.75,
+        "capacity": 9.0
+      },
+      "source_type": "unverified_generator",
+      "record_hash": "b6450f8e6a53ae1ec6d9d7a986a64fcffbfff758dcf8b3268481f842a699755b"
+    }
+  ],
+  "source_audit": []
+}
