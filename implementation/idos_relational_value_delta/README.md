@@ -1,4 +1,4 @@
-# IDOS — Relational Value Delta (prototype v0.1)
+# IDOS — Relational Value Delta (prototype v0.2)
 
 **Purpose:** Ask whether combining independently developed models reveals an incrementally useful difference, beyond the best prespecified standalone model, without mistaking a descriptive improvement for causal emergence.
 
