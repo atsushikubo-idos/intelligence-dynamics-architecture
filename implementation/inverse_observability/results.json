@@ -1,0 +1,281 @@
+{
+  "stable": {
+    "scope": "SYNTHETIC ONLY; same-source train/calibration/test; no causal inference",
+    "n": {
+      "train": 216,
+      "calibration": 72,
+      "test": 72
+    },
+    "metadata": {
+      "input_events": 1166,
+      "input_cases": 360,
+      "included_cases": 360,
+      "excluded": {}
+    },
+    "time_boundaries": {
+      "calibration_first_start": "2024-01-12T16:48:00+00:00",
+      "test_first_start": "2024-01-16T14:24:00+00:00"
+    },
+    "model_selection": {
+      "calibration_mae": {
+        "baseline": 0.376565071368911,
+        "handoff": 0.25539768729281054,
+        "rework": 0.31970354194530237,
+        "queue": 0.38240692442183327
+      },
+      "chosen": "handoff",
+      "selection_data": "calibration only"
+    },
+    "held_out_predictive": {
+      "baseline_log_mae": 0.3862245835807864,
+      "chosen_log_mae": 0.23524747146324435,
+      "relative_mae_change_pct": 39.09049774040658
+    },
+    "observation_design": {
+      "hypotheses": "observed low vs high future duration; NOT causal explanations",
+      "training_threshold_log_duration": 2.4389012363867053,
+      "training_class_prior": [
+        0.5,
+        0.5
+      ],
+      "selected_observation": "handoff_at_review",
+      "ranking": [
+        {
+          "candidate": "handoff_at_review",
+          "information_gain_bits": 0.58149,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.58149,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "pre_review_rework",
+          "information_gain_bits": 0.131961,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.131961,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "queue_at_review",
+          "information_gain_bits": 0.010105,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.010105,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "pre_review_hours",
+          "information_gain_bits": 0.002088,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.002088,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        }
+      ],
+      "heldout_brier": 0.11330411287658412,
+      "heldout_prior_brier": 0.25,
+      "heldout_classification_accuracy": 0.875,
+      "warning": "Candidate features are already in the log; real new observation was not collected. Gaussian approximation especially limited for binary features."
+    },
+    "family_audit": {
+      "calibration_noise_sigma": 0.3075785241138517,
+      "result": {
+        "status": "compatible_not_proven",
+        "best_fitting_hypothesis": "stable_residual",
+        "min_standardized_sse": 67.60074,
+        "monte_carlo_p": 0.633333,
+        "alpha": 0.05,
+        "n": 72,
+        "mc": 2999,
+        "reference_frame": "case_review_v1",
+        "model_provenance": "training-fitted predictive model; calibration-only noise estimate",
+        "evidence_provenance": "SYNTHETIC held-out event log, test only",
+        "standardized_residual_mean": -0.01225,
+        "standardized_residual_sd": 0.97569,
+        "diagnostic_hints": [],
+        "epistemic_limits": [
+          "Rejection does not establish a new cause or new reference frame",
+          "Noise changes, dependence, contamination, wrong parameters can also produce rejection",
+          "Compatibility is not proof that any hypothesis is true",
+          "Independent measurement noise and pre-specified Gaussian likelihoods assumed"
+        ]
+      },
+      "next": {
+        "action": "continue_external_validation",
+        "update_reference_frame": false,
+        "reason": "No evidence to reject family, not evidence of causal truth"
+      },
+      "warning": "v0.8 assumes independent Gaussian residuals and one shared mean per batch; not validated for operational events."
+    },
+    "reference_frame": {
+      "id": "case_review_v1",
+      "bridge_to_new_frame": false,
+      "12PDM_labels": "not automatically assigned"
+    },
+    "limitations": [
+      "no empirical organizational data",
+      "no genuinely new sensor acquired",
+      "all candidate features observed before first review",
+      "no causal latent structure identification",
+      "no automated discovery frame transition"
+    ]
+  },
+  "shifted_holdout": {
+    "scope": "SYNTHETIC ONLY; same-source train/calibration/test; no causal inference",
+    "n": {
+      "train": 216,
+      "calibration": 72,
+      "test": 72
+    },
+    "metadata": {
+      "input_events": 1166,
+      "input_cases": 360,
+      "included_cases": 360,
+      "excluded": {}
+    },
+    "time_boundaries": {
+      "calibration_first_start": "2024-01-12T16:48:00+00:00",
+      "test_first_start": "2024-01-16T14:24:00+00:00"
+    },
+    "model_selection": {
+      "calibration_mae": {
+        "baseline": 0.376565071368911,
+        "handoff": 0.25539768729281054,
+        "rework": 0.31970354194530237,
+        "queue": 0.38240692442183327
+      },
+      "chosen": "handoff",
+      "selection_data": "calibration only"
+    },
+    "held_out_predictive": {
+      "baseline_log_mae": 2.0486816707225803,
+      "chosen_log_mae": 2.019553818966173,
+      "relative_mae_change_pct": 1.4217851495754334
+    },
+    "observation_design": {
+      "hypotheses": "observed low vs high future duration; NOT causal explanations",
+      "training_threshold_log_duration": 2.4389012363867053,
+      "training_class_prior": [
+        0.5,
+        0.5
+      ],
+      "selected_observation": "handoff_at_review",
+      "ranking": [
+        {
+          "candidate": "handoff_at_review",
+          "information_gain_bits": 0.58149,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.58149,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "pre_review_rework",
+          "information_gain_bits": 0.131961,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.131961,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "queue_at_review",
+          "information_gain_bits": 0.010105,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.010105,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        },
+        {
+          "candidate": "pre_review_hours",
+          "information_gain_bits": 0.002088,
+          "cost": 1.0,
+          "risk": 0.0,
+          "score": 0.002088,
+          "status": "eligible",
+          "reasons": [],
+          "provenance": "fitted on training subset only; Gaussian working approximation",
+          "observation_only": true
+        }
+      ],
+      "heldout_brier": 0.5139123991584765,
+      "heldout_prior_brier": 0.25,
+      "heldout_classification_accuracy": 0.4166666666666667,
+      "warning": "Candidate features are already in the log; real new observation was not collected. Gaussian approximation especially limited for binary features."
+    },
+    "family_audit": {
+      "calibration_noise_sigma": 0.3075785241138517,
+      "result": {
+        "status": "family_rejected",
+        "best_fitting_hypothesis": "positive_shift",
+        "min_standardized_sse": 1557.64133,
+        "monte_carlo_p": 0.000333,
+        "alpha": 0.05,
+        "n": 72,
+        "mc": 2999,
+        "reference_frame": "case_review_v1",
+        "model_provenance": "training-fitted predictive model; calibration-only noise estimate",
+        "evidence_provenance": "SYNTHETIC held-out event log, test only",
+        "standardized_residual_mean": 4.56598,
+        "standardized_residual_sd": 0.89265,
+        "diagnostic_hints": [
+          "systematic_shift_or_wrong_mean"
+        ],
+        "epistemic_limits": [
+          "Rejection does not establish a new cause or new reference frame",
+          "Noise changes, dependence, contamination, wrong parameters can also produce rejection",
+          "Compatibility is not proof that any hypothesis is true",
+          "Independent measurement noise and pre-specified Gaussian likelihoods assumed"
+        ]
+      },
+      "next": {
+        "action": "review_model_and_measurement",
+        "update_reference_frame": false,
+        "candidate_checks": [
+          "recalibrate_noise",
+          "audit_measurement_drift",
+          "inspect_temporal_dependence",
+          "record_unexplained_residual",
+          "consider_alternative_hypotheses",
+          "design_new_observation_subject_to_permission"
+        ],
+        "reason": "Open-set alert; no automatic attribution to unknown structure"
+      },
+      "warning": "v0.8 assumes independent Gaussian residuals and one shared mean per batch; not validated for operational events."
+    },
+    "reference_frame": {
+      "id": "case_review_v1",
+      "bridge_to_new_frame": false,
+      "12PDM_labels": "not automatically assigned"
+    },
+    "limitations": [
+      "no empirical organizational data",
+      "no genuinely new sensor acquired",
+      "all candidate features observed before first review",
+      "no causal latent structure identification",
+      "no automated discovery frame transition"
+    ]
+  },
+  "shift_note": "Synthetic shift: +72h on test-period terminal events only."
+}
