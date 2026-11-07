@@ -1,0 +1,361 @@
+{
+  "version": "v0.3 bridged integration",
+  "exchange_id": "2a54c2d4-12ff-418d-8600-68bb5749d38c",
+  "governance": "review",
+  "discovery_recontact_id": "88d48be3a0c5412594f5e29daba32f51",
+  "adopted_frames": {
+    "human": [],
+    "ai": [
+      "cash_runway"
+    ],
+    "org": [
+      "cash_runway"
+    ]
+  },
+  "interface": {
+    "Reality": {
+      "tick": 1,
+      "shared_evidence": [
+        {
+          "actor_id": "org",
+          "tick": 1,
+          "key": "cash",
+          "value": 7.0,
+          "source": "org:ledger:t1",
+          "shared": true
+        },
+        {
+          "actor_id": "org",
+          "tick": 1,
+          "key": "burn",
+          "value": 3.5,
+          "source": "org:forecast:t1",
+          "shared": true
+        }
+      ]
+    },
+    "Difference": [],
+    "Representation": {
+      "relationship_empirical_distribution": {
+        "adopt": 0.3333333333333333,
+        "hold": 0.3333333333333333,
+        "reject": 0.3333333333333333
+      },
+      "inverse_hypothesis_distribution": {
+        "growth_only": 0.5,
+        "liquidity_sensitive": 0.5
+      },
+      "current_relational_state": {
+        "tick": 0,
+        "choice_distribution": {
+          "adopt": 0.3333333333333333,
+          "hold": 0.3333333333333333,
+          "reject": 0.3333333333333333
+        },
+        "disagreement_pairs": [
+          [
+            "human",
+            "ai"
+          ],
+          [
+            "human",
+            "org"
+          ],
+          [
+            "ai",
+            "org"
+          ]
+        ],
+        "observation_keys": [
+          "burn",
+          "cash",
+          "growth"
+        ],
+        "conflicted_keys": [],
+        "note": "empirical finite record; not metaphysical emergence"
+      },
+      "frame_projections": []
+    },
+    "Residual": [],
+    "Holding": {
+      "private_observation_count": 1,
+      "append_only_event_count": 21,
+      "evaluated_candidate_history": [
+        {
+          "tick": 0,
+          "frame_id": "cash_runway",
+          "evaluation": {
+            "tick": 0,
+            "runway_months": 4.0,
+            "input_provenance": [
+              "org:ledger",
+              "org:forecast"
+            ],
+            "limitations": "Derived metric, not a validated causal model"
+          },
+          "derived_from": [
+            "cash",
+            "burn",
+            "decision_disagreement"
+          ]
+        }
+      ],
+      "withheld_count": 1
+    },
+    "Update": {
+      "human": [],
+      "ai": [
+        "cash_runway"
+      ],
+      "org": [
+        "cash_runway"
+      ]
+    },
+    "Possibility Space": {
+      "cash_runway": {
+        "id": "cash_runway",
+        "description": "Cash runway as a cross-frame question",
+        "derived_from": [
+          "cash",
+          "burn",
+          "decision_disagreement"
+        ],
+        "formula": "cash / burn",
+        "created_at": 0,
+        "validation": {
+          "tick": 0,
+          "runway_months": 4.0,
+          "input_provenance": [
+            "org:ledger",
+            "org:forecast"
+          ],
+          "limitations": "Derived metric, not a validated causal model"
+        }
+      },
+      "questions": [],
+      "external_offers": []
+    },
+    "Trajectory": {
+      "human": [
+        {
+          "tick": 0,
+          "option": "expand",
+          "disposition": "adopt",
+          "reason": "growth",
+          "native_frame": "growth_and_employment"
+        }
+      ],
+      "ai": [
+        {
+          "tick": 0,
+          "option": "experiment",
+          "disposition": "hold",
+          "reason": "uncertainty",
+          "native_frame": "uncertainty_and_experimentation"
+        }
+      ],
+      "org": [
+        {
+          "tick": 0,
+          "option": "expand",
+          "disposition": "reject",
+          "reason": "liquidity",
+          "native_frame": "cash_continuity"
+        }
+      ]
+    },
+    "Limit": [
+      "Only typed cash/burn composition is implemented",
+      "CFV checks consistency of shared evidence, not truth or comprehension",
+      "No autonomous ontology expansion, no social validation",
+      "Observation frame reconstitution only from past shared evidence",
+      "Empirical relation frequencies != structural posterior",
+      "External observation does not imply autonomous invention",
+      "Ranking or presentation can influence actors"
+    ],
+    "Enactment": [],
+    "Reality′": [],
+    "Reopening": [],
+    "ExternalModuleIntegration": {
+      "dynamic_interoperability": [
+        {
+          "id": "2a54c2d4-12ff-418d-8600-68bb5749d38c",
+          "round": 1,
+          "source_id": "org",
+          "target_id": "human",
+          "source_frame": "cash_continuity",
+          "target_frame": "growth_and_employment",
+          "source_trajectory": "org:t0",
+          "target_trajectory": "human:t0",
+          "original": [
+            {
+              "id": "org:0:0",
+              "text": "Cash runway risk is significant",
+              "origin": "org",
+              "frame": "cash_continuity"
+            }
+          ],
+          "translated": "Cash runway risk is significant",
+          "assessments": [
+            {
+              "claim_id": "org:0:0",
+              "disposition": "unresolved",
+              "evidence": "",
+              "assessor": "",
+              "translated_text": null
+            }
+          ],
+          "cdp_quality": "structural_adapter_only",
+          "cdp_residual": "semantic fidelity not verified by this adapter",
+          "declared_by": "human",
+          "previous_exchange_id": null
+        }
+      ],
+      "discovery_architecture": {
+        "relation_runway": {
+          "question": "How does cash risk change joint choices?",
+          "baseline_frame_id": "growth_only",
+          "records": [
+            {
+              "id": "23a5b8d247e94c3e93bf5007ba18a936",
+              "kind": "performed_intervention",
+              "statement": "Reported forecasting review by organization",
+              "source_ids": [],
+              "evidence_ids": [
+                "org:ledger",
+                "org:forecast"
+              ]
+            },
+            {
+              "id": "492360a5af2a4865b2c1635824e6b1e8",
+              "kind": "difference",
+              "statement": "Runway constraint became visible to participants",
+              "source_ids": [
+                "23a5b8d247e94c3e93bf5007ba18a936"
+              ],
+              "evidence_ids": [
+                "org:ledger",
+                "org:forecast"
+              ]
+            },
+            {
+              "id": "8561280e7b9e45308ace89e581ca8cda",
+              "kind": "frame_proposal",
+              "statement": "cash_runway: Cross-frame cash continuity reference",
+              "source_ids": [
+                "492360a5af2a4865b2c1635824e6b1e8"
+              ],
+              "evidence_ids": []
+            },
+            {
+              "id": "88d48be3a0c5412594f5e29daba32f51",
+              "kind": "recontact",
+              "statement": "Runway declined in the following period",
+              "source_ids": [
+                "8561280e7b9e45308ace89e581ca8cda"
+              ],
+              "evidence_ids": [
+                "org:ledger:t1",
+                "org:forecast:t1"
+              ]
+            }
+          ],
+          "candidate_frames": [
+            "cash_runway"
+          ],
+          "reviews": {
+            "8561280e7b9e45308ace89e581ca8cda": "supported"
+          }
+        }
+      },
+      "coexistence_governance": {
+        "assessments": [
+          {
+            "time_utc": "2026-11-07T09:04:22.411989+00:00",
+            "event": "assessment",
+            "proposal_id": "g1",
+            "result": "review",
+            "reasons": [
+              "High or unknown risk is not automatically approved"
+            ],
+            "frame_ids": [
+              "human",
+              "org"
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "type": "exchange",
+          "id": "2a54c2d4-12ff-418d-8600-68bb5749d38c",
+          "shared_refs": [
+            "org:ledger",
+            "org:forecast"
+          ],
+          "source": "org",
+          "target": "human",
+          "tick": 0
+        },
+        {
+          "type": "discovery_proposal",
+          "id": "8561280e7b9e45308ace89e581ca8cda",
+          "candidate_id": "cash_runway",
+          "cycle_id": "relation_runway",
+          "evidence_refs": [
+            "org:ledger",
+            "org:forecast"
+          ],
+          "tick": 0
+        },
+        {
+          "type": "governance",
+          "id": "g1",
+          "decision": "review",
+          "tick": 0,
+          "evidence_refs": [
+            "org:forecast"
+          ]
+        },
+        {
+          "type": "discovery_recontact",
+          "id": "88d48be3a0c5412594f5e29daba32f51",
+          "cycle_id": "relation_runway",
+          "evidence_refs": [
+            "org:ledger:t1",
+            "org:forecast:t1"
+          ],
+          "tick": 1
+        }
+      ],
+      "bridge_events": [
+        {
+          "event": "interop_exchange",
+          "id": "2a54c2d4-12ff-418d-8600-68bb5749d38c",
+          "assessment": "unresolved"
+        },
+        {
+          "event": "discovery_opened",
+          "id": "relation_runway"
+        },
+        {
+          "event": "discovery_proposal",
+          "id": "8561280e7b9e45308ace89e581ca8cda",
+          "candidate_id": "cash_runway"
+        },
+        {
+          "event": "governance_assessment",
+          "proposal_id": "g1",
+          "decision": "review",
+          "no_execution": true
+        }
+      ],
+      "limitations": [
+        "No external actions executed",
+        "Caller-supplied approvals and attestation are not authenticated",
+        "Reviewer-declared translation assessment is not semantic truth",
+        "Proposals and governance eligibility do not force actor adoption"
+      ]
+    }
+  }
+}
