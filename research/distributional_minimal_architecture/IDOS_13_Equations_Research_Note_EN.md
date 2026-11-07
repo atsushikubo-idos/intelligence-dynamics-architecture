@@ -153,7 +153,7 @@ Generate candidate observation/interpretation frames from residual patterns, dis
 **(13) Candidate evaluation and selection**
 
 $$
-F_{t+1}^{*}\in\underset{F'\in\mathcal F_t^+}{\operatorname{argmin}}\left[\mathcal L_{\mathrm{obs}}(F')+\lambda\mathcal C(F')+\mu\mathcal L_{\mathrm{loss}}(F_t,F')\right]
+F_{t+1}^{*}\in\underset{F'\in\mathcal F_t^+}{\mathrm{arg\,min}}\left[\mathcal L_{\mathrm{obs}}(F')+\lambda\mathcal C(F')+\mu\mathcal L_{\mathrm{loss}}(F_t,F')\right]
 $$
 
 Evaluate candidates by observational fit, complexity, and the loss of previously available distinctions. A technically promising frame is **not automatically authorized for social adoption or intervention**; permission, consent, and application boundaries are separate controls. The admissible candidate set must be defined for each context.
