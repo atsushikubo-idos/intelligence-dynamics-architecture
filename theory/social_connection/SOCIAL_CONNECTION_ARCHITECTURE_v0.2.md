@@ -1,63 +1,66 @@
-# IDOS Social Connection Architecture v0.2 — 理論との接続と統合監査
+# IDOS Social Connection Architecture v0.2 — Theory Integration and Selective Audit
 
-**位置づけ：** MASTER_MAP v1.1、12CDP、13式を置き換える新理論ではなく、それらを社会接続の目的に従って接続した実験的アーキテクチャの設計監査。
+**Positioning:** This is an architecture audit of an experimental social-connection integration. It does **not** replace MASTER_MAP v1.1, the 12CDP framework, or the 13 equations.
 
-**実装：** [`implementation/social_connection_architecture/`](../../implementation/social_connection_architecture/)
+**Implementation:** [`implementation/social_connection_architecture/`](../../implementation/social_connection_architecture/)
 
-**注：** 実社会での創発、自己更新能力、CFV/MUの実証は未達。MASTER_MAP v1.1を改訂しない。
+**Research status:** Emergence in real social systems, self-updating capabilities, and meaningful CFV/MU have **not** been empirically demonstrated. MASTER_MAP v1.1 remains unchanged.
 
----
+**Date:** November 7, 2026.
 
-# IDOS Social Connection Architecture v0.2 — 統合選別監査
+## 1. Integration principle
 
-**日付：2026-11-07**  
-**性質：人工的な社会接続プロトコルの統合試作。実社会における異種知性の創発・社会的効用の証明ではない。**
+The central objective is to build a **social-connection architecture** in which heterogeneous intelligences interact while preserving their distinct reference frames, boundaries, and decision rights. Their interactions may give rise to relational distributions and new reference-frame possibilities, potentially supporting the self-renewal of what can be explored.
 
-## 1. 統合の原則
+The integration does **not** indiscriminately combine all prior experiments. It selects capabilities needed by the shared social-connection protocol, preserves the original v0.1 implementation, and adds the v0.2 extension. The established definitions in MASTER_MAP v1.1, 12CDP, and the 13 equations are not revised.
 
-中心目的：**異種知性が固有の参照系・境界・選択権を保って関係し、その相互作用を通じて関係分布と新参照系の可能性が形成され、探索可能性の自己更新へつながる社会接続アーキテクチャ。**
+## 2. Research findings selectively integrated
 
-過去の実験を「すべて足し算」しない。プロトコル接続に必須の機能を選び、原版 v0.1 を保存して新しい v0.2 に拡張した。MASTER_MAP v1.1 / 12CDP / 13式の定義を変更しない。
-
-## 2. 実際に接続した知見
-
-| 過去の研究 | 取り込んだ知見 | v0.2 の具体実装 | 注意点 |
+| Prior work | Finding retained | Concrete implementation in v0.2 | Qualification |
 |---|---|---|---|
-| Minimal Pilot v0.1–v0.2 | 観測目的によって最小表現・等価性が変わる | `capture_frame` / `check_equivalence` | 分布の最適圧縮を自動計算するものではない |
-| v0.3–v0.4 | 出所と原観測を保全し、旧参照系の差異を再開する | `audit_observations` / `reopen_frame` | 過去に未提供の変数は復元できない |
-| v0.5–v0.6 | 異なる主体の記録を共有可能なインターフェースに接続 | `Actor` / `Evidence` / `snapshot` を継承 | 主体ごとの意味論を統合したとは言えない |
-| v0.7–v0.10 | 関係表現候補、選択と検証の区別 | `explore` / `evaluate_candidate` に評価履歴を追加 | 新演算子の発明・自律的記号創発は見送った |
-| v1.1–v1.2 | 方法の分布と主体の採否は別。関係分布と仮説分布も別 | `record_relational_state` と `hypothesis_weights` を分離、`present_options` | 現状の関係分布は「選択記録の経験的頻度」という限定的な代理表現 |
-| v1.3 | CFV と MU を別々の能力として扱う | v0.1 `cfv_review` / `update_actor` を維持・テスト | 「共有値の照合」だけでは真理・理解の検証にならない |
-| v1.4 | 理論外の観測軸と提示による誘導の危険 | `ExternalOffer` / `present_options` | 提示が誘導するかどうかは観測していない |
-| Inverse Audit v0.1–v0.2 | 逆推定を単一解へ収束させない | `hypothesis_weights` を継承、分布の混同を防止 | 数値は説明的な尤度に基づく。較正された推定ではない |
-| Inverse Audit v0.3 | 残差から検証すべき問いを作る | `formulate_question` と外部提供・許可の経路 | 問いのテンプレートは人間が設計 |
-| Minimum-Structure Audit v0.1–v0.2 | 「関係変数は必須」と決め打ちせず既存手法と比較 | 関係指標を強制的な内部実体にはしない | 独立の関係過程の不可欠性は未実証 |
-| MASTER_MAP v1.1、13式 | 将来の更新可能性と出所・現実接触・非同一性 | v0.1 の12CDP型スナップショットを維持、履歴と限界を追記 | 「12CDP正式完全準拠」の主張はしない |
+| Minimal Pilot v0.1–v0.2 | Minimal representation and equivalence depend on the observation frame | `capture_frame` / `check_equivalence` | Does not automatically compute optimal distributional compression |
+| Minimal Pilot v0.3–v0.4 | Preserve provenance and original observations; reopen differences under past frames | `audit_observations` / `reopen_frame` | Cannot reconstruct variables that were never provided in the past |
+| Minimal Pilot v0.5–v0.6 | Connect records from heterogeneous actors through a shared interface | Inherited `Actor` / `Evidence` / `snapshot` | Does not establish equivalence of actors' native meanings |
+| Minimal Pilot v0.7–v1.0 | Distinguish candidate relational representations from their evaluation and adoption | Evaluation history added to `explore` / `evaluate_candidate` | Autonomous symbol emergence and invention of new operators are not integrated |
+| Minimal Pilot v1.1–v1.2 | Distribution over methods differs from actors' adoption choices; relational and hypothesis distributions also differ | Separate `record_relational_state` and `hypothesis_weights`; `present_options` | Current relational distribution is a narrow empirical proxy based on recorded choices |
+| Minimal Pilot v1.3 | CFV and MU are distinct capabilities | Retained and tested v0.1 `cfv_review` / `update_actor` | Checking a shared value is not proof of truth or meaningful understanding |
+| Minimal Pilot v1.4 | Observation frames may originate externally; presentation may steer decisions | `ExternalOffer` / `present_options` | Behavioral influence of presentation is recorded as a risk, not measured |
+| Inverse Audit v0.1–v0.2 | Do not collapse inverse inference into a single answer | Inherited `hypothesis_weights`; keep distinct distributions separate | Weights use illustrative likelihoods, not calibrated inference |
+| Inverse Audit v0.3 | Residuals can motivate verification questions | `formulate_question`; permission-gated external evidence | Question structure remains human-designed |
+| Minimum-Structure Audit v0.1–v0.2 | Do not assume an explicit relational variable is always necessary | No mandatory relational entity imposed on all actor states | Necessity of an independent relational process remains unproven |
+| MASTER_MAP v1.1 and 13 equations | Future updateability, provenance, reality contact, and nonidentity | Retained v0.1 12CDP-shaped snapshots plus explicit histories and limitations | No claim of complete or formally certified 12CDP compliance |
 
-## 3. あえて接続しなかったもの
+## 3. Deliberately excluded from the core
 
-- XOR/AND 数式探索、PID、MCTS、能動学習器：社会接続アーキテクチャの中核必須機能と判明していない。
-- 人工データで測定された高速化倍率：既存集計でも実現するため統合版の独自成果としない。
-- 新参照系生成方法の確率分布を自動最適化する仕組み：v1.1 の一部プロトタイプは存在するが、分布の較正と主体固有の意味の接続が未検証。v0.2では候補集合と監査可能な説明的仮説重みを保持するにとどめる。
-- 未知の意味・新しい問いの自律的創造：これまでのプログラムは既存規則や外部提供に依存する。
-- CFV/MUが新参照系生成の必要十分条件だとする主張：十分な実証がない。
+- **XOR/AND formula-search engines, PID, MCTS, and standalone active learners:** not established as indispensable to the social-connection architecture.
+- **Speedup ratios measured on synthetic datasets:** comparable gains are available from standard aggregation and caching; they are not claimed as unique contributions of this integration.
+- **Automatic optimization of a distribution over reference-frame generation methods:** preliminary components exist in earlier pilots, but calibration and the linkage to actor-specific meanings remain unverified. v0.2 retains a candidate set and auditable illustrative hypothesis weights instead.
+- **Autonomous invention of unknown meanings or entirely new questions:** previous code relies on pre-existing rules or externally supplied information.
+- **Claims that CFV and MU are necessary and sufficient for new frame generation:** there is insufficient evidence.
 
-## 4. 重要な境界条件・失敗時の動作
+## 4. Important boundaries and failure behavior
 
-1. 非公開データは共有計算、外部公開スナップショット、再開の素材に使用しない（ただし試作は実運用向けアクセス制御システムではない）。
-2. 同一ラベルの共有値が矛盾する場合、黙って上書き・平均せず、その変数を当該時点の共有導出から除外する。
-3. 旧来の圧縮表現が新しい参照系に不十分なら、等価性を否定し、許可済みの歴史的記録で再検証する。
-4. 当時存在しなかった観測は、現時点で取得できても過去へ書き戻さない。
-5. 外部の新観測は提供主体の共有権限と要求された参加主体の承認が揃った時だけ取り込む。
-6. 分布の提示は採用を強制しない。順位等の表示による影響をログに残す。
-7. 評価候補の時点別履歴を保存し、新しい時点の評価結果で過去の結果を上書きしない。
-8. 残差から問いを構成できても、未知概念を発明できたとは主張しない。
+1. Private observations are excluded from shared computation, externally visible snapshots, and archival reopening. **This prototype is not a production-grade authorization or privacy-security system.**
+2. If attributed shared observations with the same label conflict, the system neither silently overwrites nor averages them; it excludes that variable from the relevant shared derivation.
+3. If a compressed representation from an earlier frame is insufficient for a new question, equivalence fails explicitly and the system may revisit authorized historical records.
+4. A variable first observed at a later time must never be backfilled as if it had been measured earlier.
+5. Externally offered observations are incorporated only when the provider allows sharing and all required participating actors approve.
+6. Presenting a distribution never forces adoption. Presentation style and its potential steering effects are logged.
+7. Candidate evaluations are stored by observation time; new evaluations do not overwrite the historical record.
+8. Constructing an inquiry from residuals must not be misrepresented as invention of an entirely new concept.
 
-## 5. 現在の状態
+## 5. Current integration status
 
-**統合できたもの：** 社会接続プロトコルとして、異種主体の記録・権限、差異、候補提示、非強制の選択、検証、複数の説明、過去の再開、観測空間の外部拡張、時点別履歴を一つのコード経路にまとめた。
+**Implemented within one code path:** recording heterogeneous actor observations and permissions; preserving differences; presenting options without enforced choices; checking attributed statements; maintaining multiple explanatory candidates; reopening archived frames; obtaining authorized external evidence; and retaining time-indexed histories.
 
-**未達：** 関係分布の現成（真の社会・知性の関係過程）、参照系と探索空間の自己更新、生成方法分布の較正、実際のHuman–AI–Organization間の実証、圧倒的能力差におけるCFV、意味ある双方向MU、既存手法への固有の追加的価値。
+**Not demonstrated:** emergence of relational distributions in actual societies or intelligence interactions; autonomous self-renewal of reference-frame and exploration spaces; calibrated distributions over generation methods; real Human–AI–Organization field validation; CFV under extreme capability asymmetry; meaningful two-way MU; or a unique advantage over strong established methods.
 
-**次の実装判断：** 「仮説の正確さを上げる」ための小型アルゴリズム追加ではなく、独立した主体に接続するインターフェースの仕様・認可・イベント契約・実際の社会的用途におけるCFV/MUの観測可能なテストを優先する。
+**Next engineering priority:** Rather than adding another isolated predictive or search algorithm, define interfaces for independently operating actors, authorization boundaries, event contracts, and observable CFV/MU tests in a real social setting.
+
+## 6. Relationship to the existing IDOS architecture
+
+MASTER_MAP v1.1 remains the frozen architectural baseline. The 12CDP vocabulary provides a descriptive interface for realities, differences, representations, residuals, trajectories, updates, enactment, and reopening. The 13 equations remain mathematical tools rather than a claim of a complete universal dynamical theory.
+
+**IDOS does not prescribe a single optimal choice to every actor.** It provides possible reference frames, evidence, unresolved differences, and provenance; each actor retains the right to adopt, defer, or reject within its legitimate authority.
+
+This document describes an **experimental interface integration**, not proof of general emergence or autonomous social self-renewal.

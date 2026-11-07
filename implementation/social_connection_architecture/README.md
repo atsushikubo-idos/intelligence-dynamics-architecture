@@ -34,7 +34,7 @@ The empirical choice frequency is **only a narrow proxy** for relational distrib
 - `test_social_connection_legacy.py`: original 16 tests.
 - `test_integration.py`: 12 new integration and regression tests.
 - `results.json`: end-to-end synthetic evidence and protocol snapshot.
-- `../../theory/social_connection/SOCIAL_CONNECTION_ARCHITECTURE_v0.2.md`: architecture and selection audit (Japanese).
+- `../../theory/social_connection/SOCIAL_CONNECTION_ARCHITECTURE_v0.2.md`: architecture and selection audit (English).
 
 ## Design principles
 
