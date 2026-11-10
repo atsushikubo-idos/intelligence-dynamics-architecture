@@ -1,0 +1,54 @@
+{
+  "scope": "Finite synthetic worlds; necessary/sufficient results are relative to explicit assumptions.",
+  "temporal": [
+    {
+      "stage": "t0_ambiguous",
+      "status": "POSSIBLE_NOT_GUARANTEED",
+      "guaranteed_actions": [],
+      "possible_worlds": [
+        "hidden-left",
+        "hidden-right"
+      ]
+    },
+    {
+      "stage": "t1_new_observation",
+      "status": "GUARANTEED",
+      "guaranteed_actions": [
+        "left"
+      ],
+      "possible_worlds": [
+        "hidden-left"
+      ]
+    },
+    {
+      "stage": "t2_refusal",
+      "status": "IMPOSSIBLE",
+      "guaranteed_actions": [],
+      "possible_worlds": [
+        "hidden-left"
+      ]
+    },
+    {
+      "stage": "t3_consent_restored",
+      "status": "GUARANTEED",
+      "guaranteed_actions": [
+        "left"
+      ],
+      "possible_worlds": [
+        "hidden-left"
+      ]
+    }
+  ],
+  "three_actor": {
+    "two": "GUARANTEED",
+    "three_with_conflict": "IMPOSSIBLE",
+    "three_with_permission": "GUARANTEED"
+  },
+  "triadic_distribution": {
+    "pairwise_marginals_equal": true,
+    "xor_even_parity_rate": 1.0,
+    "independent_even_parity_rate": 0.5,
+    "full_joint_distinguishes": true
+  },
+  "novelty_claim": "None. Strong full-history baselines contain the same joint information."
+}

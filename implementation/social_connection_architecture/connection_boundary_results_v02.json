@@ -1,0 +1,77 @@
+{
+  "scope": "synthetic software proxies; not demonstrated semantic CFV or actual MU",
+  "T5": [
+    {
+      "scenario": "ambiguous_conflict",
+      "idos_status": "POSSIBLE_NOT_GUARANTEED",
+      "full_history_status": "POSSIBLE_NOT_GUARANTEED",
+      "full_history_equal": true,
+      "recency_only_status": "GUARANTEED",
+      "lossy_disagrees": true
+    },
+    {
+      "scenario": "jointly_robust",
+      "idos_status": "GUARANTEED",
+      "full_history_status": "GUARANTEED",
+      "full_history_equal": true,
+      "recency_only_status": "GUARANTEED",
+      "lossy_disagrees": false
+    },
+    {
+      "scenario": "total_conflict",
+      "idos_status": "IMPOSSIBLE",
+      "full_history_status": "IMPOSSIBLE",
+      "full_history_equal": true,
+      "recency_only_status": "IMPOSSIBLE",
+      "lossy_disagrees": false
+    },
+    {
+      "scenario": "explicit_refusal",
+      "idos_status": "IMPOSSIBLE",
+      "full_history_status": "IMPOSSIBLE",
+      "full_history_equal": true,
+      "recency_only_status": "IMPOSSIBLE",
+      "lossy_disagrees": false
+    }
+  ],
+  "T6": {
+    "public_challenge": {
+      "challenge_addressed": true,
+      "missing_public_evidence": [],
+      "semantic_equivalence_verified": false,
+      "declared_interpretation_resolved": false
+    },
+    "private_only_challenge": {
+      "challenge_addressed": false,
+      "missing_public_evidence": [
+        "public:1"
+      ],
+      "semantic_equivalence_verified": false,
+      "declared_interpretation_resolved": false
+    },
+    "independent_paths": {
+      "opportunity_for_each_actor": {
+        "human": true,
+        "ai": true
+      },
+      "bilateral_paths_preserved": true,
+      "substantive_mutual_learning_proven": false
+    },
+    "historic_reopening": {
+      "historic_tick": 0,
+      "available": {
+        "reason": "dissent"
+      },
+      "missing": [
+        "future",
+        "private_reason"
+      ],
+      "invented_observations": false
+    }
+  },
+  "limitations": [
+    "Full-history baseline matches IDOS on all controlled cases.",
+    "A lossy baseline can fail due to missing history, not architecture identity.",
+    "Challenges and policy paths are caller-attested; no real learning or authentication."
+  ]
+}
