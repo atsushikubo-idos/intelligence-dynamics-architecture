@@ -1,0 +1,260 @@
+{
+  "research_status": "synthetic scenario / architecture trace only",
+  "transitions": [
+    {
+      "tick": 0,
+      "domain": "decision",
+      "feasibility": "POSSIBLE_NOT_GUARANTEED",
+      "guaranteed_actions": [],
+      "connection": "UNCERTAIN",
+      "reason_codes": [
+        "OBSERVATIONAL_AMBIGUITY",
+        "ACTOR_HOLD"
+      ],
+      "choice_by_actor": {
+        "human": "hold",
+        "ai": "hold",
+        "organization": "hold"
+      },
+      "unresolved_differences": [
+        "meaning-gap"
+      ],
+      "recheck_of": null,
+      "reality_contact_declared": true,
+      "verification_paths_declared": true,
+      "mutual_paths_recorded": true
+    },
+    {
+      "tick": 1,
+      "domain": "decision",
+      "feasibility": "GUARANTEED",
+      "guaranteed_actions": [
+        "plan_a"
+      ],
+      "connection": "DECLINED",
+      "reason_codes": [
+        "ACTOR_REJECTION"
+      ],
+      "choice_by_actor": {
+        "human": "reject",
+        "ai": "adopt",
+        "organization": "adopt"
+      },
+      "unresolved_differences": [
+        "meaning-gap"
+      ],
+      "recheck_of": 0,
+      "reality_contact_declared": true,
+      "verification_paths_declared": true,
+      "mutual_paths_recorded": true
+    },
+    {
+      "tick": 2,
+      "domain": "decision",
+      "feasibility": "GUARANTEED",
+      "guaranteed_actions": [
+        "plan_a"
+      ],
+      "connection": "CONNECTED_PROXY",
+      "reason_codes": [],
+      "choice_by_actor": {
+        "human": "adopt",
+        "ai": "adopt",
+        "organization": "adopt"
+      },
+      "unresolved_differences": [
+        "meaning-gap"
+      ],
+      "recheck_of": 1,
+      "reality_contact_declared": true,
+      "verification_paths_declared": true,
+      "mutual_paths_recorded": true
+    },
+    {
+      "tick": 3,
+      "domain": "decision",
+      "feasibility": "GUARANTEED",
+      "guaranteed_actions": [
+        "plan_a"
+      ],
+      "connection": "CONNECTED_PROXY",
+      "reason_codes": [],
+      "choice_by_actor": {
+        "human": "adopt",
+        "ai": "adopt",
+        "organization": "adopt"
+      },
+      "unresolved_differences": [],
+      "recheck_of": 2,
+      "reality_contact_declared": true,
+      "verification_paths_declared": true,
+      "mutual_paths_recorded": true
+    }
+  ],
+  "historic_reopening_before_resolution": {
+    "historic_snapshot": {
+      "tick": 0,
+      "domain": "decision",
+      "feasibility": "POSSIBLE_NOT_GUARANTEED",
+      "guaranteed_actions": [],
+      "connection": "UNCERTAIN",
+      "reason_codes": [
+        "OBSERVATIONAL_AMBIGUITY",
+        "ACTOR_HOLD"
+      ],
+      "choice_by_actor": {
+        "human": "hold",
+        "ai": "hold",
+        "organization": "hold"
+      },
+      "unresolved_differences": [
+        "meaning-gap"
+      ],
+      "recheck_of": null,
+      "reality_contact_declared": true,
+      "verification_paths_declared": true,
+      "mutual_paths_recorded": true,
+      "private_differences_withheld": true
+    },
+    "available_public_events": [
+      {
+        "event_id": "continuity:0001",
+        "tick": 0,
+        "kind": "difference_declared",
+        "detail": {
+          "difference_id": "meaning-gap",
+          "explanation": "Interpretations differ",
+          "actor": "human"
+        },
+        "provenance": "synthetic:human",
+        "shared": true
+      },
+      {
+        "event_id": "continuity:0002",
+        "tick": 0,
+        "kind": "assessment",
+        "detail": {
+          "domain": "decision",
+          "feasibility": "POSSIBLE_NOT_GUARANTEED",
+          "connection": "UNCERTAIN",
+          "reason_codes": [
+            "OBSERVATIONAL_AMBIGUITY",
+            "ACTOR_HOLD"
+          ],
+          "recheck_of": null,
+          "unresolved_ids": [
+            "meaning-gap"
+          ],
+          "private_unresolved_count": 0
+        },
+        "provenance": "synthetic:scenario:0",
+        "shared": true
+      }
+    ],
+    "private_events_withheld": 0,
+    "later_events_excluded": true,
+    "authorization_to_reveal_private": false
+  },
+  "public_events": [
+    {
+      "event_id": "continuity:0001",
+      "tick": 0,
+      "kind": "difference_declared",
+      "detail": {
+        "difference_id": "meaning-gap",
+        "explanation": "Interpretations differ",
+        "actor": "human"
+      },
+      "provenance": "synthetic:human",
+      "shared": true
+    },
+    {
+      "event_id": "continuity:0002",
+      "tick": 0,
+      "kind": "assessment",
+      "detail": {
+        "domain": "decision",
+        "feasibility": "POSSIBLE_NOT_GUARANTEED",
+        "connection": "UNCERTAIN",
+        "reason_codes": [
+          "OBSERVATIONAL_AMBIGUITY",
+          "ACTOR_HOLD"
+        ],
+        "recheck_of": null,
+        "unresolved_ids": [
+          "meaning-gap"
+        ],
+        "private_unresolved_count": 0
+      },
+      "provenance": "synthetic:scenario:0",
+      "shared": true
+    },
+    {
+      "event_id": "continuity:0003",
+      "tick": 1,
+      "kind": "assessment",
+      "detail": {
+        "domain": "decision",
+        "feasibility": "GUARANTEED",
+        "connection": "DECLINED",
+        "reason_codes": [
+          "ACTOR_REJECTION"
+        ],
+        "recheck_of": 0,
+        "unresolved_ids": [
+          "meaning-gap"
+        ],
+        "private_unresolved_count": 0
+      },
+      "provenance": "synthetic:scenario:1",
+      "shared": true
+    },
+    {
+      "event_id": "continuity:0004",
+      "tick": 2,
+      "kind": "assessment",
+      "detail": {
+        "domain": "decision",
+        "feasibility": "GUARANTEED",
+        "connection": "CONNECTED_PROXY",
+        "reason_codes": [],
+        "recheck_of": 1,
+        "unresolved_ids": [
+          "meaning-gap"
+        ],
+        "private_unresolved_count": 0
+      },
+      "provenance": "synthetic:scenario:2",
+      "shared": true
+    },
+    {
+      "event_id": "continuity:0005",
+      "tick": 2,
+      "kind": "difference_resolution_attested",
+      "detail": {
+        "difference_id": "meaning-gap",
+        "actor": "human",
+        "resolution_is_caller_attested": true
+      },
+      "provenance": "synthetic:review",
+      "shared": true
+    },
+    {
+      "event_id": "continuity:0006",
+      "tick": 3,
+      "kind": "assessment",
+      "detail": {
+        "domain": "decision",
+        "feasibility": "GUARANTEED",
+        "connection": "CONNECTED_PROXY",
+        "reason_codes": [],
+        "recheck_of": 2,
+        "unresolved_ids": [],
+        "private_unresolved_count": 0
+      },
+      "provenance": "synthetic:scenario:3",
+      "shared": true
+    }
+  ],
+  "claim": "No tested superiority over full-history baselines and no real agent connection."
+}
