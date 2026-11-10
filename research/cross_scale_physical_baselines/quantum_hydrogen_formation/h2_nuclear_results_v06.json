@@ -1,0 +1,48 @@
+{
+  "model": "classical 1D zero-impact-parameter nuclear motion on H2 FCI/STO-3G Born-Oppenheimer ground-state curve",
+  "electronic_energies": "v0.5 FCI CSV, plus FCI-computed short-range points (0.20\u20130.48 A), refined well (0.60\u20130.80 A), and long-range tail (3.2\u20138.0 A)",
+  "dissociation_reference_hartree": -0.93316369911455,
+  "equilibrium_angstrom": 0.7399991475233212,
+  "equilibrium_hartree": -1.1372838344879104,
+  "capture_definition": "mechanical energy below dissociation reference at the end; no statement of quantum reaction rates",
+  "limitations": [
+    "classical nuclei",
+    "zero angular momentum",
+    "ground-state BO curve",
+    "minimal STO-3G basis",
+    "phenomenological damping, not microscopic photon or grain coupling",
+    "no statistical collision ensemble"
+  ],
+  "scenarios": {
+    "isolated": {
+      "initial_energy_hartree": -0.92516369911455,
+      "energy_balance_max_error_hartree": 2.3326769404974357e-08,
+      "final_energy_relative_dissociation_hartree": 0.00799999645379701,
+      "outcome": "outgoing_escape_from_curve",
+      "gamma_per_au": 0.0,
+      "final_time_fs": 94.59366303708418,
+      "minimum_r_angstrom": 0.4063291470427472,
+      "initial_collision_energy_hartree": 0.008
+    },
+    "weak_damping": {
+      "initial_energy_hartree": -0.92516369911455,
+      "energy_balance_max_error_hartree": 7.552742986582928e-08,
+      "final_energy_relative_dissociation_hartree": -0.11406553264506525,
+      "outcome": "energetically_bound_at_end",
+      "gamma_per_au": 0.0002,
+      "final_time_fs": 160.0,
+      "minimum_r_angstrom": 0.4115504339029975,
+      "initial_collision_energy_hartree": 0.008
+    },
+    "moderate_damping": {
+      "initial_energy_hartree": -0.92516369911455,
+      "energy_balance_max_error_hartree": 4.952426957416378e-08,
+      "final_energy_relative_dissociation_hartree": -0.20287373467082892,
+      "outcome": "energetically_bound_at_end",
+      "gamma_per_au": 0.001,
+      "final_time_fs": 160.0,
+      "minimum_r_angstrom": 0.43316164858023204,
+      "initial_collision_energy_hartree": 0.008
+    }
+  }
+}

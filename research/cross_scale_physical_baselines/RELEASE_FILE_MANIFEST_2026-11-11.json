@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-11",
+  "base_archive": "intelligence-dynamics-architecture-main (23).zip",
+  "publication_status": "prepared; not pushed",
+  "files": [
+    {
+      "path": "implementation/social_connection_architecture/connection_boundary_audit.py",
+      "sha256": "9d6de3015d7f59159340a3072469bed171851d1974cf2b3632cd93ff5f25c303",
+      "bytes": 7983
+    },
+    {
+      "path": "implementation/social_connection_architecture/connection_boundary_comparative_v02.py",
+      "sha256": "56c17cbb5a670d116b146858a915f3a1c2ec942ec605a2289e5a85a44636dbef",
+      "bytes": 7811
+    },
+    {
+      "path": "implementation/social_connection_architecture/connection_boundary_results_v01.json",
+      "sha256": "419f7ea42b9d4e6cfb8e64df23ffd6fa3f450b618aa225a762a21c298d31acf4",
+      "bytes": 1281
+    },
+    {
+      "path": "implementation/social_connection_architecture/connection_boundary_results_v02.json",
+      "sha256": "751ad69d1845093ea619240aab2eb0e539ffdf1226df2be852d46b7b07616d26",
+      "bytes": 2225
+    },
+    {
+      "path": "implementation/social_connection_architecture/cross_scale_audit_v01.py",
+      "sha256": "7637e73891762c52aa02e6e07028e520b0d8bf6b080cdb2409e490990234bbed",
+      "bytes": 3629
+    },
+    {
+      "path": "implementation/social_connection_architecture/cross_scale_generativity_v02.py",
+      "sha256": "0a8646c82ffe39f744223f68c50a6198465c0a582bc9eec049aa0dc02ece53d1",
+      "bytes": 6516
+    },
+    {
+      "path": "implementation/social_connection_architecture/cross_scale_results_v01.json",
+      "sha256": "4b04831dd66529d7ee69c5643e086704494675b5bd49ccb3d2e2144406ff9287",
+      "bytes": 2278
+    },
+    {
+      "path": "implementation/social_connection_architecture/results_v02.json",
+      "sha256": "99636c604a46f92232666981768990dfadd56b8a28e34024e3cc616280655e50",
+      "bytes": 1425
+    },
+    {
+      "path": "implementation/social_connection_architecture/test_connection_boundary_audit.py",
+      "sha256": "8a604937716d9426e858469c99bbeff09a234212d91ca2a2eb6523ba666a848d",
+      "bytes": 4656
+    },
+    {
+      "path": "implementation/social_connection_architecture/test_connection_boundary_comparative_v02.py",
+      "sha256": "acfdc6caaf80a39209e1a0a6c876c2b2f7997a64878aab153d9b37d9dbe1ccc6",
+      "bytes": 4596
+    },
+    {
+      "path": "implementation/social_connection_architecture/test_cross_scale_audit_v01.py",
+      "sha256": "0a61f57fd9dc35ed9c52722f2d1627d97818042727f2a6b4e6e715db5f7fa02c",
+      "bytes": 1909
+    },
+    {
+      "path": "implementation/social_connection_architecture/test_cross_scale_generativity_v02.py",
+      "sha256": "0bbe3131e73b9e6756a206de015906a0e738b662c81896f8da9912184c9afcbb",
+      "bytes": 2961
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/AUDIT_REPORT_2026-11-11_EN.md",
+      "sha256": "a3ce0106845e5cf5b56b476cc4f0596c8b3ca100dd5debd0b6005a1bb4f85611",
+      "bytes": 3865
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/CROSS_SCALE_RESEARCH_SYNTHESIS_v0.1.md",
+      "sha256": "ecca66371b28c12861c0c31cfb0643407b9d4eb245603e16ec54a2f66b5f3f47",
+      "bytes": 5493
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/PHYSICAL_BASELINES_AUDIT_v0.1.md",
+      "sha256": "f19b73001fe14c06bb11cfe6a26f233d9a687a30e35f464eea377b80ed6606ea",
+      "bytes": 6923
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/PREDICTIVE_DISCOVERY_AND_FRAME_SHIFT_AUDIT_v0.3.md",
+      "sha256": "abc50e705dc4c24fb20f8ad67eb71cea5d04de23e6fd737cf0f4c9fe46a8258d",
+      "bytes": 6747
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/PREDICTIVE_SUFFICIENCY_AUDIT_v0.2.md",
+      "sha256": "1a03902ceffbca44e0f31053e72b32b2bad2b2cd4aac21242482d084febda8be",
+      "bytes": 6758
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/README.md",
+      "sha256": "b8e9d869fe177b5c42c40a6e8d1001211c66a5061f8a42b50af16df7502eb333",
+      "bytes": 2839
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/physical_baselines.py",
+      "sha256": "6e13aa505439ba9f1f90d48f2f1f37e78cffd146fce9992d28e0852128e963d2",
+      "bytes": 3988
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/predictive_discovery_results_v03.json",
+      "sha256": "1a912d460fd9c3dbcc3e4edfcbb552290afdddffc94301f71aece40191e66c12",
+      "bytes": 4397
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/predictive_discovery_v03.py",
+      "sha256": "7bc3b2d77ab171c9a2fde883a08351ecda4ce40bccbaff1986a1bcb1e4c40a19",
+      "bytes": 8207
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/predictive_sufficiency_results_v02.json",
+      "sha256": "7cd301b7e243044d7e1dd1e5250c9c21b53786a712dc54aae3e837d33c0f74bc",
+      "bytes": 6159
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/predictive_sufficiency_v02.py",
+      "sha256": "671580b2cba3804fc15c97021983ebecb2cd7fee52a51c5b70894bb701b1ee6a",
+      "bytes": 5456
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/EXPLICIT_FINITE_BATH_AUDIT_v0.7_EN.md",
+      "sha256": "b720d68e4b3fc59cf7c26fca17b64846de3d7f1741a7ea68327c4bc987351fb1",
+      "bytes": 5347
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/FCI_DISSOCIATION_AUDIT_v0.5_EN.md",
+      "sha256": "cac742eb801331d46273f2a4e6240443dcaed47c6d9261475cd5eb0a80399ef3",
+      "bytes": 5038
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/FINITE_BATH_PARAMETER_SENSITIVITY_v0.8_EN.md",
+      "sha256": "a540420b7935a47ed9a5fa825887cc294eaec5f600ec40fb790966528af7203c",
+      "bytes": 4374
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2_RHF_energy_curve.png",
+      "sha256": "2116098ec8f145624ccffd452d8f1417ee5f8d212bd4e9ee31791c4bb4c17e66",
+      "bytes": 74520
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2_RHF_vs_FCI_v05.png",
+      "sha256": "058d27295352e453751b086dbbf64c9ff984787517d053fc223a8369825c52c6",
+      "bytes": 84916
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2_bath_sensitivity_v08.png",
+      "sha256": "7190175521b1b477d439836aae61c849ee52d1636171aa8be4b19e4a21ed52e5",
+      "bytes": 161257
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2_explicit_bath_v07.png",
+      "sha256": "9c15ca1d9f86a7adad3fab0256b3ecd629b7aac81c75945cdbd0387f4348d43c",
+      "bytes": 238774
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2_nuclear_dynamics_v06.png",
+      "sha256": "c06fdf80441eddf7ab41aa103dce8006455dc21ae4a7799faaab5a6b8aac1797",
+      "bytes": 136316
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/H2plus_energy_curve.png",
+      "sha256": "6e37a7f571f9866aad13d3aab338730eb6a873b3e4d457c121438d778b8b9688",
+      "bytes": 78937
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/NUCLEAR_DYNAMICS_AUDIT_v0.6_EN.md",
+      "sha256": "4566c36211631465cef6e91fa8520cef8edd664221ac04353db01494fbb1f9db",
+      "bytes": 5760
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/RESEARCH_NOTE_EN.md",
+      "sha256": "3072f9f65878fa7b90808f0ae247dc3c46b339db379bf5c9e9c6abd64d0c5307",
+      "bytes": 5797
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/energy_curve.csv",
+      "sha256": "35b3eacb0c5f9d1770499551762846fc9af7d038d86b89697992d0e0fb019bba",
+      "bytes": 3624
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_bath_sensitivity_v08.csv",
+      "sha256": "13b684390c981bec12d41968b78a84b9af244a9ebb04b2a4e03a6c17649f0397",
+      "bytes": 2119
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_bath_sensitivity_v08.json",
+      "sha256": "d1ea13479c3f6838a2912343e98a1b8dc37bf8e1ae29f579deade8f6faafd750",
+      "bytes": 6409
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_bath_sensitivity_v08.py",
+      "sha256": "349bc7addba31f510172df9a5b15fd005f0efb1ee14372e4302c8ef99957739f",
+      "bytes": 2358
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_explicit_bath_results_v07.json",
+      "sha256": "db99bc21677974b05d84c696ff428783f9bd3ca9c1280d27e9befc87316e698d",
+      "bytes": 5263
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_explicit_bath_v07.csv",
+      "sha256": "ea8bdef40b2ad933a0dc9d75da7e905adf47fcd1608bf04c6446da92e17c8e1c",
+      "bytes": 673575
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_explicit_bath_v07.py",
+      "sha256": "6194a3ae47eeec9856f83be13ae2b1ef0a93cf781d601d14c2738f672e61e938",
+      "bytes": 5094
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_fci.py",
+      "sha256": "b32c7bb2fce0f727f0f7790345cfb5cfb555ae12512ca894198de7a2ba1df103",
+      "bytes": 2620
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_fci_comparison.csv",
+      "sha256": "2f74f36f35bc0fdf40e617c3303e475d4ab4ce32d40bac71c977b5c4a668a297",
+      "bytes": 2736
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_fci_results_v05.json",
+      "sha256": "f594dc6612be612be98204e524b3fefebcfe25cff4583a18fc337e5d99f37dae",
+      "bytes": 1514
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_nuclear_dynamics_v06.csv",
+      "sha256": "62423a61bcea8dfd52db047eda91c66d380967297bef4b99fc6739f521adf792",
+      "bytes": 419258
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_nuclear_dynamics_v06.py",
+      "sha256": "fc72f7eeec44750dcac042168a17f27ed8e46ace9c70a865bf83aada9ce2f902",
+      "bytes": 4690
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/h2_nuclear_results_v06.json",
+      "sha256": "a9e8d83838e3b3d4d2809f53aba2cfb4efe3815451e56dd84ff07ee7241c6579",
+      "bytes": 2104
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/quantum_hydrogen.py",
+      "sha256": "e77bcd7c204055365643c4174745d43a4d721a3c2f792791f94d3d2aa896b9ef",
+      "bytes": 3626
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/requirements.txt",
+      "sha256": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+      "bytes": 40
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/results.json",
+      "sha256": "5ce1c545ad6deb2414b23e86599d8e13f5a0f93f110537f5d603d94e309c1ef3",
+      "bytes": 1081
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/run_experiment.py",
+      "sha256": "7f2aab7eb21ee255bcf6a5abc0cd3ac0d7f490a147f02fd2ae2e22a152e51e60",
+      "bytes": 3146
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/run_explicit_bath_v07.py",
+      "sha256": "1f9a73c6ed80c9ad0d3ebdeae68dd6c0d899cc43683c4902b99a7cfe2e59cce9",
+      "bytes": 4124
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/run_fci_comparison.py",
+      "sha256": "77c342a3d9ee90af58b0d23605ce5b40fec8a25c634095ad44e6fae896ff0f69",
+      "bytes": 2615
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/run_nuclear_dynamics_v06.py",
+      "sha256": "f8759b1806a0341488cbf9b25aa80a382509d9054ae8aa174fc4a07bfaaa2dcc",
+      "bytes": 2832
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/test_h2_bath_sensitivity_v08.py",
+      "sha256": "b1391bfdc0975a9c867cffdbec051cb27ffb76455e5a10eb3d6616738235844a",
+      "bytes": 1714
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/test_h2_explicit_bath_v07.py",
+      "sha256": "4a24b3790c016e8175f9ea559d4744ac01956c17e9b927316eeba06676f8a622",
+      "bytes": 3128
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/test_h2_fci.py",
+      "sha256": "26232703d298ebaa8328d8fe3ec339979fad98e723dde4dd3d05f4859097b69a",
+      "bytes": 2020
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/test_h2_nuclear_dynamics_v06.py",
+      "sha256": "687e0a2e5f13d19292be5be31661d8a53819f589d6e505bfa5a8633bb0623a43",
+      "bytes": 3109
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/quantum_hydrogen_formation/test_quantum_hydrogen.py",
+      "sha256": "ffa34914f5ce8adecd48c49e0b3cd7ab9400d7765a83d8a48dc7296e6e46fd27",
+      "bytes": 1956
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/results.json",
+      "sha256": "a8a6ca46581b9de9076a66a1b1ae1a0ad503d97d14fa026e13cb0758bf7966f1",
+      "bytes": 1757
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/OBSERVATION_CHANGES_RELATION_AUDIT_v1.7.md",
+      "sha256": "b3eeadf78ed44f3243c7fed1dae19691a18431dcfcbe8e5435118fe553cbae85",
+      "bytes": 4482
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v0.9_EN.md",
+      "sha256": "093a4306e6436314c54bb7db26bc7bb6f518da5350374321fc79e39d8fc28932",
+      "bytes": 6139
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.0_EN.md",
+      "sha256": "085a3a9f7435775dd8d38e679d14f714b549a02f4a8072e2206b5970578bead4",
+      "bytes": 5003
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.1_EN.md",
+      "sha256": "37a0f3e923cf7026f2731336150d7068e950e57ece192178977c6a199a1d1751",
+      "bytes": 4844
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.2_EN.md",
+      "sha256": "9f881fe64ba36960285c68834b53afe90d25d2ce1b1bc5c421da804bd5ad6a63",
+      "bytes": 5071
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.3_EN.md",
+      "sha256": "74f3eb63b86744f108d5bdcbc3eac86e6396f8c48010943332156598b9fa0dd8",
+      "bytes": 4905
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.4_EN.md",
+      "sha256": "9cde0129c6644aeb18fe2c375fe8d5b2f3f205f7f92c209baa3c6d5f299d2ca1",
+      "bytes": 5738
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.5_EN.md",
+      "sha256": "f94255e6a9dc75d366b1e1f5c47ba5342fd1ffaaa17650ee5c9ff1ca0a48a304",
+      "bytes": 5209
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/RESEARCH_NOTE_v1.6_EN.md",
+      "sha256": "ce2a2362976c537f098fbe68c637be8f947f3c9cab859f658bfec6826eb8c38b",
+      "bytes": 5447
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/active_observation_design_v16.py",
+      "sha256": "fdfed48e65ef5a36a05ccb57b0b96a1acfe59bdbca15f84b7d49796fe9a5b731",
+      "bytes": 7234
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/connection_mechanism_v09.py",
+      "sha256": "d9ba40c0dd51613ceecb1bd47b38c969bd7f91fbbd9be83049905c4c8d2a75da",
+      "bytes": 6945
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/frame_change_audit_v14.py",
+      "sha256": "32fc7290be19c96cbe05fb76210e70842df006cf8ae20da5eaa0fc582143922d",
+      "bytes": 6091
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/history_discovery_v10.py",
+      "sha256": "6eb6d47971fe8b65a662f61fa72a3266699eeaef0d6a5419e2f23c2af515ced1",
+      "bytes": 7061
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/identifiability_probe_audit_v15.py",
+      "sha256": "fbea60c80be675e802c326a17079fe1a2566679a917eae6cc162a6cd3f77ee3d",
+      "bytes": 7504
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/latent_state_audit_v12.py",
+      "sha256": "243867503e60b2242ea90052107623bff0702fc39c9f4357600fb7b02c1a6e7e",
+      "bytes": 7748
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/multiframe_relation_audit_v13.py",
+      "sha256": "4cac491badc141550f87e3c9eae3729bb49c965fde7757f1dec193a71005924e",
+      "bytes": 6877
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/observation_changes_relation_results_v17.json",
+      "sha256": "b6ce238bb3aef511173c6a01848b83195044dc84be51bf3fb44a1c2fb88b09c2",
+      "bytes": 985
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/observation_changes_relation_v17.py",
+      "sha256": "39fec0f8c7b548fdd68186c69972cf11c1bc3750152c4b1000430745e1c9c8cd",
+      "bytes": 4689
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v09.json",
+      "sha256": "5cc8d331a1d2100cf85f35ea879f8fcf1c3b6db10979d0d73d694fa27375077f",
+      "bytes": 8959
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v10.json",
+      "sha256": "752be990cead298f744a14ba861409eb150d600d366ede798afa681bc8126d19",
+      "bytes": 1611
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v11.json",
+      "sha256": "6a71cf7c18546f3c20f89b0ef9fa515633fd5f6eef8d24402ce433e9660c5feb",
+      "bytes": 1314
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v12.json",
+      "sha256": "357514e569ba47b5febb704622fe93156336dd403854b5fda3dac87e517e2c19",
+      "bytes": 1891
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v13.json",
+      "sha256": "86bb8c9ca2c479790ecd0578a069b35441c6674a9c0b7cfc647798fe3d307baf",
+      "bytes": 2340
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v14.json",
+      "sha256": "02a2af37ef6ad3b7cedf8d083ee94d9250d89cc01eb400ba8c0820777a23c617",
+      "bytes": 2971
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v15.json",
+      "sha256": "93b9417ae6caa05d73dc1b978c4967061b290885586b8d4a61535474c5393fa5",
+      "bytes": 2611
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/results_v16.json",
+      "sha256": "67251de021e1f0f07839e44964985482668755115773f2f03561d4d64818f6d0",
+      "bytes": 7078
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/sequence_latent_discovery_v11.py",
+      "sha256": "c87da892268f4422176db2fcf3aa2bf4ff0210a228e30921adab3d7d3913913c",
+      "bytes": 8026
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_active_observation_design_v16.py",
+      "sha256": "3271ed6fb918b85ae7b142c6c507a1b8279669a9ba669731e34bb7d563742848",
+      "bytes": 3243
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_connection_mechanism_v09.py",
+      "sha256": "cda41e2ba497a7c7ef252a1a7f9e3cc3fabe3e14b426c66362c9f816ae795678",
+      "bytes": 3350
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_frame_change_audit_v14.py",
+      "sha256": "cf424079bf10a3a9981e201c885b0ebb98c3bbcf46b04066d25c3f3d635ae8c1",
+      "bytes": 2861
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_history_discovery_v10.py",
+      "sha256": "41ae270459c5bd6a14f2ad884d91ea0472d5fa7fe5dc75a450ae8132f5be178f",
+      "bytes": 2236
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_identifiability_probe_audit_v15.py",
+      "sha256": "c85654b27733112de0e28da197e32dd21a11c22a61f0482838b4523586ea1e9d",
+      "bytes": 2510
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_latent_state_audit_v12.py",
+      "sha256": "2122f4e496daeaffa4fdf66dad98bb1a164f8263ddd8c7a6ec8cf669ad50f049",
+      "bytes": 3102
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_multiframe_relation_audit_v13.py",
+      "sha256": "d90b24a5a33192b519d69cb29324e0aa07f5fde461021139acee46e4c02ba8a3",
+      "bytes": 2582
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_observation_changes_relation_v17.py",
+      "sha256": "4ce9818637a6503dbdef1ac4a5fcfe2ba3e462309d3bc0ced3eb7c602c7c42bf",
+      "bytes": 1854
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/social_transfer_audit/test_sequence_latent_discovery_v11.py",
+      "sha256": "adad36da2660f301aab325f3e7069ca58bd4c8a820e20638d486b47b9d6a43ee",
+      "bytes": 2659
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/test_physical_baselines.py",
+      "sha256": "1538dfe5b3fa02515ded6c7af9a6ab4f1dbb132f46c32f0a8be3d21eff2623e2",
+      "bytes": 1675
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/test_predictive_discovery_v03.py",
+      "sha256": "052fec436712d2458e02662ed43941476ab268451ffed960939b6e0d573cd8ed",
+      "bytes": 2646
+    },
+    {
+      "path": "research/cross_scale_physical_baselines/test_predictive_sufficiency_v02.py",
+      "sha256": "32719d42ebeb23b12b4b93490db3558749eb7f52199d19cae7eba53db42749cd",
+      "bytes": 3263
+    },
+    {
+      "path": "theory/social_connection/CONNECTION_BOUNDARY_AUDIT_v0.1.md",
+      "sha256": "63126a6a45b43774efa304e1c687f7d864a8deef75dcab60c231416459cf0179",
+      "bytes": 8122
+    },
+    {
+      "path": "theory/social_connection/CONNECTION_BOUNDARY_COMPARATIVE_AUDIT_v0.2.md",
+      "sha256": "de761ba4ecca12f2ab6e224b625225d48b26059309ddf6a838e130531d1a533f",
+      "bytes": 6353
+    },
+    {
+      "path": "theory/social_connection/CROSS_SCALE_GENERATIVITY_AUDIT_v0.2.md",
+      "sha256": "edb8a69e6b45203a42371dbb81ed7692928a8eda7a7c78086ddfd81c14f589d6",
+      "bytes": 4594
+    },
+    {
+      "path": "theory/social_connection/CROSS_SCALE_STRUCTURE_FORMATION_AUDIT_v0.1.md",
+      "sha256": "f1640a3b70d82a2b76ca5192cfe9103290de713f61a39e81eff552327cb020e1",
+      "bytes": 5527
+    }
+  ]
+}

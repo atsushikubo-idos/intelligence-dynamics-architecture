@@ -1,0 +1,42 @@
+{
+  "version": "1.1",
+  "data": "synthetic anonymous token sequences",
+  "train": 3600,
+  "validation": 1200,
+  "test": 1200,
+  "selected_pair": [
+    "b",
+    "e"
+  ],
+  "hidden_generator_pair_for_audit_only": [
+    "b",
+    "e"
+  ],
+  "candidates": 30,
+  "validation_brier": 0.085952,
+  "heldout_brier": {
+    "current_only": 0.242848,
+    "last_event": 0.219877,
+    "bag_of_tokens": 0.194483,
+    "all_ordered_pairs_sparse_histogram": 0.217706,
+    "standard_logistic_all_pairs": 0.095508,
+    "selected_ordered_pair": 0.085989
+  },
+  "shifted_fixed_brier": {
+    "current_only": 0.277573,
+    "last_event": 0.280259,
+    "bag_of_tokens": 0.278515,
+    "all_ordered_pairs_sparse_histogram": 0.275973,
+    "standard_logistic_all_pairs": 0.254768,
+    "selected_ordered_pair": 0.282428
+  },
+  "shifted_online_recalibration_brier": 0.194132,
+  "shifted_prequential_examples": 2400,
+  "limitations": [
+    "Synthetic event tokens; no real conversation, consent, or autonomy modeled.",
+    "Ground-truth predictive mechanism was deliberately planted by experimenter.",
+    "Learned features come from a predefined ordered-pair feature family.",
+    "Online adaptation uses observed outcomes after each prior prediction.",
+    "No latent physical state or causal mechanism identified; no IDOS advantage shown."
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "model": "six hidden microstates; three refined blocks; two macros; fully specified stationary Markov chain",
+  "synthetic": true,
+  "not_empirical": true,
+  "refined_tag_oracle": true,
+  "transition_matrix": {
+    "a1": {
+      "a1": 0.015,
+      "a2": 0.034999999999999996,
+      "b1": 0.015,
+      "b2": 0.034999999999999996,
+      "c1": 0.27,
+      "c2": 0.63
+    },
+    "a2": {
+      "a1": 0.034999999999999996,
+      "a2": 0.015000000000000003,
+      "b1": 0.034999999999999996,
+      "b2": 0.015000000000000003,
+      "c1": 0.63,
+      "c2": 0.2700000000000001
+    },
+    "b1": {
+      "a1": 0.015,
+      "a2": 0.034999999999999996,
+      "b1": 0.255,
+      "b2": 0.595,
+      "c1": 0.03,
+      "c2": 0.06999999999999999
+    },
+    "b2": {
+      "a1": 0.034999999999999996,
+      "a2": 0.015000000000000003,
+      "b1": 0.595,
+      "b2": 0.255,
+      "c1": 0.06999999999999999,
+      "c2": 0.030000000000000006
+    },
+    "c1": {
+      "a1": 0.075,
+      "a2": 0.175,
+      "b1": 0.075,
+      "b2": 0.175,
+      "c1": 0.15,
+      "c2": 0.35
+    },
+    "c2": {
+      "a1": 0.175,
+      "a2": 0.07500000000000001,
+      "b1": 0.175,
+      "b2": 0.07500000000000001,
+      "c1": 0.35,
+      "c2": 0.15000000000000002
+    }
+  },
+  "stationary_microstate_distribution": {
+    "a1": 0.05681818181818469,
+    "a2": 0.05681818181818469,
+    "b1": 0.2840909090908963,
+    "b2": 0.2840909090908963,
+    "c1": 0.15909090909091841,
+    "c2": 0.15909090909091841
+  },
+  "strong_lumpability": {
+    "macro": false,
+    "refined": true,
+    "micro": true
+  },
+  "forecast_horizons": {
+    "1": {
+      "macro": {
+        "states": 2,
+        "storage_entropy_bits": 0.9023932827950003,
+        "predictive_entropy_bits": 0.8525751914668571,
+        "expected_brier_score": 0.20151515151515648,
+        "within_block_probability_spread": 0.8000000000000002,
+        "predicted_p_future_Y": {
+          "X": 0.23333333333334394,
+          "Y": 0.5
+        }
+      },
+      "refined": {
+        "states": 3,
+        "storage_entropy_bits": 1.3455903884643408,
+        "predictive_entropy_bits": 0.6379515410836101,
+        "expected_brier_score": 0.1409090909090938,
+        "within_block_probability_spread": 1.1102230246251565e-16,
+        "predicted_p_future_Y": {
+          "A": 0.9000000000000001,
+          "Y": 0.5,
+          "B": 0.09999999999999999
+        }
+      },
+      "micro": {
+        "states": 6,
+        "storage_entropy_bits": 2.34559038846434,
+        "predictive_entropy_bits": 0.6379515410836102,
+        "expected_brier_score": 0.1409090909090938,
+        "within_block_probability_spread": 0.0,
+        "predicted_p_future_Y": {
+          "c1": 0.5,
+          "b1": 0.09999999999999999,
+          "a1": 0.9,
+          "c2": 0.5,
+          "a2": 0.9000000000000001,
+          "b2": 0.1
+        }
+      }
+    },
+    "2": {
+      "macro": {
+        "states": 2,
+        "storage_entropy_bits": 0.9023932827950003,
+        "predictive_entropy_bits": 0.8525751914668496,
+        "expected_brier_score": 0.20151515151515415,
+        "within_block_probability_spread": 0.32,
+        "predicted_p_future_Y": {
+          "X": 0.23333333333333756,
+          "Y": 0.5
+        }
+      },
+      "refined": {
+        "states": 3,
+        "storage_entropy_bits": 1.3455903884643408,
+        "predictive_entropy_bits": 0.8182255941638024,
+        "expected_brier_score": 0.19181818181818414,
+        "within_block_probability_spread": 0.0,
+        "predicted_p_future_Y": {
+          "A": 0.5,
+          "Y": 0.5,
+          "B": 0.18
+        }
+      },
+      "micro": {
+        "states": 6,
+        "storage_entropy_bits": 2.34559038846434,
+        "predictive_entropy_bits": 0.8182255941638024,
+        "expected_brier_score": 0.19181818181818414,
+        "within_block_probability_spread": 0.0,
+        "predicted_p_future_Y": {
+          "c1": 0.5,
+          "b1": 0.18,
+          "a1": 0.5,
+          "c2": 0.5,
+          "a2": 0.5,
+          "b2": 0.18
+        }
+      }
+    },
+    "3": {
+      "macro": {
+        "states": 2,
+        "storage_entropy_bits": 0.9023932827950003,
+        "predictive_entropy_bits": 0.8866578087664521,
+        "expected_brier_score": 0.2121042424242441,
+        "within_block_probability_spread": 0.256,
+        "predicted_p_future_Y": {
+          "X": 0.27066666666667,
+          "Y": 0.4200000000000001
+        }
+      },
+      "refined": {
+        "states": 3,
+        "storage_entropy_bits": 1.3455903884643408,
+        "predictive_entropy_bits": 0.8658948594801011,
+        "expected_brier_score": 0.20589818181818328,
+        "within_block_probability_spread": 5.551115123125783e-17,
+        "predicted_p_future_Y": {
+          "A": 0.484,
+          "Y": 0.4200000000000001,
+          "B": 0.22799999999999995
+        }
+      },
+      "micro": {
+        "states": 6,
+        "storage_entropy_bits": 2.34559038846434,
+        "predictive_entropy_bits": 0.8658948594801011,
+        "expected_brier_score": 0.2058981818181833,
+        "within_block_probability_spread": 0.0,
+        "predicted_p_future_Y": {
+          "c1": 0.42,
+          "b1": 0.22799999999999995,
+          "a1": 0.484,
+          "c2": 0.4200000000000001,
+          "a2": 0.484,
+          "b2": 0.22799999999999995
+        }
+      }
+    }
+  },
+  "macro_history": {
+    "brier_macro_previous_and_current": 0.18675889328063508,
+    "posterior_p_Y_by_macro_pair": {
+      "X->X": 0.152173913043479,
+      "X->Y": 0.5,
+      "Y->X": 0.4999999999999999,
+      "Y->Y": 0.5
+    }
+  },
+  "one_step_information_lost_by_macro_bits": 0.21462365038324693,
+  "interpretation_limits": [
+    "Refined representation is constructed from the known transition matrix; it is an oracle predictive partition.",
+    "Results do not establish that provenance or IDOS variables can be recovered from incomplete social observations.",
+    "Full observed microstate and full observed microstate history tie under the first-order Markov assumption.",
+    "No IDOS-specific advantage; conventional sufficient-state and Markov lumpability theory explains the result.",
+    "No physical atomistic simulation, human data, consent dynamics, or autonomous rule revision."
+  ]
+}

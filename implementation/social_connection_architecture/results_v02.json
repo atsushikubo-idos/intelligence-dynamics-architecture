@@ -1,0 +1,58 @@
+{
+  "independent_messages": [
+    {
+      "actor": "A",
+      "kind": "VERIFY",
+      "evidence": "A:verification-capability",
+      "consent": true
+    },
+    {
+      "actor": "B",
+      "kind": "MEDIATE",
+      "evidence": "B:mediation-capability",
+      "consent": true
+    }
+  ],
+  "jointly_constructed_rule": {
+    "name": "composed_verify_then_mediate",
+    "required": [
+      "VERIFY",
+      "MEDIATE"
+    ],
+    "action": "verified_mediation",
+    "provenance": [
+      "A:A:verification-capability",
+      "B:B:mediation-capability"
+    ],
+    "revision": 0
+  },
+  "before_rule_guarantees": [],
+  "after_rule_guarantees": [
+    "verified_mediation"
+  ],
+  "authorization_blocked": [],
+  "explicit_refusal_blocked": [],
+  "updated_rule_after_failure_and_recovery_offer": {
+    "name": "recovery_gated_mediation",
+    "required": [
+      "VERIFY",
+      "MEDIATE",
+      "RECOVERY"
+    ],
+    "action": "recovered_mediation",
+    "provenance": [
+      "A:A:verification-capability",
+      "B:B:mediation-capability",
+      "C:C:audited-recovery"
+    ],
+    "revision": 1
+  },
+  "equal_information_comparisons": 16,
+  "limitations": [
+    "Finite action grammar is defined in source",
+    "The compositional meta-rule is pre-programmed",
+    "Outcome feedback is synthetic, not independently verified",
+    "Baseline has identical predictive capabilities",
+    "The rule revision is scripted, not self-invented"
+  ]
+}

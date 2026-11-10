@@ -1,0 +1,72 @@
+{
+  "config": {
+    "N": 400,
+    "change_at": 200,
+    "probe_start": 240,
+    "probe_spacing": 3,
+    "pre_passive_p": 0.8,
+    "post_passive_p_A_and_B": 0.45,
+    "probe_p_A": 0.8,
+    "probe_p_B": 0.15,
+    "cusum_threshold": 8.0,
+    "rolling_window": 25,
+    "rolling_threshold": 0.48,
+    "posterior_threshold": 0.95,
+    "replicates_per_condition": 200,
+    "seed": 20261111
+  },
+  "results": {
+    "none": {
+      "n": 200,
+      "cusum_any_alarm_rate": 0.005,
+      "cusum_prechange_false_alarm_rate": 0.005,
+      "cusum_postchange_detection_rate": 0.0,
+      "cusum_mean_postchange_delay": null,
+      "rolling_any_alarm_rate": 0.005,
+      "rolling_prechange_false_alarm_rate": 0.005,
+      "rolling_postchange_detection_rate": 0.0,
+      "rolling_mean_postchange_delay": null,
+      "active_correct_fraction": null,
+      "active_wrong_fraction": null,
+      "active_abstention_fraction": 0.0,
+      "active_avg_probes_until_stop": 3.345
+    },
+    "A": {
+      "n": 200,
+      "cusum_any_alarm_rate": 1.0,
+      "cusum_prechange_false_alarm_rate": 0.015,
+      "cusum_postchange_detection_rate": 0.985,
+      "cusum_mean_postchange_delay": 24.131979695431472,
+      "rolling_any_alarm_rate": 1.0,
+      "rolling_prechange_false_alarm_rate": 0.01,
+      "rolling_postchange_detection_rate": 0.99,
+      "rolling_mean_postchange_delay": 28.2020202020202,
+      "active_correct_fraction": 0.99,
+      "active_wrong_fraction": 0.01,
+      "active_abstention_fraction": 0.0,
+      "active_avg_probes_until_stop": 3.545
+    },
+    "B": {
+      "n": 200,
+      "cusum_any_alarm_rate": 1.0,
+      "cusum_prechange_false_alarm_rate": 0.005,
+      "cusum_postchange_detection_rate": 0.995,
+      "cusum_mean_postchange_delay": 24.180904522613066,
+      "rolling_any_alarm_rate": 1.0,
+      "rolling_prechange_false_alarm_rate": 0.005,
+      "rolling_postchange_detection_rate": 0.995,
+      "rolling_mean_postchange_delay": 28.65829145728643,
+      "active_correct_fraction": 0.965,
+      "active_wrong_fraction": 0.035,
+      "active_abstention_fraction": 0.0,
+      "active_avg_probes_until_stop": 3.995
+    }
+  },
+  "limitations": [
+    "A/B are structurally identical under passive observation by construction.",
+    "Diagnostic probe is a specified randomized experimental operation, not natural social consent.",
+    "CUSUM knows the pre/post rates (oracle baseline); rolling threshold is heuristic.",
+    "Sequential nominal 95% posterior is not a guaranteed frequentist error rate.",
+    "Probe operation is available only under assumed permissions; real-world causality is not established."
+  ]
+}

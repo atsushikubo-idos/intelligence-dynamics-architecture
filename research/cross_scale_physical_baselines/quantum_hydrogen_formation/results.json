@@ -1,0 +1,26 @@
+{
+  "method": "H2: restricted Hartree-Fock / H2+: exact one-electron diagonalization in minimal STO-3G basis",
+  "units": {
+    "distance": "angstrom",
+    "energy": "hartree"
+  },
+  "h2_minimum": {
+    "distance_angstrom": 0.7122298673127477,
+    "energy_hartree": -1.1175058851161328
+  },
+  "h2plus_minimum": {
+    "distance_angstrom": 1.0605840786622611,
+    "energy_hartree": -0.5826966473620803
+  },
+  "h2_at_0_74A_hartree": -1.116759307395201,
+  "minimal_basis_H_atom_energy_hartree": -0.466581849557275,
+  "h2plus_basis_separation_reference_hartree": -0.466581849557275,
+  "h2_rhf_warning": "Restricted HF yields qualitatively incorrect dissociation for H2 due to static correlation; this is not bond-formation kinetics.",
+  "limitations": [
+    "Born-Oppenheimer nuclei fixed for each distance",
+    "Minimal STO-3G basis, no electron correlation in H2",
+    "No time evolution, collision, radiation, third body or energy dissipation",
+    "Does not establish a chemical reaction rate or spontaneous bond formation",
+    "No IDOS-specific empirical advantage tested"
+  ]
+}

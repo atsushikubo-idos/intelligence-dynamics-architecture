@@ -1,0 +1,42 @@
+{
+  "passive_only": {
+    "mean_brier": 0.233011,
+    "survival_rate": 1.0,
+    "mean_steps": 3.0,
+    "mean_confidence": 0.61886,
+    "first_action": "passive"
+  },
+  "information_only": {
+    "mean_brier": 0.029655,
+    "survival_rate": 0.5657,
+    "mean_steps": 1.8432,
+    "mean_confidence": 0.963103,
+    "first_action": "strong_probe"
+  },
+  "risk_aware": {
+    "mean_brier": 0.119895,
+    "survival_rate": 0.9434,
+    "mean_steps": 2.931,
+    "mean_confidence": 0.849758,
+    "first_action": "gentle_probe"
+  },
+  "no_consent": {
+    "passive_only": "passive",
+    "information_only": "passive",
+    "risk_aware": "passive"
+  },
+  "prior_information_gain": {
+    "passive": 0.018546,
+    "gentle_probe": 0.20496,
+    "strong_probe": 0.634076
+  },
+  "design": {
+    "n": 10000,
+    "seed": 20261111,
+    "horizon": 3,
+    "risk_penalty": 2.7,
+    "outcome_order": "observe, then relationship transition",
+    "risk_known_to_planner": true,
+    "simulated": "not empirical"
+  }
+}

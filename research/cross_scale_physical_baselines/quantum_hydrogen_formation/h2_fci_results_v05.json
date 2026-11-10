@@ -1,0 +1,43 @@
+{
+  "version": "v0.5",
+  "description": "H2 STO-3G fixed-nuclei ab initio electronic-structure; 6-determinant FCI vs restricted Hartree-Fock",
+  "selected_distances": [
+    {
+      "distance_angstrom": 0.74,
+      "rhf_hartree": -1.116759307395201,
+      "fci_hartree": -1.137283834488318,
+      "correlation_gap_hartree": 0.02052452709311714,
+      "correlation_gap_ev": 0.5585008342470558
+    },
+    {
+      "distance_angstrom": 1,
+      "rhf_hartree": -1.066108649308935,
+      "fci_hartree": -1.1011503302258607,
+      "correlation_gap_hartree": 0.03504168091692583,
+      "correlation_gap_ev": 0.9535327141391358
+    },
+    {
+      "distance_angstrom": 2,
+      "rhf_hartree": -0.7837926542641455,
+      "fci_hartree": -0.9486411121730282,
+      "correlation_gap_hartree": 0.1648484579088827,
+      "correlation_gap_ev": 4.485755060214102
+    },
+    {
+      "distance_angstrom": 3,
+      "rhf_hartree": -0.6560482511389101,
+      "fci_hartree": -0.9336318445583305,
+      "correlation_gap_hartree": 0.2775835934194204,
+      "correlation_gap_ev": 7.553434376085141
+    }
+  ],
+  "fci_at_8_angstrom_hartree": -0.9331636991145508,
+  "two_isolated_h_atoms_sto3g_hartree": -0.93316369911455,
+  "limits": [
+    "Not collision or bond formation in real time",
+    "No nuclear dynamics or dissipation",
+    "FCI exact only within STO-3G finite basis",
+    "RHF reference model may have stretched bond SCF failures; avoid unverified convergence",
+    "No IDOS-specific advantage or social inference established"
+  ]
+}

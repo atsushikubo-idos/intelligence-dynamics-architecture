@@ -1,0 +1,93 @@
+{
+  "version": "1.4",
+  "seed": 20261111,
+  "source": "v1.3 synthetic generator",
+  "selected_pairs": {
+    "A_to_B": [
+      1,
+      4
+    ],
+    "B_to_C": [
+      4,
+      2
+    ]
+  },
+  "calibration_windows": 20,
+  "detection_threshold": 0.08991699053641537,
+  "window": 100,
+  "regimes": {
+    "none": {
+      "brier": 0.04029341148237995,
+      "first_alert_observations": null,
+      "alerted_blocks": 0,
+      "total_blocks": 24,
+      "signatures": {
+        "A_symbol_total_variation": 0.010267857142857148,
+        "residual_exit_permitted": -0.010703999548996425,
+        "residual_stay_permitted": 0.013293179751008488,
+        "mean_residual": 0.002686811818709198
+      },
+      "adaptation": {
+        "fixed_brier": 0.04226433754303258,
+        "recent_refit_brier": 0.04317436495580834,
+        "observed_refit_labels": 300,
+        "future_labels_used_to_refit": 0
+      }
+    },
+    "observer_A": {
+      "brier": 0.14640067204505905,
+      "first_alert_observations": 100,
+      "alerted_blocks": 24,
+      "total_blocks": 24,
+      "signatures": {
+        "A_symbol_total_variation": 0.11980158730158733,
+        "residual_exit_permitted": 0.28928232947775856,
+        "residual_stay_permitted": 0.017981235288336977,
+        "mean_residual": 0.10456227945970545
+      },
+      "adaptation": {
+        "fixed_brier": 0.14748493201095964,
+        "recent_refit_brier": 0.07258494906775069,
+        "observed_refit_labels": 300,
+        "future_labels_used_to_refit": 0
+      }
+    },
+    "relation": {
+      "brier": 0.11988215063803707,
+      "first_alert_observations": 100,
+      "alerted_blocks": 22,
+      "total_blocks": 24,
+      "signatures": {
+        "A_symbol_total_variation": 0.005753968253968275,
+        "residual_exit_permitted": -0.2592045828486483,
+        "residual_stay_permitted": 0.01543132410222416,
+        "mean_residual": -0.08484903454550254
+      },
+      "adaptation": {
+        "fixed_brier": 0.12009930686299494,
+        "recent_refit_brier": 0.08367187358100094,
+        "observed_refit_labels": 300,
+        "future_labels_used_to_refit": 0
+      }
+    },
+    "environment": {
+      "brier": 0.153783861912837,
+      "first_alert_observations": 100,
+      "alerted_blocks": 24,
+      "total_blocks": 24,
+      "signatures": {
+        "A_symbol_total_variation": 0.008442460317460349,
+        "residual_exit_permitted": -0.12640990622273546,
+        "residual_stay_permitted": -0.2504342810707298,
+        "mean_residual": -0.11740051870987785
+      },
+      "adaptation": {
+        "fixed_brier": 0.15119924524669642,
+        "recent_refit_brier": 0.13300736166368368,
+        "observed_refit_labels": 300,
+        "future_labels_used_to_refit": 0
+      }
+    }
+  },
+  "qualification": "Mechanisms and shift timing were controlled by experimenter. Observable diagnostic signatures are not a causal identification algorithm. Refit uses 300 post-change labeled cases; fixed and refit evaluated on same future cases."
+}

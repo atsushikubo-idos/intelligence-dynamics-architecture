@@ -1,0 +1,258 @@
+{
+  "config": {
+    "reps_per_cause": 300,
+    "seed": 20261111,
+    "budget": 6.0,
+    "max_steps": 8,
+    "confidence": 0.95,
+    "burden_limit": 3.5,
+    "lambda_cost": 0.09,
+    "lambda_burden": 0.03,
+    "prior_a": 0.5,
+    "passive_p_a": 0.45,
+    "passive_p_b": 0.45,
+    "note": "Candidate probe likelihoods are known to the algorithm; no causal identification beyond stipulated A/B world."
+  },
+  "candidate_probes": [
+    {
+      "key": "high_information",
+      "p_a": 0.85,
+      "p_b": 0.15,
+      "cost": 3.0,
+      "burden": 3.0,
+      "owner": "A",
+      "purpose": "direct_diagnostic"
+    },
+    {
+      "key": "low_cost",
+      "p_a": 0.72,
+      "p_b": 0.28,
+      "cost": 1.0,
+      "burden": 0.45,
+      "owner": "B",
+      "purpose": "limited_diagnostic"
+    },
+    {
+      "key": "low_burden",
+      "p_a": 0.62,
+      "p_b": 0.38,
+      "cost": 0.5,
+      "burden": 0.1,
+      "owner": "C",
+      "purpose": "minimal_diagnostic"
+    },
+    {
+      "key": "uninformative",
+      "p_a": 0.45,
+      "p_b": 0.45,
+      "cost": 0.2,
+      "burden": 0.05,
+      "owner": "C",
+      "purpose": "negative_control"
+    }
+  ],
+  "initial_information_gain_bits": {
+    "high_information": 0.3901596952835995,
+    "low_cost": 0.14454918943986939,
+    "low_burden": 0.04195797777370047,
+    "uninformative": 0.0
+  },
+  "passive_information_gain_bits": 0.0,
+  "results": {
+    "all_permitted": {
+      "information_only": {
+        "n": 600,
+        "accuracy_without_abstentions": 0.9627192982456141,
+        "coverage": 0.76,
+        "wrong_decision_rate": 0.028333333333333332,
+        "mean_cost": 6.0,
+        "mean_probes": 2.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 1200,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "standard_bayesian_design": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 3.0933333333333333,
+        "mean_probes": 3.0933333333333333,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 1856,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "constrained": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 3.0933333333333333,
+        "mean_probes": 3.0933333333333333,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 1856,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      }
+    },
+    "direct_probe_refused": {
+      "information_only": {
+        "n": 600,
+        "accuracy_without_abstentions": 0.9831081081081081,
+        "coverage": 0.49333333333333335,
+        "wrong_decision_rate": 0.008333333333333333,
+        "mean_cost": 5.463333333333333,
+        "mean_probes": 5.463333333333333,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 3278,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "standard_bayesian_design": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 3.0933333333333333,
+        "mean_probes": 3.0933333333333333,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 1856,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "constrained": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 3.0933333333333333,
+        "mean_probes": 3.0933333333333333,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 1856,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      }
+    },
+    "only_minimal_probe": {
+      "information_only": {
+        "n": 600,
+        "accuracy_without_abstentions": 1.0,
+        "coverage": 0.03166666666666667,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 3.984166666666667,
+        "mean_probes": 7.968333333333334,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 4781,
+          "uninformative": 0
+        }
+      },
+      "standard_bayesian_design": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 0.0,
+        "mean_probes": 0.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "constrained": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 0.0,
+        "mean_probes": 0.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      }
+    },
+    "all_refused": {
+      "information_only": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 0.0,
+        "mean_probes": 0.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "standard_bayesian_design": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 0.0,
+        "mean_probes": 0.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      },
+      "constrained": {
+        "n": 600,
+        "accuracy_without_abstentions": null,
+        "coverage": 0.0,
+        "wrong_decision_rate": 0.0,
+        "mean_cost": 0.0,
+        "mean_probes": 0.0,
+        "permission_violations": 0,
+        "probe_counts": {
+          "high_information": 0,
+          "low_cost": 0,
+          "low_burden": 0,
+          "uninformative": 0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Synthetic Bernoulli environment; true probe responses supplied by researcher.",
+    "Consent represented by a Boolean gate, not a measurement of real autonomy.",
+    "Same posterior-based baseline with same utility has identical selection decisions.",
+    "The experiment does not discover new probes or identify unknown causes.",
+    "No field evidence; no IDOS-specific predictive advantage established."
+  ]
+}

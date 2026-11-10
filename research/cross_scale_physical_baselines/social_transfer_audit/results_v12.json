@@ -1,0 +1,68 @@
+{
+  "version": "1.2",
+  "source": "synthetic categorical hidden-state Markov generator",
+  "episode_length": 12,
+  "train": 1200,
+  "validation": 400,
+  "independent_test": 400,
+  "shift_calibration": 180,
+  "shift_test": 620,
+  "state_count_selection_validation_log_likelihood": {
+    "2": -20.021469,
+    "3": -19.703511,
+    "4": -19.729877
+  },
+  "selected_states": 3,
+  "unseen_test": {
+    "last": {
+      "brier": 0.184271,
+      "log_loss": 0.546008
+    },
+    "bag": {
+      "brier": 0.230285,
+      "log_loss": 0.652034
+    },
+    "last3": {
+      "brier": 0.17734,
+      "log_loss": 0.529806
+    },
+    "counts_last3": {
+      "brier": 0.178629,
+      "log_loss": 0.532905
+    },
+    "hmm_unsupervised_filter": {
+      "brier": 0.17366,
+      "log_loss": 0.52057
+    }
+  },
+  "unavailable_oracle_hidden_state_brier": 0.12715,
+  "shift_fixed_brier": {
+    "last": 0.383941,
+    "bag": 0.292254,
+    "last3": 0.406457,
+    "counts_last3": 0.40531,
+    "hmm_unsupervised_filter": 0.412827
+  },
+  "shift_after_equal_label_budget_brier": {
+    "last": 0.224359,
+    "bag": 0.252296,
+    "last3": 0.227654,
+    "counts_last3": 0.230944,
+    "hmm_unsupervised_filter": 0.216683
+  },
+  "shuffled_token_order_test_brier": {
+    "last": 0.262388,
+    "bag": 0.230285,
+    "last3": 0.253216,
+    "counts_last3": 0.252945,
+    "hmm_unsupervised_filter": 0.254852
+  },
+  "limitations": [
+    "Ground truth is synthetic and is exactly of HMM type.",
+    "HMM latent states are statistical clusters, not semantic provenance or actor intent.",
+    "No real interactions, autonomy, consent, or refusal are observed.",
+    "The generator has a fixed known state family; K is selected from 2, 3, 4 only.",
+    "Adaptation uses 180 observed labeled outcomes, and only the outcome classifier is refit.",
+    "This evaluates established baselines; it does not demonstrate an IDOS-specific gain."
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "study": "observational predictive state discovery under train/test split",
+  "synthetic": true,
+  "oracle_partition_used_for_training": false,
+  "generator_known_to_experimenter": true,
+  "train_test_split": "independent random-seed trajectories (not random adjacent rows)",
+  "shift": "observation tag a/b inverted; latent dynamics unchanged",
+  "models": {
+    "macro_current": {
+      "train_contexts": 2,
+      "validation": {
+        "n": 4998,
+        "brier": 0.2002054,
+        "log_loss_nats": 0.5880599
+      },
+      "test": {
+        "n": 6998,
+        "brier": 0.2014868,
+        "log_loss_nats": 0.5908848
+      },
+      "shift_test": {
+        "n": 6998,
+        "brier": 0.2050068,
+        "log_loss_nats": 0.5986712
+      }
+    },
+    "macro_history": {
+      "train_contexts": 4,
+      "validation": {
+        "n": 4998,
+        "brier": 0.1856953,
+        "log_loss_nats": 0.5512007
+      },
+      "test": {
+        "n": 6998,
+        "brier": 0.1883406,
+        "log_loss_nats": 0.55758
+      },
+      "shift_test": {
+        "n": 6998,
+        "brier": 0.1900648,
+        "log_loss_nats": 0.5615632
+      }
+    },
+    "macro_tag_current": {
+      "train_contexts": 3,
+      "validation": {
+        "n": 4998,
+        "brier": 0.1844244,
+        "log_loss_nats": 0.5464664
+      },
+      "test": {
+        "n": 6998,
+        "brier": 0.1884218,
+        "log_loss_nats": 0.5564421
+      },
+      "shift_test": {
+        "n": 6998,
+        "brier": 0.2597029,
+        "log_loss_nats": 0.7318352
+      }
+    },
+    "macro_tag_history": {
+      "train_contexts": 9,
+      "validation": {
+        "n": 4998,
+        "brier": 0.1726165,
+        "log_loss_nats": 0.5199618
+      },
+      "test": {
+        "n": 6998,
+        "brier": 0.1766102,
+        "log_loss_nats": 0.5302586
+      },
+      "shift_test": {
+        "n": 6998,
+        "brier": 0.232583,
+        "log_loss_nats": 0.6652437
+      }
+    },
+    "learned_predictive_groups": {
+      "selected_radius": 0.015,
+      "discovered_predictive_classes": 6,
+      "full_observed_contexts": 9,
+      "observed_class_entropy_bits": 2.21751,
+      "validation": {
+        "n": 4998,
+        "brier": 0.1725623,
+        "log_loss_nats": 0.5198274
+      },
+      "test": {
+        "n": 6998,
+        "brier": 0.1765504,
+        "log_loss_nats": 0.5301224
+      },
+      "candidate_validation": [
+        {
+          "radius": 0,
+          "classes": 9,
+          "brier": 0.1726165
+        },
+        {
+          "radius": 0.015,
+          "classes": 6,
+          "brier": 0.1725623
+        },
+        {
+          "radius": 0.03,
+          "classes": 5,
+          "brier": 0.1725974
+        },
+        {
+          "radius": 0.06,
+          "classes": 5,
+          "brier": 0.1725974
+        },
+        {
+          "radius": 0.1,
+          "classes": 4,
+          "brier": 0.172733
+        },
+        {
+          "radius": 0.2,
+          "classes": 3,
+          "brier": 0.1758034
+        },
+        {
+          "radius": 0.4,
+          "classes": 2,
+          "brier": 0.2003123
+        },
+        {
+          "radius": 1.0,
+          "classes": 1,
+          "brier": 0.2165415
+        }
+      ],
+      "shift_test": {
+        "n": 6998,
+        "brier": 0.233306,
+        "log_loss_nats": 0.6671234
+      }
+    },
+    "adaptive_full_observed_context": {
+      "shift_test_prequential": {
+        "n": 6998,
+        "brier": 0.1831213,
+        "log_loss_nats": 0.5446839,
+        "window": 600
+      },
+      "in_distribution_prequential": {
+        "n": 6998,
+        "brier": 0.1794777,
+        "log_loss_nats": 0.5381509,
+        "window": 600
+      }
+    }
+  },
+  "oracle_hidden_state_reference": {
+    "one_step_brier": 0.1411232,
+    "warning": "uses hidden state and known rates, not directly comparable to observational learners"
+  },
+  "limitations": [
+    "Observed provenance-like tag is synthetically generated with pre-specified informativeness.",
+    "Discovered groups are grouped forecast frequencies, not new explanatory/causal reference frames.",
+    "Only one-step binary event forecasting; no CFV/MU, refusal or consent evaluation.",
+    "Shift changes sensor semantics rather than social institutions or physical chemistry.",
+    "Adaptive full-context model is a standard prequential baseline; no IDOS algorithm has been implemented.",
+    "No claim of physical, molecular or societal validation."
+  ]
+}

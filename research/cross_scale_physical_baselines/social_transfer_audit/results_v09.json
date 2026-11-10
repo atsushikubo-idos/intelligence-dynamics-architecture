@@ -1,0 +1,340 @@
+{
+  "version": "0.9",
+  "model": "synthetic transition system",
+  "exhaustive_initial_contexts": 64,
+  "initial_feasible": 10,
+  "departure_cases_initially_connected": 10,
+  "persist_after_departure": 2,
+  "conditional_entropy_future_given_connected_bits": 0.721928,
+  "conditional_entropy_given_connected_and_transfer_bits": 0.0,
+  "optimal_brier_coarse": 0.16,
+  "optimal_brier_with_transfer": 0.0,
+  "full_information_deterministic_baseline_matches": 64,
+  "caution": "All outcome probabilities are induced by uniform enumeration of artificial inputs, not measured population frequencies. Transfer is explicitly stipulated, not discovered.",
+  "timelines": {
+    "no_mediator": {
+      "initial": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 1
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 2
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 3
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 4
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      }
+    },
+    "unverified_mediator": {
+      "initial": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 1
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 2
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 3
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 4
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      }
+    },
+    "verified_mediator_no_transfer": {
+      "initial": {
+        "state": {
+          "connected": true,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 1
+        },
+        "feasible": true,
+        "formed": true,
+        "maintained": false,
+        "reopened_possible": true,
+        "reason": "mediated-connection"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 2
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 3
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 4
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      }
+    },
+    "verified_mediator_transfer": {
+      "initial": {
+        "state": {
+          "connected": true,
+          "certified_bridge": true,
+          "evidence_id": "verified-transfer:1",
+          "tick": 1
+        },
+        "feasible": true,
+        "formed": true,
+        "maintained": false,
+        "reopened_possible": true,
+        "reason": "mediated-connection"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": true,
+          "certified_bridge": true,
+          "evidence_id": "verified-transfer:1",
+          "tick": 2
+        },
+        "feasible": true,
+        "formed": false,
+        "maintained": true,
+        "reopened_possible": true,
+        "reason": "certified-transfer"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": true,
+          "evidence_id": "verified-transfer:1",
+          "tick": 3
+        },
+        "feasible": true,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": true,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": true,
+          "certified_bridge": true,
+          "evidence_id": "verified-transfer:1",
+          "tick": 4
+        },
+        "feasible": true,
+        "formed": true,
+        "maintained": false,
+        "reopened_possible": true,
+        "reason": "certified-transfer"
+      }
+    },
+    "direct_protocol": {
+      "initial": {
+        "state": {
+          "connected": true,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 1
+        },
+        "feasible": true,
+        "formed": true,
+        "maintained": false,
+        "reopened_possible": true,
+        "reason": "direct-or-retained"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 2
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 3
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 4
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      }
+    },
+    "veto": {
+      "initial": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 1
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "veto-or-withdrawal"
+      },
+      "mediator_departure": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 2
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      },
+      "external_disruption": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 3
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "disruption"
+      },
+      "reassessment": {
+        "state": {
+          "connected": false,
+          "certified_bridge": false,
+          "evidence_id": "",
+          "tick": 4
+        },
+        "feasible": false,
+        "formed": false,
+        "maintained": false,
+        "reopened_possible": false,
+        "reason": "no-compatible-path"
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "scenarios": [
+    {
+      "label": "t0_private_ambiguous",
+      "status": "POSSIBLE_NOT_GUARANTEED",
+      "robust_actions": [],
+      "candidate_actions": [
+        "left",
+        "right"
+      ],
+      "topology": [
+        "A--B"
+      ],
+      "explanation": "Some worlds permit a joint action, but none works in all possible worlds."
+    },
+    {
+      "label": "t1_new_public_observation",
+      "status": "GUARANTEED",
+      "robust_actions": [
+        "left"
+      ],
+      "candidate_actions": [
+        "left",
+        "right"
+      ],
+      "topology": [
+        "A--B"
+      ],
+      "explanation": "A jointly permitted action exists in every observationally possible world."
+    },
+    {
+      "label": "t1_proposed_mediator_but_no_protocol",
+      "status": "POSSIBLE_NOT_GUARANTEED",
+      "robust_actions": [],
+      "candidate_actions": [
+        "left",
+        "right"
+      ],
+      "topology": [
+        "A--B",
+        "A--C",
+        "B--C"
+      ],
+      "explanation": "Some worlds permit a joint action, but none works in all possible worlds."
+    },
+    {
+      "label": "t2_mediator_protocol_all_consent",
+      "status": "GUARANTEED",
+      "robust_actions": [
+        "mediated"
+      ],
+      "candidate_actions": [
+        "left",
+        "right",
+        "mediated"
+      ],
+      "topology": [
+        "A--B",
+        "A--C",
+        "B--C"
+      ],
+      "explanation": "A jointly permitted action exists in every observationally possible world."
+    },
+    {
+      "label": "t2_mediator_protocol_refused",
+      "status": "POSSIBLE_NOT_GUARANTEED",
+      "robust_actions": [],
+      "candidate_actions": [
+        "left",
+        "right",
+        "mediated"
+      ],
+      "topology": [
+        "A--B",
+        "A--C",
+        "B--C"
+      ],
+      "explanation": "Some worlds permit a joint action, but none works in all possible worlds."
+    },
+    {
+      "label": "t2_protocol_without_mediator",
+      "status": "POSSIBLE_NOT_GUARANTEED",
+      "robust_actions": [],
+      "candidate_actions": [
+        "left",
+        "right"
+      ],
+      "topology": [
+        "A--B"
+      ],
+      "explanation": "Some worlds permit a joint action, but none works in all possible worlds."
+    }
+  ],
+  "same_information_baseline_cases": 16
+}

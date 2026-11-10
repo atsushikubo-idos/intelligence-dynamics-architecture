@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "scope": "synthetic history discovery, no empirical social claim",
+  "train_episodes": 1680,
+  "heldout_episodes": 720,
+  "discovery": {
+    "selected_indices": [
+      0,
+      1
+    ],
+    "selected_names": [
+      "connection_now",
+      "verified_transfer_event"
+    ],
+    "validation_brier": 4.62098389627679e-06,
+    "objective": 0.0006046209838962768,
+    "candidate_count": 42
+  },
+  "test_brier": {
+    "current_only": 0.1875,
+    "learned_history": 2.2e-06,
+    "full_observed_history": 0.0007582,
+    "single_noisy_marker": 0.1330759,
+    "oracle_transfer_history": 2.2e-06,
+    "standard_decision_stump": 2.2e-06
+  },
+  "standard_stump_selected_feature": "verified_transfer_event",
+  "shifted_reliability_brier": {
+    "current_only": 0.1527778,
+    "learned_history": 0.1342252,
+    "full_observed_history": 0.1256616,
+    "single_noisy_marker": 0.1455781,
+    "oracle_transfer_history": 0.1342252,
+    "standard_decision_stump": 0.1342252
+  },
+  "train_positive_rate": 0.29167,
+  "heldout_positive_rate": 0.24583,
+  "cautions": [
+    "Transfer history is an explicit event supplied by the synthetic simulator, not inferred from raw conversation.",
+    "Data generation and outcome mechanism were engineered; predictions are not real-world forecasts.",
+    "Full-observed-history baseline has same input access but histogram sparsity can reduce performance.",
+    "The shifted condition changes an outcome rule; a previously good predictor need not remain calibrated.",
+    "Discovery is a model-selection procedure, not discovery of a novel physical or social law."
+  ]
+}
