@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/atsushikubo-idos/intelligence-dynamics-architecture/implementation/cdp_v2/cdp2.schema.json",
+  "title": "CDP v2.0-draft envelope",
+  "description": "[P] Draft. Structural shape only; conduct rules (R7-R25) are checked by the reference implementation, not by this schema.",
+  "type": "object",
+  "required": ["seq", "msg_type", "sender", "t", "protocol", "schema_version", "body", "prev_hash", "hash"],
+  "additionalProperties": false,
+  "properties": {
+    "seq": {"type": "integer", "minimum": 0},
+    "msg_type": {
+      "enum": ["hello", "leave", "unit_candidate", "describe", "translate", "translate_ack",
+               "claim", "update", "verify", "commit", "recontact", "reveal",
+               "propose_action", "respond", "enact", "amend", "ratify"]
+    },
+    "sender": {"type": "string", "minLength": 1},
+    "t": {"type": "number"},
+    "protocol": {"const": "cdp/2.0-draft"},
+    "schema_version": {"type": "integer", "minimum": 1},
+    "body": {"type": "object"},
+    "prev_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "$defs": {
+    "basis": {"enum": ["observed", "self_reported", "inferred", "attested"]},
+    "disclosure": {"enum": ["disclosed", "unknown", "private", "incommensurable", "unresolved", "not_applicable"]},
+    "slot": {
+      "type": "object",
+      "required": ["value", "disclosure", "basis", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {},
+        "disclosure": {"$ref": "#/$defs/disclosure"},
+        "basis": {"anyOf": [{"$ref": "#/$defs/basis"}, {"type": "null"}]},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      },
+      "if": {"properties": {"disclosure": {"const": "disclosed"}}},
+      "then": {"properties": {"basis": {"$ref": "#/$defs/basis"}}, "not": {"properties": {"value": {"type": "null"}}}},
+      "else": {"properties": {"value": {"type": "null"}}}
+    },
+    "describe_body": {
+      "type": "object",
+      "required": ["slots", "refs"],
+      "properties": {
+        "slots": {"type": "object", "minProperties": 1, "additionalProperties": {"$ref": "#/$defs/slot"}},
+        "refs": {"type": "array", "items": {"type": "integer", "minimum": 0}}
+      }
+    }
+  }
+}
