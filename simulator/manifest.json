@@ -1,0 +1,39 @@
+{
+  "schema": "idos.research_preview.release_manifest.v0.49",
+  "release": "v0.49-english-focused-research-preview",
+  "date": "2026-11-19",
+  "repo_target": "atsushikubo-idos/intelligence-dynamics-architecture",
+  "path_target": "simulator/",
+  "status": "READY_FOR_MANUAL_GITHUB_UPLOAD_NOT_PUBLISHED",
+  "kind": "synthetic_noncanonical_software_prototype",
+  "ui_language": "en",
+  "source_kernels": [
+    "idos.v037",
+    "idos.v038"
+  ],
+  "complete_historical_japanese_ui_translation": false,
+  "scoped_browser_test": {
+    "passed": 42,
+    "failed": 0,
+    "distinct_from_historical_japanese_v049_suite": true
+  },
+  "canonical_files_modified": false,
+  "limitations": [
+    "not_full_historical_ui",
+    "not_empirically_validated",
+    "purpose_annotations_do_not_drive_kernel",
+    "future_updateability_unknown",
+    "no_cdp_conformance_claim"
+  ],
+  "file_sha256": {
+    "README.md": "a85b8a003156a00bc92652d219d526d6eeb49bbbe67968a584b568d7c26c0e63",
+    "assets/app.js": "25980e771f0d38799ab6a81f2cdbaeaa42d16f740d5d2ab7235b5bfd7db41580",
+    "assets/core.js": "2fbd2d64d6fccb3b5fecac2c8ae3fca74a67fc8fe75c86327a5003ab82693195",
+    "docs/CANONICAL_MAPPING.md": "82e06ed8b2caba8a821f58a55768e777f0928290173a2a60e1846d21ecb26e7c",
+    "docs/SCOPE_AND_LIMITATIONS.md": "15d06ca9a5bc879ff51468db4d6d13a2f85171ac636a8f5665ff592e15258587",
+    "fixtures/scenario_index.json": "4bd2dfc7568ccb41eb68b3138d829135b37d0ad4785761aef5b3fc27721cdf65",
+    "index.html": "e424e36261898f179220097d66a5aa2e303289d32662fbe692e9e34fa42ee8df",
+    "validation/TEST_INSTRUCTIONS.md": "bf9e1c2ff221fe8e75530d48a659c14f4532e06ef3eccfb4e5d7e59891c8f650",
+    "validation/browser_test_report.json": "5b1b0acea830a77eff83bad48e3dcdcad4c92bbf40da75155c5f2e16de470dcb"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "idos.synthetic_scenario_catalog.v0.49",
+  "synthetic": true,
+  "engine": "idos.v038",
+  "presets": [
+    {"id": "adaptive", "description": "Iterative interaction and contact with optional feedback"},
+    {"id": "closed", "description": "Boundary constraints and blocked contact"},
+    {"id": "withheld", "description": "Withheld observation and recontact constraints"}
+  ],
+  "agent_ids": ["asi", "ai", "corp", "mgr", "observer"],
+  "next_updateability": "unmeasured",
+  "reality_contact": "synthetic_only",
+  "note": "Run presets are defined in assets/core.js; this file catalogs them rather than duplicating the events."
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "idos.english_release_scoped_validation.v0.49",
+  "passed": 42,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "adaptive/true deterministic",
+      "passed": true
+    },
+    {
+      "name": "adaptive/true 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "adaptive/true all audits",
+      "passed": true
+    },
+    {
+      "name": "adaptive/true zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "adaptive/true six display axes",
+      "passed": true
+    },
+    {
+      "name": "adaptive/true no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false deterministic",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false all audits",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false six display axes",
+      "passed": true
+    },
+    {
+      "name": "adaptive/false no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "closed/true deterministic",
+      "passed": true
+    },
+    {
+      "name": "closed/true 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "closed/true all audits",
+      "passed": true
+    },
+    {
+      "name": "closed/true zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "closed/true six display axes",
+      "passed": true
+    },
+    {
+      "name": "closed/true no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "closed/false deterministic",
+      "passed": true
+    },
+    {
+      "name": "closed/false 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "closed/false all audits",
+      "passed": true
+    },
+    {
+      "name": "closed/false zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "closed/false six display axes",
+      "passed": true
+    },
+    {
+      "name": "closed/false no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "withheld/true deterministic",
+      "passed": true
+    },
+    {
+      "name": "withheld/true 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "withheld/true all audits",
+      "passed": true
+    },
+    {
+      "name": "withheld/true zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "withheld/true six display axes",
+      "passed": true
+    },
+    {
+      "name": "withheld/true no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "withheld/false deterministic",
+      "passed": true
+    },
+    {
+      "name": "withheld/false 5 unique agents",
+      "passed": true
+    },
+    {
+      "name": "withheld/false all audits",
+      "passed": true
+    },
+    {
+      "name": "withheld/false zero Reality claims",
+      "passed": true
+    },
+    {
+      "name": "withheld/false six display axes",
+      "passed": true
+    },
+    {
+      "name": "withheld/false no failed kernel checks",
+      "passed": true
+    },
+    {
+      "name": "identical-run control",
+      "passed": true
+    },
+    {
+      "name": "distinct assumption exposure",
+      "passed": true
+    },
+    {
+      "name": "no causal claim",
+      "passed": true
+    },
+    {
+      "name": "next updateability unknown",
+      "passed": true
+    },
+    {
+      "name": "path closure not automatically measured",
+      "passed": true
+    },
+    {
+      "name": "five actor IDs",
+      "passed": true
+    }
+  ],
+  "synthetic": true,
+  "claim": "Scope-only software checks; not empirical validation",
+  "browser": "Chromium headless",
+  "run_date": "2026-11-19",
+  "browser_page_errors": []
+}
