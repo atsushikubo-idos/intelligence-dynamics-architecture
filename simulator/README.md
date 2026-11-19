@@ -1,80 +1,71 @@
-# IDOS Living Common Map — Research Preview v0.49
+# IDOS — Living Common Map v0.49 (Full Research Interface)
 
-**Status:** Experimental software artifact · synthetic only · noncanonical · no empirical validation.
+**Status:** Experimental research preview, synthetic / noncanonical. This release is not a validated empirical theory, predictive model, or safety guarantee.
 
 > **IDOS is an architecture for observing a world in which even the questions and purposes underlying AI-generated answers may change.**
 
-**Implementation metaphor:** A living common map that connects changes in heterogeneous intelligences without erasing their differences.
+This directory contains the **full historical interactive research simulator** as a self-contained `index.html`, derived from the more extensive Japanese v0.49 research candidate. Unlike the earlier compact English GitHub demo, this package preserves all 40 interface sections and the original 30 research/experimental script blocks. The former Japanese-localization presentation script has been replaced by an English presentation layer.
 
-## Scope and motivation
+## Open the interactive simulator
 
-The IDOS research program investigates a dynamic common protocol for heterogeneous updating units (human, AI, organization and hypothetical future intelligences) and the question **“After a system changes, can it still change again?”** This prototype makes selected interactions, relations and changes inspectable as a time-indexed synthetic trace. It does not claim discovery of universal laws or actual prediction of future purposes.
+- **Live GitHub Pages (after deployment):** <https://atsushikubo-idos.github.io/intelligence-dynamics-architecture/simulator/>
+- **Source:** [`index.html`](./index.html)
 
-## Six retained characteristics
+Open `index.html` in a modern browser. No build process or JavaScript package installation is required. The HTML bundles its simulation scripts. External font availability is optional.
 
-1. Dynamic common protocol among heterogeneous intelligences.
-2. Connection without erasure of differences or sovereignty.
-3. Reference frames and update rules may themselves change.
-4. Retention of unresolved residuals.
-5. Future Updateability as an explicit research question.
-6. Contact with Reality as a required conceptual boundary.
+## Two central pillars
 
-## Run
+1. **A dynamic common protocol for heterogeneous intelligences:** Different updating units (human, AI, organization, hypothetical ASI, fallible observer) interact while maintaining different reference frames, boundaries, histories, and sovereignty.
+2. **Can it update again after it changes?** Current success is not assumed to imply future capability for revision. Future Updateability itself has **not** been empirically measured.
 
-Open **[index.html](index.html)** in a modern browser. The HTML uses local JavaScript assets; no account, server, network or API key is required.
+## Six architectural characteristics
 
-1. Choose **Adaptive interaction**, **Boundary / blocked contact**, or **Withheld observation**.
-2. Click **Run experiment**. Navigate the time slider and select any of the five units on the map.
-3. Inspect the changing six illustrative axes, update-rule values, relations, event audit and residual statements.
-4. Use **Compare assumptions** to compare two *externally specified* feedback configurations with the same events.
-5. Use **Run scoped checks**. The current release targets **42 bounded software assertions**; compare the report against the included fixture.
-6. Click **Export audit JSON** to obtain the synthetic trace and optional test/comparison data.
+1. Dynamic common protocol for heterogeneous intelligences.
+2. Connection without erasing differences or sovereignty.
+3. Evolving reference frames and update rules.
+4. Preservation of unresolved residuals.
+5. Future Updateability as a research question, not a validated scalar measure.
+6. Continued contact with Reality, kept distinct from synthetic external observations.
 
-**Important distinction:** The six radar axes are *presentation choices*, not the six canonical IDOS characteristics. Question/purpose/criterion text is a labeled illustrative annotation; it is not an inference of an agent's internal state. The feedback toggle does not represent measured changes in purpose.
+## Included research functions
 
-## What is implemented
+- The original five-agent moving map, interactions, state-space trajectories, reference-frame radar, and rule changes.
+- Consent/refusal, observation and provenance-aware research probes.
+- Independent historical experiments spanning V0.13 through V0.40, preserved rather than falsely described as one common kernel.
+- V0.41 shared experimental configuration and audit; V0.42 history-linked living map; V0.43 evolving questions/purposes/criteria as explicit annotations; V0.44 preserved residual ledger and canonical mapping.
+- V0.45–V0.49 purpose-condition comparisons, path-closure checklist, reproducibility control and scoped regression verification.
+- Synthetic CSV/JSON intake and read-only observational timeline modules. Import is **not** automatic empirical identification of frames or intentions.
 
-- Five distinct synthetic units, including a fallible observer and hypothetical ASI.
-- Consent-aware proposals, observations, boundary constraints, contacts and synthetic recontact using the v0.37/v0.38 transition kernel.
-- Playback of the same deterministic event history on a living common map.
-- Read-only display of illustrative questions/purposes/criteria, reference axes and update rules.
-- Historical event/audit entries, synthetic provenance, and preserved residual descriptions.
-- An **exploratory six-field canonical mapping**, without claims of conformance certification.
-- Comparison of explicit feedback assumptions; unchanged-input deterministic control.
-- Manual Path Closure questions and explicit `unknown`/`unmeasured` status for Future Updateability.
-- Browser-side export and bounded regression checks.
+## Getting started
 
-## Scope of the English release
+1. Open the HTML. Use the original **integrated dynamic map** at the top to run or observe contact events and moving units.
+2. Open the **living common map (V0.42)** to replay events by time step.
+3. Visit **Questions and Purposes (V0.43)** for explicit, time-stamped interpretive annotations.
+4. Use **Canonical Grounding (V0.44)** to inspect frame distance separately from persistent unresolved residual records.
+5. Run **Research Snapshot Checks (V0.49)** to see the scoped synthetic regression suite.
+6. Use **Show all historical research panels** for the preserved legacy experiments.
 
-This **focused English interface** reuses the original experimental v0.37/v0.38 kernels and preserves their transition behavior. It does **not** implement all of the historical Japanese v0.1–v0.49 UI panels. It is not a comprehensive translation of the original 467 KB HTML file. The previous v0.49 Japanese prototype remains a separate development artifact. Historical 42/42 checks and the present English 42/42 checks have different test scopes and should not be presented as identical validation.
+## Canonical boundaries
 
-## Research boundaries
+This package does not modify frozen **MASTER_MAP v1.1**, **IDOS Purpose and Use Canonical v0.2**, or **CDP v1.0**. References to **CDP v2.0** are research-draft only. The six illustrative radar axes are presentation choices, **not six canonical axes**. Numerical frame distance is **not** equivalent to preserved semantic residuals.
 
-Read [Scope and limitations](docs/SCOPE_AND_LIMITATIONS.md), [canonical mapping](docs/CANONICAL_MAPPING.md), and [validation method](validation/TEST_INSTRUCTIONS.md) before reusing or citing the software.
+## Validation and limitations
 
-The frozen source documents **MASTER MAP v1.1**, **IDOS Purpose and Use Canonical v0.2**, and **CDP v1.0** are *not amended by this software*. CDP v2.0 is a separate research draft. No numerical model parameters are claimed to have been derived from canonical definitions.
+- Preservation checks: **40/40 original interface sections, 31/31 script slots**, of which **30/30 research script blocks are byte-equivalent in extracted text** to the restored full-functionality source; one old Japanese presentation adapter is replaced.
+- JavaScript syntax: all 31 script blocks pass Node syntax checks.
+- Browser smoke checks: main V0.42/43/44 experiments and V0.49 regression control operate without observed page errors in the test environment.
+- Original v0.49 scoped synthetic regression suite: **42/42** passed. These are **not** 42 independent scientific hypotheses.
+- **Localization:** All 630 source static Japanese text nodes were translated into English. Most common generated labels were localized; a subset of older generated audit messages and user-provided/synthetic JSON may still be in Japanese. This is **not a certified fully English translation** of every legacy output.
+- Historical experiment engines remain partially separate; not all are unified through the same common transition kernel.
+- No empirical Future Updateability measure, calibrated forecasting of future purposes, validated real-world Reality contact, or certified CDP v1.0 conformance.
+- This package is not a secure production service. Do not upload patient information, trade secrets, or other sensitive material.
 
-## File overview
+See [`verification.json`](./verification.json) for machine-readable preservation and browser test results, and [`TRANSLATION_STATUS.json`](./TRANSLATION_STATUS.json) for translation coverage and limitations.
 
-```text
-simulator/
-  index.html                    English interactive interface
-  assets/core.js               Extracted/translated experimental v0.37/v0.38 kernel
-  assets/app.js                English release UI and 42 scoped checks
-  fixtures/scenario_index.json Synthetic scenario catalog
-  docs/CANONICAL_MAPPING.md    Definition-to-view mapping and caveats
-  docs/SCOPE_AND_LIMITATIONS.md Research and implementation boundaries
-  validation/TEST_INSTRUCTIONS.md
-  validation/browser_test_report.json
-  manifest.json                Exact file hashes and release status
-```
+## Citation / freezing
 
-## Citation / publication status
+Treat this as a working GitHub deployment candidate until the repository is updated and its interactive behavior is checked live. For a citable software snapshot, tag the verified commit and upload an identical source archive to Zenodo. **No DOI is claimed for this specific simulator package before that step.**
 
-Research preview v0.49, dated 2026-11-19. Publication on GitHub and registration on Zenodo are **not** implied by these files. Add the Git commit identifier and a Zenodo DOI only after those actions actually occur.
+## License
 
-Author: Atsushi Kubo (IDOS / Intelligence Dynamics Architecture).
-
-Repository: https://github.com/atsushikubo-idos/intelligence-dynamics-architecture
-
-Existing architectural reference: https://doi.org/10.5281/zenodo.23311009
+No new license is asserted by this package. Follow the license, rights and contribution rules of the parent repository; do not assume permission to reuse third-party code without checking.

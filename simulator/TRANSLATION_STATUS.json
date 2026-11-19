@@ -1,0 +1,22 @@
+{
+  "source_bytes": 469702,
+  "output_bytes": 464204,
+  "sections_original": 40,
+  "sections_output": 40,
+  "scripts_original": 31,
+  "scripts_output": 31,
+  "static_japanese_nodes_source": 630,
+  "static_japanese_nodes_remaining": 0,
+  "static_text_translated": 630,
+  "translation_complete": false,
+  "notes": "No script logic has been intentionally edited; archived dynamic messages remain in Japanese.",
+  "old_japanese_ui_adapter_replaced_with_english_display_adapter": true,
+  "research_scripts_unchanged": 30,
+  "display_adapter_changed": 1,
+  "static_english_sections": 40,
+  "original_sections": 40,
+  "original_script_blocks": 31,
+  "translated_static_text_nodes": 630,
+  "dynamic_legacy_messages_may_remain_japanese": true,
+  "status": "English-facing working candidate, not certified fully English"
+}

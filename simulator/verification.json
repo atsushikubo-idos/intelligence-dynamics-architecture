@@ -1,0 +1,35 @@
+{
+  "version": "v0.49 English-facing complete-functionality candidate",
+  "scope": "synthetic model only",
+  "tests": {
+    "40_sections_retained": true,
+    "31_script_blocks_retained": true,
+    "30_research_script_blocks_unchanged": true,
+    "all_31_js_syntax": true,
+    "all_40_static_sections_english": true,
+    "core_api_v038": true,
+    "map_v042_api": true,
+    "v049_api": true,
+    "v042_started": true,
+    "purpose_annotator_operational": true,
+    "canonical_audit_operational": true,
+    "42_of_42_regression": true,
+    "scoped_status_english": true,
+    "no_browser_page_errors": true
+  },
+  "passed": 14,
+  "total": 14,
+  "source_sha256": "2beb2180405260eed45cfc1e9ac015b8011d88e6cb1ce6d7c44840f92cba35e8",
+  "candidate_sha256": "dc07b1a7a05f0a16433d50ead26ac1abf307b442610873fdd29f16963b9fe70d",
+  "translation": {
+    "static_text_nodes": 630,
+    "translated_static_text_nodes": 630,
+    "dynamic_legacy_messages": "partially localized; some original-language output may remain"
+  },
+  "known_limits": [
+    "Uncertified complete English translation of dynamic outputs",
+    "Not all legacy engines are consolidated",
+    "Not empirical Future Updateability or independent Reality validation",
+    "Do not assume GitHub is updated until replacement is committed"
+  ]
+}
